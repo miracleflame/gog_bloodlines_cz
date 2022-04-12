@@ -1,0 +1,47 @@
+{	1	}{	Já věděl, že Johansen přiláká Satanovy přisluhovače. Ale tato past je pro samotného arciďábla. Kde je LaCroix?	}{	Já věděl, že Johansen přiláká Satanovy přisluhovače. Ale tato past je pro samotného arciďábla. Kde je LaCroix?	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Dejte mi Johansena a nechám vás žít.	}{	Dejte mi Johansena a nechám vás žít.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemůžete zde profesora držet. Má v muzeu práci!	}
+{	3	}{	LaCroix? To si myslíte, že by LaCroix přišel sám?	}{	LaCroix? To si myslíte, že by LaCroix přišel sám?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jo tento... Nechává pozdravovat.	}
+{	4	}{	Plýtváš dechem, smrtelníku... Až s tebou skončím, nebude v tobě jediná kapka.	}{	Plýtváš dechem, smrtelníku... Až s tebou skončím, nebude v tobě jediná kapka.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nesnáším, když se mi svačinka vykecává.	}
+{	5	}{	...Prostě přejděme k té části, kde tě už sejmu.	}{	...Prostě přejděme k té části, kde tě už sejmu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tady není. Ale zabiji vás já.	}
+{	11	}{	Možná až mu dojdou nohsledi, ukáže mi svou tvář. Než tě odešlu k věčnému zatracení, chceš ještě něco říct?	}{	Možná až mu dojdou nohsledi, ukáže mi svou tvář. Než tě odešlu k věčnému zatracení, chceš ještě něco říct?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Ani ne, jdeme na věc...	}{	Ani ne, jdeme na věc...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Asi ne.	}
+{	13	}{	To ty budeš ten s posledními slovy!	}{	To ty budeš ten s posledními slovy!	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechám si je až na konečnou noc.	}
+{	14	}{	Uznej své místo, smrtelníku, a přijď se poklonit.	}{	Uznej své místo, smrtelníku, a přijď se poklonit.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pojď ochutnat mou krev a poznáš pravou podstatu boha.	}
+{	15	}{	Až s tebou skončím, ani svatý Petr tě nepozná.	}{	Až s tebou skončím, ani svatý Petr tě nepozná.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Doufejme, že máte umytý krk.	}
+{	21	}{	Je pod boží ochranou. Jestli ho chceš,[sound of a bullet entering the chamber of the sniper rifle] pojď si pro něj.	}{	Je pod boží ochranou. Jestli ho chceš,[sound of a bullet entering the chamber of the sniper rifle] pojď si pro něj.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Netřeba říkat.	}{	Netřeba říkat.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Že váháš...	}
+{	23	}{	Nemáš ani ponětí, jak blbej nápad to je, stát mi v cestě. Tak tě poučím.	}{	Nemáš ani ponětí, jak blbej nápad to je, stát mi v cestě. Tak tě poučím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kdyby mrtví mohli mluvit, vyřídili by ostatním, že mi nemají stát v cestě.	}
+{	31	}{	Měls prosit za boží milost. Já pro tebe žádnou nemám.	}{	Mělas prosit za boží milost. Já pro tebe žádnou nemám.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Já pro tebe taky ne.	}{	Já pro tebe taky ne.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohl by sis přibrat třeba Ježíše a stejně padneš.	}
+{	33	}{	Budeš škemrat o smrt, až ti vytahám ven střeva...	}{	Budeš škemrat o smrt, až ti vytahám ven střeva...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ukážu ti části tvého těla, které jsi nikdy neviděl. Už už...	}
+{	41	}{	Obžerství je smrtelný hřích. Když se nebudeš bránit, možná k tobě bude Pán milosrdný.	}{	Obžerství je smrtelný hřích. Když se nebudeš bránit, možná k tobě bude Pán milosrdný.	}{	#	}{	}{	Whisper("Gibberish")	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	A fungovalo to vůbec někdy? Tak jdeme na to, pánbíčkáři.	}{	A fungovalo to vůbec někdy? Tak jdeme na to, pánbíčkáři.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mě má krev soudí. Ta tvá obarví stěny.	}
+{	43	}{	Když máš toho Pána tak rád, dám ti lístek do první třídy na setkání s ním.	}{	Když máš toho Pána tak rád, dám ti lístek do první třídy na setkání s ním.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kdyby byl Pán na tvé straně, mé já by tu dnes nebylo.	}
+{	44	}{	Zabití taky... Připiš mi to na futro.	}{	Zabití taky... Připiš mi to na futro.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hříchy baštím, co můžu. Třeba vražda chutná výborně.	}
+{	45	}{	Tvou krev si vychutnám, až ji budu lízat ze zdi...	}{	Tvou krev si vychutnám, až ji budu lízat ze zdi...	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Bear Witness!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Faith shield me!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	Show Yourself!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Out, devil. . .	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Tvůj čas zúčtování nadešel.	}{	Tvůj čas zúčtování nadešel.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	[rage, cleanched teeth]Groute, zalez a nech plameny, ať tě očistí!	}{	[rage, cleanched teeth]Groute, zalez a nech plameny, ať tě očistí!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Já nejsem Grout! Už jsi ho zabil!	}{	Já nejsem Grout! Už jsi ho zabil!	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Grout už není mrtvola. Teď je popel.	}
+{	103	}{	Grout je mrtvej a kdo jseš kurva ty?!	}{	Grout je mrtvej a kdo jseš kurva ty?!	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Groutův vrah? To nejsi ty.	}
+{	111	}{	Grout je mrtev? Jaká škoda, že to nemohlo být mou rukou! Ale to je jedno - brzy budou vaši samozvaní vládci, falešní proroci a ostatní poskvrnění bestií smeteni s povrchu země příchodem Pána!	}{	Grout je mrtev? Jaká škoda, že to nemohlo být mou rukou! Ale to je jedno - brzy budou vaši samozvaní vládci, falešní proroci a ostatní poskvrnění bestií smeteni s povrchu země příchodem Pána!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Kdo zatraceně jseš?	}{	Kdo zatraceně jseš?	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Neumíte se chovat? Co představení?	}
+{	113	}{	Moment, moment... promluvme si...	}{	Moment, moment... promluvme si...	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	A už víte, kdy to bude?	}
+{	114	}{	Začínáš mě pěkně srát... Jen počkej, až se mi dostaneš do pazourů...	}{	Začínáš mě pěkně srát... Jen počkej, až se mi dostaneš do pazourů...	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Počkejte na mě, chci vám něco ukázat - vaše srdce.	}
+{	121	}{	Až budeš hořet, vyřiď jim, že to byl Grünfeld Bach, kdo odeslal tvou zkaženou duši do ohně! Všichni Satanovi agenti se vrátí, odkud přišli!	}{	Až budeš hořet, vyřiď jim, že to byl Grünfeld Bach, kdo odeslal tvou zkaženou duši do ohně! Všichni Satanovi agenti se vrátí, odkud přišli!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	(Auto-Link)	}{	(Auto-Link)	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	AŤ TATO SPRAVEDLIVÁ UKÁZKA SÍLY SLOUŽÍ JAKO SLIB VŠEM, KTEŘÍ SLOUŽÍ TOMU SATANOVI LACROIXOVI! JDU SI PRO TEBE, LACROIXI! S POMOCÍ BOŽÍ VYČISTÍM TVOU ČERNOU DUŠI!	}{	AŤ TATO SPRAVEDLIVÁ UKÁZKA SÍLY SLOUŽÍ JAKO SLIB VŠEM, KTEŘÍ SLOUŽÍ TOMU SATANOVI LACROIXOVI! JDU SI PRO TEBE, LACROIXI! S POMOCÍ BOŽÍ VYČISTÍM TVOU ČERNOU DUŠI!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Story_State = 20	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Jo, jak je libo.	}{	Jo, jak je libo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Spousta řečí, smyslu pomálu.	}
+{	141	}{	Žvaň si svým pekelným jazykem na dně propasti! Já už ho poslouchat nebudu!	}{	Žvaň si svým pekelným jazykem na dně propasti! Já už ho poslouchat nebudu!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Ale...	}{	Ale...	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	ALE PROC?	}
+{	143	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	144	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	145	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	146	}{	Vedle!	}{	Vedle!	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nezasáhnul!!	}
+{	153	}{	(Starting Condition)	}{	}{	91	}{	G.Story_State == 70	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	154	}{	(Starting Condition)	}{	}{	145	}{	G.Story_State == 65	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	155	}{	(Starting Condition)	}{	}{	101	}{	G.Story_State < 20	}{	}{	}{	}{	}{	}{	}{	}{	}

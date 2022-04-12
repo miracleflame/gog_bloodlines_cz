@@ -1,0 +1,48 @@
+{	1	}{	[Johnny is coked up, a little paranoid, mean, and sniffs a lot because of his addiction]Kdo si myslíš, že jseš, debile? Víš, kdo já jsem? Víš vůbec, kde jseš? Chceš snad chcípnout?	}{	[Johnny is coked up, a little paranoid, mean, and sniffs a lot because of his addiction]Kdo si myslíš, že jseš, svině? Víš, kdo já jsem? Víš vůbec, kde jseš? Chceš snad chcípnout?	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Johnny_Talked = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Moment, uklidni se.	}{	Moment, uklidni se.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Já? Chcípnout? Někdo tě předběhnul.	}
+{	3	}{	Někdo tady potřebuje oraz. Je ti dobře, panáčku?	}{	Někdo tady potřebuje oraz. Je ti dobře, panáčku?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Buď ti požehnáno, obětní beránku!	}
+{	4	}{	Sedni si, přestaň držkovat a začni odpovídat na moje otázky, jasný?	}{	Sedni si, přestaň držkovat a začni odpovídat na moje otázky, jasný?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Odpovědi nebo bolest, tvé jediné volby.	}
+{	5	}{	Někoho hledám a ty mi řekneš, kde ho najdu.	}{	Někoho hledám a ty mi řekneš, kde ho najdu.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hledám kanálovou krysu a ty mi o ní povíš.	}
+{	11	}{	Co tady kurva chceš? Kdo jseš?	}{	Co tady kurva chceš? Kdo jseš?	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Někoho hledám a slyšel jsem, že mi můžeš pomoct.	}{	Někoho hledám a slyšela jsem, že mi můžeš pomoct.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vypadáš nápomocně, což je dobře, protože hledám pomoc.	}
+{	13	}{	Někoho jsi unesl a já ho chci zpátky.	}{	Někoho jsi unesl a já ho chci zpátky.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	To tys sbalil kanálovou krysu?	}
+{	14	}{	Vypadám jako někdo, s kým si chceš zahrávat, Johnny?	}{	Vypadám jako někdo, s kým si chceš zahrávat, Johnny?	}{	21	}{	G.Johnny_Threat == 0	}{	}{	}{	}{	}{	}{	}{	}{	Říká snad můj vzhled "Vyjebej se mnou"?	}
+{	21	}{	Chceš mi snad něco říct, svině? Kdo tě vůbec pustil do Čínské čtvrti? Chceš zpátky svou matku? Vrátíme ti ji, až bude hotová s těma posledníma dvaceti chlapama.	}{	Chceš mi snad něco říct, svině? Kdo tě vůbec pustil do Čínské čtvrti? Chceš zpátky svou matku? Vrátíme ti ji, až bude hotová s těma posledníma dvaceti chlapama.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	G.Johnny_Threat = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Moc. Vtipný. A teď vážně.	}{	Moc. Vtipný. A teď vážně.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	HA HA HA... Nyní vážně...	}
+{	23	}{	To nebylo chytrý, Johnny, ani trochu. Kde je ten chlápek, kterýho jsi unesl?	}{	To nebylo chytrý, Johnny, ani trochu. Kde je ten chlápek, kterýho jsi unesl?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nech si ji, hledám krysu, kterou jsi lapil.	}
+{	24	}{	Dochází mi trpělivost. Kde je Barabus? Vím, že ho máš.	}{	Dochází mi trpělivost. Kde je Barabus? Vím, že ho máš.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Musíš ho prostě vrátit a já pak zmizím.	}
+{	31	}{	Kdo ti to řekl? Jak to víš? Kdo jsi? Tak mluv!	}{	Kdo ti to řekl? Jak to víš? Kdo jsi? Tak mluv!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Jsem federální agent a hledám teroristu, kterýho držíš.	}{	Jsem federální agent a hledám teroristu, kterýho držíš.	}{	151	}{	}{	MandarinTVOn()	}{	}{	}{	}{	}{	}{	}{	Jsem od FBI, mám černý pás prvního stupně a s nikým se neseru!	}
+{	33	}{	Zeptám se už jen jednou...	}{	Zeptám se už jen jednou...	}{	151	}{	}{	MandarinTVOn()	}{	}{	}{	}{	}{	}{	}{	Ještě. Jednou. Kde je má krysa?	}
+{	34	}{	Nemáš ponětí, s kým si tady zahráváš.	}{	Nemáš ponětí, s kým si tady zahráváš.	}{	151	}{	}{	MandarinTVOn()	}{	}{	}{	}{	}{	}{	}{	Ono to chce vědět, kdo já jsem. A HAH AHAHA..	}
+{	41	}{	Říkals, že to není nikdo důležitej! Do čehos nás to kruci zatáhnul?	}{	Říkals, že to není nikdo důležitej! Do čehos nás to kruci zatáhnul?	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	(Auto-Link)	}{	(Auto-Link)	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Jseš mrtvej, debile!	}{	Jseš mrtvá, svině!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Co to je? Střelil jsem tě! Jseš mrtvola!	}{	Co to je? Střelil jsem tě! Jseš mrtvola!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	(Auto-Link)	}{	(Auto-Link)	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	Co se tu kurva děje? Kdo jsi?	}{	Co se tu kurva děje? Kdo jsi?	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Auto-Link)	}{	(Auto-Link)	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where is this show taped? I want to meet the star.	}
+{	81	}{	Ne! Vyser si! Chcípni!	}{	Ne! Vyser si! Chcípni!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	<Sniffs heavily>	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	<Snorts something>	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{	[Muttering to self]Yeah. . .that's the shit. . .	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	[Muttering to self]Goddamn Zhao. . .Sell ME out. . .	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	[Muttering to self]It's my town. . .the world is mine. . .	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	<Dies>	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	Nic neříkej, Johnny. Střílej.	}{	Nic neříkej, Johnny. Střílej.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	(Auto-Link)	}{	(Auto-Link)	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	Střílej, uvidíš.	}{	Střílej, uvidíš.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	(Auto-Link)	}{	(Auto-Link)	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	171	}{	To je přesně ono, Johnny. Je to mrtvé. Je docela těžké zabít něco, co už je mrtvé. Ujišťuji tě, že to nemá vestu, kulka čistě prošla břichem...	}{	To je přesně ono, Johnny. Je to mrtvé. Je docela těžké zabít něco, co už je mrtvé. Ujišťuji tě, že to nemá vestu, kulka čistě prošla břichem...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	Neposlouchej ho, Johnny. Mám na sobě vestu.	}{	Neposlouchej ho, Johnny. Mám na sobě vestu.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	181	}{	Za běžných okolností by se kulka takové ráže odrazila a roztrhala tenké střevo, ale jak vidíš, vyletěla ze zad skoro s žádným krvácením. A důvodem je, že to má atrofované orgány.	}{	Za běžných okolností by se kulka takové ráže odrazila a roztrhala tenké střevo, ale jak vidíš, vyletěla ze zad skoro s žádným krvácením. A důvodem je, že to má atrofované orgány.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	183	}{	Kdo je ten na té obrazovce?	}{	Kdo je ten na té obrazovce?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	184	}{	Obávám se, že má pravdu. A teď, když to víš, tě musím zabít.	}{	Obávám se, že má pravdu. A teď, když to víš, tě musím zabít.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	191	}{	Zlikviduj Johnnyho a pak probereme tu věc s tvým zmizelým kamarádem.	}{	Zlikviduj Johnnyho a pak probereme tu věc s tvým zmizelým kamarádem.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.SetQuest("Johnny",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	Řekni, kde je ten muž, Johnny?	}{	Řekni, kde je ten muž, Johnny?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	193	}{	Slyšels ho, Johnny. Musím tě sejmout.	}{	Slyšels ho, Johnny. Musím tě sejmout.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	194	}{	Tvá smrt...	}{	Tvá smrt...	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Smrt, smrt, smrt...	}
+{	212	}{	(Starting Condition)	}{	}{	61	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	213	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

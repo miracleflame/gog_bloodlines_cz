@@ -1,0 +1,240 @@
+{	1	}{	...	}{	...	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	2	}{	Kdo jsi?	}{	Kdo jsi?	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	3	}{	Jseš Ash?	}{	Jseš Ash?	}{	21	}{	G.Isaac_Ash >= 1  or G.Velvet_Ash >= 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	4	}{	Máš problém?	}{	Máš problém?	}{	31	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	11	}{	Prostě jsem.	}{	Prostě jsem.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	12	}{	Ale vážně, kdo jsi?	}{	Ale vážně, kdo jsi?	}{	51	}{	G.Ash_Know == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	13	}{	Jseš Ash?	}{	Jseš Ash?	}{	21	}{	G.Isaac_Ash >= 1  or G.Velvet_Ash >= 1|G.Ash_Know == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	14	}{	Co máš sakra za problém?	}{	Co máš sakra za problém?	}{	31	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	21	}{	Zde.	}{	Zde.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Ash_Know = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	22	}{	Rád tě poznávám.	}{	Ráda tě poznávám.	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	23	}{	Víš něco o snuff filmech v okolí?	}{	Víš něco o snuff filmech v okolí?	}{	101	}{	G.Isaac_Quest == 1 and G.Ash_Sinbin == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	24	}{	Žádnou filmovou hvězdu jsem ještě nepotkal.	}{	Žádnou filmovou hvězdu jsem ještě nepotkala.	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	25	}{	Jsem tvůj velký fanoušek.	}{	Jsem tvá velká fanynka.	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	26	}{	Tvoje filmy stojí za hovno. Hraješ jak prkennej panák.	}{	Tvoje filmy stojí za hovno. Hraješ jak prkennej panák.	}{	451	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	31	}{	Slunce zapadlo.	}{	Slunce zapadlo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	32	}{	No a?	}{	No a?	}{	71	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	33	}{	Jo, to ono dělá v jednom kuse.	}{	Jo, to ono dělá v jednom kuse.	}{	71	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	34	}{	Nelíbí se mi tvoje chování.	}{	Nelíbí se mi tvoje chování.	}{	81	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	41	}{	To se vsadím.	}{	To se vsadím.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	42	}{	Co máš za problém?	}{	Co máš za problém?	}{	31	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	43	}{	Víš něco o snuff filmech v okolí?	}{	Víš něco o snuff filmech v okolí?	}{	101	}{	not IsClan(pc,"Malkavian") and G.Isaac_Quest == 1 and G.Ash_Sinbin == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	44	}{	Než zmizím, mohu získat tvé jméno?	}{	Než zmizím, mohu získat tvé jméno?	}{	601	}{	IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	51	}{	Zeptej se kohokoliv jinýho na světě, bude vědět.	}{	Zeptej se kohokoliv jinýho na světě, bude vědět.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	52	}{	No tak, pochlub se.	}{	No tak, pochlub se.	}{	61	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	53	}{	Jseš Ash?	}{	Jseš Ash?	}{	21	}{	G.Isaac_Ash >= 1 or G.Velvet_Ash >= 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	54	}{	Co máš sakra za problém?	}{	Co máš sakra za problém?	}{	71	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	61	}{	Ash. Tak, běž to vyřídit svým kámošům, ať neotravujou.	}{	Ash. Tak, běž to vyřídit svým kámošům, ať neotravujou.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Ash_Know = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	62	}{	Rád tě poznávám.	}{	Ráda tě poznávám.	}{	41	}{	Humanity 5	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	63	}{	Víš něco o snuff filmech v okolí?	}{	Víš něco o snuff filmech v okolí?	}{	101	}{	G.Isaac_Quest == 1 and G.Ash_Sinbin == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	64	}{	Žádnou filmovou hvězdu jsem ještě nepotkal.	}{	Žádnou filmovou hvězdu jsem ještě nepotkala.	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	65	}{	Jsem tvůj velký fanoušek.	}{	Jsem tvá velká fanynka.	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	66	}{	Tvoje filmy stojí za hovno. Hraješ jak prkennej panák.	}{	Tvoje filmy stojí za hovno. Hraješ jak prkennej panák.	}{	451	}{	Humanity -5	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	71	}{	To je jedno.	}{	To je jedno.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	72	}{	Kdo jsi?	}{	Kdo jsi?	}{	51	}{	G.Ash_Know == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	73	}{	Jseš Ash?	}{	Jseš Ash?	}{	21	}{	(G.Isaac_Ash >= 1 or G.Velvet_Ash >= 1) and G.Ash_Know == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	74	}{	Nelíbí se mi tvoje chování.	}{	Nelíbí se mi tvoje chování.	}{	81	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	81	}{	Mně taky ne.	}{	Mně taky ne.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	82	}{	Kdo jsi?	}{	Kdo jsi?	}{	51	}{	G.Ash_Know == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	83	}{	Jseš Ash?	}{	Jseš Ash?	}{	21	}{	G.Isaac_Ash >= 1  or G.Velvet_Ash >= 1|G.Ash_Know == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	84	}{	Hele, nechci tě mlátit, ale jestli hodláš takhle pokračovat, asi budu muset.	}{	Hele, nechci tě mlátit, ale jestli hodláš takhle pokračovat, asi budu muset.	}{	91	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	85	}{	Vážně, začni se nějak chovat nebo tě seřežu jako psa.	}{	Vážně, začni se nějak chovat nebo tě seřežu jako psa.	}{	91	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	91	}{	[Amused]Co ti brání?	}{	[Amused]Co ti brání?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	92	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	121	}{	Humanity 5	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	93	}{	Máš snad přání zemřít nebo něco?	}{	Máš snad přání zemřít nebo něco?	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	94	}{	Kdo si myslíš, že jsi?	}{	Kdo si myslíš, že jsi?	}{	131	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	95	}{	Nedělám si prdel, jsem maniak.	}{	Nedělám si prdel, jsem maniak.	}{	111	}{	Humanity -5	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	101	}{	Škvára z ulice. Hledej v Kotli hříchu.	}{	Škvára z ulice. Hledej v Kotli hříchu.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Ash_Sinbin = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	102	}{	(Auto-Link)	}{	(Auto-Link)	}{	461	}{	G.Ash_Hunters != 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	103	}{	(Auto-Link)	}{	(Auto-Link)	}{	471	}{	G.Ash_Hunters == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	111	}{	Asi to visí ve vzduchu, taky jsem to chytil...	}{	Asi to visí ve vzduchu, taky jsem to chytil...	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	112	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	121	}{	Humanity 5	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	113	}{	Máš snad přání zemřít nebo něco?	}{	Máš snad přání zemřít nebo něco?	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	114	}{	Kdo si myslíš, že jsi?	}{	Kdo si myslíš, že jsi?	}{	131	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	121	}{	Říct jo by bylo slabý slovo. [Sighs]Co je ti vůbec do toho? Mohl bych... prostě vyjít ven a stát se legendou. Možná jsem, možná ne, co na tom?	}{	Říct jo by bylo slabý slovo. [Sighs]Co je ti vůbec do toho? Mohl bych... prostě vyjít ven a stát se legendou. Možná jsem, možná ne, co na tom?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	122	}{	O čem to mluvíš?	}{	O čem to mluvíš?	}{	141	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ve tvých slovech je šílenství a přesto nerozumím.	}
+{	123	}{	Tvoje blábolení nedává smysl.	}{	Tvoje blábolení nedává smysl.	}{	141	}{		}{		}{	}{	}{	}{	}{	}{	}{	To nedává smysl, dokonce ani mně.	}
+{	124	}{	Vzpomeň si na to, že poraženci nikdy nevyhrajou a sebevražda je vždycky řešení.	}{	Vzpomeň si na to, že poraženci nikdy nevyhrajou a sebevražda je vždycky řešení.	}{	151	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	131	}{	Můžeš mě znát z filmů Záporná nula a Hra na mrtvolu.[laughs] Ale vážně, jak se ti podařilo přijít až sem a nevědět to, co? Ale víš co, vůbec na tom nezáleží.	}{	Můžeš mě znát z filmů Záporná nula a Hra na mrtvolu.[laughs] Ale vážně, jak se ti podařilo přijít až sem a nevědět to, co? Ale víš co, vůbec na tom nezáleží.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	132	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	121	}{	Humanity 5	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	133	}{	Máš snad přání zemřít nebo něco?	}{	Máš snad přání zemřít nebo něco?	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	141	}{	Tys je neviděl?	}{	Tys je neviděla?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	142	}{	Koho?	}{	Koho?	}{	171	}{		}{		}{	}{	}{	}{	}{	}{	}{	Božíčku, snad tu nejsou rarášci, že ne?	}
+{	143	}{	O čem to k sakru blábolíš?	}{	O čem to k sakru blábolíš?	}{	171	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vidím mnoho věcí, kromě smyslu tvých řečí.	}
+{	144	}{	Já vidím jen jednoho zuboženýho, sebevražednýho fešáka.	}{	Já vidím jen jednoho zuboženýho, sebevražednýho fešáka.	}{	161	}{	not IsClan(pc, "Toreador")	}{		}{	}{	}{	}{	}{	}{	}{	Vidím jedině padající hvězdu.	}
+{	151	}{	Životopisci by se po tom vrhli, studia by prodala víc kopií mých filmů. Nejspíš by někde vztyčili i moji sochu. Zemřít mladej a žít navěky. Byla by ze mě moc pěkná kupka prachu.	}{	Životopisci by se po tom vrhli, studia by prodala víc kopií mých filmů. Nejspíš by někde vztyčili i moji sochu. Zemřít mladej a žít navěky. Byla by ze mě moc pěkná kupka prachu.	}{	#	}{	Whisper("Crying"); npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	152	}{	To je šílený...	}{	To je šílený...	}{	161	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	153	}{	Vypadá to, že už to máš vymyšlený.	}{	Vypadá to, že už to máš vymyšlený.	}{	171	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	154	}{	A jak to chceš jako udělat?	}{	A jak to chceš jako udělat?	}{	171	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	161	}{	Možná. Ale-	}{	Možná. Ale-	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	162	}{	(Auto-Link)	}{	(Auto-Link)	}{	171	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	171	}{	Jsou tu lovci. Vepředu, vzadu, i přímo tady v klubu. Jak vytáhnu paty, půjdou po mě. Takže se musím ptát, když vyjdu ven, jsem připraven zemřít? Kolik jich můžu vyřídit, než zasadí smrtící úder? Dva, tři?	}{	Jsou tu lovci. Vepředu, vzadu, i přímo tady v klubu. Jak vytáhnu paty, půjdou po mě. Takže se musím ptát, když vyjdu ven, jsem připraven zemřít? Kolik jich můžu vyřídit, než zasadí smrtící úder? Dva, tři?	}{	#	}{	npc.SetDisposition("Joy", 3)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	172	}{	(Auto-Link)	}{	(Auto-Link)	}{	181	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	181	}{	Můžu prostě odejít, teď hned. Vrchol slávy a pak konec. A i když to vím, nic to se mnou nedělá. Jedinej důvod, proč tu ještě jsem, je nejspíš ten, že se snažím přijít na to, proč to se mnou nic nedělá.	}{	Můžu prostě odejít, teď hned. Vrchol slávy a pak konec. A i když to vím, nic to se mnou nedělá. Jedinej důvod, proč tu ještě jsem, je nejspíš ten, že se snažím přijít na to, proč to se mnou nic nedělá.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Ash_Hunters = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	182	}{	Možná ti můžu pomoct.	}{	Možná ti můžu pomoct.	}{	261	}{		}{		}{	}{	}{	}{	}{	}{	}{	Žádáš mě o pomoc, i když si to neuvědomuješ.	}
+{	183	}{	A to tě nezajímá, co by na to řekl Izák?	}{	A to tě nezajímá, co by na to řekl Izák?	}{	191	}{	G.Isaac_Ash >= 1  or G.Velvet_Ash >= 1	}{	G.Isaac_Worry = 1	}{	}{	}{	}{	}{	}{	}{	Aha, chceš ublížit svému stvořiteli a prolít jeho krev v sobě.	}
+{	191	}{	Izákovi by to zlomilo srdce... Dobrý vědět, že aspoň k nečemu by byla má smrt dobrá.	}{	Izákovi by to zlomilo srdce... Dobrý vědět, že aspoň k nečemu by byla má smrt dobrá.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	192	}{	Ty nemáš Izáka rád?	}{	Ty nemáš Izáka rád?	}{	201	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nač ta nenávist k někomu, kdo tě stvořil?	}
+{	193	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	251	}{	G.Ash_Offer == 0	}{		}{	}{	}{	}{	}{	}{	}{	Usiluj o jeho pomoc, ne o jeho zoufalství.	}
+{	201	}{	Tohle by bylo na dlouhý povídání. Nehledě na to, že už nějakou dobu neprobíráme spoustu věcí osobně a to Izáka neskutečně vytáčí.	}{	Tohle by bylo na dlouhý povídání. Nehledě na to, že už nějakou dobu neprobíráme spoustu věcí osobně a to Izáka neskutečně vytáčí.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	202	}{	Co třeba?	}{	Co třeba?	}{	211	}{		}{		}{	}{	}{	}{	}{	}{	}{	Proč spolu vaše oči nevycházejí?	}
+{	203	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	251	}{	G.Ash_Offer == 0	}{		}{	}{	}{	}{	}{	}{	}{	Usiluj o jeho pomoc, ne o jeho zoufalství.	}
+{	211	}{	Pořád vykládal, že bych se měl držet v ústraní. Že prý k sobě přitahuju moc pozornosti.	}{	Pořád vykládal, že bych se měl držet v ústraní. Že prý k sobě přitahuju moc pozornosti.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	212	}{	A co je na tom špatnýho, držet se v ústraní?	}{	A co je na tom špatnýho, držet se v ústraní?	}{	221	}{		}{		}{	}{	}{	}{	}{	}{	}{	Měl bys být nenápadný jako já. Já už ani nevím, kde vlastně jsem.	}
+{	213	}{	Měls ho poslechnout.	}{	Měls ho poslechnout.	}{	221	}{		}{		}{	}{	}{	}{	}{	}{	}{	V jeho slovech je moudrost.	}
+{	214	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	251	}{	G.Ash_Offer == 0	}{		}{	}{	}{	}{	}{	}{	}{	Usiluj o jeho pomoc, ne o jeho zoufalství.	}
+{	221	}{	Nic o mně nevíš. Nedokážu celej den dřepět v kanclu a ovládat Hollywood ze zákulisí. To je jeho styl. Já jsem herec... teda byl jsem herec. Teď už nemám nic, kromě tohodle klubu, zbytku slávy a téhle kletby.	}{	Nic o mně nevíš. Nedokážu celej den dřepět v kanclu a ovládat Hollywood ze zákulisí. To je jeho styl. Já jsem herec... teda byl jsem herec. Teď už nemám nic, kromě tohodle klubu, zbytku slávy a téhle kletby.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	222	}{	Tobě se nelíbí, že jseš...? Však víš.	}{	Tobě se nelíbí, že jseš...? Však víš.	}{	231	}{		}{		}{	}{	}{	}{	}{	}{	}{	Chceš vyčistit Kainovu krev?	}
+{	223	}{	Být našinec je super. Máš disciplíny, žiješ věčně, můžeš spát celej den...	}{	Být našinec je super. Máš disciplíny, žiješ věčně, můžeš spát celej den...	}{	231	}{		}{		}{	}{	}{	}{	}{	}{	}{	Já si smrt užívám. Život nedával žádný smysl. Teď vypadá jako béčkovina.	}
+{	224	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	251	}{	G.Ash_Offer == 0	}{		}{	}{	}{	}{	}{	}{	}{	Usiluj o jeho pomoc, ne o jeho zoufalství.	}
+{	231	}{	Po nikom jsem to nechtěl. Nechtěl jsem po Izákovi, aby mě zachraňoval. Možná jsem chtěl umřít. Aspoň jsem se bavil, sakra! Byl jsem naživu! Kdo mu dal krucinál právo mi to vzít?! Už nemůžu hrát, nemůžu milovat. Můžu akorát... vymizet z povědomí všech.	}{	Po nikom jsem to nechtěl. Nechtěl jsem po Izákovi, aby mě zachraňoval. Možná jsem chtěl umřít. Aspoň jsem se bavil, sakra! Byl jsem naživu! Kdo mu dal krucinál právo mi to vzít?! Už nemůžu hrát, nemůžu milovat. Můžu akorát... vymizet z povědomí všech.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	232	}{	Možná ti můžu pomoct.	}{	Možná ti můžu pomoct.	}{	261	}{		}{		}{	}{	}{	}{	}{	}{	}{	Žádáš mě o pomoc, i když si to neuvědomuješ.	}
+{	233	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	251	}{	G.Ash_Offer == 0	}{		}{	}{	}{	}{	}{	}{	}{	Usiluj o jeho pomoc, ne o jeho zoufalství.	}
+{	234	}{	Život je na hovno a pak chcípneš. A pak odchcípneš a můžeš chcípnout znovu.	}{	Život je na hovno a pak chcípneš. A pak odchcípneš a můžeš chcípnout znovu.	}{	241	}{		}{		}{	}{	}{	}{	}{	}{	}{	Život je na hovno a pak chcípneš. A pak odchcípneš a můžeš chcípnout znovu.	}
+{	241	}{	Řečeno prozaicky.	}{	Řečeno prozaicky.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	242	}{	Možná ti můžu pomoct.	}{	Možná ti můžu pomoct.	}{	261	}{		}{		}{	}{	}{	}{	}{	}{	}{	Žádáš mě o pomoc, i když si to neuvědomuješ.	}
+{	243	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	251	}{	G.Ash_Offer == 0	}{		}{	}{	}{	}{	}{	}{	}{	Usiluj o jeho pomoc, ne o jeho zoufalství.	}
+{	251	}{	Že by mi on pomohl, no to je gól. S těma lovcema kolem se sem nepřiblíží ani na čtvrt kiláku. Jen při pomyšlení na to, že ho žádám o pomoc, jak bych musel koukat na ten jeho samolibej jedovatej úšklebek... V tomhle neživotě ne.	}{	Že by mi on pomohl, no to je gól. S těma lovcema kolem se sem nepřiblíží ani na čtvrt kiláku. Jen při pomyšlení na to, že ho žádám o pomoc, jak bych musel koukat na ten jeho samolibej jedovatej úšklebek... V tomhle neživotě ne.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	252	}{	Možná ti můžu pomoct já.	}{	Možná ti můžu pomoct já.	}{	261	}{		}{		}{	}{	}{	}{	}{	}{	}{	Žádáš mě o pomoc, i když si to neuvědomuješ.	}
+{	261	}{	Izák tě poslal?	}{	Izák tě poslal?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Ash_Offer = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	262	}{	Ne.	}{	Ne.	}{	271	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nepravda.	}
+{	263	}{	Jo.	}{	Jo.	}{	281	}{		}{		}{	}{	}{	}{	}{	}{	}{	Pravda.	}
+{	264	}{	Kdo je ten Izák?	}{	Kdo je ten Izák?	}{	291	}{	G.Isaac_Tribute == 0 and G.Ash_Abrams == 0	}{		}{	}{	}{	}{	}{	}{	}{	To jméno není zachyceno v síti mých myšlenek.	}
+{	265	}{	Ty se znáš s Izákem?	}{	Ty se znáš s Izákem?	}{	291	}{	G.Isaac_Tribute == 1 and G.Ash_Abrams == 0 and G.Isaac_Worry == 0	}{		}{	}{	}{	}{	}{	}{	}{	Máme něco společného, také ho znám.	}
+{	271	}{	Tak z jakýho důvodu mi teda chceš vlastně pomáhat?	}{	Tak z jakýho důvodu mi teda chceš vlastně pomáhat?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	272	}{	Když můžu pomoct, pomůžu. A ty potřebuješ pomoc.	}{	Když můžu pomoct, pomůžu. A ty potřebuješ pomoc.	}{	301	}{	Humanity 5	}{		}{	}{	}{	}{	}{	}{	}{	Můj soucit to po mně chce.	}
+{	273	}{	Bolí mě, když musím sledovat, jak životní zápal jiného Toreadora zhasíná.	}{	Bolí mě, když musím sledovat, jak životní zápal jiného Toreadora zhasíná.	}{	311	}{	IsClan(pc,"Toreador")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	274	}{	Prachy. Vím, že nějaký máš.	}{	Prachy. Vím, že nějaký máš.	}{	321	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	275	}{	Jsi hvězda. Máš určitou moc. Mocní přátele se vždycky hodí.	}{	Jsi hvězda. Máš určitou moc. Mocní přátele se vždycky hodí.	}{	331	}{		}{		}{	}{	}{	}{	}{	}{	}{	Jsi zlatá hvězda a já chci také trochu té barvy.	}
+{	276	}{	Když můžu někoho sejmout, jdu do toho. Nic mně neudělá větší radost než kosení lovců.	}{	Když můžu někoho sejmout, jdu do toho. Nic mně neudělá větší radost než kosení lovců.	}{	301	}{	Humanity -5	}{		}{	}{	}{	}{	}{	}{	}{	Chci pít z lovců, dokud mi šťávička nepoteče po nohách.	}
+{	281	}{	Na to zapomeň. Takovou pomoc nepotřebuju. Vyřiď mu, ať si dál sedí v kanclíku a vychutnává svou dobročinnost.	}{	Na to zapomeň. Takovou pomoc nepotřebuju. Vyřiď mu, ať si dál sedí v kanclíku a vychutnává svou dobročinnost.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	282	}{	To byl vtip. Neposlal mě.	}{	To byl vtip. Neposlal mě.	}{	271	}{		}{		}{	}{	}{	}{	}{	}{	}{	Šprýmování mám v krvi. Izák mě neposílá.	}
+{	283	}{	Vždyť ani nevím, kdo ten Izák je.	}{	Vždyť ani nevím, kdo ten Izák je.	}{	291	}{	G.Isaac_Tribute == 0	}{		}{	}{	}{	}{	}{	}{	}{	Co je Izák?	}
+{	284	}{	Dobře. Hodně štěstí.	}{	Dobře. Hodně štěstí.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Předám vzkaz. Sbohem, mrtvý fénixi.	}
+{	291	}{	Izák je samorostlý starý strom, co v tomto městě zapustil kořeny už před lety. On je relikvie starých časů. Myslí si, že mi dal všechno, co mám. Ve skutečnosti mi dal jen kletbu.	}{	Izák je samorostlý starý strom, co v tomto městě zapustil kořeny už před lety. On je relikvie starých časů. Myslí si, že mi dal všechno, co mám. Ve skutečnosti mi dal jen kletbu.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Ash_Abrams = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	292	}{	Takže by mu bylo jedno, kdyby se ti něco stalo?	}{	Takže by mu bylo jedno, kdyby se ti něco stalo?	}{	191	}{		}{		}{	}{	}{	}{	}{	}{	}{	Kdyby byl Ash v popelu, nebyl by Izák zděšen?	}
+{	293	}{	Ty nemáš Izáka rád?	}{	Ty nemáš Izáka rád?	}{	201	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nač ta nenávist k někomu, kdo tě stvořil?	}
+{	294	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	Proč Izáka nepožádáš, aby ti pomohl?	}{	251	}{	G.Ash_Offer == 0	}{		}{	}{	}{	}{	}{	}{	}{	Usiluj o jeho pomoc, ne o jeho zoufalství.	}
+{	301	}{	Takže co navrhuješ?	}{	Takže co navrhuješ?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	302	}{	Mohl by sis vyměnit šaty s někým v klubu, kdo vypadá jako ty.	}{	Mohl by sis vyměnit šaty s někým v klubu, kdo vypadá jako ty.	}{	341	}{		}{	pc.SetQuest("Hunters",2)	}{	}{	}{	}{	}{	}{	}{	Každý chce být hvězdou. Svlékni kůži a jiný do ní naleze.	}
+{	304	}{	Můžu tě doprovodit kanalizací. Možná narazíme na odpor.	}{	Můžu tě doprovodit kanalizací. Možná narazíme na odpor.	}{	371	}{	Humanity 5	}{	pc.SetQuest("Hunters",1)	}{	}{	}{	}{	}{	}{	}{	Budeme jako Nosferatu a prchneme do stok. Ovšem možná půjdou za námi...	}
+{	305	}{	Vlítneme do kanálů, prosekáme si cestu lovcema a necháme za sebou pěknou krvavou brázdu.	}{	Vlítneme do kanálů, prosekáme si cestu lovcema a necháme za sebou pěknou krvavou brázdu.	}{	381	}{	Humanity -5	}{	pc.SetQuest("Hunters",1)	}{	}{	}{	}{	}{	}{	}{	Vplujeme do stok a necháme se unášet proudem krve z lovců.	}
+{	308	}{	Rozmylel jsem si to. Nechám to na tobě. Hodně štěstí.	}{	Rozmylela jsem si to. Nechám to na tobě. Hodně štěstí.	}{	0	}{		}{	G.Ash_Hunters = 2	}{	}{	}{	}{	}{	}{	}{	Navrhuji, aby sis našel ochotnějšího komplice. Jsem pryč.	}
+{	311	}{	Jediná skupina, do které patřím je gilda herců stříbrného plátna. Ty žvásty kolem klanů mě nezajímají.	}{	Jediná skupina, do které patřím je gilda herců stříbrného plátna. Ty žvásty kolem klanů mě nezajímají.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	312	}{	(Auto-Link)	}{	(Auto-Link)	}{	301	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	321	}{	Fajn, prachů mám plný šuplata. [Sarcastic]Kvůli nim je můj život tak zatraceně snadnej. Tak jak mě hodláš dostat ven a vydělat si?	}{	Fajn, prachů mám plný šuplata. [Sarcastic]Kvůli nim je můj život tak zatraceně snadnej. Tak jak mě hodláš dostat ven a vydělat si?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Ash_Money = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	322	}{	Mohl by sis vyměnit šaty s někým v klubu, kdo vypadá jako ty.	}{	Mohl by sis vyměnit šaty s někým v klubu, kdo vypadá jako ty.	}{	341	}{		}{	pc.SetQuest("Hunters",2)	}{	}{	}{	}{	}{	}{	}{	Každý chce být hvězdou. Svlékni kůži a jiný do ní naleze.	}
+{	324	}{	Můžu tě doprovodit kanalizací. Možná narazíme na odpor.	}{	Můžu tě doprovodit kanalizací. Možná narazíme na odpor.	}{	371	}{	Humanity 5	}{	pc.SetQuest("Hunters",1)	}{	}{	}{	}{	}{	}{	}{	Budeme jako Nosferatu a prchneme do stok. Ovšem možná půjdou za námi...	}
+{	325	}{	Vlítneme do kanálů, prosekáme si cestu lovcema a necháme za sebou pěknou krvavou brázdu.	}{	Vlítneme do kanálů, prosekáme si cestu lovcema a necháme za sebou pěknou krvavou brázdu.	}{	381	}{	Humanity -5	}{	pc.SetQuest("Hunters",1)	}{	}{	}{	}{	}{	}{	}{	Vplujeme do stok a necháme se unášet proudem krve z lovců.	}
+{	328	}{	Rozmylel jsem si to. Nechám to na tobě. Hodně štěstí.	}{	Rozmylela jsem si to. Nechám to na tobě. Hodně štěstí.	}{	0	}{		}{	G.Ash_Hunters = 2	}{	}{	}{	}{	}{	}{	}{	Navrhuji, aby sis našel ochotnějšího komplice. Jsem pryč.	}
+{	331	}{	V tomhle městě neexistují žádní přátelé, když pro ně nemůžeš něco udělat. A já po tomhle všem nebudu moct. Ale jestli myslíš hotovost, tu ti můžu zajistit.	}{	V tomhle městě neexistují žádní přátelé, když pro ně nemůžeš něco udělat. A já po tomhle všem nebudu moct. Ale jestli myslíš hotovost, tu ti můžu zajistit.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	332	}{	Možná můžu pomoct i bez nich.	}{	Možná můžu pomoct i bez nich.	}{	301	}{		}{		}{	}{	}{	}{	}{	}{	}{	Stále mohu vypomoci.	}
+{	333	}{	Jo, zajímají mě hotový prachy.	}{	Jo, zajímají mě hotový prachy.	}{	321	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ano, zlato bude v pořádku.	}
+{	334	}{	Rozmylel jsem si to. Nechám to na tobě. Hodně štěstí.	}{	Rozmylela jsem si to. Nechám to na tobě. Hodně štěstí.	}{	0	}{		}{	G.Ash_Hunters = 2	}{	}{	}{	}{	}{	}{	}{	Navrhuji, aby sis našel ochotnějšího komplice. Jsem pryč.	}
+{	341	}{	Tos viděl v nějakým sitcomu? Jak chceš. Projdi si klub, třeba na někoho natrefíš...	}{	Tos viděla v nějakým sitcomu? Jak chceš. Projdi si klub, třeba na někoho natrefíš...	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Ash_Switch = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	342	}{	Dám vědět, kdyby jo.	}{	Dám vědět, kdyby jo.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vrátím se s tvým dvojníkem.	}
+{	371	}{	Víš to jistě? Nevím, nevím, jestli zrovna ty vyrovnáš síly, ale teoreticky se můžem dostat ven celí. Můžeš hned teď?	}{	Víš to jistě? Nevím, nevím, jestli zrovna ty vyrovnáš síly, ale teoreticky se můžem dostat ven celí. Můžeš hned teď?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Ash_Escort = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	372	}{	Ne. Až budu připraven, vrátím se.	}{	Ne. Až budu připravena, vrátím se.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nemohu, ale znovu se objevím, až budu moci.	}
+{	373	}{	Jo, můžu. Tak jdem.	}{	Jo, můžu. Tak jdem.	}{	391	}{	Humanity 5	}{		}{	}{	}{	}{	}{	}{	}{	Ano. Budu tvým stínem.	}
+{	374	}{	Jo. Vykrvíme pár lovců.	}{	Jo. Vykrvíme pár lovců.	}{	391	}{	Humanity -5	}{		}{	}{	}{	}{	}{	}{	}{	Ano. Nechť krev našich pronásledovatelů teče proudem.	}
+{	381	}{	Vypadá to, že pro tebe nebude problém, když to pár lovců schytá.	}{	Vypadá to, že pro tebe nebude problém, když to pár lovců schytá.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	382	}{	Nebude. Až budu připraven, vrátím se.	}{	Nebude. Až budu připravena, vrátím se.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nikoliv. Znovu se objevím, až budu moci jít.	}
+{	383	}{	Jak říkáš. Tak jdem.	}{	Jak říkáš. Tak jdem.	}{	391	}{	Humanity 5	}{		}{	}{	}{	}{	}{	}{	}{	Budu tvým stínem.	}
+{	384	}{	Jo. Vykrvíme pár lovců.	}{	Jo. Vykrvíme pár lovců.	}{	391	}{	Humanity -5	}{		}{	}{	}{	}{	}{	}{	}{	Ano. Nechť krev našich pronásledovatelů teče proudem.	}
+{	391	}{	Jestli těm lovcům zdrhnu, vypadnu z tohodle města... Tak hurá do kanálů.	}{	Jestli těm lovcům zdrhnu, vypadnu z tohodle města... Tak hurá do kanálů.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	392	}{	Tak odchod.	}{	Tak odchod.	}{	0	}{		}{	G.Ash_Sewers = 1	}{	}{	}{	}{	}{	}{	}{	Jsem tvůj stín.	}
+{	401	}{	Co je?	}{	Co je?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	402	}{	Chci ti pomoct s útěkem.	}{	Chci ti pomoct s útěkem.	}{	421	}{		}{		}{	}{	}{	}{	}{	}{	}{	Pomohu ti zmizet z očí lovců.	}
+{	403	}{	Víš něco o snuff filmech v okolí?	}{	Víš něco o snuff filmech v okolí?	}{	101	}{	G.Isaac_Quest == 1 and G.Ash_Sinbin == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	404	}{	Nic. Hodně štěstí s těma lovcema.	}{	Nic. Hodně štěstí s těma lovcema.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Už jsem tu zase? To nebyl můj úmysl.	}
+{	411	}{	Máš ty hadry?	}{	Máš ty hadry?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	412	}{	Jo. Běž na pánský toalety. Vyměň si šaty s tím týpkem, co tam je.	}{	Jo. Běž na pánský toalety. Vyměň si šaty s tím týpkem, co tam je.	}{	441	}{	G.Ash_Switch == 2	}{		}{	}{	}{	}{	}{	}{	}{	Muž na toaletách chce tvou kůži.	}
+{	413	}{	Ne. Ještě hledám. Zatím.	}{	Ne. Ještě hledám. Zatím.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Mé oči si tě zaměnily s tvým dvojníkem. Omluv mě.	}
+{	414	}{	Myslím, že bysme na to měli jít jinak.	}{	Myslím, že bysme na to měli jít jinak.	}{	301	}{		}{	G.Ash_Switch = 0	}{	}{	}{	}{	}{	}{	}{	Chci se otočit a vydat se jinou cestou.	}
+{	421	}{	Změnils názor?	}{	Změnilas názor?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	422	}{	Je to tak.	}{	Je to tak.	}{	301	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ano prosím.	}
+{	431	}{	Tak jdem si zamazat zuby krví?	}{	Tak jdem si zamazat zuby krví?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	432	}{	Ne. Až budu připraven, vrátím se.	}{	Ne. Až budu připravena, vrátím se.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nemohu, ale znovu se objevím, až budu moci.	}
+{	433	}{	Jo, můžu. Tak jdem.	}{	Jo, můžu. Tak jdem.	}{	391	}{	Humanity 5	}{		}{	}{	}{	}{	}{	}{	}{	Ano. Budu tvým stínem.	}
+{	434	}{	Jo. Vykrvíme pár lovců.	}{	Jo. Vykrvíme pár lovců.	}{	391	}{	Humanity -5	}{		}{	}{	}{	}{	}{	}{	}{	Ano. Nechť krev našich pronásledovatelů teče proudem.	}
+{	435	}{	Myslím, že bysme na to měli jít jinak.	}{	Myslím, že bysme na to měli jít jinak.	}{	301	}{		}{	G.Ash_Escort = 0	}{	}{	}{	}{	}{	}{	}{	Chci se otočit a vydat se jinou cestou.	}
+{	441	}{	Radši doufej, že tyhle lovce mají z pracáku, protože profík by se takovýmu triku vysmál. Jestli to klapne, vypadnu z města. Tumáš,  jako výraz mých díků.	}{	Radši doufej, že tyhle lovce mají z pracáku, protože profík by se takovýmu triku vysmál. Jestli to klapne, vypadnu z města. Tumáš,  jako výraz mých díků.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd( 250 ); G.Ash_Leave = 1; pc.SetQuest("Hunters",3)	}{	}{	}{	}{	}{	}{	}{		}
+{	442	}{	Dobře to investuju.	}{	Dobře to investuju.	}{	0	}{		}{	G.Ash_Fake = 1	}{	}{	}{	}{	}{	}{	}{	Zlato na dobrou věc!	}
+{	451	}{	[Sarcastic]Tvůj názor pro mě tolik znamená....	}{	[Sarcastic]Tvůj názor pro mě tolik znamená....	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	452	}{	Hele, nechci tě mlátit, ale jestli hodláš takhle pokračovat, asi budu muset.	}{	Hele, nechci tě mlátit, ale jestli hodláš takhle pokračovat, asi budu muset.	}{	91	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	453	}{	Jen pokračuj, fešáku a brzo nebudeš takovej fešák.	}{	Jen pokračuj, fešáku a brzo nebudeš takovej fešák.	}{	91	}{	not IsClan(pc,"Toreador")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	461	}{	Ještě něco?	}{	Ještě něco?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	462	}{	Chci ti pomoct s útěkem.	}{	Chci ti pomoct s útěkem.	}{	261	}{		}{		}{	}{	}{	}{	}{	}{	}{	Pomohu ti zmizet z dohledu lovců.	}
+{	463	}{	Nic. Hodně štěstí s těma lovcema.	}{	Nic. Hodně štěstí s těma lovcema.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Už jsem tu zase? To nebyl můj úmysl.	}
+{	471	}{	Ještě něco?	}{	Ještě něco?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	472	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	121	}{	Humanity 5	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	473	}{	Jsem tvůj velký fanoušek.	}{	Jsem tvá velká fanynka.	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	474	}{	Tvoje filmy stojí za hovno. Hraješ jak prkennej panák.	}{	Tvoje filmy stojí za hovno. Hraješ jak prkennej panák.	}{	451	}{	Humanity -5	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	481	}{		Ten byl myslím poslední... Na, tady máš něco za námahu. Víš, v Hollywoodu jsem byl jen deset let. Jsem zvědav, jak dlouho přežiju, až odejdu. Hm...	}{		Ten byl myslím poslední... Na, tady máš něco za námahu. Víš, v Hollywoodu jsem byl jen deset let. Jsem zvědav, jak dlouho přežiju, až odejdu. Hm...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd( 500 )	}{	}{	}{	}{	}{	}{	}{		}
+{	482	}{	(Auto-Link)	}{	(Auto-Link)	}{	491	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	491	}{	[Doing a famous line from one of his movies]Tak daleko jsem sešel, tak hluboko jsem klesl - cestou zapomnění až k místu zvanému negativní nula...	}{	[Doing a famous line from one of his movies]Tak daleko jsem sešel, tak hluboko jsem klesl - cestou zapomnění až k místu zvanému negativní nula...	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	G.Ash_Leave = 1; pc.SetQuest("Hunters",4)	}{	}{	}{	}{	}{	}{	}{		}
+{	492	}{	A... střih!	}{	A... střih!	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	To místo znám...	}
+{	501	}{	[At this point, Ash has been tortured with branding irons and has lost his swagger][Catatonic from the fire]...Už ne... už ne... už ne... oheň...	}{	[At this point, Ash has been tortured with branding irons and has lost his swagger][Catatonic from the fire]...Už ne... už ne... už ne... oheň...	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	G.Ash_Burn = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	502	}{	Ashi?	}{	Ashi?	}{	511	}{		}{		}{	}{	}{	}{	}{	}{	}{	Padlý fénixi?	}
+{	503	}{	Už nevypadáš tak dobře, Hollywoode.	}{	Už nevypadáš tak dobře, Hollywoode.	}{	511	}{		}{		}{	}{	}{	}{	}{	}{	}{	Proč máš na tváři samá téčka?	}
+{	504	}{	Po vší té námaze dostat tě ven se necháš chytit.	}{	Po vší té námaze dostat tě ven se necháš chytit.	}{	511	}{		}{		}{	}{	}{	}{	}{	}{	}{	Padlý fénix v kleci po snaze, aby létal.	}
+{	511	}{	[Looks at the PC, pauses, recovers himself somewhat]Ty...? Zničili mi tvář... ohněm... pořád ho cítím v ranách... zabijou mě... vrátí se s těmi železy a budou pálit...	}{	[Looks at the PC, pauses, recovers himself somewhat]Ty...? Zničili mi tvář... ohněm... pořád ho cítím v ranách... zabijou mě... vrátí se s těmi železy a budou pálit...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	512	}{	Potichu...	}{	Potichu...	}{	521	}{		}{		}{	}{	}{	}{	}{	}{	}{	Řev padlého fénixe je moc slyšet... Neskřehotej.	}
+{	513	}{	Vypadáš hrozně...	}{	Vypadáš hrozně...	}{	521	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ale tolik téček... Můžu je použít do 'tutti frutti ratata' a ještě mi zbydou.	}
+{	514	}{	To se vsadím, že jo.	}{	To se vsadím, že jo.	}{	521	}{		}{		}{	}{	}{	}{	}{	}{	}{	Jemný pocit pálení. Měl bys za doktorem.	}
+{	521	}{	Nic jsem jim neřekl, tak mě pálili... a zas... a znova... a zas... Jejich oči... bavilo je to. Než se zase vrátí, snažně tě prosím, pusť mě ven.	}{	Nic jsem jim neřekl, tak mě pálili... a zas... a znova... a zas... Jejich oči... bavilo je to. Než se zase vrátí, snažně tě prosím, pusť mě ven.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	522	}{	Dostanu tě ven.	}{	Dostanu tě ven.	}{	531	}{		}{		}{	}{	}{	}{	}{	}{	}{	Osvobodím tě, padlý fénixi.	}
+{	523	}{	Nedával sis bacha. Zasloužíš tam zůstat.	}{	Nedával sis bacha. Zasloužíš tam zůstat.	}{	551	}{		}{		}{	}{	}{	}{	}{	}{	}{	Hvězdy, které září příliš jasně, se nevyhnou pozornosti.	}
+{	524	}{	Mám tu něco, co by ti mělo zahojit aspoň některé rány.	}{	Mám tu něco, co by ti mělo zahojit aspoň některé rány.	}{	541	}{	G.Ash_Heal == 0 and pc.HasItem("item_g_bloodpack")	}{		}{	}{	}{	}{	}{	}{	}{	Napij se a zacel své rozbité tělo, fénixi.	}
+{	531	}{	Vždycky se vrátí... vždycky to pálí...	}{	Vždycky se vrátí... vždycky to pálí...	}{	#	}{	npc.SetDisposition("Sad", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	532	}{	Mám tu něco, co by ti mělo zahojit aspoň některé rány.	}{	Mám tu něco, co by ti mělo zahojit aspoň některé rány.	}{	541	}{	G.Ash_Heal == 0 and pc.HasItem("item_g_bloodpack")	}{		}{	}{	}{	}{	}{	}{	}{	Napij se a zacel své rozbité tělo, fénixi.	}
+{	533	}{	Nikam nechoď. Já se vrátím.	}{	Nikam nechoď. Já se vrátím.	}{	0	}{	G.Patch_Plus == 0	}{		}{	}{	}{	}{	}{	}{	}{	Už nebudeš vězněm dlouho.	}
+{	534	}{	Nikam nechoď. Já se vrátím.	}{	Nikam nechoď. Já se vrátím.	}{	0	}{	G.Patch_Plus == 1	}{	pc.SetQuest("Ash",1)	}{	}{	}{	}{	}{	}{	}{	Už nebudeš vězněm dlouho.	}
+{	535	}{	Nedával sis bacha. Zasloužíš tam zůstat.	}{	Nedával sis bacha. Zasloužíš tam zůstat.	}{	551	}{		}{		}{	}{	}{	}{	}{	}{	}{	Hvězdy, které září příliš jasně, se nevyhnou pozornosti.	}
+{	541	}{	Kdysi jsem pil z těch nejkrásnějších žen na světě. A zrovna teď tenhle balíček vypadá líp než kterákoliv z nich.	}{	Kdysi jsem pil z těch nejkrásnějších žen na světě. A zrovna teď tenhle balíček vypadá líp než kterákoliv z nich.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	FindPlayer().HumanityAdd( 1 ); G.Ash_Heal = 1; pc.RemoveItem("item_g_bloodpack")	}{	}{	}{	}{	}{	}{	}{		}
+{	542	}{	Nikam nechoď. Já se vrátím.	}{	Nikam nechoď. Já se vrátím.	}{	0	}{	G.Patch_Plus == 0	}{		}{	}{	}{	}{	}{	}{	}{	Už nebudeš vězněm dlouho.	}
+{	543	}{	Nikam nechoď. Já se vrátím.	}{	Nikam nechoď. Já se vrátím.	}{	0	}{	G.Patch_Plus == 1	}{	pc.SetQuest("Ash",1)	}{	}{	}{	}{	}{	}{	}{	Už nebudeš vězněm dlouho.	}
+{	544	}{	Zasloužíš si tam zůstat...	}{	Zasloužíš si tam zůstat...	}{	551	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ta klec ti sedne.	}
+{	551	}{	Hej, kam jdeš? Nenechávej mě tu!	}{	Hej, kam jdeš? Nenechávej mě tu!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	552	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	561	}{	[Distant]Díky... Už se nikdy neuvidíme. Uteču někam, kde už nikdo nikdy tenhle ksicht neuvidí.	}{	[Distant]Díky... Už se nikdy neuvidíme. Uteču někam, kde už nikdo nikdy tenhle ksicht neuvidí.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{	G.Ash_Free = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	562	}{	Sbohem, Ashi.	}{	Sbohem, Ashi.	}{	0	}{	G.Patch_Plus == 0	}{		}{	}{	}{	}{	}{	}{	}{	Odleť, padlý fénixi.	}
+{	563	}{	Sbohem, Ashi.	}{	Sbohem, Ashi.	}{	0	}{	G.Patch_Plus == 1	}{	pc.SetQuest("Ash",2)	}{	}{	}{	}{	}{	}{	}{	Odleť, padlý fénixi.	}
+{	564	}{	Nečekej, že tě zase budu zachraňovat. Mazej pryč.	}{	Nečekej, že tě zase budu zachraňovat. Mazej pryč.	}{	0	}{	G.Patch_Plus == 0	}{		}{	}{	}{	}{	}{	}{	}{	Musíš se naučit procházet zdmi. Již tě nebudu zachraňovat.	}
+{	565	}{	Nečekej, že tě zase budu zachraňovat. Mazej pryč.	}{	Nečekej, že tě zase budu zachraňovat. Mazej pryč.	}{	0	}{	G.Patch_Plus == 1	}{	pc.SetQuest("Ash",2)	}{	}{	}{	}{	}{	}{	}{	Musíš se naučit procházet zdmi. Již tě nebudu zachraňovat.	}
+{	566	}{	Tak si to v Kanadě užij.	}{	Tak si to v Kanadě užij.	}{	0	}{	G.Patch_Plus == 0	}{		}{	}{	}{	}{	}{	}{	}{	Tak si to v Kanadě užij.	}
+{	567	}{	Tak si to v Kanadě užij.	}{	Tak si to v Kanadě užij.	}{	0	}{	G.Patch_Plus == 1	}{	pc.SetQuest("Ash",2)	}{	}{	}{	}{	}{	}{	}{	Tak si to v Kanadě užij.	}
+{	571	}{	...	}{	...	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	572	}{	Takový fešák...	}{	Takový fešák...	}{	581	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	573	}{	Sirius... Ne... Alfa Centauri, hmm... Která jsi hvězda?	}{	Sirius... Ne... Alfa Centauri, hmm... Která jsi hvězda?	}{	581	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	574	}{	Tys padlý fénix?	}{	Tys padlý fénix?	}{	581	}{	G.Isaac_Ash >= 1  or G.Velvet_Ash >= 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	581	}{	Co?	}{	Co?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	582	}{	Mohu dostat pramínek tvých vlasů?	}{	Mohu dostat pramínek tvých vlasů?	}{	591	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	583	}{	Třpyť se, třpyť se, hvězdičko, jaképak máš jmeníčko?	}{	Třpyť se, třpyť se, hvězdičko, jaképak máš jmeníčko?	}{	591	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	591	}{	Roztomilý... skončils?	}{	Roztomilý... skončilas?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	592	}{	To teprve, až budu vědět, kdo jsi.	}{	To teprve, až budu vědět, kdo jsi.	}{	601	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	593	}{	Všichni jsme skončili, copak to necítíš?	}{	Všichni jsme skončili, copak to necítíš?	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	601	}{	Ash. Tak, běž to vyřídit svým kámošům, ať neotravujou.	}{	Ash. Tak, běž to vyřídit svým kámošům, ať neotravujou.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Ash_Know = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	602	}{	Tys ustaraný, padlý fénixi?	}{	Tys ustaraný, padlý fénixi?	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{	Tys ustaraný, padlý fénixi?	}
+{	603	}{	Chodím sem smrt často na sklenku? Zdá se, že na ni čekáš.	}{	Chodím sem smrt často na sklenku? Zdá se, že na ni čekáš.	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{	Chodím sem smrt často na sklenku? Zdá se, že na ni čekáš.	}
+{	610	}{	Yeah?	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	611	}{	You again. . .	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	612	}{	Get out of my club.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	613	}{	Yeah.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	614	}{	No.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	615	}{	Thanks. . .	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	616	}{	WHAT?!	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	617	}{	I have no idea.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	618	}{	Nothing I can do.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	619	}{	By the way-	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	620	}{	Here.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	621	}{	Whatever.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	632	}{	(Starting Condition)	}{		}{	561	}{	G.Ash_Saved == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	633	}{	(Starting Condition)	}{		}{	531	}{	G.Ash_Burn == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	634	}{	(Starting Condition)	}{		}{	501	}{	G.Ash_Leave == 1 and G.Story_State == 65	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	635	}{	(Starting Condition)	}{		}{	481	}{	G.Hunters_Dead == 5	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	636	}{	(Starting Condition)	}{		}{	411	}{	G.Ash_Switch >= 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	637	}{	(Starting Condition)	}{		}{	431	}{	G.Ash_Escort == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	638	}{	(Starting Condition)	}{		}{	401	}{	G.Ash_Hunters < 3 and G.Ash_Know == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	639	}{	(Starting Condition)	}{		}{	571	}{	IsClan(pc,"Malkavian") and npc.times_talked == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	640	}{	(Starting Condition)	}{		}{	1	}{	npc.times_talked == 1	}{		}{	}{	}{	}{	}{	}{	}{		}

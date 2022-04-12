@@ -1,0 +1,443 @@
+{	4	}{	[icy, proper, vindictive, condescending. Speaks snappishly. Faux british accent. Like Julianee Moore as Maude Lebowski in The Big Lebowski.]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	Vítám tě, našinče, a děkuji ti, že respektuješ naši tradici a přišel jsi ohlásit svou přítomnost v našem panství. Já jsem Ming-Xiao, nejvyšší kněžka pro obyvatele čínské čtvrti. Mohu ti něco nabídnout? Například čaj?	}{	Vítám tě, našinko, a děkuji ti, že respektuješ naši tradici a přišla jsi ohlásit svou přítomnost v našem panství. Já jsem Ming-Xiao, nejvyšší kněžka pro obyvatele čínské čtvrti. Mohu ti něco nabídnout? Například čaj?	}{	#	}{	}{	G.Ming_Met = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Ne. Čaj ne, díky.	}{	Ne. Čaj ne, díky.	}{	41	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Raději bych se něco dověděl o vašich lidech...	}{	Raději bych se něco dověděla o vašich lidech...	}{	251	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Myslím, že byste měla vědět, že jsem zabil vašeho špeha v Santa Monice.	}{	Myslím, že byste měla vědět, že jsem zabila vašeho špeha v Santa Monice.	}{	741	}{	not IsClan(pc,"Malkavian") and G.Kjspy_Dead == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	Nechte si ty zdvořilosti. Hledám tu jednoho Nosferatu.	}{	Nechte si ty zdvořilosti. Hledám tu jednoho Nosferatu.	}{	21	}{	not IsClan(pc,"Malkavian")	}{	G.Ming_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	Chtěl bych se na něco zeptat...	}{	Chtěla bych se na něco zeptat...	}{	281	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{	Aha! Královna zrcadel!	}{	Aha! Královna zrcadel!	}{	801	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	[matter of fact]Prosím, našinče. Není nezbytné být tak úšečný.	}{	[matter of fact]Prosím, našinko. Není nezbytné být tak úšečná.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Poslyšte, dámo, prostě mi řekněte, co potřebuju vědět a já zase půjdu.	}{	Poslyšte, dámo, prostě mi řekněte, co potřebuju vědět a já zase půjdu.	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	Má slova nebudu plýtvat na vás, životažroutko...	}
+{	23	}{	Jistě, omlouvám se, Ming-Xiao. Nechal jsem se unést...	}{	Jistě, omlouvám se, Ming-Xiao. Nechala jsem se unést...	}{	31	}{	}{	G.Ming_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	Omluvte můj roztřesený jazyk, královno zrcadel...	}
+{	31	}{	Dobrá. I přes nepřátelství, které panuje mezi našimi lidmi, bych čekala, že se princův agent bude chovat zdvořile. Mohu ti tedy něco nabídnout?	}{	Dobrá. I přes nepřátelství, které panuje mezi našimi lidmi, bych čekala, že se princův agent bude chovat zdvořile. Mohu ti tedy něco nabídnout?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Ne, děkuji. Musím dodržovat poněkud přísnou dietu...	}{	Ne, děkuji. Musím dodržovat poněkud přísnou dietu...	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemohu si potravu mnoho vybírat...	}
+{	33	}{	Prozatím ne. Omluvte mou strohost, ale potřebuji toho vampíra najít...	}{	Prozatím ne. Omluvte mou strohost, ale potřebuji toho vampíra najít...	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	Prosím osvětlete mou cestu k té nezvěstné zrůdě...	}
+{	34	}{	A kdo říká, že pracuji pro prince?	}{	A kdo říká, že pracuji pro prince?	}{	651	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nepřiznávám komplot s šaškoprincem...	}
+{	41	}{	O ano, to je pravda. Váš druh dokáže konzumovat pouze krev smrtelníků, že ano? Již  nemůžete vychutnávat prosté slasti světa. Škoda.	}{	O ano, to je pravda. Váš druh dokáže konzumovat pouze krev smrtelníků, že ano? Již  nemůžete vychutnávat prosté slasti světa. Škoda.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Můj druh? A jaký je potom váš druh?	}{	Můj druh? A jaký je potom váš druh?	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	Povězte o vašem druhu, královno zrcadel...	}
+{	43	}{	A vy můžete?	}{	A vy můžete?	}{	61	}{	not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	Vy můžete ty slasti vychutnávat?	}
+{	44	}{	Jak bych si to přál, ale želbohu to nejde. Váš druh může?	}{	Jak bych si to přála, ale želbohu to nejde. Váš druh může?	}{	61	}{	IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	Chtěl bych se na něco zeptat...	}{	Chtěla bych se na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	46	}{	Mějte se.	}{	Mějte se.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	50	}{	Mějte se.	}{	Mějte se.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	51	}{	Většina z nás je rovněž vyhoštěna z království slunce. A ačkoliv nás místo vzplanutí postihuje hniloba, denní světlo k nám již není vlídné.	}{	Většina z nás je rovněž vyhoštěna z království slunce. A ačkoliv nás místo vzplanutí postihuje hniloba, denní světlo k nám již není vlídné.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Jak se do tohoto stavu dostáváte?	}{	Jak se do tohoto stavu dostáváte?	}{	91	}{	G.Ming_Breath == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vysvětlete tuto záhadnou existenci...	}
+{	53	}{	Takže už za smrtelného života máte volbu stát se nadpřirozeným?	}{	Takže už za smrtelného života máte volbu stát se nadpřirozeným?	}{	101	}{	G.Ming_Breath == 1	}{	}{	}{	}{	}{	}{	}{	}{	Volíte si tento nadpřirozený stav?	}
+{	58	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	59	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	60	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	61	}{	Ano. My Kuei-jinové[KWAY-jin] se vašim našincům podobáme mnohem méně, než si zřejmě myslíš.	}{	Ano. My Kuei-jinové[KWAY-jin] se vašim našincům podobáme mnohem méně, než si zřejmě myslíš.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Ale jste vampíři, že ano?	}{	Ale jste vampíři, že ano?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ale proudí ve vás Kainova kletba?	}
+{	63	}{	Kuei-jinové?	}{	Kuei-jinové?	}{	251	}{	G.Ming_Kjname == 0	}{	}{	}{	}{	}{	}{	}{	}{	Kuei-jinové?	}
+{	64	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	69	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	70	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	71	}{	[slight laugh-laughing at the naivete of the question]Jsme nadpřirození. To ale neznamená, že jsme jako vy. Jsme vráceni do existence Druhým dechem za jistým účelem.	}{	[slight laugh-laughing at the naivete of the question]Jsme nadpřirození. To ale neznamená, že jsme jako vy. Jsme vráceni do existence Druhým dechem za jistým účelem.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Chcete tím říci, že nemáme společného vůbec nic?	}{	Chcete tím říci, že nemáme společného vůbec nic?	}{	81	}{	G.Ming_Unlife == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jsou natolik jiné, duše Kuei-jinů a našinců?	}
+{	73	}{	Druhým dechem?	}{	Druhým dechem?	}{	91	}{	G.Ming_Unlife == 0	}{	}{	}{	}{	}{	}{	}{	}{	Druhým dechem?	}
+{	74	}{	Za jakým účelem?	}{	Za jakým účelem?	}{	111	}{	G.Ming_Unlife == 0	}{	}{	}{	}{	}{	}{	}{	}{	Nakreslete mi ten účel...	}
+{	75	}{	Vy máte tedy kuráž takto našince urážet...	}{	Vy máte tedy kuráž takto našince urážet...	}{	131	}{	G.Ming_Unlife == 0 and G.Ming_Sorry < 2	}{	}{	}{	}{	}{	}{	}{	}{	Nehovořte tak hanebně o mých bratřích v krvi!	}
+{	76	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	77	}{	Ještě bych se rád dověděl něco o Kuei-jinech...	}{	Ještě bych se ráda dověděla něco o Kuei-jinech...	}{	711	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Rozkryjte hlavolam Kuei-jinů!	}
+{	78	}{	Ale aspoň něco společného máme, ne?	}{	Ale aspoň něco společného máme, ne?	}{	81	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Je takový kontrast mezi Kuei-jiny a našinci?	}
+{	81	}{	Spojují nás jisté rysy. Kuei-jinové se také živí esencemi, které jsou obsaženy v krvi, ano... Ale jak postupně kultivujeme své bytí, jen zřídka se snižujeme ke konzumaci tělesných tekutin jiných tvorů.	}{	Spojují nás jisté rysy. Kuei-jinové se také živí esencemi, které jsou obsaženy v krvi, ano... Ale jak postupně kultivujeme své bytí, jen zřídka se snižujeme ke konzumaci tělesných tekutin jiných tvorů.	}{	#	}{	}{	G.Ming_Feed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Co máme ještě společného?	}{	Co máme ještě společného?	}{	51	}{	G.Ming_Unlife == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jaké jiné řeky nás spojují?	}
+{	83	}{	Jak se do tohoto stavu dostáváte?	}{	Jak se do tohoto stavu dostáváte?	}{	91	}{	G.Ming_Unlife == 0 and G.Ming_Breath == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vysvětlete tuto záhadnou existenci...	}
+{	84	}{	Takže už za smrtelného života máte volbu stát se nadpřirozeným?	}{	Takže už za smrtelného života máte volbu stát se nadpřirozeným?	}{	101	}{	G.Ming_Unlife == 0 and G.Ming_Breath == 1	}{	}{	}{	}{	}{	}{	}{	}{	Volíte si tento nadpřirozený stav?	}
+{	85	}{	Aha, takže já jsem jen nějaké ubohé psisko, co chlemtá krev?	}{	Aha, takže já jsem jen nějaké ubohé psisko, co chlemtá krev?	}{	131	}{	G.Ming_Unlife == 0 and G.Ming_Sorry < 2	}{	}{	}{	}{	}{	}{	}{	}{	Vaše lascivní rty se o mně vyjadřují hanebně!	}
+{	86	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	87	}{	Ještě bych se rád dověděl něco o Kuei-jinech...	}{	Ještě bych se ráda dověděla něco o Kuei-jinech...	}{	711	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Rozkryjte hlavolam Kuei-jinů!	}
+{	88	}{	Musí se tomu přijít na chuť. Nashle.	}{	Musí se tomu přijít na chuť. Nashle.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Nemluvte, dokud neochutnáte naši červenou krmi. Odcházím...	}
+{	89	}{	Musí se tomu přijít na chuť. Nashle.	}{	Musí se tomu přijít na chuť. Nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Nemluvte, dokud neochutnáte naši červenou krmi. Odcházím...	}
+{	90	}{	Vám bych nejradši vysál tělesný tekutiny, vy mrcho. Nashle...	}{	Vám bych nejradši vysála tělesný tekutiny, vy mrcho. Nashle...	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše tekutiny se spustí s takovými slovy, démonská kněžko. Sbohem.	}
+{	91	}{	Druhý dech. To je naše zrození do nadpřirozené podoby. Jedná se o duševní probuzení, ne o nějaký mrzký krvavý rituál, skrze který se šíří ohavná kletba.	}{	Druhý dech. To je naše zrození do nadpřirozené podoby. Jedná se o duševní probuzení, ne o nějaký mrzký krvavý rituál, skrze který se šíří ohavná kletba.	}{	#	}{	}{	G.Ming_Breath = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Ale máme leccos společného.	}{	Ale máme leccos společného.	}{	81	}{	G.Ming_Unlife == 0 and G.Ming_Feed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ale vrháme podobné stíny....	}
+{	93	}{	Takže už za smrtelného života máte volbu stát se nadpřirozeným?	}{	Takže už za smrtelného života máte volbu stát se nadpřirozeným?	}{	101	}{	G.Ming_Unlife == 0 and G.Ming_Feed == 1	}{	}{	}{	}{	}{	}{	}{	}{	Volíte si tento nadpřirozený stav?	}
+{	94	}{	Jo aha. Takže vy jste andělé a my jenom krvelačný zrůdy, že jo?	}{	Jo aha. Takže vy jste andělé a my jenom krvelačný zrůdy, že jo?	}{	131	}{	G.Ming_Unlife == 0 and G.Ming_Sorry < 2	}{	}{	}{	}{	}{	}{	}{	}{	Ohavná je vidlice vašeho démonského jazyku!	}
+{	96	}{	Jasně. A mohla jste si tento život vybrat předem?	}{	Jasně. A mohla jste si tento život vybrat předem?	}{	101	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Za smrtelna jste si zvolila tuto nadpozemskou existenci?	}
+{	97	}{	Ještě bych se rád dověděl něco o Kuei-jinech...	}{	Ještě bych se ráda dověděla něco o Kuei-jinech...	}{	711	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Rozkryjte hlavolam Kuei-jinů!	}
+{	98	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	99	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	100	}{	Veďte dál takovýhle řeči a dočkáte se dalšího duševního probuzení. Nashle...	}{	Veďte dál takovýhle řeči a dočkáte se dalšího duševního probuzení. Nashle...	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Probudím vás do pekla rozeklaného jazyku... Sbohem.	}
+{	101	}{	Ne, nemáme tuto volbu, ale události v našich životech mohou probudit temnou spirituální energii. Nerodíme se z rozmaru někoho jiného jako našinci.	}{	Ne, nemáme tuto volbu, ale události v našich životech mohou probudit temnou spirituální energii. Nerodíme se z rozmaru někoho jiného jako našinci.	}{	#	}{	}{	G.Ming_Whim = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Tak proč jsou někteří vybráni stát se nadpřirozenými?	}{	Tak proč jsou někteří vybráni stát se nadpřirozenými?	}{	111	}{	G.Ming_Unlife == 0 and G.Ming_Purpose == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jaký je důvod za tímto nešťastným osudem?	}
+{	103	}{	No to je jedno. Já bych řekl, že jste na tom stejně mizerně jako my.	}{	No to je jedno. Já bych řekla, že jste na tom stejně mizerně jako my.	}{	121	}{	G.Ming_Unlife == 0 and G.Ming_Purpose == 1	}{	}{	}{	}{	}{	}{	}{	}{	Máte jiné oblečky, ale prokletí jste stejně...	}
+{	104	}{	Tak proč jsou někteří vybráni a jiní ne?	}{	Tak proč jsou někteří vybráni a jiní ne?	}{	111	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jaký je důvod za tímto nešťastným osudem?	}
+{	105	}{	Ještě bych se rád dověděl něco o Kuei-jinech...	}{	Ještě bych se ráda dověděla něco o Kuei-jinech...	}{	711	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Rozkryjte hlavolam Kuei-jinů!	}
+{	106	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	107	}{	Vy ale můžete chcípnout z mýho rozmaru, jestli povedete takový řeči...	}{	Vy ale můžete chcípnout z mýho rozmaru, jestli povedete takový řeči...	}{	691	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mé rozmary mohou válčit s vašimi, démonská kněžko. Sbohem.	}
+{	111	}{	Důvodů je tolik, kolik je samých Kuei-jinů. Každý z nich je znovuzrozen s nějakým cílem, který musí nalézt. Jakmile je mu jeho cesta zřejmá, musí se snažit dojít na její konec, i když to má trvat věky.	}{	Důvodů je tolik, kolik je samých Kuei-jinů. Každý z nich je znovuzrozen s nějakým cílem, který musí nalézt. Jakmile je mu jeho cesta zřejmá, musí se snažit dojít na její konec, i když to má trvat věky.	}{	#	}{	}{	G.Ming_Purpose = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	To zní dost podobně jako kletba uchvácení Kainem.	}{	To zní dost podobně jako kletba uchvácení Kainem.	}{	121	}{	G.Ming_Unlife == 0 and G.Ming_Whim == 1	}{	}{	}{	}{	}{	}{	}{	}{	Máte jiné oblečky, ale prokletí jste stejně...	}
+{	113	}{	V čem se vlastně Kuei-jinové a našinci podobají?	}{	V čem se vlastně Kuei-jinové a našinci podobají?	}{	81	}{	G.Ming_Unlife == 0 and G.Ming_Whim == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jaké jiné řeky nás spojují?	}
+{	114	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	117	}{	Už musím běžet.	}{	Už musím běžet.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	118	}{	Už musím běžet.	}{	Už musím běžet.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	119	}{	Mně přijde, že tento rozhovor trvá věky. Nashle.	}{	Mně přijde, že tento rozhovor trvá věky. Nashle.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše vlažné řeci jsou věčnost. Sbohem...	}
+{	121	}{	Právě naopak. Je to pro nás další příležitost najít své místo ve vesmíru, šance povznést naši existenci. Nejsme zatracení a zatížení nějakým prastarým hříchem, jak je tomu v legendě o vašem biblickém praotci.	}{	Právě naopak. Je to pro nás další příležitost najít své místo ve vesmíru, šance povznést naši existenci. Nejsme zatracení a zatížení nějakým prastarým hříchem, jak je tomu v legendě o vašem biblickém praotci.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Když už mluvíme o legendách, slyšela jste o Ankarském sarkofágu?	}{	Když už mluvíme o legendách, slyšela jste o Ankarském sarkofágu?	}{	351	}{	G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	Slyšely vaše uši o Ankarském sarkofágu?	}
+{	123	}{	To je legrace. Vy tomu doopravdy věříte?	}{	To je legrace. Vy tomu doopravdy věříte?	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vy vážně těm zmateným blábolům věříte?	}
+{	125	}{	Už musím běžet.	}{	Už musím běžet.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	126	}{	Už musím běžet.	}{	Už musím běžet.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	127	}{	Uf, musím se jít povznést nad tyhle kydy. Nashle.	}{	Uf, musím se jít povznést nad tyhle kydy. Nashle.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechť osud přesáhne mou bytost daleko od těchto volovin. Sbohem.	}
+{	131	}{	To ne, milý našinče. To musí být nedorozumění. Nechtěla jsem tě urazit.	}{	To ne, milá našinko. To musí být nedorozumění. Nechtěla jsem tě urazit.	}{	#	}{	G.Ming_Sorry = G.Ming_Sorry + 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Myslím, že chtěla. Od začátku se navážíte do našich vampírů a do mě.	}{	Myslím, že chtěla. Od začátku se navážíte do našich vampírů a do mě.	}{	321	}{	G.Ming_Sorry == 2	}{	}{	}{	}{	}{	}{	}{	}{	Vaše slova špiní mě i mé pokrevní bratry...	}
+{	133	}{	To je lepší. Tak řekněte, v čem jsme si podobní?	}{	To je lepší. Tak řekněte, v čem jsme si podobní?	}{	81	}{	G.Ming_Feed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jsou tedy Kuei-jini a našinci tak rozdílní?	}
+{	134	}{	No proto. Prozraďte mi, jak se vlastně do tohoto stavu dostáváte?	}{	No proto. Prozraďte mi, jak se vlastně do tohoto stavu dostáváte?	}{	91	}{	G.Ming_Breath == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jak dospějete do své nadpozemské existence?	}
+{	135	}{	No vidíte. Takže zaživa jste si mohla vybrat, že se stanete nadpřirozenou?	}{	No vidíte. Takže zaživa jste si mohla vybrat, že se stanete nadpřirozenou?	}{	101	}{	G.Ming_Breath == 1 or G.Ming_Feed == 1	}{	}{	}{	}{	}{	}{	}{	}{	Zvolila jste si svůj nadpřirozený stav?	}
+{	136	}{	Už musím běžet.	}{	Už musím běžet.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	137	}{	Už musím běžet.	}{	Už musím běžet.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	138	}{	Trhněte si nohou. Nashle.	}{	Trhněte si nohou. Nashle.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	A já vás nechci urazit tímto prostředníčkem. Sbohem.	}
+{	141	}{	Ne. Kuei-jinové se neprobudí po Druhém dechu s vědomím svého nového stavu. Cesta jejich osvícení je vždy dlouhá a svízelná. Mnoho z nich zakusí konečnou smrt dříve, než vůbec zjistí, co se s nimi stalo.	}{	Ne. Kuei-jinové se neprobudí po Druhém dechu s vědomím svého nového stavu. Cesta jejich osvícení je vždy dlouhá a svízelná. Mnoho z nich zakusí konečnou smrt dříve, než vůbec zjistí, co se s nimi stalo.	}{	#	}{	}{	G.Ming_Unlife = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Zdá se, že vaše cesta je úzce spjata se smrtelníky.	}{	Zdá se, že vaše cesta je úzce spjata se smrtelníky.	}{	151	}{	pc.perception > 3 and pc.intelligence > 2 and G.Ming_Human == 0	}{	}{	}{	}{	}{	}{	}{	}{	Zdá se, že kráčíte po stejné cestě jako vaši smrtelní nohsledi.	}
+{	143	}{	Jaký vztah mají Kuei-jinové k lidem?	}{	Jaký vztah mají Kuei-jinové k lidem?	}{	151	}{	pc.perception > 3 and pc.intelligence > 2 and G.Ming_Human == 0	}{	}{	}{	}{	}{	}{	}{	}{	Kuei-jini se mísí s lidským stádem?	}
+{	144	}{	Říkala jste, že vaše existence je veřejné tajemství, ale před smrtelníky se přesto skrýváte...	}{	Říkala jste, že vaše existence je veřejné tajemství, ale před smrtelníky se přesto skrýváte...	}{	161	}{	G.Ming_Human == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ale přesto se ukrýváte před lidským stádem...	}
+{	145	}{	Takže děláte kněžku smrtelným i nemrtvým? To musí být spousta práce.	}{	Takže děláte kněžku smrtelným i nemrtvým? To musí být spousta práce.	}{	171	}{	G.Ming_Human == 2	}{	}{	}{	}{	}{	}{	}{	}{	Provázíte jak smrtelné, tak mystické duše?	}
+{	146	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	149	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	150	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	151	}{	V naší vlasti žijí lidé i nadpřirození v křehké rovnováze. Naši smrtelní vidí duševno v každé věci a naši existenci tedy považují za samozřejmou. Veřejné tajemství se nejlépe udrží.	}{	V naší vlasti žijí lidé i nadpřirození v křehké rovnováze. Naši smrtelní vidí duševno v každé věci a naši existenci tedy považují za samozřejmou. Veřejné tajemství se nejlépe udrží.	}{	#	}{	}{	G.Ming_Human = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Vy se před nimi neskrýváte?	}{	Vy se před nimi neskrýváte?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zahalují se Kuei-jinové do hávu tajemství?	}
+{	153	}{	Ale skrýváte se jako my všichni.	}{	Ale skrýváte se jako my všichni.	}{	161	}{	G.Ming_Kjname > 0	}{	}{	}{	}{	}{	}{	}{	}{	Ale přesto se ukrýváte před lidským stádem...	}
+{	154	}{	Tou 'vaší existencí' myslíte východní vampíry?	}{	Tou 'vaší existencí' myslíte východní vampíry?	}{	251	}{	G.Ming_Kjname == 0	}{	}{	}{	}{	}{	}{	}{	}{	Povězte více o této východní existenci...	}
+{	155	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	159	}{	Tak se mějte.	}{	Tak se mějte.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	160	}{	Tak nashle.	}{	Tak nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem pryč.	}
+{	161	}{	Skrýváme se. Cílem Kuei-jinů je vyšší stav bytí. Zasahování do životů smrtelníků nebo jejich zasahování do našich neživotů nás z této cesty svádí.	}{	Skrýváme se. Cílem Kuei-jinů je vyšší stav bytí. Zasahování do životů smrtelníků nebo jejich zasahování do našich neživotů nás z této cesty svádí.	}{	#	}{	}{	G.Ming_Human = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Ale sloužíte jako kněžka i lidem, že ano?	}{	Ale sloužíte jako kněžka i lidem, že ano?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Provázíte jak smrtelné, tak mystické duše?	}
+{	163	}{	Kuei-jinů?	}{	Kuei-jinů?	}{	251	}{	G.Ming_Kjname == 0	}{	}{	}{	}{	}{	}{	}{	}{	Kuei-jinů?	}
+{	166	}{	Jasně, dokud nepotřebujete nějakého vysát do sucha, že?	}{	Jasně, dokud nepotřebujete nějakého vysát do sucha, že?	}{	181	}{	G.Ming_Humandone == 1 & Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Povyšujete také vyprázdnění jejích žil?	}
+{	167	}{	Zajisté zasahujete do jejich životů, když dostanete hlad...	}{	Zajisté zasahujete do jejich životů, když dostanete hlad...	}{	181	}{	G.Ming_Humandone == 1 & Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Sání krve mi připadá jako nutné zasahování...	}
+{	168	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	169	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	170	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	171	}{	Můj osud se dotýká mnoha životů... Taková je má cesta.	}{	Můj osud se dotýká mnoha životů... Taková je má cesta.	}{	#	}{	}{	G.Ming_Human = 3	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	A není to právě zasahování?	}{	A není to právě zasahování?	}{	191	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Takže zasahujete?	}
+{	173	}{	Jasný... Podobně jako hladovej pastýř dohlíží na stádo, že?	}{	Jasný... Podobně jako hladovej pastýř dohlíží na stádo, že?	}{	181	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Vaše cesta ja cesta hladového vlka, dámo...	}
+{	174	}{	Přesnější by asi bylo, že mnoho životů slouží vašemu osudu...	}{	Přesnější by asi bylo, že mnoho životů slouží vašemu osudu...	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	Toto stádo slouží vašim temným plánům...	}
+{	178	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	179	}{	No to je fuk. Zvedám kotvy, nashle.	}{	No to je fuk. Zvedám kotvy, nashle.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem pryč.	}
+{	180	}{	No to je fuk. Zvedám kotvy, nashle.	}{	No to je fuk. Zvedám kotvy, nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem pryč.	}
+{	181	}{	My Kuei-jinové si smrtelníky nepodmaňujeme, jako to dělají našinci. Ať už z pozice brutálních pánů nebo skrytých loutkářů, vy se vyžíváte ve své nadřazenosti k přirozeně slabším bytostem.	}{	My Kuei-jinové si smrtelníky nepodmaňujeme, jako to dělají našinci. Ať už z pozice brutálních pánů nebo skrytých loutkářů, vy se vyžíváte ve své nadřazenosti k přirozeně slabším bytostem.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Slabším bytostem?	}{	Slabším bytostem?	}{	191	}{	not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	Slabším bytostem?	}
+{	183	}{	Staráte se o smrtelné duše a přitom jimi pohrdáte a nazýváte je slabými?	}{	Staráte se o smrtelné duše a přitom jimi pohrdáte a nazýváte je slabými?	}{	191	}{	IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	184	}{	Já si nikoho nepodmaňuji. Schopnost vést tyto 'slabší bytosti' je dar.	}{	Já si nikoho nepodmaňuji. Schopnost vést tyto 'slabší bytosti' je dar.	}{	191	}{	IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	185	}{	Vy se mě snažíte rozčílit?	}{	Vy se mě snažíte rozčílit?	}{	241	}{	G.Ming_Sorry < 2	}{	}{	}{	}{	}{	}{	}{	}{	Vaše slova narušují rovnováhu mé mysli, démonko...	}
+{	186	}{	Chcete tím říct, že vaši lidé se nadpřirozena nebojí?	}{	Chcete tím říct, že vaši lidé se nadpřirozena nebojí?	}{	201	}{	G.Ming_Humandone == 1	}{	}{	}{	}{	}{	}{	}{	}{	Vaše stádo se vašeho ztělesnění nestrachuje?	}
+{	187	}{	Tohle je nuda. Nashle.	}{	Tohle je nuda. Nashle.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	190	}{	Tohle je nuda. Nashle.	}{	Tohle je nuda. Nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	191	}{	Myslela jsem to v tom nanejvýš praktickém významu. Nebo snad rodič pohrdá svým dítětem, když ho chrání? Pomoc slabším než jsem já, je dogma našeho řádu.	}{	Myslela jsem to v tom nanejvýš praktickém významu. Nebo snad rodič pohrdá svým dítětem, když ho chrání? Pomoc slabším než jsem já, je dogma našeho řádu.	}{	#	}{	}{	G.Ming_Human = 4	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	S tím rozhodně souhlasím...	}{	S tím rozhodně souhlasím...	}{	231	}{	IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	193	}{	Už rozumím...	}{	Už rozumím...	}{	201	}{	Humanity 4	}{	}{	}{	}{	}{	}{	}{	}{	Vaše slova nesou pravdu, královno zrcadel...	}
+{	194	}{	Smrtelníci... Kdo je potřebuje jinak než jako šťavnatou kořist?	}{	Smrtelníci... Kdo je potřebuje jinak než jako šťavnatou kořist?	}{	201	}{	Humanity -4	}{	}{	}{	}{	}{	}{	}{	}{	Raději hasím žízeň na slepém stádu...	}
+{	195	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	199	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	200	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	201	}{	Smrtelníci v našem panství jsou úžasně skromní, prostí a nesnaží se k sobě přitáhnout pozornost nadpřirozena. A to je více, než se dá říci o Západním stádu.	}{	Smrtelníci v našem panství jsou úžasně skromní, prostí a nesnaží se k sobě přitáhnout pozornost nadpřirozena. A to je více, než se dá říci o Západním stádu.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	Co tím chcete říct?	}{	Co tím chcete říct?	}{	211	}{	Humanity 4	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte dál, královno zrcadel...	}
+{	203	}{	Krev teče ze všech stejně...	}{	Krev teče ze všech stejně...	}{	211	}{	Humanity -4	}{	}{	}{	}{	}{	}{	}{	}{	Sladká to krev mé neúčelné kořisti...	}
+{	204	}{	Aha, takže teď už jsou podřadní i naši smrtelníci?	}{	Aha, takže teď už jsou podřadní i naši smrtelníci?	}{	241	}{	G.Ming_Sorry < 2	}{	}{	}{	}{	}{	}{	}{	}{	I stádo našinců je bezcenné, démonko?	}
+{	207	}{	To zní, jako že ty smrtelníky respektujete...	}{	To zní, jako že ty smrtelníky respektujete...	}{	211	}{	G.Ming_Humandone == 1	}{	}{	}{	}{	}{	}{	}{	}{	Máte lidské stádo ve velké úctě?	}
+{	208	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	209	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	210	}{	Vidíte ten prst? To je západně řečeno 'už mám těch keců dost'. Nashle.	}{	Vidíte ten prst? To je západně řečeno 'už mám těch keců dost'. Nashle.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jistě rozumíte západně vztyčenému prostředníčku. Sbohem.	}
+{	211	}{	Nebyli jsme snad všichni kdysi lidmi? Copak ti není zřejmé, že smrt není konec? Je proto neodůvodněné domnívat se, že nás čeká další existence? Že se všichni pouze proměňujeme?	}{	Nebyli jsme snad všichni kdysi lidmi? Copak ti není zřejmé, že smrt není konec? Je proto neodůvodněné domnívat se, že nás čeká další existence? Že se všichni pouze proměňujeme?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	Také si myslím. Úžasná moudrost.	}{	Také si myslím. Úžasná moudrost.	}{	221	}{	G.Ming_Humandone == 0 and IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	213	}{	Myslím, že rozumím...	}{	Myslím, že rozumím...	}{	221	}{	G.Ming_Humandone == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vaše slova zvoní pravdou, královno zrcadel...	}
+{	214	}{	No já vážně nevím...	}{	No já vážně nevím...	}{	221	}{	G.Ming_Humandone == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vaše hloubání je zavádějící...	}
+{	215	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	G.Ming_Humandone == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	216	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	220	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	221	}{	A to je náš cíl. Nebo alespoň jeho popis, který ti mohu poskytnout.	}{	A to je náš cíl. Nebo alespoň jeho popis, který ti mohu poskytnout.	}{	#	}{	}{	G.Ming_Human = 5; G.Ming_Humandone = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	227	}{	No teda, na mrtvou ženskou jste pěkně nafoukaná, nemyslíte?	}{	No teda, na mrtvou ženskou jste pěkně nafoukaná, nemyslíte?	}{	241	}{	G.Ming_Sorry < 2	}{	}{	}{	}{	}{	}{	}{	}{	Váš jazyk je jedovatý, dámo...	}
+{	228	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	229	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	230	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	231	}{	Vskutku. Přístup klanu Ventrue je mi znám[VEN-troo] a mohu říci, že máme leccos společného. Rozumíme lépe než jiní, jak fungují společenství lidí a nás nadpřirozených.	}{	Vskutku. Přístup klanu Ventrue je mi znám[VEN-troo] a mohu říci, že máme leccos společného. Rozumíme lépe než jiní, jak fungují společenství lidí a nás nadpřirozených.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	232	}{	Je to tak.	}{	Je to tak.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	241	}{	Nikoliv. Omlouvám se, pokud se vyjadřuji příliš příkře. Patří to k naší kultuře.	}{	Nikoliv. Omlouvám se, pokud se vyjadřuji příliš příkře. Patří to k naší kultuře.	}{	#	}{	G.Ming_Sorry = G.Ming_Sorry + 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	242	}{	Jo, pokud příkře znamená, že neustále urážíte našince...	}{	Jo, pokud příkře znamená, že neustále urážíte našince...	}{	321	}{	G.Ming_Sorry == 2	}{	}{	}{	}{	}{	}{	}{	}{	Vaše příkrost tne do mých bratří...	}
+{	243	}{	A co ty přirozeně slabší bytosti? Jak tomu mám rozumět?	}{	A co ty přirozeně slabší bytosti? Jak tomu mám rozumět?	}{	191	}{	G.Ming_Human == 3	}{	G.Ming_Sorry = 1	}{	}{	}{	}{	}{	}{	}{	Barvíte naše stádo do odstínů slabosti...	}
+{	244	}{	Každopádně stále urážíte jak našince, tak smrtelníky.	}{	Každopádně stále urážíte jak našince, tak smrtelníky.	}{	211	}{	G.Ming_Human == 4	}{	G.Ming_Sorry = 1	}{	}{	}{	}{	}{	}{	}{	Vaše urážky se zarývají jak do našinců, tak do ovcí...	}
+{	246	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	G.Ming_Human == 5	}{	G.Ming_Sorry = 1	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	247	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	248	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	249	}{	Už lituju, že jsem to tohodle cvokhauzu lezl. Mějte se...	}{	Už lituju, že jsem to tohodle cvokhauzu lezla. Mějte se...	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Aby vás vaše kultura nevyprovodila ke dveřím smrti, démonko...	}
+{	251	}{	My jsme Kuei-jinové, ale je možné, žes o nás slyšel jako o [scornful]vampírech Východu. Mohu tě ujistit, že je to zcela nesprávné označení.	}{	My jsme Kuei-jinové, ale je možné, žes o nás slyšela jako o [scornful]vampírech Východu. Mohu tě ujistit, že je to zcela nesprávné označení.	}{	#	}{	}{	G.Ming_Kjname = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	252	}{	A vy jste vůdkyně těch Kuei-jinů?	}{	A vy jste vůdkyně těch Kuei-jinů?	}{	261	}{	}{	G.Ming_Kjname = G.Ming_Kjname + 1	}{	}{	}{	}{	}{	}{	}{	A vy vedete tyto životažrouty?	}
+{	253	}{	A pocházíte také od Kaina?	}{	A pocházíte také od Kaina?	}{	271	}{	}{	G.Ming_Kjname = G.Ming_Kjname + 1	}{	}{	}{	}{	}{	}{	}{	Proudí ve vašich žilách Kainova kletba?	}
+{	254	}{	Nesprávné? To mi není jasné. Jste přece vampíři, ne?	}{	Nesprávné? To mi není jasné. Jste přece vampíři, ne?	}{	71	}{	G.Ming_Feed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Kuei-jinové přece jsou vampíři, ano?	}
+{	255	}{	A Kuei-jinové se před lidmi nemusí skrývat?	}{	A Kuei-jinové se před lidmi nemusí skrývat?	}{	161	}{	G.Ming_Human == 1	}{	}{	}{	}{	}{	}{	}{	}{	Kryjí se Kuei-jinové závojem tajemství?	}
+{	256	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	G.Ming_Human == 5	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	261	}{	V jistém smyslu ano. Můžeš mě považovat za baronku čínské čtvrti, abych ti svou pozici přiblížila jazykem, kterému porozumíš.	}{	V jistém smyslu ano. Můžeš mě považovat za baronku čínské čtvrti, abych ti svou pozici přiblížila jazykem, kterému porozumíš.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	262	}{	A pocházíte také od Kaina?	}{	A pocházíte také od Kaina?	}{	271	}{	G.Ming_Kjname == 2	}{	G.Ming_Kjname = G.Ming_Kjname + 1	}{	}{	}{	}{	}{	}{	}{	Proudí ve vašich žilách Kainova kletba?	}
+{	263	}{	Tak moment. Jste vampíři, že ano?	}{	Tak moment. Jste vampíři, že ano?	}{	71	}{	G.Ming_Feed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Nazýváte se našinci?	}
+{	264	}{	A Kuei-jinové se před lidmi nemusí skrývat?	}{	A Kuei-jinové se před lidmi nemusí skrývat?	}{	161	}{	G.Ming_Human == 1	}{	}{	}{	}{	}{	}{	}{	}{	Kryjí se Kuei-jinové závojem tajemství?	}
+{	265	}{	Takže děláte kněžku smrtelným i nemrtvým? To musí být spousta práce.	}{	Takže děláte kněžku smrtelným i nemrtvým? To musí být spousta práce.	}{	171	}{	G.Ming_Human == 2	}{	}{	}{	}{	}{	}{	}{	}{	Provázíte jak smrtelné, tak mystické duše?	}
+{	266	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	G.Ming_Human == 5	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	268	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	269	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	270	}{	A co vy, porozumíte slovu svině? Nashle...	}{	A co vy, porozumíte slovu svině? Nashle...	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nesnesu více vašeho hadího jazyka. Sbohem.	}
+{	271	}{	[laughing at the charming naivete of the question]Ne. Nejsme jen nějaká exotická pokrevní linie Kainitů.	}{	[laughing at the charming naivete of the question]Ne. Nejsme jen nějaká exotická pokrevní linie Kainitů.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	272	}{	A vy jste vůdkyně těch Kuei-jinů?	}{	A vy jste vůdkyně těch Kuei-jinů?	}{	261	}{	G.Ming_Kjname == 2	}{	G.Ming_Kjname = G.Ming_Kjname + 1	}{	}{	}{	}{	}{	}{	}{	A vy vedete tyto životažrouty?	}
+{	273	}{	Ale jste vampíři, že?	}{	Ale jste vampíři, že?	}{	71	}{	G.Ming_Feed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Nosíte přesto vampírský závoj?	}
+{	274	}{	A Kuei-jinové se před lidmi nemusí skrývat?	}{	A Kuei-jinové se před lidmi nemusí skrývat?	}{	161	}{	G.Ming_Human == 1	}{	}{	}{	}{	}{	}{	}{	}{	Kryjí se Kuei-jinové závojem tajemství?	}
+{	275	}{	Takže děláte kněžku smrtelným i nemrtvým? To musí být spousta práce.	}{	Takže děláte kněžku smrtelným i nemrtvým? To musí být spousta práce.	}{	171	}{	G.Ming_Human == 2 and G.Ming_Kjname == 3	}{	}{	}{	}{	}{	}{	}{	}{	Provázíte jak smrtelné, tak mystické duše?	}
+{	276	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	G.Ming_Human == 5	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	277	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	278	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	279	}{	Ujišťuji vás, že jsme tomu všichni rádi. Sbohem.	}{	Ujišťuji vás, že jsme tomu všichni rádi. Sbohem.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	To našince zajisté naplňuje radostí, sbohem.	}
+{	281	}{	S čím ti mohu pomoci?	}{	S čím ti mohu pomoci?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	282	}{	Řekněte mi něco o vaší rase...	}{	Řekněte mi něco o vaší rase...	}{	251	}{	G.Ming_Kjname == 0	}{	}{	}{	}{	}{	}{	}{	}{	Povězte více o svých lidech, královno zrcadel...	}
+{	283	}{	Rád bych se zeptal na něco o Kuei-jinech...	}{	Ráda bych se zeptala na něco o Kuei-jinech...	}{	291	}{	G.Ming_Kjname > 0	}{	}{	}{	}{	}{	}{	}{	}{	Rozkryjte hlavolam Kuei-jinů!	}
+{	284	}{	Nevíte, jestli je v čínské čtvrti nějaký Hengeyokai?	}{	Nevíte, jestli je v čínské čtvrti nějaký Hengeyokai?	}{	461	}{	G.Yukie_Quest == 1 and G.Ming_Ziggy == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hledám hrozného Hengeyokaie...	}
+{	285	}{	Povězte mi znovu o tom Hengeyokai.	}{	Povězte mi znovu o tom Hengeyokai.	}{	481	}{	G.Ming_Ziggy == 1 and G.Zyg_Meet == 0 and G.Yukie_Market == 0 and not IsDead("Zygaena")	}{	}{	}{	}{	}{	}{	}{	}{	Povězte ještě o hrozném Hengeyokai...	}
+{	286	}{	Hledám nezvěstného Nosferatu...	}{	Hledám nezvěstného Nosferatu...	}{	421	}{	G.Ming_Barrabus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Sháním noční dítě od Nosferatu...	}
+{	287	}{	Stále hledám toho Nosferatu? Kam že mám jít?	}{	Stále hledám toho Nosferatu? Kam že mám jít?	}{	441	}{	G.Ming_Barrabus > 0 and pc.GetQuestState("Barabus") > 3	}{	}{	}{	}{	}{	}{	}{	}{	Kde že mohu najít noční dítě od Nosferatu?	}
+{	288	}{	Kde najdu Tongy?	}{	Kde najdu Tongy?	}{	581	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Kde najdu Tongy?	}
+{	290	}{	Vlastně s ničím, nashle.	}{	Vlastně s ničím, nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	291	}{	Je toho mnoho, co se našinci o naší kultuře musí naučit.	}{	Je toho mnoho, co se našinci o naší kultuře musí naučit.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	292	}{	Zajímá mě společnost Kuei-jinů...	}{	Zajímá mě společnost Kuei-jinů...	}{	711	}{	}{	}{	}{	}{	}{	}{	}{	}{	Povězte o svém tajném společenství...	}
+{	293	}{	Zajímá mě váš vztah k lidem...	}{	Zajímá mě váš vztah k lidem...	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Povězte o lidském stádu...	}
+{	294	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	295	}{	To si nemyslím. Mějte se.	}{	To si nemyslím. Mějte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	301	}{	K lidem? Co přesně tě zajímá?	}{	K lidem? Co přesně tě zajímá?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	302	}{	Jak vedle sebe existujete?	}{	Jak vedle sebe existujete?	}{	151	}{	G.Ming_Humandone == 0 and G.Ming_Human == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jak se mísíte se smrtelníky?	}
+{	303	}{	Vy se před nimi nemusíte skrývat?	}{	Vy se před nimi nemusíte skrývat?	}{	161	}{	G.Ming_Humandone == 0 and G.Ming_Human == 1	}{	}{	}{	}{	}{	}{	}{	}{	Skrývají se Kuei-jinové pod závoj tajemství?	}
+{	304	}{	Děláte kněžku lidem i nemrtvým, kteří se na nich pasou?	}{	Děláte kněžku lidem i nemrtvým, kteří se na nich pasou?	}{	171	}{	G.Ming_Humandone == 0 and G.Ming_Human == 2	}{	}{	}{	}{	}{	}{	}{	}{	Vedete smrtelné i mystické duše?	}
+{	305	}{	Proč vlastně sloužíte těm, na kterých se pasete?	}{	Proč vlastně sloužíte těm, na kterých se pasete?	}{	181	}{	G.Ming_Humandone == 0 and G.Ming_Human == 3	}{	}{	}{	}{	}{	}{	}{	}{	Proč vést duše, jež jsou vám potravou?	}
+{	306	}{	Není to těžké zůstat před nimi v tajnosti?	}{	Není to těžké zůstat před nimi v tajnosti?	}{	201	}{	G.Ming_Humandone == 0 and G.Ming_Human == 4	}{	}{	}{	}{	}{	}{	}{	}{	Jak se skýváte před smrtelným stádem?	}
+{	307	}{	Musíte se před nimi taky schovávat?	}{	Musíte se před nimi taky schovávat?	}{	161	}{	G.Ming_Humandone == 1	}{	}{	}{	}{	}{	}{	}{	}{	Kryjí se Kuei-jinové pod rouškou tajemství?	}
+{	308	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	309	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	310	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	311	}{	O té ankarské relikvii? Co s ní je?	}{	O té ankarské relikvii? Co s ní je?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	312	}{	Víte o ní něco?	}{	Víte o ní něco?	}{	351	}{	G.Ming_Sarcophagus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Víte něco o tom hrozném talismanu?	}
+{	313	}{	Myslíte, že nějak souvisí s Gehennou?	}{	Myslíte, že nějak souvisí s Gehennou?	}{	361	}{	G.Ming_Sarcophagus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Tajemství v kameni, temný otec a temný úsvit Gehenny!	}
+{	314	}{	Víte, kdo jej má?	}{	Víte, kdo jej má?	}{	391	}{	G.Ming_Sarcophagus == 2	}{	}{	}{	}{	}{	}{	}{	}{	Kdo vlastní toto temné tajemství?	}
+{	315	}{	Říkala jste, že vaši lidé ten sarkofág hledají...	}{	Říkala jste, že vaši lidé ten sarkofág hledají...	}{	411	}{	G.Ming_Sarcophagus == 3	}{	}{	}{	}{	}{	}{	}{	}{	Mluvila jste o agentech, kteří vám talisman hledají...	}
+{	316	}{	Nevíte, kde bych ho našel?	}{	Nevíte, kde bych ho našla?	}{	411	}{	G.Ming_Sarcophagus == 3	}{	}{	}{	}{	}{	}{	}{	}{	Kde je ten hrozný talisman?	}
+{	318	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	319	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	320	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	321	}{	[stern, strained politeness]Musíš pochopit, že i když jsem k tobě nyní pohostinná, mezi vámi a námi nepanuje mír.	}{	[stern, strained politeness]Musíš pochopit, že i když jsem k tobě nyní pohostinná, mezi vámi a námi nepanuje mír.	}{	#	}{	}{	G.Ming_Sorry = 3	}{	}{	}{	}{	}{	}{	}{	}
+{	322	}{	Nesnažte se překrucovat minulost před Nosferatu. My víme, jak to je.	}{	Nesnažte se překrucovat minulost před Nosferatu. My víme, jak to je.	}{	331	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	323	}{	Možná teď vítězíte, ale vzpoura se blíží!	}{	Možná teď vítězíte, ale vzpoura se blíží!	}{	331	}{	IsClan(pc,"Brujah")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	324	}{	Kamarille jde pouze o řád a pořádek ve městě.	}{	Kamarille jde pouze o řád a pořádek ve městě.	}{	331	}{	IsClan(pc,"Ventrue") or IsClan(pc,"Tremere") or IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	325	}{	Lovec k nám vniknul... Ale bude bědovat, až jeho kořist vrátí úder.	}{	Lovec k nám vniknul... Ale bude bědovat, až jeho kořist vrátí úder.	}{	331	}{	IsClan(pc,"Gangrel")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	326	}{	Šílenství nerovná se slepota, kněžko. Nejste tu vítáni...	}{	Šílenství nerovná se slepota, kněžko. Nejste tu vítáni...	}{	331	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	328	}{	Od té doby, co k nám Kuei-jové vpadli, tak ne.	}{	Od té doby, co k nám Kuei-jové vpadli, tak ne.	}{	331	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	329	}{	K čemu vůbec Kalifornii potřebujete?	}{	K čemu vůbec Kalifornii potřebujete?	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jaké máte využití pro tuto divočinu?	}
+{	331	}{	[dismissive]Skutečně se mohou našinci právem domáhat nějakého dědictví na západním pobřeží Ameriky? Myslím, že ne. Našinci i Kuei-jinové jsou zde noví. Kdo je tedy skutečný okupant?	}{	[dismissive]Skutečně se mohou našinci právem domáhat nějakého dědictví na západním pobřeží Ameriky? Myslím, že ne. Našinci i Kuei-jinové jsou zde noví. Kdo je tedy skutečný okupant?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	332	}{	Nemůžeme spolu prostě vycházet?	}{	Nemůžeme spolu prostě vycházet?	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Historie poví finální příběh...	}
+{	333	}{	Kamarilla má svou historii v západním světě...	}{	Kamarilla má svou historii v západním světě...	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už dlouho našinci vládnou západnímu stádu...	}
+{	334	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	335	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	336	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	341	}{	Věci se mění. Spojenectví se posouvají. A leckteří nejsou vždy těmi, za které se vydávají. To si pamatuj, našinče.	}{	Věci se mění. Spojenectví se posouvají. A leckteří nejsou vždy těmi, za které se vydávají. To si pamatuj, našinko.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	342	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	343	}{	Tak já se posunu někam pryč. Nashle.	}{	Tak já se posunu někam pryč. Nashle.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín již dopadá na jiná místa.	}
+{	344	}{	Tak já se posunu někam pryč. Nashle.	}{	Tak já se posunu někam pryč. Nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín již dopadá na jiná místa.	}
+{	351	}{	Ale jistě. [derisive]Celé město je z jeho příjezdu na nohou a všichni spekulují o přítomnosti jednoho z vašich vampírských prapředků a jeho apokalyptických plánech.	}{	Ale jistě. [derisive]Celé město je z jeho příjezdu na nohou a všichni spekulují o přítomnosti jednoho z vašich vampírských prapředků a jeho apokalyptických plánech.	}{	#	}{	}{	G.Ming_Sarcophagus = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	352	}{	Chápu to správně, že tomu nevěříte?	}{	Chápu to správně, že tomu nevěříte?	}{	361	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zdáte se vůči tomu být skeptická...	}
+{	353	}{	A víte, kde ten sarkofág je?	}{	A víte, kde ten sarkofág je?	}{	391	}{	G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	Víte, kde leží ten hrozný talisman?	}
+{	354	}{	Když myslíte... Ještě bych se na něco zeptal...	}{	Když myslíte... Ještě bych se na něco zeptala...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	355	}{	Proč se v jednom kuse navážíte do našich lidí?	}{	Proč se v jednom kuse navážíte do našich lidí?	}{	401	}{	G.Ming_Sorry < 2	}{	}{	}{	}{	}{	}{	}{	}{	Proč stále tak jedovatá slova na adresu našinců?	}
+{	361	}{	Kuei-jinové s vámi minulost nesdílí. A nesdílíme ani vaše falešná proroctví.	}{	Kuei-jinové s vámi minulost nesdílí. A nesdílíme ani vaše falešná proroctví.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	362	}{	Pak je falešný i stín králů Yama!	}{	Pak je falešný i stín králů Yama!	}{	831	}{	IsClan(pc,"Malkavian") and G.Ming_Yama == 0	}{	G.Ming_Yama = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	363	}{	Falešná proroctví?	}{	Falešná proroctví?	}{	371	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jakou falešnost shledáváte v těchto předpovědích?	}
+{	364	}{	Ano, všechno to zní poněkud pošetile, že?	}{	Ano, všechno to zní poněkud pošetile, že?	}{	371	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pravda se zřídka nalézá v takových představách...	}
+{	368	}{	Už musím odejít...	}{	Už musím odejít...	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	369	}{	Už musím odejít...	}{	Už musím odejít...	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	370	}{	Pokračujte takovýma řečma a váš zadek bude sdílet mou botu... Nashle.	}{	Pokračujte takovýma řečma a váš zadek bude sdílet mou botu... Nashle.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Brzy budete sdílet temnotu pekel s démony, dámo...	}
+{	371	}{	To všechno to má jen odvádět vaši pozornost. Vaše existence je tak nechutná, neustále se schováváte, bojujete o zbytky a bojíte se návratu svých vymyšlených praotců. Zcela vám uniká váš skutečný cíl.	}{	To všechno to má jen odvádět vaši pozornost. Vaše existence je tak nechutná, neustále se schováváte, bojujete o zbytky a bojíte se návratu svých vymyšlených praotců. Zcela vám uniká váš skutečný cíl.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	372	}{	A vy snad znáte skutečnou historii našinců?	}{	A vy snad znáte skutečnou historii našinců?	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	A vy můžete předpovědět osud našinců?	}
+{	373	}{	Předpokládám, že vy znáte ten pravý cíl pro každého.	}{	Předpokládám, že vy znáte ten pravý cíl pro každého.	}{	381	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	374	}{	A víte, kde ten sarkofág je?	}{	A víte, kde ten sarkofág je?	}{	391	}{	G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	Víte, kde leží ten hrozný talisman?	}
+{	378	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	379	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	380	}{	Můj cíl se rázem změnil na poslání vás do prdele. Sbohem...	}{	Můj cíl se rázem změnil na poslání vás do prdele. Sbohem...	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechť vás tento prst dovede do zapomnění. Sbohem.	}
+{	381	}{	Ne, to neznám. Ale s mou pomocí můžeš ty nalézt tu správnou cestu. Místo toho se potuluješ posmrtným životem, jsi jako zbytek masa, který stále lne ke svému smrtelnému žebru.	}{	Ne, to neznám. Ale s mou pomocí můžeš ty nalézt tu správnou cestu. Místo toho se potuluješ posmrtným životem, jsi jako zbytek masa, který stále lne ke svému smrtelnému žebru.	}{	#	}{	}{	G.Ming_Sarcophagus = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	382	}{	A víte, kde je ten sarkofág?	}{	A víte, kde je ten sarkofág?	}{	391	}{	G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	Víte, kde leží ten hrozný talisman?	}
+{	383	}{	Tak vy s těmi urážkami nepřestanete?	}{	Tak vy s těmi urážkami nepřestanete?	}{	401	}{	G.Ming_Sorry < 2	}{	}{	}{	}{	}{	}{	}{	}{	Už neplivejte další jed, démonko!	}
+{	388	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	389	}{	Musím už jít. Nashle.	}{	Musím už jít. Nashle.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa.	}
+{	390	}{	Jestli těch řečí nenecháte, udělám z vašeho srdce zbytek masa. Zatím.	}{	Jestli těch řečí nenecháte, udělám z vašeho srdce zbytek masa. Zatím.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chcete vidět zbytky masa ze sebe? Sbohem.	}
+{	391	}{	[casual]Zajisté jej také hledáme. Vyslala jsem na tu misi dva své nejlepší agenty. Mohl by to být významný prostředek pro vyjednávání.	}{	[casual]Zajisté jej také hledáme. Vyslala jsem na tu misi dva své nejlepší agenty. Mohl by to být významný prostředek pro vyjednávání.	}{	#	}{	}{	G.Ming_Sarcophagus = 3	}{	}{	}{	}{	}{	}{	}{	}
+{	392	}{	Co je to za agenty?	}{	Co je to za agenty?	}{	411	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kdo jsou ti temní nohsledi?	}
+{	393	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	394	}{	Už musím jít.	}{	Už musím jít.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	395	}{	Už musím jít.	}{	Už musím jít.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	401	}{	[thinly veiled condescention, amusement]Nesprávně jsi mě pochopil, mladý našinče. Zajisté jsem se tě nechtěla dotknout.	}{	[thinly veiled condescention, amusement]Nesprávně jsi mě pochopila, mladá našinko. Zajisté jsem se tě nechtěla dotknout.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	402	}{	Nemůžete se prostě omluvit?	}{	Nemůžete se prostě omluvit?	}{	321	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemohou vaše rty propustit kajícnou ukolébavku?	}
+{	403	}{	Ale vy neustále haníte naše přesvědčení...	}{	Ale vy neustále haníte naše přesvědčení...	}{	371	}{	G.Ming_Sarcophagus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Proč ten jed na naši víru?	}
+{	404	}{	Fajn. A vy víte, kdo ten sarkofág má?	}{	Fajn. A vy víte, kdo ten sarkofág má?	}{	391	}{	G.Ming_Sarcophagus == 2 and G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	Znáte umístění toho hrozného talismanu?	}
+{	405	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	406	}{	Smůla, odcházím.	}{	Smůla, odcházím.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	407	}{	Smůla, odcházím.	}{	Smůla, odcházím.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	411	}{	Řekněme prostě, že ti neradím, abys Ankarský [an-KAR-en] sarkofág hledal...	}{	Řekněme prostě, že ti neradím, abys Ankarský [an-KAR-en] sarkofág hledala...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	412	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	413	}{	Už musím jít.	}{	Už musím jít.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	414	}{	Už musím jít.	}{	Už musím jít.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	421	}{	Tak. Mocným Nosferatu[NAHS-fur-ah-too] se ztratil agent, ano? Nejsem do toho zapletena, pokud si to snad myslí.	}{	Tak. Mocným Nosferatu[NAHS-fur-ah-too] se ztratil agent, ano? Nejsem do toho zapletena, pokud si to snad myslí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	422	}{	A nemáte aspoň tušení, kde by mohl být?	}{	A nemáte aspoň tušení, kde by mohl být?	}{	431	}{	}{	}{	}{	}{	}{	}{	}{	}{	Žádný poznatek o tomto Nosečkovi?	}
+{	423	}{	No, nebyl by to žádný div... Kde bych ho mohl najít?	}{	No, nebyl by to žádný div... Kde bych ho mohla najít?	}{	431	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	431	}{	Já nevím, kde je. Možná by sis o tom měl promluvit s Wong Ho.	}{	Já nevím, kde je. Možná by sis o tom měla promluvit s Wong Ho.	}{	#	}{	}{	G.Ming_Wongho = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	432	}{	Kdo to je?	}{	Kdo to je?	}{	441	}{	G.Ming_Barrabus == 0	}{	G.Ming_Barrabus = 1	}{	}{	}{	}{	}{	}{	}{	Kdo je ten Wong Ho?	}
+{	433	}{	A kde že ho najdu?	}{	A kde že ho najdu?	}{	441	}{	G.Ming_Barrabus > 0	}{	}{	}{	}{	}{	}{	}{	}{	Kde mohu nalézt tohoto Wong Ho?	}
+{	434	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	G.Ming_Barrabus > 0	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	435	}{	Provedu. Nashle.	}{	Provedu. Nashle.	}{	491	}{	G.Ming_Barrabus > 0 and npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	436	}{	Provedu. Nashle.	}{	Provedu. Nashle.	}{	0	}{	G.Ming_Barrabus > 0 and npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	441	}{	Wong Ho vlastní restauraci Rudý Drak. Je to prominentní obchodník, který si mezi lidmi získal značný respekt. Pokud je v čínské čtvrti něco v nepořádku, on by mohl vědět, jak ti pomoci.	}{	Wong Ho vlastní restauraci Rudý Drak. Je to prominentní obchodník, který si mezi lidmi získal značný respekt. Pokud je v čínské čtvrti něco v nepořádku, on by mohl vědět, jak ti pomoci.	}{	#	}{	}{	pc.SetQuest("Barabus",4)	}{	}{	}{	}{	}{	}{	}{	}
+{	442	}{	Tak já za ním vyrážím...	}{	Tak já za ním vyrážím...	}{	491	}{	G.Ming_Barrabus == 1	}{	G.Ming_Barrabus = 2	}{	}{	}{	}{	}{	}{	}{	Půjdu navštívit hrozivého draka...	}
+{	444	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	G.Ming_Barrabus = 2	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	445	}{	Musím odejít. Mějte se.	}{	Musím odejít. Mějte se.	}{	491	}{	npc.times_talked == 1	}{	G.Ming_Barrabus = 2	}{	}{	}{	}{	}{	}{	}{	Musím odvést svůj stín...	}
+{	446	}{	Musím odejít. Mějte se.	}{	Musím odejít. Mějte se.	}{	0	}{	npc.times_talked > 1	}{	G.Ming_Barrabus = 2	}{	}{	}{	}{	}{	}{	}{	Musím odvést svůj stín...	}
+{	461	}{	O ano, Hengeyokai[hen-gee-YO-kai]. Zygaena [zi-GAY-nuh], myslím, že tak se jmenuje. Už jsem na něj málem zapomněla.	}{	O ano, Hengeyokai[hen-gee-YO-kai]. Zygaena [zi-GAY-nuh], myslím, že tak se jmenuje. Už jsem na něj málem zapomněla.	}{	#	}{	}{	G.Ming_Ziggy = 1; G.Ming_Zygaena = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	462	}{	Takže ho znáte?	}{	Takže ho znáte?	}{	471	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zygaena? To zní komicky!	}
+{	463	}{	On pro vás pracuje?	}{	On pro vás pracuje?	}{	471	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	471	}{	Oznámil svou přítomnost v mém panství a já mu udělila povolení zde působit. Mohu tě ovšem ujistit, že není v mých službách.	}{	Oznámil svou přítomnost v mém panství a já mu udělila povolení zde působit. Mohu tě ovšem ujistit, že není v mých službách.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	472	}{	Kde ho mohu najít?	}{	Kde ho mohu najít?	}{	481	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kde se skrývá tento hulvátský podvrženec?	}
+{	481	}{	Domnívám se, že říkal, že působí v oblasti dovozu a také chodí bavit klientelu Rudého draka.	}{	Domnívám se, že říkal, že působí v oblasti dovozu a také chodí bavit klientelu Rudého draka.	}{	#	}{	}{	pc.SetQuest("Yukie",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	482	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	G.Ming_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	483	}{	Už budu muset jít. Nashle.	}{	Už budu muset jít. Nashle.	}{	491	}{	npc.times_talked == 1 and G.Ming_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	484	}{	Už budu muset jít. Nashle.	}{	Už budu muset jít. Nashle.	}{	0	}{	npc.times_talked > 1 and G.Ming_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	485	}{	Proč jste najednou tak vstřícná?	}{	Proč jste najednou tak vstřícná?	}{	701	}{	G.Ming_Pissed == 3	}{	}{	}{	}{	}{	}{	}{	}{	Váš náhlý altruizmus je znepokojivý!	}
+{	491	}{	Dávám ti tímto svolení působit v panství Kuei-jinů. Prozatím. Nechť nalezneš svou cestu, našinče.	}{	Dávám ti tímto svolení působit v panství Kuei-jinů. Prozatím. Nechť nalezneš svou cestu, našinko.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	492	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	501	}{	Vítám tě zpět, našinče. Hledáš zde poučení?	}{	Vítám tě zpět, našinko. Hledáš zde poučení?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	502	}{	Znáte muže se stříbrnými vlasy?	}{	Znáte muže se stříbrnými vlasy?	}{	601	}{	G.Silver_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	Hledám muže s kadeřemi ze stříbra...	}
+{	503	}{	I found out about your little project with the Fu Syndicate...	}{	I found out about your little project with the Fu Syndicate...	}{	751	}{	G.Silver_Know == 2	}{	}{	}{	}{	}{	}{	}{	}{	I foiled your freakish plot with the Fu!	}
+{	504	}{	Slyšela jste o Ankarském sakrofágu?	}{	Slyšela jste o Ankarském sakrofágu?	}{	351	}{	G.Ming_Sarcophagus == 0 and G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	Neviděly vaše uši ankarský sarkofág?	}
+{	505	}{	Zopakujte mi, co víte o tom sarkofágu...	}{	Zopakujte mi, co víte o tom sarkofágu...	}{	311	}{	G.Ming_Sarcophagus > 0 and G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte se mnou o tom hrozném ankarském talismanu!	}
+{	506	}{	Znáte pana Wong Ho?	}{	Znáte pana Wong Ho?	}{	511	}{	G.Tong_Known == 1	}{	}{	}{	}{	}{	}{	}{	}{	Poučila jste také pana Wong Ho?	}
+{	509	}{	Chtěl bych se na něco zeptat...	}{	Chtěla bych se na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	510	}{	Teď zrovna ne. Nashle.	}{	Teď zrovna ne. Nashle.	}{	0	}{	G.Silver_Know == 0 or G.Ming_Ziggy == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vůbec tady nejsem.	}
+{	511	}{	Wong Ho, ano, znám ho dobře.	}{	Wong Ho, ano, znám ho dobře.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	512	}{	Můžete mi o něm znovu povědět?	}{	Můžete mi o něm znovu povědět?	}{	441	}{	pc.GetQuestState("Barabus") < 3	}{	}{	}{	}{	}{	}{	}{	}{	Upleťte mi příbeh o panu Wong Ho...	}
+{	513	}{	Mluvil o vás jen v dobrém.	}{	Mluvil o vás jen v dobrém.	}{	521	}{	G.Ming_Highly == 0 and G.Wong_ZQ > 0	}{	}{	}{	}{	}{	}{	}{	}{	Jste bohyní pro jeho slepé oči...	}
+{	514	}{	Jeho dcera byla unesena. Chce po mně, abych ji našel.	}{	Jeho dcera byla unesena. Chce po mně, abych ji našla.	}{	561	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vzali mu poklad a já ho teď hledám...	}
+{	515	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	520	}{	To je jedno. Sbohem.	}{	To je jedno. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už tady nejsem.	}
+{	521	}{	Nabízím spirituální pomoc každému, kdo hledá.	}{	Nabízím spirituální pomoc každému, kdo hledá.	}{	#	}{	}{	G.Ming_Kindred = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	522	}{	A to vám dobře slouží, že?	}{	A to vám dobře slouží, že?	}{	531	}{	pc.perception >= 4 or pc.wits >= 4	}{	}{	}{	}{	}{	}{	}{	}{	Vaše vedení vede nebezpečnou stezkou...	}
+{	523	}{	Jeho dcera byla unešena. Chce po mě abych jí našel.	}{	Jeho dcera byla unešena. Chce po mě abych jí našla.	}{	561	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vzali mu poklad a já ho teď hledám...	}
+{	524	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	530	}{	Žádné nehledám. Mějte se.	}{	Žádné nehledám. Mějte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	531	}{	Co se děje, má své opodstatnění. Všechno zapadá do plánu, který nás všechny přesahuje. To už by ti mělo být známo, vampíre.	}{	Co se děje, má své opodstatnění. Všechno zapadá do plánu, který nás všechny přesahuje. To už by ti mělo být známo, vampírko.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	532	}{	To mělo hloubku. Ještě bych se chtěl na něco zeptat...	}{	To mělo hloubku. Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	540	}{	Chápu. Sbohem.	}{	Chápu. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už tady nejsem.	}
+{	561	}{	Jednoznačně doufám, že uspěješ.	}{	Jednoznačně doufám, že uspěješ.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	562	}{	Požádal mě o to jen pro to, že si myslí, že dělám pro vás.	}{	Požádal mě o to jen pro to, že si myslí, že dělám pro vás.	}{	531	}{	pc.perception >= 4 or pc.wits >= 4	}{	}{	}{	}{	}{	}{	}{	}{	Jeho víra ve mě nesahá dále než po vaše požehnání...	}
+{	563	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	570	}{	Pokusím se. Sbohem.	}{	Pokusím se. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	581	}{	Tongové vydírají mnoho místních odbchodů, aby se dostali do jejich prostor. Prohledej zadní ulicky. Přeji ti hodně štěstí.	}{	Tongové vydírají mnoho místních odbchodů, aby se dostali do jejich prostor. Prohledej zadní ulicky. Přeji ti hodně štěstí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	582	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	583	}{	Mějte se.	}{	Mějte se.	}{	491	}{	npc.times_talked == 1 and G.Ming_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	Už tady nejsem.	}
+{	590	}{	Mějte se.	}{	Mějte se.	}{	0	}{	npc.times_talked > 1 and G.Ming_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	Už tady nejsem.	}
+{	601	}{	Muže se stříbrnými vlasy? Je mi líto, ale neznám žádného muže se stříbrnými vlasy.	}{	Muže se stříbrnými vlasy? Je mi líto, ale neznám žádného muže se stříbrnými vlasy.	}{	#	}{	}{	Whisper("Lying")	}{	}{	}{	}{	}{	}{	}{	}
+{	602	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	610	}{	Tak nashle.	}{	Tak nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pá pá...	}
+{	611	}{	Potřebuješ ještě něco, našinče?	}{	Potřebuješ ještě něco, našinče?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	612	}{	Potkal jsem ty vaše agenty... Je po nich.	}{	Potkala jsem ty vaše agenty... Je po nich.	}{	621	}{	G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	Má ruka rozdrtila Changy na mastný flek...	}
+{	615	}{	Chtěl bych se na něco zeptat...	}{	Chtěla bych se na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	620	}{	Ani ne. Nashle.	}{	Ani ne. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	621	}{	To je nanejvýš nešťastný vývoj událostí.	}{	To je nanejvýš nešťastný vývoj událostí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	622	}{	Říkali něco o spojenectví mezi Kuei-jiny a LaCroixem.	}{	Říkali něco o spojenectví mezi Kuei-jiny a LaCroixem.	}{	631	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hovořili o tajném spojení s LaCroixem...	}
+{	631	}{	Mohu tě ujistit, že mí agenti, bratři Changové, nemají žádné diplomatické pravomoce.	}{	Mohu tě ujistit, že mí agenti, bratři Changové, nemají žádné diplomatické pravomoce.	}{	#	}{	}{	G.Ming_Bros = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	632	}{	Ale vy ano. Takže paktujete se s LaCroixem nebo ne?	}{	Ale vy ano. Takže paktujete se s LaCroixem nebo ne?	}{	641	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tak spojila jste se s šaškem, démonko?	}
+{	633	}{	To není odpověď.	}{	To není odpověď.	}{	641	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše slova neobsahují kouska odpovědi...	}
+{	640	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	641	}{	Mohu si vybrat, zda se s tebou budu bavit nebo ne. A stejně tak si mohu vybrat, zda se budu nebo nebudu bavit s tvým princem. Nebo s kýmkoliv jiným. Mluvení z nás nedělá spojence.	}{	Mohu si vybrat, zda se s tebou budu bavit nebo ne. A stejně tak si mohu vybrat, zda se budu nebo nebudu bavit s tvým princem. Nebo s kýmkoliv jiným. Mluvení z nás nedělá spojence.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	642	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	643	}{	Už musím jít.	}{	Už musím jít.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	651	}{	Prosím, Kainite. Domnívám se, že zjistíš, že jsem až nemilosrdně upřímná. Jakkoliv to pro tebe může být cizí, očekávám totéž od tebe.	}{	Prosím, Kainitko. Domnívám se, že zjistíš, že jsem až nemilosrdně upřímná. Jakkoliv to pro tebe může být cizí, očekávám totéž od tebe.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	652	}{	Dochází mi trpělivost. Kde je ten vampír, kterého hledám?	}{	Dochází mi trpělivost. Kde je ten vampír, kterého hledám?	}{	421	}{	}{	G.Ming_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Nezbývá mi trpělivost pro vaše lži. Kde je našinec, kterého sháním?	}
+{	653	}{	Budu si to pamatovat. Můžu se na něco zeptat?	}{	Budu si to pamatovat. Můžu se na něco zeptat?	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	654	}{	Už musím odejít...	}{	Už musím odejít...	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	655	}{	Už musím odejít...	}{	Už musím odejít...	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	656	}{	Jedinou věc, kterou jsem zjistil, je, že Kuei-jinové jsou plní keců...	}{	Jedinou věc, kterou jsem zjistila, je, že Kuei-jinové jsou plní keců...	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jediné zjištění jest, že Kuei-jinové jsou viditelně obstipovaní...	}
+{	661	}{	Vítej, Kainite. Zlepšily se od posledně tvé způsoby? Na světě je mnoho věcí, které dokážu tolerovat, ale neúcta k nim nepatří.	}{	Vítej, Kainitko. Zlepšily se od posledně tvé způsoby? Na světě je mnoho věcí, které dokážu tolerovat, ale neúcta k nim nepatří.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	662	}{	Omlouvám se za svou neurvalost. Promiňte...	}{	Omlouvám se za svou neurvalost. Promiňte...	}{	671	}{	}{	G.Ming_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	Prosím, promiňte mé žlučovité bláboly...	}
+{	663	}{	Tak si radši zvykejte, protože Kuei-jinům do zadku nepolezu.	}{	Tak si radši zvykejte, protože Kuei-jinům do zadku nepolezu.	}{	681	}{	G.Ming_Wongho == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mé tělo se k vám do klína lísat nebude, démonko...	}
+{	664	}{	A dokážete tolerovat kopanec do prdele?	}{	A dokážete tolerovat kopanec do prdele?	}{	696	}{	G.Ming_Wongho == 1	}{	}{	}{	}{	}{	}{	}{	}{	Dokážete tolerovat mou botu ve vaší zadnici?	}
+{	671	}{	Omluvu přijímám. Ráda vidím, že si začínáš uvědomovat, kde je tvé místo.	}{	Omluvu přijímám. Ráda vidím, že si začínáš uvědomovat, kde je tvé místo.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	672	}{	Díky za pochopení. Mohu mít dotaz?	}{	Díky za pochopení. Mohu mít dotaz?	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše důstojnost nezná mezí. Mohu dolovat ve vaší šedé kůře?	}
+{	673	}{	I když po zralé úvaze, táhněte do hajzlu.	}{	I když po zralé úvaze, táhněte do hajzlu.	}{	681	}{	G.Ming_Wongho == 0	}{	}{	}{	}{	}{	}{	}{	}{	Moment! Mé další já říkají, ať vlezete do latríny!	}
+{	674	}{	Právě jsem došel k závěru, že mé místo bude při chcaní na váš hrob...	}{	Právě jsem došla k závěru, že mé místo bude při chcaní na váš hrob...	}{	696	}{	G.Ming_Wongho == 1	}{	}{	}{	}{	}{	}{	}{	}{	Začínám si uvědomovat, že naložím váš hrob do odpadu svého měchýře...	}
+{	681	}{	Aha. Zklamal jsi mě, Kainite. Tvůj přístup nevěští nic dobrého pro náš pokračující vztah. Doporučuji ti zamyslet se nad budoucností tohoto města a přijít znovu, až se budeš umět chovat.	}{	Aha. Zklamala jsi mě, Kainitko. Tvůj přístup nevěští nic dobrého pro náš pokračující vztah. Doporučuji ti zamyslet se nad budoucností tohoto města a přijít znovu, až se budeš umět chovat.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	682	}{	Jo, jasně. Tak nashle.	}{	Jo, jasně. Tak nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem úplně pryč.	}
+{	683	}{	Já jsem ta budoucnost, čubko...	}{	Já jsem ta budoucnost, čubko...	}{	0	}{	G.Ming_Wongho == 0	}{	}{	}{	}{	}{	}{	}{	}{	Budoucnost jsem já, dámo. Sbohem.	}
+{	684	}{	Nad budoucností už jsem přemýšlel hodně. Vy v ní nejste...	}{	Nad budoucností už jsem přemýšlela hodně. Vy v ní nejste...	}{	696	}{	G.Ming_Wongho == 1	}{	}{	}{	}{	}{	}{	}{	}{	Pro vás není v receptu pro budoucnost místo, démonko...	}
+{	691	}{	Zkoušíš mou trpělivost. Toto je mé panství. Nezapomínej, kde je tvé místo. Sbohem.	}{	Zkoušíš mou trpělivost. Toto je mé panství. Nezapomínej, kde je tvé místo. Sbohem.	}{	#	}{	}{	G.Ming_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	692	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	696	}{	Už mám té tvojí omezenosti akorát dost. Prosím, vyprovoď se ke dveřím a už se sem nevracej.	}{	Už mám té tvojí omezenosti akorát dost. Prosím, vyprovoď se ke dveřím a už se sem nevracej.	}{	#	}{	}{	G.Ming_Pissed = 3	}{	}{	}{	}{	}{	}{	}{	}
+{	697	}{	To je slza, co vám teče po tváři? Tak sbohem...	}{	To je slza, co vám teče po tváři? Tak sbohem...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Bulíte jako rozmazlená školačka. Nechám vás.	}
+{	698	}{	Až se tu příště ukážu, srovnám to tu se zemí...	}{	Až se tu příště ukážu, srovnám to tu se zemí...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Až se příště vrátím, chrám bude hořet. Sbohem.	}
+{	701	}{	Už ti nemám více co říci. Prosím odejdi.	}{	Už ti nemám více co říci. Prosím odejdi.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	702	}{	Nebudu na obtíž. Nevíte, zda je v čínské čtvrti Hengeyokai?	}{	Nebudu na obtíž. Nevíte, zda je v čínské čtvrti Hengeyokai?	}{	706	}{	G.Yukie_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	Co víte o hrozivém Hengeyokai?	}
+{	703	}{	Nashle.	}{	Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	706	}{	Hmmm. Ano, vím o jednom. Jeho jméno je Zygaena.	}{	Hmmm. Ano, vím o jednom. Jeho jméno je Zygaena.	}{	#	}{	}{	G.Ming_Ziggy = 1; G.Ming_Zygaena = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	707	}{	Pracuje pro vás?	}{	Pracuje pro vás?	}{	471	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	711	}{	Ano?	}{	Ano?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	712	}{	Jste vampíři, že ano?	}{	Jste vampíři, že ano?	}{	71	}{	G.Ming_Feed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Proudí ve vás Kainova kletba?	}
+{	713	}{	V čem se vlastně Kuei-jinové a našinci podobají?	}{	V čem se vlastně Kuei-jinové a našinci podobají?	}{	81	}{	G.Ming_Feed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jaké jiné řeky nás spojují?	}
+{	714	}{	Jak se vlastně Kuei-jinové rodí?	}{	Jak se vlastně Kuei-jinové rodí?	}{	91	}{	G.Ming_Breath == 0	}{	}{	}{	}{	}{	}{	}{	}{	Povězte o zrození Kuei-jina...	}
+{	715	}{	Váš stav mi přijde dost podobný tomu našemu...	}{	Váš stav mi přijde dost podobný tomu našemu...	}{	121	}{	G.Ming_Purpose == 1 and G.Ming_Unlife == 0	}{	}{	}{	}{	}{	}{	}{	}{	Máte jiné oblečky, ale prokletí jste stejně...	}
+{	718	}{	Sejmul jsem vašeho špeha v Santa Monice...	}{	Sejmula jsem vašeho špeha v Santa Monice...	}{	741	}{	G.Ming_Spy == 0 and G.Ming_Unlife == 0 and G.Kjspy_Dead == 1	}{	G.Ming_Spy = 1	}{	}{	}{	}{	}{	}{	}{	Váš špión v Santa Monice byl zrušen.	}
+{	722	}{	Zopakujte mi, prosím... Jsou Kuei-jinové také vampíři?	}{	Zopakujte mi, prosím... Jsou Kuei-jinové také vampíři?	}{	71	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Vrhají Kuei-jinové a našinci podobné stíny?	}
+{	723	}{	Zopakujte mi, prosím, jak vlastně vznikáte?	}{	Zopakujte mi, prosím, jak vlastně vznikáte?	}{	91	}{	G.Ming_Unlife == 1	}{	}{	}{	}{	}{	}{	}{	}{	Povězte o zrození Kuei-jina...	}
+{	724	}{	Ještě bych se chtěl na něco zeptat...	}{	Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	725	}{	Už musím jít.	}{	Už musím jít.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	726	}{	Už musím jít.	}{	Už musím jít.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	741	}{	O ano. Jsem informována, žes odstranil našeho agenta. Pramálo na tom záleží. Pokud jde o něj, smrt byla vhodnější než zostuzení porážkou od našince...	}{	O ano. Jsem informována, žes odstranila našeho agenta. Pramálo na tom záleží. Pokud jde o něj, smrt byla vhodnější než zostuzení porážkou od našinky...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	742	}{	Vtipné. Ještě bych se chtěl na něco zeptat...	}{	Vtipné. Ještě bych se chtěla na něco zeptat...	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat ve vaší šedé kůře?	}
+{	751	}{	[unruffled]You did? Interesting. Might I inquire as to who gave you that piece of information?	}{	[unruffled]You did? Interesting. Might I inquire as to who gave you that piece of information?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	752	}{	I did a little digging in their computer files...after I trashed the place.	}{	I did a little digging in their computer files...after I trashed the place.	}{	761	}{	}{	}{	}{	}{	}{	}{	}{	}{	I unearthed your mischevious machinations...after I sacked the Syndicate.	}
+{	761	}{	Hahaha! I applaud you, Kindred. You must be a great warrior indeed.	}{	Hahaha! I applaud you, Kindred. You must be a great warrior indeed.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	762	}{	Yeah, I am. But that doesn't let you off the hook...	}{	Yeah, I am. But that doesn't let you off the hook...	}{	771	}{	}{	}{	}{	}{	}{	}{	}{	}{	Great I am, but greater my wrath at your betrayal!	}
+{	763	}{	I don't get it. Why are you involved with them?	}{	I don't get it. Why are you involved with them?	}{	771	}{	}{	}{	}{	}{	}{	}{	}{	}{	Why did you swim with these Syndicate sharks?	}
+{	764	}{	Don't kiss my ass, bitch, You set me up...	}{	Don't kiss my ass, bitch, You set me up...	}{	771	}{	}{	}{	}{	}{	}{	}{	}{	}{	You placed me in the path of peril...	}
+{	771	}{	I'm sorry. I thought you were aware...our peoples are at war. Do you think your elders would do any different?	}{	I'm sorry. I thought you were aware...our peoples are at war. Do you think your elders would do any different?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	772	}{	But they tried to kill me, too!	}{	But they tried to kill me, too!	}{	791	}{	}{	}{	}{	}{	}{	}{	}{	}{	The sharks tried to feed	}
+{	773	}{	No. And neither would I. Next time we meet, it's as enemies...	}{	No. And neither would I. Next time we meet, it's as enemies...	}{	781	}{	}{	}{	}{	}{	}{	}{	}{	}{	We wear the mask of enemies when next we meet...	}
+{	774	}{	Fuck off, you creepy ninja vampire bitch. See ya.	}{	Fuck off, you creepy ninja vampire bitch. See ya.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	775	}{	Tak já už půjdu.	}{	Tak já už půjdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	781	}{	My dear Kindred. We have never been otherwise. Farewell.	}{	My dear Kindred. We have never been otherwise. Farewell.	}{	#	}{	}{	G.Ming_Pissed = 3	}{	}{	}{	}{	}{	}{	}{	}
+{	782	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	791	}{	Yes. I'm sure they did.	}{	Yes. I'm sure they did.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	792	}{	You're a cold-hearted bitch. Next time we meet, it's as enemies...	}{	You're a cold-hearted bitch. Next time we meet, it's as enemies...	}{	781	}{	}{	}{	}{	}{	}{	}{	}{	}{	We wear the mask of enemies when next we meet...	}
+{	793	}{	Když myslíte... Už musím jít.	}{	Když myslíte... Už musím jít.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín dopadá na jiná místa...	}
+{	801	}{	Co prosím? Asi jsem nerozuměla správně...	}{	Co prosím? Asi jsem nerozuměla správně...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	802	}{	Povrch je prasklý a poskvrněný, ale odhaluje další a další zrcadla...	}{	Povrch je prasklý a poskvrněný, ale odhaluje další a další zrcadla...	}{	811	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	811	}{	Co je to za mizerný druh Kainovy kletby?	}{	Co je to za mizerný druh Kainovy kletby?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	812	}{	Pravda má mnoho tváří, dámo...	}{	Pravda má mnoho tváří, dámo...	}{	821	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	821	}{	To zajisté, našinče. Ale bavme se raději o jiných věcech. Jak ti mohu být nápomocna?	}{	To zajisté, našinko. Ale bavme se raději o jiných věcech. Jak ti mohu být nápomocna?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	822	}{	Černý čaj není pitivo pro mne...	}{	Černý čaj není pitivo pro mne...	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	823	}{	Povězte více o svých lidech, královno zrcadel...	}{	Povězte více o svých lidech, královno zrcadel...	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	824	}{	Zničil jsem životažrouta v Santa Monice, dámě u moře...	}{	Zničila jsem životažrouta v Santa Monice, dámě u moře...	}{	741	}{	G.Kjspy_Dead == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	825	}{	Čas je cenný, zatímco vy ne. Sháním nosferatské dítě noci...	}{	Čas je cenný, zatímco vy ne. Sháním nosferatské dítě noci...	}{	21	}{	}{	G.Ming_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	826	}{	Mohu dolovat ve vaší šedé kůře?	}{	Mohu dolovat ve vaší šedé kůře?	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	831	}{	Bylo by dobré, abys o takových věcech nemluvil, šílenče. Králové Yama nejsou z nějakých strašidelných pohádek, ani to nejsou jen nehmotné stíny noci.	}{	Bylo by dobré, abys o takových věcech nemluvila, šílenče. Králové Yama nejsou z nějakých strašidelných pohádek, ani to nejsou jen nehmotné stíny noci.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	832	}{	Přivítejme příchod démonského císaře!	}{	Přivítejme příchod démonského císaře!	}{	841	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	841	}{	Šestý věk teprve přijde. Promluvme si o něčem jiném...	}{	Šestý věk teprve přijde. Promluvme si o něčem jiném...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	842	}{	Máte vědomost, kde je umístěn sarkofág?	}{	Máte vědomost, kde je umístěn sarkofág?	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	862	}{	Greetings.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	863	}{	Yes?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	864	}{	What are you doing here?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	865	}{	I no longer wish to speak with you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	866	}{	Yes.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	867	}{	No.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	868	}{	Thank you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	869	}{	What did you just say?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	870	}{	What!?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	871	}{	I do not know.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	872	}{	I cannot help you with that.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	873	}{	I am pleased.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	874	}{	By the way...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	875	}{	Take this.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	876	}{	I will send you an email concerning this.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	882	}{	(Starting Condition)	}{	}{	11	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	883	}{	(Starting Condition)	}{	}{	611	}{	G.Story_State >= 65 and G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	884	}{	(Starting Condition)	}{	}{	701	}{	G.Ming_Pissed == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	885	}{	(Starting Condition)	}{	}{	661	}{	G.Ming_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	886	}{	(Starting Condition)	}{	}{	501	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	}

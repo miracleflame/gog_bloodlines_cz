@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture" "decals/signs/Applications"
-	"$decal" 1
-	"$decalscale" 0.10	// plus
-}

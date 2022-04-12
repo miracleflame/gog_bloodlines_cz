@@ -1,0 +1,1146 @@
+QuestTable
+{
+//	Quest
+//	{
+//		"Title"		This is a simple text title, and what will be used to refer to it in dialog.
+//
+//		"DisplayName"	This is what will be displayed as the heading for this journal entry
+//				LOCALIZE THIS FIELD
+//
+//		CompletionState
+//		{
+//			"ID"		Each completion state must have a UNIQUE, NUMERIC ID. By default, a player is considered to be at
+//					completion state 0, when the quest is unassigned. The quest will not be displayed in the journal
+//					unless the player has a valid ID for the quest.
+//
+//			"Description"	This is what will be displayed as the journal entry for this quest
+//					LOCALIZE THIS FIELD
+//
+//			"Type"		This controls the font, colors, etc, for the quest. MUST be "success, failure, incomplete"
+//
+//			"AwardXP"	This is how many experience points to award to a character when they reach this quest
+//					completion level. defaults to 0.
+//
+//			"AwardMoney"	This is how much money to award to a character when they reach this quest completion
+//					level. defaults to 0.
+//
+//			"Event"		This is script data, such as a flag assignment or a function call, that will be passed to
+//					the script interpreter. by default, there is no event script.
+//		}
+//	}
+
+	Quest
+	{
+		"Title"		"Plague"
+		"DisplayName"	"Legrace s morem"
+
+		CompletionState
+		{
+			"ID"		"1" // Regent 211
+			"Description"	"Regent tě požádal o nalezení příčiny epidemie v centru L.A. a o její zastavení. Také ti sdělil, že u Anarchů v baru Poslední runda můžeš získat další informace."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Damsel 221
+			"Description"	"Damsel ti dala stopu na roznašeče moru, našince zodpovědného za propuknutí epidemie v L.A. Ta stopa je ghúl Paul ve věžáku Skyeline. Bezdomovci v ulicích prý také můžou něco vědět."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // heard Hannah's message on Paul's answering machine
+			"Description"	"Ghúl Paul je mrtev, nejspíše další oběť epidemie, která zasáhla Los Angeles. Na jeho záznamníku byl vzkaz od nějaké Hany, která chtěla, aby za ní přišel do bytu, také ve věžáku Skyeline. Kód od jejích dveří je  1203."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // Hannah 141, 146
+			"Description"	"Hana tě navedla na jistou Jezebel Locke, jako na další článek v řetězu při pátrání po roznašeči moru. Je ubytována v hotelu Empire."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague01"
+		}
+
+		CompletionState
+		{
+			"ID"		"5" // bum_disease_male/female 31,61
+			"Description"	"Jeden ochotný bezdomovec tě navedl na jistého Billa Plechovku, jako na další článek řetězu při pátrání po roznašeči moru. Prý obvykle bývá v uličce naproti od Poslední Rundy."
+			"Type"		"incomplete"
+		}
+
+                CompletionState
+		{
+			"ID"		"6" // Tin Can Bill 91,151, changed by wesp
+			"Description"	"Bill Plechovka tě navedl na stoku se vstupem nedaleko od místa, kde naposledy vydechl. Možná se tudy k roznašeči moru."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague04"
+		}
+
+		CompletionState
+		{
+			"ID"		"7"
+			"Description"	"Zabil(a) jsi Jezebel Locke."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague03"
+		}
+
+		CompletionState
+		{
+			"ID"		"8"
+			"Description"	"Zabil(a) jsi bratra Kankera."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague05"
+		}
+
+		CompletionState
+		{
+			"ID"		"9" // Damsel 261, changed by wesp
+			"Description"	"Informoval(a) jsi Damsel, že roznašeč je mrtev, ale ta ti jen řekla, že jich je víc..."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"10"
+			"Description"	"Vytočil(a) jsi Damsel takovým způsobem, že už s tebou nepromluví. Demente."
+			"Type"		"failure"
+		}
+
+		CompletionState
+		{
+			"ID"		"11"
+			"Description"	"Bratr Kanker i Jezebel Locke jsou po smrti. Běž zpátky za Damsel."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague06"
+		}
+
+		CompletionState
+		{
+			"ID"		"12"
+			"Description"	"Bratr Kanker je po smrti. Vrať se za Damsel."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague05"
+		}
+
+		CompletionState
+		{
+			"ID"		"13"
+			"Description"	"Jezebel Locke je po smrti. Vrať se za Damsel."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague03"
+		}
+
+		CompletionState
+		{
+			"ID"		"14"
+			"Description"	"Zabil(a) jsi bratra Kankera a Jezebel Locke, a také máš leták s podivnou kresbou. Damsel by se o tom měla dovědět."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"15" // first time feeding on diseased bum
+			"Description"	"Nakazil(a) ses z krve nemocného bezdomovce. Zajímalo by tě, jestli to má něco společného s těmi chlápky z epidemiologického, co postávají v ochranných oblecích na každém rohu."
+			"Type"		"incomplete"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"AllPlague"
+		"DisplayName"	"Ještě větší legrace s morem"
+
+		CompletionState
+		{
+			"ID"		"1" // Damsel 261
+			"Description"	"Damsel ti řekla, že ve městě je víc než jeden roznašeč moru a že je potřeba je zlikvidovat všechny."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Damsel 271
+			"Description"	"Damsel ti řekla, že ten divný symbol z letáku viděla na zdi nějaké budovy v centru."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // killed Vick
+			"Description"	"Zabil(a) jsi biskupa Vicka, vůdce kultu soudného dne a roznašečů moru. Jejich víra a nákaza se tím pádem přestaly šířit. Zajdi to říct Damsel."
+			"Type"		"incomplete"
+			"AwardXP"	"AllPlague03"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // damsel 281
+			"Description"	"Podařilo se ti z Los Angeles vymítit všechny roznašeče moru."
+			"Type"		"success"
+			"AwardXP"	"AllPlague04"
+		}
+
+		CompletionState
+		{
+			"ID"		"5"
+			"Description"	"Podařilo se ti vytočit Damsel takovým způsobem, že už s tebou nepromluví. Jseš vážně dement (případně kráva)."
+			"Type"		"failure"
+		}
+
+		CompletionState
+		{
+			"ID"		"6" // changed by wesp
+			"Description"	"Damsel ti řekla, že ve městě je víc než jeden roznašeč moru a že je potřeba je zlikvidovat všechny. Taky navrhovala, že by nebylo od věci promluvit s ghúlem Paulem ve věžáku Skyeline. Možná bys měl(a) začít tam."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"7" // changed by wesp
+			"Description"	"Damsel ti řekla, že ve městě je víc než jeden roznašeč moru a že je potřeba je zlikvidovat všechny. Taky navrhovala, že by nebylo od věci poptat se nějakých bezdomovců v ulicích..."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"8" // heard Hannah's message on Paul's answering machine
+			"Description"	"Ghúl Paul je mrtev, nejspíše další oběť epidemie, která zasáhla Los Angeles. Na jeho záznamníku byl vzkaz od nějaké Hany, která chtěla, aby za ní přišel do bytu, také ve věžáku Skyeline. Kód od jejích dveří je 1203."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"9" // Hannah 141, 146
+			"Description"	"Hana tě navedla na jistou Jezebel Locke, jako na další článek v řetězu při pátrání po roznašeči moru. Je ubytována v hotelu Empire."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague01"
+		}
+
+		CompletionState
+		{
+			"ID"		"10" // bum_disease_male/female 31,61
+			"Description"	"Jeden ochotný bezdomovec tě navedl na jistého Billa Plechovku, jako na další článek řetězu při pátrání po roznašeči moru. Prý obvykle bývá v uličce naproti od Poslední Rundy."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"11" // Tin Can Bill 91,151, changed by wesp
+			"Description"	"Bill Plechovka tě navedl na stoku se vstupem hned za rohem od místa, kde naposledy vydechl, jako možný domov roznašeče moru."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague04"
+		}
+
+		CompletionState
+		{
+			"ID"		"12"
+			"Description"	"Zabila(a) jsi druhého roznašeče moru, po kterém zbyl leták s podivným symbolem."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"13"
+			"Description"	"Zabila(a) jsi druhého roznašeče moru."
+			"Type"		"incomplete"
+			"AwardXP"	"Plague06"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Traffik"
+		"DisplayName"	"Kšeftík"
+
+		CompletionState
+		{
+			"ID"		"1" // Larry 121, changed by wesp
+			"Description"	"Tlustej Larry, pouliční obchodník, chce kufřík, který si budou předávat Tongové a jeden místní gang. Výměna proběhne v nedaleké podzemní garáži. Pokud možno získej kufřík bez odhalení."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Got Briefcase, changed by wesp
+			"Description"	"Podařilo se ti získat kufřík pro Larryho. Je na čase mu jej zanést."
+			"Type"		"incomplete"
+			"AwardXP"	"Traffik01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Larry 181,191, changed by wesp
+			"Description"	"Larry má kufřík, který chtěl."
+			"Type"		"success"
+			"AwardXP"	"Traffik02"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // Larry death, changed by wesp
+			"Description"	"Místo předání kufříku jsi Larryho zabil(a)."
+			"Type"		"failure"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Confession"
+		"DisplayName"	"Zpověď"
+
+		CompletionState
+		{
+			"ID"		"1" // Larry 221
+			"Description"	"Tlustej Larry ti dal tip na majitelku klubu Zpovědnice, která prý hledá někoho s tvými schopnostmi."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Venus 71
+			"Description"	"Venuše chce, abys vyřídil(a) Rusům, co budou čekat na parkovišti u hotelu Empire, že pro ně peníze nemá."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Igor 41, changed by wesp
+			"Description"	"Podařilo se ti přesvědčit Igora, aby si pro peníze od Venuše přišel příští měsíc."
+			"Type"		"incomplete"
+			"AwardXP"	"Confession01"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // kill Igor, changed by wesp
+			"Description"	"Zabil(a) jsi Igora, čímž je Venušin problém s penězma vyřešen."
+			"Type"		"incomplete"
+			"AwardXP"	"Confession01"
+		}
+
+		CompletionState
+		{
+			"ID"		"5" // Venus, changed by wesp
+			"Description"	"Vyřešil(a) jsi Venušiny finanční potíže s Igorem."
+			"Type"		"success"
+			"AwardXP"	"Confession02"
+		}
+
+		CompletionState
+		{
+			"ID"		"6" // Kill Venus
+			"Description"	"Zabil(a) jsi Venuši, takže dokončit s ní váš obchod teď bude asi kapku problém."
+			"Type"		"failure"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Venus"
+		"DisplayName"	"A její jméno je Venuše"
+
+		CompletionState
+		{
+			"ID"		"1" // Venus 201
+			"Description"	"Venuše chce, abys 'přesvědčil(a)' Borise, aby už po ní nechtěl svůj 'zpožděný poplatek'. Najdeš ho ve střešním apartmánu hotelu Empire."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Boris 141
+			"Description"	"Podařilo se ti přesvědčit Borise, aby Venušin dluh smazal."
+			"Type"		"incomplete"
+			"AwardXP"	"Venus01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // kill Boris
+			"Description"	"Zabil(a) jsi Borise a tím pádem je Venušin dluh vůči němu vynulován."
+			"Type"		"incomplete"
+			"AwardXP"	"Venus01"
+		}
+
+		CompletionState
+		{
+			"ID"		"4"
+			"Description"	"Podařilo se ti vyřešit Venušin problém s Borisem. Nezapomeň za ní občas zajít a vyzvednout si svůj podíl ze zisku klubu."
+			"Type"		"success"
+			"AwardXP"	"Venus02"
+		}
+
+		CompletionState
+		{
+			"ID"		"5" // kill Venus
+			"Description"	"Zabila(a) jsi Venuši, takže řešit její problém je už bezpředmětné."
+			"Type"		"failure"
+		}
+
+		CompletionState
+		{
+			"ID"		"6" // told Venus you accepted Boris offer to kill her
+			"Description"	"Řekl(a) jsi Venuši, že Boris ti udělal lepší nabídku."
+			"Type"		"failure"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Kill Venus"
+		"DisplayName"	"Venuše musí zemřít"
+
+		CompletionState
+		{
+			"ID"		"1" // Boris 91
+			"Description"	"Boris chce, abys ukázal(a) Venuši, zač je toho loket a zabil(a) ji."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // kill Venus
+			"Description"	"Zabil(a) jsi Venuši pro Borise."
+			"Type"		"incomplete"
+			"AwardXP"	"Kill01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Boris 181
+			"Description"	"Zabil(a) jsi Venuši a řekl(a) o tom Borisovi."
+			"Type"		"success"
+			"AwardXP"	"Kill02"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // kill boris
+			"Description"	"Zabila(a) jsi Borise dřív, než byl obchod mezi vámi dokončen."
+			"Type"		"failure"
+		}
+
+		CompletionState
+		{
+			"ID"		"5" // boris 191
+			"Description"	"Naštval(a) jsi Borise dřív, než byl obchod mezi vámi dokončen."
+			"Type"		"failure"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Junky"
+		"DisplayName"	"Ukecaná děvka"
+
+		CompletionState
+		{
+			"ID"		"1" // Skelter 251
+			"Description"	"Skelter chce, abys odstranil(a) ghúlku Patty. Všechny okolo otravuje kvůli svému pánovi a nedá pokoj, i když jí řeknou, že je po smrti. Nejen že už každému leze na nervy, ale Skelter se bojí, že by mohla porušit Maškarádu, když si bude neustále pouštět hubu na špacír. Obvykle chodí fňukat do klubu Zpovědnice."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Patty 91 (PC responses set) or kill Patty
+			"Description"	"Problém s Patty je vyřešen. Zajdi zpátky za Skelterem."
+			"Type"		"incomplete"
+			"AwardXP"	"Junky01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Skelter 271, changed by wesp
+			"Description"	"Nahlásil(a) jsi Skelterovi, že Patty už nebude dělat problémy."
+			"Type"		"success"
+			"AwardXP"	"Junky03"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // Skelter 576
+			"Description"	"Pokusil(a) ses namluvit Skelterovi, že o Patty bylo postaráno, ale ona si přitom dál pouští ve městě hubu na špacír."
+			"Type"		"failure"
+		}
+
+		CompletionState
+		{
+			"ID"		"5" // Patty 91 San Diego, added by wesp
+			"Description"	"Přesvědčil(a) jsi Patty, aby opustila město. Oznam to Skeltrovi."
+			"Type"		"incomplete"
+			"AwardXP"	"Junky02"
+		}
+
+		CompletionState
+		{
+			"ID"		"6" // added by wesp
+			"Description"	"Přesvědčil(a) jsi Patty, aby opustila město a pak ji zabil(a). Oznam to Skeltrovi."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"7" // Patty 91 alley, added by wesp
+			"Description"	"Přesvědčil(a) jsi Patty, aby šla do tmavé uličky. Co teď?"
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"8" // added by wesp
+			"Description"	"Podařilo se ti vytočit Skeltra takovým způsobem, že už s tebou nepromluví."
+			"Type"		"failure"
+		}
+
+	}
+
+	Quest
+	{
+		"Title"		"Necromantic"
+		"DisplayName"	"Lidožrout"
+
+		CompletionState
+		{
+			"ID"		"1" // Pisha 111, changed by wesp
+			"Description"	"Pisha, lidožroutská... žena ve sklepě opuštěné nemocnice potřebuje, abys za ní poslal(a) Milligana, reportéra televizní show. Viděl příliš mnoho, proto ho chce zabít."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // getting Milligan's business card
+			"Description"	"Reportér Milligan, kterého chce Pisha poslat k sobě, utekl, ale podařilo se ti najít jeho navštívenku. Podle ní bydlí ve věžáku Skyeline."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Milligan 71,91, 111, 151 / killing Milligan, changed by wesp
+			"Description"	"Problém s Milliganem jsi pro Pishu vyřesil(a)."
+			"Type"		"incomplete"
+			"AwardXP"	"Necro01"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // Pisha, changed by wesp
+			"Description"	"O Milligana ses postaral(a) a oznámil(a) to Pishe."
+			"Type"		"success"
+			"AwardXP"	"Necro02"
+		}
+
+		CompletionState
+		{
+			"ID"		"5" // Pisha going hostile/ being killed
+			"Description"	"Pisha není ve stavu, kdy by s tebou chtěla nebo mohla mluvit, takže dohoda, která mezi vámi byla, už teď není důležitá."
+			"Type"		"failure"
+		}
+
+		CompletionState
+		{
+			"ID"		"6" // Pisha 161
+			"Description"	"Neodstranil(a) jsi pro Pishu Milligana a tím ses dopustil(a) nepřímého porušení Maškarády."
+			"Type"		"failure"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Occult"
+		"DisplayName"	"Okultistický handl"
+
+		CompletionState
+		{
+			"ID"		"1" // Pisha
+			"Description"	"Pisha po tobě chce dva okultistické předměty. Jeden z nich je fetiš z muzea a druhý je kniha z vily klanu Giovanni."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // got fetish, don't have Giovanni book
+			"Description"	"Podařilo se ti získat fetiš z muzea, o který má zájem Pisha. Ještě potřebuješ najít tu knihu ve vile u Giovanniů."
+			"Type"		"incomplete"
+			"AwardXP"	"Occult01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // got Voce del Morte book from Giovanni, don't have fetish
+			"Description"	"Podařilo se ti najít knihu 'Voce del Morte' ve vile Giovanniů, o kterou má zájem Pisha. Ještě potřebuješ získat ten fetiš z muzea."
+			"Type"		"incomplete"
+			"AwardXP"	"Occult01"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // got both items, changed by wesp
+			"Description"	"Máš oba okultistické předměty pro Pishu. Měl(a) bys jí je přinést a vyzvednout si odměnu."
+			"Type"		"incomplete"
+			"AwardXP"	"Occult03"
+		}
+
+		CompletionState
+		{
+			"ID"		"5" // Pisha
+			"Description"	"Dal(a) jsi Pishe okultistické předměty, které chtěla, a dostal(a) za to jiné pro sebe."
+			"Type"		"success"
+			"AwardXP"	"Occult02"
+		}
+
+		CompletionState
+		{
+			"ID"		"6" // Pisha going hostile/ being killed
+			"Description"	"Pisha není ve stavu, kdy by s tebou chtěla nebo mohla mluvit, takže dohoda, která mezi vámi byla, už teď není důležitá."
+			"Type"		"failure"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Regent"
+		"DisplayName"	"Mor pro anděly"
+
+		CompletionState
+		{
+			"ID"		"1" // Regent 211
+			"Description"	"Regent tě požádal o nalezení příčiny epidemie v L.A. a její odstranění. Také mluvil o tom, že Anarchové v Poslední rundě by mohli vědět víc."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Damsel 221
+			"Description"	"Mluvil(a) jsi s Anarchy a získal(a) od nich stopu k roznašeči moru."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"3"
+			"Description"	"Zlikvidoval(a) jsi roznašeče moru."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // Damsel 261
+			"Description"	"Musíš zabít všechny roznašeče moru."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"5"
+			"Description"	"Zabila(a) jsi všechny roznašeče moru. Zajdi zpět za regentem."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"6" // Regent 331
+			"Description"	"Zabil(a) jsi všechny roznašeče moru a oznámil(a) to regentovi."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"7"
+			"Description"	"Už nikdy nebudeš moci navštívit tremerskou lóži."
+			"Type"		"failure"
+		}
+
+		CompletionState
+		{
+			"ID"		"8" // Regent 194, 203
+			"Description"	"Hledáš příčinu epidemie ve městě v zájmu Kamarilly i Anarchů."
+			"Type"		"incomplete"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Tutorial"	
+		"DisplayName"		"Džyhád pro začátečníky"	
+
+		CompletionState
+		{
+			"ID"		"1"	// changed by wesp
+			"Description"	"Podařilo se ti přežít setkání vampírů."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"2"
+			"Description"	"Podařilo se ti přežít útok Sabbatů."
+			"Type"		"success"
+			"AwardXP"	"Tutor01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3"
+			"Description"	"Běž se napít ze smrtelníka, co je za rohem, a vrať se za Jackem."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"4"
+			"Description"	"Běž do budovy a vylez do prvního patra."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"5"	// changed by wesp
+			"Description"	"Zákeřná vampírská frakce Sabbat zaútočila na tajné shromáždění Kamarilly. Ty a Jack jste zůstali v horké zóně. Musíte se bezpečně dostat ven."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"6"
+			"Description"	"Najdi klíč ke dveřím."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"7"
+			"Description"	"Jdi ven a počkej na Jacka v zadní uličce."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"8"
+			"Description"	"Běž se napít z tuláka, co se potlouká pod schodama."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"9"
+			"Description"	"Běž vysát krev kryse."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"10"
+			"Description"	"Proklouzni kolem osamoceného člena Sabbatu a projdi dvoukřídlími dveřmi."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"11"
+			"Description"	"Zabij vampíra venku."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"12"
+			"Description"	"Slez do suterénu budovy."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"13"
+			"Description"	"Projdi suterénem celé budovy."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"14"	// changed by wesp
+			"Description"	"Vyjeď výtahem nahoru a postřílej gangstery."
+			"Type"		"incomplete"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Dane"
+		"DisplayName"		"Dostaveníčko s Elizabeth"
+
+		CompletionState
+		{
+			"ID"		"1" // Prince 1 231, Nines 101
+			"Description"	"Princ po tobě chce provést pátrání na lodi Elizabeth Dane. Na pláži v Santa Monice čeká člun, kterým se k ní dostaneš. Máš prozkoumat Ankarský sarkofág, zjistit, k jakým závěrům zatím dospěla policie a získat záznam o lodním nákladu. A především se máš snažit, aby tato mise neskončila masakrem."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // completed requirements for quest
+			"Description"	"Podařilo se ti splnit všechny úkoly na palubě Elizabeth Dane. Jdi zpět za princem."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Prince 1 571
+			"Description"	"Podařilo se ti splnit všechny úkoly na palubě Elizabeth Dane a oznámit svá zjištění princi."
+			"Type"		"success"
+			"AwardXP"	"Dane04"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // Prince 282 283
+			"Description"	"Princ po tobě chce provést pátrání na lodi Elizabeth Dane. Ale ještě před tím máš zajít za Ninesem Rodriguezem do jeho baru Poslední runda a zjistit, proč s tebou chtěl mluvit."
+			"Type"		"incomplete"
+		}
+
+		CompletionState	// added by wesp
+		{
+			"ID"		"5" // Nines 102 103
+			"Description"	"Kontaktoval(a) jsi Ninese. Až s ním dokecáš, hlas se u prince ještě než půjdeš prozkoumat Elizabeth Dane."
+			"Type"		"incomplete"
+		}
+
+		CompletionState	// added by wesp
+		{
+			"ID"		"6" // Prince 1 233
+			"Description"	"Princ si přeje, abys proskoumal(a) Elizabeth Dane. Řekni mu, až budeš připraven(a)."
+			"Type"		"incomplete"
+		}
+
+	}
+
+	Quest
+	{
+		"Title"		"Grout"
+		"DisplayName"		"Volá se doktor Grout"
+
+		CompletionState
+		{
+			"ID"		"1" // Prince 1 651, changed by wesp
+			"Description"		"Princ si přeje, abys kontaktoval(a) malkavianského primogena Alistaira Grouta. Měl by být k nalezení ve své vile na okraji města, kam se můžeš dostat taxíkem."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Saw Grout ashes
+			"Description"		"Narazil(a) jsi na spálené ostatky Alistaira Grouta. Asi bys měl(a) o jeho smrti informovat prince."
+			"Type"		"incomplete"
+			"AwardXP"	"Grout01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Prince 1 701
+			"Description"		"Narazil(a) jsi na spálené ostatky Alistaira Grouta informoval(a) prince o jeho smrti."
+			"Type"		"success"
+			"AwardXP"	"Grout02"
+		}
+
+		CompletionState
+		{
+			"ID"		"4"	// Talked to Ming-as-Nines
+			"Description"		"Před Groutovou vilou jsi potkal(a) Ninese. Vypadal, že je dost mimo."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"5"	// Entered Mansion
+			"Description"		"Ihned po vstupu do Groutovy vily z ní máš velice špatný pocit."
+			"Type"		"incomplete"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Museum"
+		"DisplayName"		"Ochránce starověkého umění"
+
+		CompletionState
+		{
+			"ID"		"1" // Prince 1 811, changed by wesp
+			"Description"	"Princ by ocenil, kdybys odjel(a) do přírodopisného muzea a přivezl(a) mu Ankarský sarkofág do jeho ochranné úschovy. Pokud možno bez zbytečného krveprolití."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Beckett 131
+			"Description"	"Podařilo se ti nalézt místo, kde byl sarkofág uložen, ale někdo tě předstihl. Sarkofág byl ukraden. Princ by se to měl co nejdříve dovědět."
+			"Type"		"incomplete"
+			"AwardXP"	"Museum02"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Prince 2 91
+			"Description"	"Oznámil(a) jsi princi, že sarkofág byl z muzea ukraden."
+			"Type"		"success"
+			"AwardXP"	"Museum03"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // added by wesp
+			"Description"	"Zjistil(a) jsi, že kód k místnosti v muzeu, kde drží Ankarský sarkofág, je 2358."
+			"Type"		"incomplete"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Sarcophagus"
+		"DisplayName"		"Epos o Ankarském sarkofágu"
+
+		CompletionState
+		{
+			"ID"		"1" // Prince 2 161
+			"Description"	"Princ chce ten sarkofág okamžitě! První krok: najít Garyho. Princ doporučil promluvit si s Izákem Abramsem, baronem Hollywoodu. Izák je nejčastěji k nalezení ve svém klenotnictví."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Gary 1
+			"Description"	"Princ chce ten sarkofág okamžitě!"
+			"Type"		"incomplete"
+			"AwardXP"	"Sarc01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Gary 431
+			"Description"	"Gary tě informoval, že sarkofág je ve vile Giovanniů. Dokonce ti nakreslil mapu. Je tak milý."
+			"Type"		"incomplete"
+			"AwardXP"	"Sarc02"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // Prince 2 171, 181
+			"Description"	"Podařilo se ti dopravit Ankarský sarkofág k princi."
+			"Type"		"success"
+			"AwardXP"	"Sarc03"
+		}
+
+		CompletionState
+		{
+			"ID"		"5" // added by wesp
+			"Description"	"Zabila(a) jsi Bruna Giovanniho. Stále ale musíš najít a dopravit Ankarský sarkofág k princi."
+			"Type"		"incomplete"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Johansen"
+		"DisplayName"		"Společnost na ochranu profesorů"		// 
+
+		CompletionState
+		{
+			"ID"		"1" // Beckett 561
+			"Description"	"Beckett chce najít profesora Johansena, kterého vězní Leopoldova společnost. Musíš najít cestu dovnitř a zjistit, kde je."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Johansen 101,371
+			"Description"	"Mluvil(a) jsi s Johansenem a dověděl(a) se o klíči k sarkofágu. Měl(a) bys to nahlásit princi."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Johansen 101,371
+			"Description"	"Mluvil(a) jsi s Johansenem a dověděl(a) se o klíči k sarkofágu. Také se ti podařilo zachránit profesora před závalem v jeskyni Leopoldovy společnosti. Měl(a) bys to nahlásit princi."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // Prince 541
+			"Description"	"Oznámil(a) jsi princi to, co ti Johansen řekl o klíči k sarkofágu."
+			"Type"		"success"
+			"AwardXP"	"Society02"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Shangrila"
+		"DisplayName"		"Peklo v hotelu Hallowbrook"
+
+		CompletionState
+		{
+			"ID"		"1" // Prince 2 501
+			"Description"	"Prince tě vyzval k zabití vůdce Sabbatu (a ostatně všech, které na cestě k němu potkáš). Jejich útočistě je ve vyhořelém hotelu Hallobrook v centru Los Angeles."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" 
+			"Description"	"Podařilo se ti nalézt doupě vůdce Sabbatu."
+			"Type"		"incomplete"
+			"AwardXP"	"Shangrila01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3"	// changed by wesp
+			"Description"	"Ukončil(a) jsi Andrejův bídný neživot. Princ bude šťastný jako blecha, až se to dozví."
+			"Type"		"incomplete"
+			"AwardXP"	"Shangrila02"
+		}
+
+		CompletionState
+		{
+			"ID"		"4"	// changed by wesp
+			"Description"	"Oznámil(a) jsi princi, že vůdce Sabbatu Andrej je po smrti. A jak se dalo čekat, princ je šťastný jako blecha."
+			"Type"		"success"
+			"AwardXP"	"Shangrila03"
+		}
+
+		CompletionState
+		{
+			"ID"		"5"	// added by wesp
+			"Description"	"Uzavřel jsi dohodu s vůdcem Sabbatu Andrejem. Když o tom zalžeš princi, bude šťastný jako blecha."
+			"Type"		"incomplete"
+			"AwardXP"	"Shangrila04"
+		}
+	}
+
+	Quest
+	{
+		"Title"		"Alliance"
+		"DisplayName"		"Nepřítel mého nepřítele"	
+
+		CompletionState
+		{
+			"ID"		"1" // Prince 2 771
+			"Description"	"Princ tě poslal do Poslední Rundy zjistit, kde se Nines Rodriguez schovává. Chce spojit síly s Anarchy ve válce s Kuei-jiny."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Damsel 681, 691
+			"Description"	"Damsel ti prozradila, že Nines je v Griffithově parku. Je potřeba za ním zajet a spojit Kamarillu a Anarchy ve válce s Kuei-jiny."
+			"Type"		"incomplete"
+			"AwardXP"	"Alliance01"
+		}
+		CompletionState
+		{
+			"ID"		"3" // Nines 521, 531, 541
+			"Description"	"Podařilo se ti kontaktovat Ninese v Griffithově parku, ale něco není v pořádku."
+			"Type"		"incomplete"
+			"AwardXP"	"Alliance02"
+		}
+
+		CompletionState
+		{
+			"ID"		"4" // got to tram
+			"Description"	"Proti všem očekáváním se ti podařilo vyváznout z Griffithova parku. Někdo na tebe i Ninese nastražil past."
+			"Type"		"success"
+			"AwardXP"	"Alliance03"
+		}
+	}
+
+	Quest	// added by wesp
+	{
+		"Title"		"Ash"
+		"DisplayName"	"Popel k popelu"
+
+		CompletionState
+		{
+			"ID"		"1"
+			"Description"	"Objevil(a) jsi Ashe uvězněného a zmučeného v Leopoldově společnosti. Proč mu nepomůžeš ještě jednou?"
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2"
+			"Description"	"Osvobodil(a) jsi Ashe od lovců... znovu."
+			"Type"		"success"
+			"AwardXP"		"Ash01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3"
+			"Description"	"Ash zemřel v Leopoldově společnosti."
+			"Type"		"failure"
+		}
+	}
+
+	Quest	// added by wesp
+	{
+		"Title"		"Library"
+		"DisplayName"	"Noc v knihovně"
+
+		CompletionState
+		{
+			"ID"		"1"
+			"Description"	"Beckett tě požádal, aby jsi zjistil(a), co Sabbati dělaj ve veřejné knihovně LA. Nejdřív se musíš setkat s jeho přitelem v obchodě s kuřivem v Santa Monice."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2"
+			"Description"	"Dorazil(a) jsi do obchodu s kuřivem, ale Beckettův přítel tam nebyl. Avšak objevil(a) jsi odkaz, který tě nasměroval do opuštěného obchodu s kávou poblíž."
+			"Type"		"incomplete"
+		}
+		CompletionState
+		{
+			"ID"		"3"
+			"Description"	"V obchodě s kávou byl počítač Beckettova přitele a zdá se, že ten následoval rekruta Sabbatů na konec mola v Santa Monice."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"4"
+			"Description"	"Na konci mola v Santa Monice nikdo nebyl, jenom spousta krve a zpráva, že můžeš vniknout do městské knihovny přes kanalizaci. Nejvyšší čas to udělat."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"5"
+			"Description"	"Spravil(a) jsi výtah do hlavní části knihovny. Můžeš pokračovat v hledání potíží, ale raději nepoutej pozornost tím, že všechny povraždíš."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"6"
+			"Description"	"Počítač v zadní části knihovny odemknul tajné tlačítko. To zřejmě otevírá nějaký tajný průchod poblíž!"
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"7"
+			"Description"	"Pod městskou knihovnou LA jsi objevil(a) obřadní komnatu. Co se tady děje?"
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"8"
+			"Description"	"Zastavil(a) jsi Sabbatský rituál a také zachránil(a) Beckettova přítele."
+			"Type"		"success"
+			"AwardXP"		"Library01"
+		}
+	}
+}

@@ -1,0 +1,215 @@
+VERSION 1.2
+PLAINTEXT
+{
+Radio Loop 4
+}
+WORDS
+{
+WORD talk-a 000 020
+{
+}
+WORD talk-b 020 054
+{
+}
+WORD talk-c 054 089
+{
+}
+WORD talk-d 089 109
+{
+}
+WORD talk-e 109 134
+{
+}
+WORD talk-f 134 156
+{
+}
+WORD talk-g 156 184
+{
+}
+WORD comm-a 184 241
+{
+}
+WORD comm-b 241 296
+{
+}
+WORD comm-c 296 357
+{
+}
+WORD comm-d 357 413
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 344 "
+Deb je zpět a má s sebou čerstvý hrnek kafe do ranních hodin.
+A pokud to nevíte, máte naladěnu Noc s Deb na KTRK.
+Jsem vaše sličná hostitelka, o které můžete fantazírovat, jak jen budete chtít.
+Ale prosím, neposílejte mi už další obrázky.
+Všechny linky jsou přeplněné, tak bych měla trochu uvolnit ten tlak.
+" 0 20
+
+PHRASE char 429 "
+Linko tři, jsi v éteru.
+» Jak je, Deb?
+» Tak co jsi dneska vyváděl, posluchači? 
+Mrky, mrk.
+» Ha, ha, ha, chápu.
+Jsem na kaši, Deb!
+» Jak se to stalo?
+Všední den!
+» Máš recht.
+Hej, Deb, ha, ha, hej, Deb, hej, Deb.
+» Ano, mistře?
+No toto...
+Mám úžasnej nápad.
+Můžu s ním ven?
+» Beze všeho.
+Víš, jak máme všechny ty trable se středním východem?
+» Jo, zatracení Virgiňané.
+" 20 54
+
+PHRASE char 484 "
+» Fajn, tak už jsem to vymyslel, jasný?
+Fajn, jestli chcem mít mír na středním východě, zamysli se.
+Kdy jsou lidi mírumilovní?
+Když hulí pořádný zelí.
+A co lidi spojuje?
+Pizza.
+Takže hele.
+Asi tak za půlku ceny jedný tý letecký bomby můžem sehnat pizzu a kytky jakože pro každýho na tý straně světa.
+A z toho najednou, BUM, samý nejlepší kámoši, děvče.
+» Drogy nebrat, chlape.
+» A navrch salám navíc.
+Hej, berete tam kreditky?
+" 54 89
+
+PHRASE char 391 "
+» Popojedeme, linko čtyři, kvůli čemu dneska nespíš ty?
+» Deb, musím se s něčím svěřit a riskuju tím svůj krk.
+Ale lidé, lidé v tomto městě, v této zemi a na celé planetě mají právo to vědět, rozumíš?
+» Co je nového, Gomézi?
+» Tohle je vážné.
+Existuje mnoho organizací, které by udělaly cokoliv, aby tuto věc utajily.
+» O tom nepochybuji.
+" 89 109
+
+PHRASE char 517 "
+» Deb, Deb, tady jde opravdu o všechno, můžu pokračovat?
+Dobrá, každý ví, že mají kamery na každém semaforu, aby vláda mohla sledovat každý náš krok.
+Ale vědělas, že pak prodávají přístup ke svým databázím Iluminátům...
+a ti z těch informací dávají dohromady nejfrekventovanější trasy...
+a podle nich otvírají nové kavárny svých řetězců na nejrentabilnějších místech?
+A vědělas taky, že z těch peněz financují kampaně proti fúzi a solární energii?
+" 109 134
+
+PHRASE char 406 "
+» Teď už to všechno dává smysl.
+» Oni totiž Ilumináti ovládají energii celého světa a protože monitorují spotřebu veškeré energie, vědí, kdo se nekouká na televizi a tím pádem vědí, kdo nedostává jejich podprahové zprávy, které posílají ovcím, a dávají peníze do bank daleko od své tajné centrály ve Wyomingu.
+» Úžasné, ještě něco jsi nedávno odhalil?
+" 134 156
+
+PHRASE char 643 "
+» Vlastně jo, sice bych o tom neměl mluvit, ale podle mě mají všichni právo vědět, že recyklování je mýtus.
+Ty láhve a plechovky jsou jim jen k tomu, aby nasbírali vzorky DNA z vašich slin a pak vás mohli naklonovat.
+A pak vašeho klona natrénují, aby vás zabil a ukradl vaši identitu, pokud byste začali strkat nos do celé té záležitosti kolem globálního oteplování.
+Díky, Gomézi.
+Nerada přerušuji tuto velice podnětnou konverzaci, ale lidé, kteří mě přikurtovali k ovládacímu panelu tohoto rádia, dokonce jen ve spodním prádle, chtějí, abyste utratili peníze za následující věci.
+" 156 184
+
+PHRASE char 1332 "
+(Reklama 1)
+Minulý rok si demokratický kandidát Michael Redmonds koupil sportovní víceúčelový vůz. O tři měsíce později se v jeho okrsku staly dvě nezávislé nehody, kde viník ujel v podobném vozidle.
+Může za to demokratický kandidát Michael Redmonds? Můžete si dovolit, pokud by tomu tak bylo? A mohou vaše děti?
+Volte republikánského senátora Roberta Thorna, kandidáta, který nikdy nikoho vozidlem nezabil.
+Demokratický kandidát Michael Redmonds nikdy veřejně nevyjádřil svůj postoj k dětské pornografii.
+Je to proto, že něco tají? Chtěli byste za zákonodárce dětského pornografa? Svěřili byste budoucnost svých dětí někomu takovému?
+Volte republikánského senátora Roberta Thorna, kandidáta, který se zavazuje stíhat dětské pornografy.
+Demokratický kandidát Michael Redmonds nedávno zažaloval senátora Roberta Thorna za to, že Redmondse nazval vraždícím dětským pornografem.
+Ale Redmonds se v minulosti vyjádřil, že je proti zatěžování soudů lehkovážnými spory.
+Není snad takový postoj pokrytecký? Chtěli byste pokrytce za svého nového kongresmana? Chtěli byste, aby se z vašich dětí stali pokrytci?
+Volte republikánského senátora Roberta Thorna, kandidáta, který nebyl obviněn jako vraždící dětský pornograf.
+" 184 241
+
+PHRASE char 1056 "
+(Reklama 2)
+Chystáte reklamní kampaň, ale nevíte, jak své nápady prodat?
+Zkuste Virtuální Schůzi!
+» Takže když přesuneme reklamu z těch drahých televizních klipů na přední stránky časopisů pro muže, budeme...
+» To je jedna možnost, ale mám tady lepší nápad.
+» Ještě jsem neskončil!
+» To je pravda, ale teď poslouchejte ten můj nápad.
+» Ale to přece...
+» Pravda, ale nemyslím si, že náš cílový trh bude nakloněn tak radikální změně.
+Poslechněte si, co si o tom myslím, můžu?
+Fajn, tohle bude výhra.
+Virtuální Schůze vylepší nejen porady.
+Také vás připraví na různé rozpravy na internetu.
+No já si myslím, že aby se demokraté dostali k moci, budou muset do svého voličského bloku zahrnout liberálnější frakce.
+» Sklapni, parchante.
+» Mám titul z politologie.
+Myslím, že vím, o čem mluvím.
+» Chčiju smíchy, buzno.
+Virtuální Schůze!
+Nejlepší nástroj, který vás připraví na schůze.
+» Dobrý nápad, ale původně byl můj.
+Parchante.
+" 241 296
+
+PHRASE char 864 "
+(Reklama 3)
+V roce 1984 se celá generace dětí seznámila s hračkou, která se okamžitě stala legendou.
+Po dvaceti letech se tato hračka mění a proniká do zcela nového prostředí.
+» Hej, jseš Bob, že?
+Můžu si půjčit tvou sešívačku?
+» Tak ty chceš svorky?
+Tady máš, Exekukone!
+» Néééé!
+» Ovládněte vznešené Kancelářské Roboty, kteří otročí ve válce proti zlovolným Exekukonům.
+» Hej, dnes tu budu až do noci.
+Mohl bych si dát hrnek kávy?
+» Krapitrone, transformuj!
+Roboti, káva je pro úspěšné.
+» Nasbírejte 30 různých korporátních robotů, kteří bojují za užitečnost v kanceláři!
+» Pozor, Megaoptiku, to je Mobilák!
+» Mám vaše čísla, pracanti, a tento víkend vás všechny zavolám.
+» Kancelářští Roboti!
+Transformujte a píchněte si příchod.
+» Deformeři!
+" 296 357
+
+PHRASE char 649 "
+(Reklama 4)
+Žijete...
+Umřete...
+A někdy se vrátíte zpět do života...
+Letošní podzim.
+» Obávám se, že už nevidím moc dobře.
+Mohl bys mi zajít do nejbližší vesnice pro bochník chleba?
+» Chléééb!
+Dobrýýý!
+» Nová horrorová RPG hra od Troika Games.
+» Chléééb!
+» Můžu ti říct, kde je pekař, cizinče.
+Ale ještě před tím, mohl bys vyzvednout mou dcerku od jezera?
+» Vy jste to monstrum.
+Ale je to opravdu tak?
+» Pokud se chceš dostat do tohoto pekařství, musíš mě porazit!
+» A také tyto dveře.
+» Frankenstein: Chlebový zátah.
+Brzo k dostání na PC.
+» Hraaa!
+Dobrýýý.
+" 357 413
+}
+}
+OPTIONS
+{
+voice_duck 0
+speaker_name Rádio
+}

@@ -1,0 +1,26 @@
+{	1	}{	[Rapidly, frightened]Hrozně se mi ulevilo, že jseš v pořádku! Chtěla jsem tě varovat, když jsem se doslechla, že je to past, ale Tereza na mě vytáhla zbraň a já se zamkla v koupelně a ona vyhrožuje, že mě zabije, a já potřebuji tvou pomoc!	}{	[Rapidly, frightened]Hrozně se mi ulevilo, že jseš v pořádku! Chtěla jsem tě varovat, když jsem se doslechla, že je to past, ale Tereza na mě vytáhla zbraň a já se zamkla v koupelně a ona vyhrožuje, že mě zabije, a já potřebuji tvou pomoc!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Pomalu. Co se stalo?	}{	Pomalu. Co se stalo?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pomaličku, bílá bohyně. Pověz, co je v nepořádku...	}
+{	3	}{	Jistěže tě zachráním. Ale nejdřív mi řekni, co se stalo?	}{	Jistěže tě zachráním. Ale nejdřív mi řekni, co se stalo?	}{	21	}{	Seduction 2	}{	G.Jeanette_Seduce = G.Jeanette_Seduce + 1	}{	}{	}{	}{	}{	}{	}{	Budu tvů bílý rytíř, slonovinová bohyně. Řekni svůj příběh.	}
+{	4	}{	Proč ti mám pomáhat?	}{	Proč ti mám pomáhat?	}{	31	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce - 1	}{	}{	}{	}{	}{	}{	}{	Jsi přece tak oblíbená. Zavolej jinému...	}
+{	11	}{	[Rapidly, frightened]Byla to past! Poslyš, já vím, že jsme se v lecčems neshodli, ale musíš mi věřit! Tereza tě chtěla zabít! Musela jsem se zamknout v koupelně, protože má pistoli a... Musíš mi pomoct!!	}{	[Rapidly, frightened]Byla to past! Poslyš, já vím, že jsme se v lecčems neshodli, ale musíš mi věřit! Tereza tě chtěla zabít! Musela jsem se zamknout v koupelně, protože má pistoli a... Musíš mi pomoct!!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Pomalu. Co se stalo?	}{	Pomalu. Co se stalo?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pomaličku, bílá bohyně. Pověz, co je v nepořádku...	}
+{	13	}{	Proč ti mám pomáhat?	}{	Proč ti mám pomáhat?	}{	31	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce - 1	}{	}{	}{	}{	}{	}{	}{	Jsi přece tak oblíbená. Zavolej jinému...	}
+{	21	}{	Tereza celou dobu věděla, žes byl v té galerii. Narafičila to na tebe a... [Sound of gunfire]Slyšel jsi to? Úplně zešílela! Zaplatila si ty gaunery. Zabije každýho, kdo se připlete do jejích plánů stát se nejvyšší šéfovou v Santa Monice.	}{	Tereza celou dobu věděla, žes byla v té galerii. Narafičila to na tebe a... [Sound of gunfire]Slyšela jsi to? Úplně zešílela! Zaplatila si ty gaunery. Zabije každýho, kdo se připlete do jejích plánů stát se nejvyšší šéfovou v Santa Monice.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Dobře. Jdu tam.	}{	Dobře. Jdu tam.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Přijdu to napravit...	}
+{	23	}{	Žádný strach, Žaneto, s Terezou si to vyřídím. Má u mě velký vrub.	}{	Žádný strach, Žaneto, s Terezou si to vyřídím. Má u mě velký vrub.	}{	41	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce + 1	}{	}{	}{	}{	}{	}{	}{	Vyřídím to s temnou dcerou, bílá bohyně...	}
+{	24	}{	Tak teda dík, žes mě do toho zatáhla!	}{	Tak teda dík, žes mě do toho zatáhla!	}{	31	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce - 1	}{	}{	}{	}{	}{	}{	}{	Proč jsi mě zatáhla na tuto kolej?	}
+{	25	}{	Doufám, že se mezi sebou zabijete. Sbohem.	}{	Doufám, že se mezi sebou zabijete. Sbohem.	}{	31	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce - 1	}{	}{	}{	}{	}{	}{	}{	Nechť nám osud přinese dvě kopky popela. Sbohem...	}
+{	31	}{	Tereza nás chce zabít! Beze mě se ze Santa Moniky živý nedostaneš.	}{	Tereza nás chce zabít! Beze mě se ze Santa Moniky živá nedostaneš.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Proč by nás Tereza měla chtít zabít?	}{	Proč by nás Tereza měla chtít zabít?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Proč se temná dcera obrací proti mě?	}
+{	41	}{	Honem! Nevím, jak dlouho tu ještě vydržím!	}{	Honem! Nevím, jak dlouho tu ještě vydržím!	}{	#	}{	}{	pc.SetQuest("Tourette",1)	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Jsem na cestě.	}{	Jsem na cestě.	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Přicházím zachránit den!	}
+{	43	}{	Sakra práce...	}{	Sakra práce...	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Smrt není tak milosrdná, jak všichni doufají...	}
+{	51	}{	Hrozně mě to mrzí. Má sestra se hrozně rozzuřila, když ses odmítl podílet na jejích plánech, proto na tebe poslala ty muže, aby tě zabili. Ale já už se postarám, aby se to neopakovalo. Zastav se, vyřídíme tu věc s Tungem.	}{	Hrozně mě to mrzí. Má sestra se hrozně rozzuřila, když ses odmítla podílet na jejích plánech, proto na tebe poslala ty muže, aby tě zabili. Ale já už se postarám, aby se to neopakovalo. Zastav se, vyřídíme tu věc s Tungem.	}{	#	}{	}{	pc.SetQuest("Tourette",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	(Auto-Link)	}{	(Auto-Link)	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Zbláznila se! POMÓÓC!	}{	Zbláznila se! POMÓÓC!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	...	}{	...	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	...	}
+{	71	}{	...	}{	...	}{	#	}{	}{	G.No_Idle = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Haló?	}{	Haló?	}{	1	}{	G.Jeanette_Seduce >= 8 and G.Therese_Respect == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ano?	}
+{	73	}{	Haló?	}{	Haló?	}{	11	}{	G.Jeanette_Seduce < 8 and G.Therese_Respect == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ano?	}
+{	74	}{	Haló?	}{	Haló?	}{	51	}{	G.Therese_Respect == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	(Starting Condition)	}{	}{	71	}{	G.Therese_Quest == 4	}{	}{	}{	}{	}{	}{	}{	}{	}

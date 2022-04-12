@@ -1,0 +1,81 @@
+
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	
+	"infomodel"	"models/items/Clipboard/Info/Info_Clipboard.mdl"
+	"playermodel"	"models/items/Clipboard/Ground/Clipboard.mdl"
+	
+	"anim_prefix"	" "
+
+	"printname"	"Psací deska"
+	"description"	"Toto vypadá jako psací deska zaměstnance losangeleského úseku pro inženýrské sítě z jara 2004
+
+			Po, 24. - Dnes začalo předběžné vyšetřování podivných pozorování hlášených v kanalizaci LA.  Vešel jsem do kvadrantu 13 a budu pokračovat do kvadrantů 14 a 15 ještě dnešní odpoledne.  Kvadrant 13 vypadá v pořádku.
+
+			Út, 25. - Kvadrant 13 zkontrolován, ale v kvadrantech 14 a 15 jsem zaslechl neznámé zvuky.  Volal jsem na dispečink, kde mi potvrdili, že v oblasti nepracují žádní jiní inspektoři.  Mám poznamenány souřadnice.  Zítra je na řadě šestnáctka.
+			
+			St, 26. - V kvadrantu 16 jsem znova zaslechl ty podivné zvuky, nepochybně pocházející od nějakého zvířete.  Něco jako zvíře jsem zahlédl na křižovatce chodeb 63a a 64b, ale při bližším průzkumu jsem už nic nenašel. Kromě podivných stop v blátě, skoro jako od rukou, i když v té tmě to nebylo dobře poznat.
+			
+			Čt, 27. - Další stopy v chodbě 73d.  Mizí v místě, které zřejmě vede do starších částí kanalizace. Na dispečinku mi řekli, že mapy té oblasti nemají.  Prý mám zítra pokračovat se zvýšenou opatrností.
+			
+			Pá, 28./8:00 - Dnes ráno začínám prohledávat starší oblast kanalizace.  Opět jsem zahlédl něco jako zvíře, ale nevím, kam bych to zařadil... mělo lysou kůži, skoro jako plazi.  Pořád to slyším, jako by mě sledovalo, i když ty ozvěny tady dole znemožňnují jakkoliv odhadnout vzdálenost.
+			
+			Pá, 28./9:15 - Nemůžu se dovolat na dispečink s hlášením.  V chodbách je stále silněji cítit zápach, nepochybně pochází ze zvířecích zdechlin, co sem nedávno spláchnul silný liják. Pokračuji v pátrání.
+			
+			Pá, 28./11:31 - Našel jsem, odkud vychází ten pach. Vypadá to jako ostatky člověka. Zkoušel jsem se znovu dovolat na dispečink, ale bez úspěchu.  Tělo je v pokročilém stádiu rozkladu, ale jsou na něm patrné velké tržné rány, jako by se na něm nedávno krmilo nějaké zvíře.  Poznamenal jsem si souřadnice těla a ihned se vracím na povrch.
+			
+			Pá, 28./13:22 - Nakrátko jsem se ztratil ve starých tunelech a další pokusy dovolat se na dispečink skočily neúspěšně. To zvíře se zase začalo přibližovat, začínám se bát, že mě možná loví.  Radši jsem si nachystal zbraň.
+			
+			Pá, 28/17:30 - Nepochybně jsem se ztratil.  Asi jsem zabloudil hlouběji do starých kanálů. Něco mě určitě pronásleduje, vím to. Dispečink je mimo. Baterie ve svítilně pomalu docházejí.
+			
+			BOŽE POMOC VIDĚL JSEM TU VĚC JE TO ZRŮDA SAMÉ ZUBY A KREV NEMŮŽU VEN NEMÁM SVĚTLO BOŽE (Text končí, stránka je od krve.)
+			
+			
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"is_wieldable"		"0"
+	"weight"		"1"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"-1"
+	"is_visible_in_hud"		"1"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Magazine/Pickup.wav"
+		}
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/clipboard_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/clipboard"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

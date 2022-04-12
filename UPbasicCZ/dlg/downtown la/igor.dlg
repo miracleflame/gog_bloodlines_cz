@@ -1,0 +1,28 @@
+{	1	}{	Poslala tě svině ze Zpovědnice?	}{	Poslala tě svině ze Zpovědnice?	}{	#	}{	}{	G.Igor_Talk = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	To tedy poslala.	}{	To tedy poslala.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Přicházím od Venuše.	}
+{	3	}{	Kdo se ptá?	}{	Kdo se ptá?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kde je tvůj cvičitel, grizzly?	}
+{	11	}{	Peníze, kde jsou peníze?	}{	Peníze, kde jsou peníze?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Mám od ní vyřídit, že peníze nemá.	}{	Mám od ní vyřídit, že peníze nemá.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Její peněženka zeje prázdnotou - dnes lososi nebudou, grizzly.	}
+{	13	}{	Venuše nemůže zaplatit. Určitě k tomu má dobrý důvod.	}{	Venuše nemůže zaplatit. Určitě k tomu má dobrý důvod.	}{	21	}{	Persuasion 6	}{	}{	}{	}{	}{	}{	}{	}{	Desátek od bohyně bude tento měsíc skrovný, grizzly. Prosím, odpusť jí.	}
+{	14	}{	Nemá je. A to je všechno, co potřebujete vědět. Můžete jít.	}{	Nemá je. A to je všechno, co potřebujete vědět. Můžete jít.	}{	21	}{	Intimidate 5	}{	}{	}{	}{	}{	}{	}{	}{	Nic takového není. Vrať se do jeskyně, grizzly.	}
+{	16	}{	V prdeli tvý mámy.	}{	V prdeli tvý mámy.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nacpané v pozadí tvé medvědice.	}
+{	21	}{	Žádné peníze?	}{	Žádné peníze?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Není důvod se rozčilovat. Jen vyřizuji vzkaz.	}{	Není důvod se rozčilovat. Jen vyřizuji vzkaz.	}{	41	}{	Persuasion 6	}{	}{	}{	}{	}{	}{	}{	}{	Pouze předávám zprávu od bohyně. Tak mi neubližuj, mocný grizzly.	}
+{	23	}{	Peníze už jsi dostal.	}{	Peníze už jsi dostal.	}{	41	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	Jistě máš hlad, grizzly. Podívej, tví kamarádi jsou lososi.	}{	Jistě máš hlad, grizzly. Podívej, tví kamarádi jsou lososi.	}{	61	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	Jistě máš hlad, grizzly. Podívej, tví kamarádi jsou lososi.	}
+{	25	}{	Své peníze už jsi dostal.	}{	Své peníze už jsi dostal.	}{	41	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{	Já nemusím platit nikomu.	}{	Já nemusím platit nikomu.	}{	41	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	27	}{	Ne.	}{	Ne.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ne.	}
+{	28	}{	Co je, jseš tupej? Žádný peníze!	}{	Co je, jseš tupej? Žádný peníze!	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tvůj rozum je neproniknutelnější než lesy, ve kterých žiješ, grizzly.	}
+{	29	}{	Svou práci jsem udělal. Těšilo mě.	}{	Svou práci jsem udělala. Těšilo mě.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Došly mi vzkazy, proto se převinu na začátek.	}
+{	31	}{	Urvu jim hnáty!	}{	Urvu jim hnáty!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Jo. Řekni svini, že se vrátíme za měsíc.	}{	Jo. Řekni svini, že se vrátíme za měsíc	}{	#	}{	}{	G.Igor_Dominated = 1; pc.SetQuest("Confession",3)	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Chcípneš.	}{	Chcípneš.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Už zase?	}{	Už zase?	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Už se stalo, díky za povšimnutí.	}
+{	53	}{	Na to nesázej.	}{	Na to nesázej.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Začala sezóna na medvědy.	}
+{	61	}{	Salmon? Must eat salmon.	}{	Salmon? Must eat salmon.	}{	#	}{	}{	G.Igor_Dementated = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	64	}{	(Starting Condition)	}{	}{	41	}{	G.Igor_Dominated == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	65	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

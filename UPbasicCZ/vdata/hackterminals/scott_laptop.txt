@@ -1,0 +1,61 @@
+TerminalDefinition	// added by wesp
+{
+	"screen saver"		"Svobodu Vorlonským lodím!"		// Bounces around on the screen when the terminal is not being used, changed by wesp. 
+	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
+
+	LogonScreen	// displayed when the user first logs on
+	{
+		// Any number of lines are acceptable
+		"line0"		"Tajná knihovna LA"  
+		"line1"		""
+		"line2"		""
+	}
+
+	// you can have up to 5 subdirs per terminal
+	// and up to 6 functions per sub dir
+	// there are 8 total outputs per terminal, (0...7)
+	// talk to Brock if you'd like this number increased. 
+
+	SubDir
+	{
+		"name"			"Poznámky"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
+		"password"		"gangrel"				// password required to run commands in this menu (16 characters)
+		"description"		"Působení Lasombry" 	// This is printed each time the user enters this menu (128 characters)
+
+		Function
+		{
+			"name"		"1"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"První poznámka"		// this is a description of this function  (128 characters)
+			"runtext" "Beckett chtěl, ať nastuduju jakýsi starověký sarkofág ve veřejné knihovně. Když jsem tam jednou v noci četl, všiml jsem si jiného vampíra, co vypadal, že je z Lasombry. Naštěstí jsem se nedávno naučil Mizení, to se bude hodit. Zajímá mě, co pohledává v LA a jestli se to týká té naší rakve, takže ho budu pár dní sledovat."
+		}
+		
+		Function
+		{
+			"name"		"2"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Druhá poznámka"		// this is a description of this function  (128 characters)
+			"runtext"	"Dnes šel ten z Lasombry do starého domu v centru s červeným symbolem. Po chvíli jsem šel za ním, ale byl tam jen jeden černoch, co se mě ptal, jestli jsem byl osvícen. Odešel jsem a po nějaké době se opět objevil ten princův agent. Brzy poté ten černoch v panice vyběhnul a schoval se v kanálech, kde jsem ho ztratil."
+		}
+
+		Function
+		{
+			"name"		"3"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Třetí poznámka"		// this is a description of this function  (128 characters)
+			"runtext"	"V Santa Monice jsem sledoval, jak ten Lasombra jde na staré vrakoviště, asi se pobavit s kaitifem, co tam bydlí. Než jsem se na něco zmohl, dorazil ten nový princův agent a ten Lasombra se z ničeho nic teleportoval rovnou za mě! Doufám, že mě nezpozoroval. Pak si vzal taxík zpátky do veřejné knihovny."
+		}
+
+		Function
+		{
+			"name"		"4"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Čtvrtá poznámka"		// this is a description of this function  (128 characters)
+			"runtext"	"Mám podezření, že ten Lasombra se snaží rekrutovat vampíry nebo ghúly, aby doplnil stavy tupých Sabbatů na odstřel. Řekl bych, že toho kaitifa nepřesvědčil, u toho černocha těžko říct. Nemá to nic společného s tím sarkofágem, ale nechce se mi líbít, že se pokaždé vrací do té knihovny. Nejsem žádný bijec, takže rovnou všechno řeknu Beckettovi."
+		}
+
+		Function
+		{
+			"name"		"5"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Pátá poznámka"		// this is a description of this function  (128 characters)
+			"runtext"	"Dal jsem si s Beckettem sraz v santamonickém obchodě s kuřivem, kam jsem sledoval toho černocha, který se zdá být pravidelným zákazníkem. Odposlechl jsem, že se chce s někým sejít na konci santamonického mola - to by měl být ten z Lasombry. Doufám, že vyrazí z toho obchodu, aby nás s Beckettem za tím chlápkem jednoduše dovedl!"
+			"runscript"	"G.Library_Coffee = 2; librarySetQuest()"
+		}
+	}
+}

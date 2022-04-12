@@ -1,0 +1,62 @@
+// Written
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"viewmodel"			"models/w_null.mdl"
+	"infomodel"		"models/items/occult/info/info_handle.mdl"
+	"playermodel"		"models/items/occult/ground/handle.mdl"
+	"wieldmodel_f"		"models/w_null.mdl"
+	"wieldmodel_m"		"models/w_null.mdl"
+	"anim_prefix"		" "
+
+	"printname"			"Saulocept"
+	"description"		"Příval tichých hlasů zaplavuje tvou mysl. Zdá se, že nabízejí pomoc, ale tvé vědomí není schopno postihnout obsah jejich sdělení. Jejich pohnutky jsou neznámé, ale přesto se chceš čím dál víc podvolovat jejich vedení. Dokud budeš mít Saulocept u sebe, připočte se ti jeden bod zkušenosti navíc pokaždé, když získáš tři a více bodů zkušenosti najednou. Saulocept má možná i nějaké další účinky."
+
+	"weight"			"3"
+	"item_flags"		"1"
+	"item_type"			"powerup"
+	"item_worth"		"50"
+
+	"occult_min"		"2"
+	"occult_power"		"Experience"
+	"equip_effect"		"Item (Occult Experience)" 
+
+	"is_droppable"			"1"
+	"is_wieldable"		"0"
+
+	SoundData	// added by wesp
+	{
+		"pickup"
+		{
+			"sound1"	"items/Key/Pickup.wav"
+		}
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/General_Items/handle_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/General_Items/handle"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

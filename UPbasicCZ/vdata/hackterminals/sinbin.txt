@@ -1,0 +1,362 @@
+TerminalDefinition
+{
+	"screen saver"		"K O T E L  H Ř Í C H U"	// Bounces around on the screen when the terminal is not being used. 
+	"brackets"		""			// these surround the command prompt (2 characters)
+
+	LogonScreen	// displayed when the user first logs on
+	{
+		// Any number of lines are acceptable
+		"line0"		" Kotel hříchu"
+		"line1"		"Vytíráme týdně!"
+
+	}
+
+	// you can have up to 5 subdirs per terminal
+	// and up to 6 functions per sub dir
+	// there are 8 total outputs per terminal, (0...7)
+	// talk to Brock if you'd like this number increased. 
+
+
+	SubDir
+	{
+		"name"			"Inventar"
+		"description"		"Nové tituly, podle distributora"
+
+		Function
+		{
+			"name"		"HravyKralik"
+			"runtext"	"Erotické video od Hravého králíka pro páry
+					-Simulace kopulace přes zamlžené sklo 7
+					-Divadlo netečné vášně: Ministrova choť
+					-Fantazie ze spodniček
+					-Řidič rozšafné dámy
+					-Králíkovy nejlepší sexuální scény bez penisu
+					"
+		}
+
+		Function
+		{
+			"name"		"Beastmastur"
+			"runtext"	"Produkce Beastmastur - Nejlepší pro košilaté dovádění
+					-Reprák Lady Chatterlyové
+					-Lovkyně chlupáčů
+					-Klátič vysoké 4: Kožíšek
+					-Velká chiméra 19: Horký nilský spermopád
+					-Rooby-Roo: Nadržené rytmy
+					"
+		}
+
+		Function
+		{
+			"name"		"J Pron"
+			"runtext"	"J Pron! Nejžhavější dovozové filmy
+					-Všechno od školaček
+					-Vůně vojska
+					-Poskvrněné vlakové sedačky
+					-Mangoví hermafroditi
+					-Dokaž, že je plnoletá!
+					-Chapadlo a otvor
+					-Přeborníci roku 2004
+					"
+		}
+
+		Function
+		{
+			"dependency"	"G.Story_State > 49"
+			"name"		"Manbot"
+			"runtext"	"Manbot - Pro muže s chováním robota
+					-Lamželezo
+					-Sen o vřískotu hvězd
+					-Plechovky s olejíčkem
+					-Zaschnuté fleky
+					-Odsávací trubka
+					"
+		}
+
+	}
+
+
+	SubDir
+	{
+		"name"			"peepshow"
+		"password"		"hrisnik"	// added by wesp
+		"description"		"Ovládání rolet"
+		"dependency"		"G.Velvet_Quest != 1"
+
+		Function
+		{
+			"name"		"Stav"
+			"description"	"AKTUÁLNÍ ÚDAJE"
+			"runtext"	"Software: Nainstalován
+					 Hardware: Nefunguje
+					 Pozn.: Opravář na cestě. - FB"
+		}
+
+		Function
+		{
+			"name"		"Zamek"
+			"description"	"Spuštění rolet"
+			"runtext"	"Okno 1 nedostupné
+					Okno 2 nedostupné
+					Okno 3 nedostupné"
+
+		}
+
+	}
+
+
+	SubDir
+	{
+		"name"			"Peepshow"
+		"password"		"hrisnik"
+		"description"		"Ovládání rolet"
+		"dependency"		"G.Velvet_Quest == 1"
+
+		Function
+		{
+			"name"		"Stav"
+			"description"	"AKTUÁLNÍ ÚDAJE"
+			"runtext"	"Okno 1: PORUCHA.
+					Okno 2: V PROVOZU
+					Okno 3: V PROVOZU
+					Pozn.: Náhr. díly pro okno 1 na cestě. - FB"
+		}
+
+		Function
+		{
+			"name"		"Zamek"
+			"description"	"Spuštění rolet"
+			"runtext"	"Okno 1 nedostupné
+					Okno 2 ZAMČENO
+					Okno 3 ZAMČENO"
+			"runscript"	"G.Sinbin_Hackwindow = 1"
+			"trigger"	"0"
+	 		"dependency"	"G.Sinbin_Hackwindow == 0"
+		}
+	
+		Function
+		{
+			"name"		"Odemknout"
+			"description"	"Zprovoznit automat na mince"
+			"runtext"	"Je potřeba zapnout ručně. Zavolej někomu na výpomoc."
+	 		"dependency"	"G.Sinbin_Hackwindow == 1"
+
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Zurnal"
+		"password"		"hrisnik"
+		"description"		"Včerejší obrat"
+		"dependency"		"G.Velvet_Quest < 2"
+
+		Function
+		{
+			"name"		"Stydlivka"
+			"runtext"	"Obrat - Stydlivka
+					-PS  $120
+					"
+		}
+
+		Function
+		{
+			"name"		"Jennifer"
+			"runtext"	"Obrat - Jen ;-)
+					-cr  $100
+					-cr  $250
+					-cr  $250
+					-cr  $150
+					-cr  $250
+					-cr  $550 (2 lidi)
+					-cr  $150
+					"
+		}
+
+
+		Function
+		{
+			"name"		"Traci"
+			"runtext"	"Obrat - Traci
+					-PS  $240
+					-CR  $350
+					-CR  $750 (na oslíka)
+					-CR  $250
+					-CR  $250
+					-CR  $350
+					-CR  $250
+					"
+		}
+
+	}
+
+	SubDir
+	{
+		"name"			"Zurnal"
+		"password"		"hrisnik"
+		"description"		"Včerejší obrat"
+		"dependency"		"G.Velvet_Quest > 1 and G.Patch_Plus == 0"	// changed by wesp
+
+		Function
+		{
+			"name"		"Stydlivka"
+			"runtext"	"Obrat - Stydlivka
+					-PS  $80
+					"
+		}
+
+		Function
+		{
+			"name"		"Jennifer"
+			"runtext"	"Obrat - Jen ;-)
+					-cr  $100
+					-cr  $250
+					-cr  $250
+					-cr  $150
+					-cr  $250
+					-cr  $2500 (oslava bakalářů)
+					-cr  $150
+					"
+		}
+
+
+		Function
+		{
+			"name"		"Kerri"
+			"runtext"	"Obrat - Kerri
+					-PS  $240
+					-CR  $350
+					-CR  $250
+					-CR  $500 
+					-CR  $250
+					"
+		}
+
+	}
+	SubDir
+	{
+		"name"			"Zurnal"
+		"password"		"hrisnik"
+		"description"		"Včerejší obrat"
+		"dependency"		"G.Velvet_Quest > 1 and G.PP == 1 and G.Sin_Innocent == 0"	// changed by wesp
+
+		Function
+		{
+			"name"		"Stydlivka"
+			"runtext"	"Obrat - Stydlivka
+					-PS  $80
+					"
+		}
+
+		Function
+		{
+			"name"		"Jennifer"
+			"runtext"	"Obrat - Jen ;-)
+					-cr  $100
+					-cr  $250
+					-cr  $250
+					-cr  $150
+					-cr  $250
+					-cr  $2500 (oslava bakalářů)
+					-cr  $150
+					"
+		}
+
+
+		Function
+		{
+			"name"		"Kerri"
+			"runtext"	"Obrat - Kerri
+					-PS  $240
+					-CR  $350
+					-CR  $250
+					-CR  $500 
+					-CR  $250
+					"
+		}
+
+		Function
+		{
+			"name"		"Vrazda!!!"
+			"runtext"	"Někdo zabil Chastity! Co to je za úchyla? Ostatní jsou v pořádku, ale obě chcou odejít. Mám kámoše, co se v tichosti zbaví těla. Stějně nikdo neví, kdo ta prudérní děvka z falešným jménem vlastně byla!" // changed by wesp
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Zurnal"
+		"password"		"hrisnik"
+		"description"		"Včerejší obrat"
+		"dependency"		"G.Velvet_Quest > 1 and G.PP == 1 and G.Sin_Innocent == 1"	// changed by wesp
+
+		Function
+		{
+			"name"		"Stydlivka"
+			"runtext"	"Obrat - Stydlivka
+					-PS  $80
+					"
+		}
+
+		Function
+		{
+			"name"		"Jennifer"
+			"runtext"	"Obrat - Jen ;-)
+					-cr  $100
+					-cr  $250
+					-cr  $250
+					-cr  $150
+					-cr  $250
+					-cr  $2500 (oslava bakalářů)
+					-cr  $150
+					"
+		}
+
+
+		Function
+		{
+			"name"		"Kerri"
+			"runtext"	"Obrat - Kerri
+					-PS  $240
+					-CR  $350
+					-CR  $250
+					-CR  $500 
+					-CR  $250
+					"
+		}
+
+		Function
+		{
+			"name"		"Vrazda!!!"
+			"runtext"	"Dole v peepshow došlo k masakru a několik lidí zařvalo. Nevím, jestli se mi to podaří před fízlama ututlat, ale udělám, co půjde!" // changed by wesp
+		}
+
+	}
+	SubDir
+	{
+		"name"			"soukromé"
+		"description"		"Flynnovy osobní věci: ZMIZ!"
+		"password"		"prasivypes"
+		"difficulty"		"4"
+
+		Function
+		{
+			"name"		"PM"
+			"description"	"Kontakt na PM"
+			"runtext"	"Mám zvednout telefon u sámošky a říct 'co provází nocí děsivé démony.'
+Bože, to je na posrání. To jenom, abych to nikdy nezkoušel. Leda by z toho koukaly prachy.
+A nebo děvky, ale to je snad jasný."
+			"runscript"	"gotSecretMessage()"
+			"dependency"	"FindPlayer().GetQuestState(\"Tape\") > 0"
+		}
+
+		Function
+		{
+			"name"		"Farmář John"
+			"description"	"Kontakt na farmáře Johna"
+			"runtext"	"John konečně přestal hrát a začal natáčet. Jak se dalo čekat, zůstal u farmařiny. Číslo na něj je prej 1(888)555-0101.
+
+Ten chlápek potřebuje pomoc."
+
+		}
+	}
+}

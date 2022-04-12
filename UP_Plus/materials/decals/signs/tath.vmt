@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$translucent" "1"
-	"$basetexture" "decals/signs/tath"
-	"$decal" 1
-	"$decalscale" 0.15	// plus
-}

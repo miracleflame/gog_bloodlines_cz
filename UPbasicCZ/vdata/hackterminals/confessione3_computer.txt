@@ -1,0 +1,57 @@
+TerminalDefinition
+{
+	"screen saver"		"Zpovědnice"		// Bounces around on the screen when the terminal is not being used. 
+	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
+
+
+	"email_password"	"otrok"		// the user must type this to access email from this terminal
+	"email_username"	"venuše"
+
+	LogonScreen	// displayed when the user first logs on
+	{
+		// Any number of lines are acceptable
+		"line0"		"Venuše Dare"
+	}
+
+// 	SubDir
+//	{
+//		"name"			"Důležité"	//(128 characters)
+//		"password"		"vladce"
+//		"description"		"Sabbat2"
+//
+//		Function
+//		{
+//			"name"		"Sabbat2"
+//			"description"	"Slabina chrličů"
+//			"runtext"	"Chrliči jsou téměř dokonale odolní vůči střelným zbraním. Tupý nástroj by nejspíš fungoval líp."
+//		}
+//	disabled by wesp
+//		Function
+//		{
+//			"name"		"Sabbat1"
+//			"description"	"Chrlič Sabbatů"
+//			"runtext"	"Sabbati obsadili staré asijské divadlo a nechali tam chrliče jako stráž."
+//		}
+//	}
+//	Email
+//	{
+//		"subject"	"Re: Sabbat je zde."
+//		"sender"	"IAabrams@SMMCmail.vtm"
+//		"body"		"Potvrzeno. Jsou v tunelu metra mimo kanalizaci."
+//	}
+//	disabled by wesp
+//	Email
+//	{
+//		"subject"	"Sabbat je zde."
+//		"sender"	"IAabrams@SMMCmail.vtm"
+//		"body"		"Povídá se, že Sabbat infiltruje Los Angeles. Dám vědět, až budu mít víc informací."
+//	}
+
+	Email
+	{
+		"subject"	"Dnes?"
+		"sender"	"Larry"	// changed by wesp
+		"body"		"Myslel jsem, že bychom se dnes večer mohli sejít, jestli vás to potěší, má paní."
+	}
+
+}

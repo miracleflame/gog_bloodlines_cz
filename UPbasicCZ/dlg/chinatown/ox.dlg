@@ -1,0 +1,135 @@
+{	1	}{	[Blows smoke]V mém obchodě si každý něco najde...	}{	[Blows smoke]V mém obchodě si každý něco najde...	}{	#	}{	}{	G.Ox_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Vážně?	}{	Vážně?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Věru?	}
+{	3	}{	To teda pochybuju, že máš něco pro mě, staříku.	}{	To teda pochybuju, že máš něco pro mě, staříku.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemyslím, že váš slogan platí i na mě.	}
+{	11	}{	Každý dostane, co zaslouží...	}{	Každý dostane, co zaslouží...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	A to má znamenat co?	}{	A to má znamenat co?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemám z toho ani trochu chytrosti.	}
+{	13	}{	Klíčenku s mapou Kalifornie nebo lacinýho plastovýho Buddhu?	}{	Klíčenku s mapou Kalifornie nebo lacinýho plastovýho Buddhu?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Takové věci mi neříkejte!	}
+{	21	}{	Hi hi...	}{	Hi hi...	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	(Auto-Link)	}{	(Auto-Link)	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	[Chuckles to self]Hmm mmm...[Blows smoke]	}{	[Chuckles to self]Hmm mmm...[Blows smoke]	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	No nejste vy ujetej starej kozel...?	}{	No nejste vy ujetej starej kozel...?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Líbí se mi váš způsob uvažování.	}
+{	33	}{	Děláš si ze mě prdel dědku?	}{	Děláš si ze mě prdel dědku?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tady vymýšlím vtípky já, staříku!	}
+{	34	}{	Teda běhá mi z vás mráz po zádech...	}{	Teda běhá mi z vás mráz po zádech...	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hmmm... HA HA HA HA!	}
+{	41	}{	To mi připomíná jeden příběh... Zloděj jménem Lin měl ukrást smaragd pro vůdce svého gangu. Ten drahokam patřil muži z hongkongských triád. Většina by takové riziko odmítla, ale Lin se pro to nadchnul a skutečně uspěl...	}{	To mi připomíná jeden příběh... Zloděj jménem Lin měl ukrást smaragd pro vůdce svého gangu. Ten drahokam patřil muži z hongkongských triád. Většina by takové riziko odmítla, ale Lin se pro to nadchnul a skutečně uspěl...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Aha...	}{	Aha...	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ááááno...	}
+{	43	}{	A co má jako bejt?	}{	A co má jako bejt?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Která moje osobnost o tohle žádala?	}
+{	51	}{	Když se Lin vrátil, nechtěl se s tím smaragdem rozloučit. Měl za to, že kvůli němu podstoupil takové nebezpečí, že už mu po právu patřil. Ale ani muž, který ho najal, ani ten okradený, to tak neviděli.	}{	Když se Lin vrátil, nechtěl se s tím smaragdem rozloučit. Měl za to, že kvůli němu podstoupil takové nebezpečí, že už mu po právu patřil. Ale ani muž, který ho najal, ani ten okradený, to tak neviděli.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	(Auto-Link)	}{	(Auto-Link)	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	A víte, co se Linovi stalo?	}{	A víte, co se Linovi stalo?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Prodal ho, vydělal pořádný prachy a pořídil si počítačovou síť.	}{	Prodal ho, vydělal pořádný prachy a pořídil si počítačovou síť.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Lehnul si a proměnil se v horu?	}
+{	63	}{	Co já vím... Je po něm?	}{	Co já vím... Je po něm?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Bylo to krvavé?	}
+{	64	}{	Vy jste Lin?	}{	Vy jste Lin?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	A vyhraji něco, když uhodnu?	}
+{	65	}{	...	}{	...	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	???	}
+{	71	}{	Ne...	}{	Ne...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Auto-Link)	}{	(Auto-Link)	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Chytili ho... Jeden muž získal svůj smaragd, ale Linův zaměstnavatel vyšel s prázdnou. Slyšel jsem ten příběh od něj, když se zastavil v mém obchodě. Bohužel jsem neměl nic, co bych mu mohl prodat.	}{	Chytili ho... Jeden muž získal svůj smaragd, ale Linův zaměstnavatel vyšel s prázdnou. Slyšel jsem ten příběh od něj, když se zastavil v mém obchodě. Bohužel jsem neměl nic, co bych mu mohl prodat.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	A co tím tedy chcete říct?	}{	A co tím tedy chcete říct?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	A tím končí bezvýznamný příběh.	}
+{	83	}{	No a?	}{	No a?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Bezva příběh! Ale chybí v něm badmintovoné košíky...	}
+{	84	}{	Do hajzlu, proč mi každej vykládá takový zbytečný sračky?	}{	Do hajzlu, proč mi každej vykládá takový zbytečný sračky?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Je tu tolik věcí na policích, tohle mi nepomůže...	}
+{	91	}{	Linovy oči chtěly víc, než jeho ruce mohly udržet... Bohužel, i když bych měl kupce, ctižádostivé oči nemám zrovna na skladě. Nevíte náhodou, kdy bude příští sklizeň očí?	}{	Linovy oči chtěly víc, než jeho ruce mohly udržet... Bohužel, i když bych měl kupce, ctižádostivé oči nemám zrovna na skladě. Nevíte náhodou, kdy bude příští sklizeň očí?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Sklizeň očí?	}{	Sklizeň očí?	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dnes.	}
+{	93	}{	Farmářskou ročenku jsem si nechal v druhých kalhotách, je mi líto.	}{	Farmářskou ročenku jsem si nechala v druhých kalhotách, je mi líto.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	A vy?	}
+{	94	}{	To ani nechci vědět, mizím odsud.	}{	To ani nechci vědět, mizím odsud.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pošlete mi pohled. Nechci být u toho.	}
+{	101	}{	Má chyba... Myslel jsem, že by vás mohlo zajímat... [Blows smoke]Prosím, dejte vědět, kdyby vás něco zaujalo...	}{	Má chyba... Myslel jsem, že by vás mohlo zajímat... [Blows smoke]Prosím, dejte vědět, kdyby vás něco zaujalo...	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	A myslel jste tou bezduchou historkou něco?	}{	A myslel jste tou bezduchou historkou něco?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Aha, už rozumím, tak pokračujte...	}
+{	104	}{	Jo, východ. Nazdar.	}{	Jo, východ. Nazdar.	}{	0	}{	}{	G.Ox_Rude = 1	}{	}{	}{	}{	}{	}{	}{	Musím být na tolika místech...	}
+{	111	}{	Slyšel jsem, že Linovo tělo leží v mrazáku místního obchodu s nudlemi. Jistí lidé ho chtějí... nedotčeného. Ale já myslím, že jeho oči by se mi do krámu velice hodily, kdyby sem náhodou zabloudily. [contemplative]Peklo bez očí, to je pro Lina ten správný trest.	}{	Slyšel jsem, že Linovo tělo leží v mrazáku místního obchodu s nudlemi. Jistí lidé ho chtějí... nedotčeného. Ale já myslím, že jeho oči by se mi do krámu velice hodily, kdyby sem náhodou zabloudily. [contemplative]Peklo bez očí, to je pro Lina ten správný trest.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	To je úchylný... Seženu je.	}{	To je úchylný... Seženu je.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zvrácené. Tak mě zapište.	}
+{	113	}{	Oči... Ještě nikdy jsem nekradl oči. Ale všechno je jednou poprvé.	}{	Oči... Ještě nikdy jsem nekradla oči. Ale všechno je jednou poprvé.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Oči jsou skoro jako kuličky hroznu a ty si dávám častěji než jiné ovoce.	}
+{	114	}{	Oči? Náhodou mám jedny u sebe.	}{	Oči? Náhodou mám jedny u sebe.	}{	191	}{	pc.HasItem("item_g_Eyes")	}{	pc.RemoveItem("item_g_Eyes")	}{	}{	}{	}{	}{	}{	}{	Oči mi již zkřížily cestu.	}
+{	115	}{	Ne... ne, ne, ne, ne, ne, ne... Ne.	}{	Ne... ne, ne, ne, ne, ne, ne... Ne.	}{	131	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Ne... ne, ne, ne, ne, ne, ne... Ne.	}
+{	121	}{	Já věděl, že se chytíš...[blows smoke] Proč bych jinak plýtval slovy za ztraceného...	}{	Já věděl, že se chytíš...[blows smoke] Proč bych jinak plýtval slovy za ztraceného...	}{	#	}{	}{	G.Ox_Gouge = 1; pc.SetQuest("Eyes",1)	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	A jaký je váš příběh?	}{	A jaký je váš příběh?	}{	171	}{	G.Ox_Story == 0	}{	}{	}{	}{	}{	}{	}{	}{	Sloupněte svou fasádu...	}
+{	123	}{	Prodáváte zbraně?	}{	Prodáváte zbraně?	}{	141	}{	G.Ox_Weapon == 0	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji atomovky! Máte?	}
+{	124	}{	Říká vám něco slovo hengeyokai?	}{	Říká vám něco slovo hengeyokai?	}{	151	}{	G.Yukie_Quest == 1 and G.Ox_Heng == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hengeyokai... víte něco?	}
+{	125	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and not IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	Viděl jste nějakou kanálovou krysu?	}
+{	126	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	127	}{	Tady jsou ty oči.	}{	Tady jsou ty oči.	}{	191	}{	pc.HasItem("item_g_Eyes")	}{	pc.RemoveItem("item_g_Eyes")	}{	}{	}{	}{	}{	}{	}{	Jak se ukázalo, tyto oči nejsou moje. Chcete je?	}
+{	128	}{	Jasně... Nashle.	}{	Jasně... Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dobrá, již odcházím...	}
+{	131	}{	[Blows smoke]Pokud to tak osud bude chtít, bude to uděláno. Nic jiného nemohu žádat...	}{	[Blows smoke]Pokud to tak osud bude chtít, bude to uděláno. Nic jiného nemohu žádat...	}{	#	}{	}{	G.Ox_Refuse = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Jasně, ty střelenej, starej šmejde. Nazdar.	}{	Jasně, ty střelenej, starej šmejde. Nazdar.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cítím tu sražené mléko... Musím odsud odejít...	}
+{	133	}{	Vnoučata za váma moc často nechodí, co? Ani já tady nebudu.	}{	Vnoučata za váma moc často nechodí, co? Ani já tady nebudu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše choutky mě zneklidňují, tak se v nich raději nebudu vrtat.	}
+{	141	}{	Prodávám věci, které mnohým připadají kruté, ale zbraně... Ne.	}{	Prodávám věci, které mnohým připadají kruté, ale zbraně... Ne.	}{	#	}{	}{	G.Ox_Weapon = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	A jaký je váš příběh?	}{	A jaký je váš příběh?	}{	171	}{	G.Ox_Bio == 0	}{	}{	}{	}{	}{	}{	}{	}{	Sloupněte svou fasádu...	}
+{	143	}{	Říká vám něco slovo hengeyokai?	}{	Říká vám něco slovo hengeyokai?	}{	151	}{	G.Yukie_Quest == 1 and G.Ox_Heng == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hengeyokai... víte něco?	}
+{	144	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and not IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	Viděl jste nějakou kanálovou krysu?	}
+{	145	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	146	}{	Tak to já už půjdu...	}{	Tak to já už půjdu...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Budu pokračovat v hledání.	}
+{	151	}{	[Smiles slightly]Nic...	}{	[Smiles slightly]Nic...	}{	#	}{	}{	G.Ox_Heng = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	A jaký je váš příběh?	}{	A jaký je váš příběh?	}{	171	}{	G.Ox_Bio == 0	}{	}{	}{	}{	}{	}{	}{	}{	Sloupněte svou fasádu...	}
+{	153	}{	Prodáváte zbraně?	}{	Prodáváte zbraně?	}{	141	}{	G.Ox_Weapon == 0	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji atomovky! Máte?	}
+{	154	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and not IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	Viděl jste nějakou kanálovou krysu?	}
+{	155	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	156	}{	Aspoň jsem se zeptal... Nashle.	}{	Aspoň jsem se zeptala... Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	To nebylo osobní. Jen trošku. Pá pá.	}
+{	161	}{	[Blows smoke]Ne...	}{	[Blows smoke]Ne...	}{	#	}{	}{	G.Ox_Barabus = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	A jaký je váš příběh?	}{	A jaký je váš příběh?	}{	171	}{	G.Ox_Bio == 0	}{	}{	}{	}{	}{	}{	}{	}{	Sloupněte svou fasádu...	}
+{	163	}{	Prodáváte zbraně?	}{	Prodáváte zbraně?	}{	141	}{	G.Ox_Weapon == 0	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji atomovky! Máte?	}
+{	164	}{	Říká vám něco slovo hengeyokai?	}{	Říká vám něco slovo hengeyokai?	}{	151	}{	G.Yukie_Quest == 1 and G.Ox_Heng == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hengeyokai... víte něco?	}
+{	165	}{	Sakra... Tak nic, nashle.	}{	Sakra... Tak nic, nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tady není. Asi někde jinde.	}
+{	171	}{	Jak nezdvořilé, že jsem se nepředstavil... Můžete mi říkat... Pan Ox. Toto je můj obchod, zaujal vás? Na cestě do pekla další takový nepotkáte...	}{	Jak nezdvořilé, že jsem se nepředstavil... Můžete mi říkat... Pan Ox. Toto je můj obchod, zaujal vás? Na cestě do pekla další takový nepotkáte...	}{	#	}{	}{	G.Ox_Bio = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	Prodáváte zbraně?	}{	Prodáváte zbraně?	}{	141	}{	G.Ox_Weapon == 0	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji atomovky! Máte?	}
+{	173	}{	Říká vám něco slovo hengeyokai?	}{	Říká vám něco slovo hengeyokai?	}{	151	}{	G.Yukie_Quest == 1 and G.Ox_Heng == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hengeyokai... víte něco?	}
+{	174	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and not IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	Viděl jste nějakou kanálovou krysu?	}
+{	175	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	176	}{	Asi byste měl vyhodit týpka, co vám zařizuje propagaci. Nashle.	}{	Asi byste měl vyhodit týpka, co vám zařizuje propagaci. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Do pekla... Tak to tady páchne? Už to dál nesnesu...	}
+{	181	}{	Jste tu vždy vítán...	}{	Jste tu vždy vítána...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Co jste to předtím říkal o očích?	}{	Co jste to předtím říkal o očích?	}{	111	}{	G.Ox_Rude == 1	}{	G.Ox_Rude = 0	}{	}{	}{	}{	}{	}{	}{	Oči! Pokračujte...	}
+{	183	}{	Ta věc s očima... Udělám to.	}{	Ta věc s očima... Udělám to.	}{	121	}{	G.Ox_Refuse == 1	}{	G.Ox_Refuse = 0	}{	}{	}{	}{	}{	}{	}{	Jde o tu věc, co jste říkal o té věci... Provedu ten skutek.	}
+{	184	}{	Jde o tu druhou věc, co jste chtěl...	}{	Jde o tu druhou věc, co jste chtěl...	}{	211	}{	G.Ox_Job == 1	}{	G.Ox_Job = 0	}{	}{	}{	}{	}{	}{	}{	Jde o farmařinu...	}
+{	185	}{	Ta věc s talismanem... udělám to.	}{	Ta věc s talismanem... udělám to.	}{	231	}{	G.Ox_Job == 2	}{	G.Ox_Job = 0	}{	}{	}{	}{	}{	}{	}{	Chci pěstovat smůlu. Rodiče by byli pyšní.	}
+{	186	}{	Tady jsou ty oči.	}{	Tady jsou ty oči.	}{	191	}{	pc.HasItem("item_g_Eyes")	}{	pc.RemoveItem("item_g_Eyes")	}{	}{	}{	}{	}{	}{	}{	Mé já zjistilo, že tyto oči nejsou mé. Chcete je?	}
+{	187	}{	Jde o ten talisman...	}{	Jde o ten talisman...	}{	241	}{	G.Ox_Talisman == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jde o farmařinu...	}
+{	188	}{	Chtěl bych se na něco zeptat...	}{	Chtěla bych se na něco zeptat...	}{	291	}{	}{	}{	}{	}{	}{	}{	}{	}{	Něco mě od vás zajímá.	}
+{	189	}{	To vám tak věřím... Nazdar.	}{	To vám tak věřím... Nazdar.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ani si neberte účtenku. Již tady nejsem.	}
+{	191	}{	Hmm... Ano, zírají ambiciózně. Ahoj, Line, líbí se ti tam? Budou se v mém obchodě výborně vyjímat. Tu máte, přijměte toto jako protihodnotu...	}{	Hmm... Ano, zírají ambiciózně. Ahoj, Line, líbí se ti tam? Budou se v mém obchodě výborně vyjímat. Tu máte, přijměte toto jako protihodnotu...	}{	#	}{	}{	G.Ox_Gouge = 2; pc.SetQuest("Eyes",3); oxReward1()	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	(Auto-Link)	}{	(Auto-Link)	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	201	}{	Měl bych tu ještě jednu věc, pokud to oslovuje vaši... zvědavost.	}{	Měl bych tu ještě jednu věc, pokud to oslovuje vaši... zvědavost.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	Tak ven s tím.	}{	Tak ven s tím.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zvědavost? Kdykoliv...	}
+{	203	}{	Pokud to nebude zase dloubání očí nebo jiných částí těl, tak prosím.	}{	Pokud to nebude zase dloubání očí nebo jiných částí těl, tak prosím.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Další oči?	}
+{	204	}{	Ta věc s očima mě bohatě stačila, díky...	}{	Ta věc s očima mě bohatě stačila, díky...	}{	0	}{	}{	G.Ox_Job = 1	}{	}{	}{	}{	}{	}{	}{	Má zvědavost již přetekla. Jsem pryč.	}
+{	211	}{	Potřebuji, abyste byl sazeč smůly. Víte, co to je?	}{	Potřebuji, abyste byla sazečkou smůly. Víte, co to je?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	Ne, tak mi to řekněte...	}{	Ne, tak mi to řekněte...	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	Musím se usmívat, jen to slyším...	}
+{	213	}{	Špatný překlad?	}{	Špatný překlad?	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chyták?	}
+{	221	}{	Zakazník si koupil smolný talisman a chce jej doručit svému nepřiteli. Potřebuji, abyste toto umístil do skříňky jednoho klienta v masážním salónu Lotosový květ, aby tam smůla mohla začít klíčit.	}{	Zakazník si koupil smolný talisman a chce jej doručit svému nepřiteli. Potřebuji, abyste toto umístila do skříňky jednoho klienta v masážním salónu Lotosový květ, aby tam smůla mohla začít klíčit.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	222	}{	To je celý? Hračka.	}{	To je celý? Hračka.	}{	231	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sázet semínka neštěstí? Jistě.	}
+{	223	}{	To těžko stojí za můj čas, ale nakonec proč ne...	}{	To těžko stojí za můj čas, ale nakonec proč ne...	}{	231	}{	}{	}{	}{	}{	}{	}{	}{	}{	Čas umím jenom zabíjet...	}
+{	224	}{	Nemám zájem. Nashle.	}{	Nemám zájem. Nashle.	}{	0	}{	}{	G.Ox_Job = 2	}{	}{	}{	}{	}{	}{	}{	Jímá mě velkolepost. Musím slavnostně odkráčet.	}
+{	231	}{	Můj zákazník označil skříňku svého nepřítele černým kruhem. Umístěte ten talisman tam, sazeči smůly.[chuckles to self sinisterly]	}{	Můj zákazník označil skříňku svého nepřítele černým kruhem. Umístěte ten talisman tam, sazečko smůly.[chuckles to self sinisterly]	}{	#	}{	}{	G.Ox_Talisman = 1; pc.GiveItem("item_g_badlucktalisman"); pc.SetQuest("Ox",1)	}{	}{	}{	}{	}{	}{	}{	}
+{	232	}{	No to víte, že jo... Uvidíme.	}{	No to víte, že jo... Uvidíme.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Letošní sklizeň bude obrovská.	}
+{	233	}{	Dokud mi budete platit, budu vám ty řeči tolerovat. Zatím.	}{	Dokud mi budete platit, budu vám ty řeči tolerovat. Zatím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	A potom dostanu peníze za nezasazení smůly. Nelze prohrát!	}
+{	241	}{	[Blows smoke]Ujalo se semínko?	}{	[Blows smoke]Ujalo se semínko?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	242	}{	Ten chlap mě uviděl a zaútočil na mě! Zabil jsem ho...	}{	Ten chlap mě uviděl a zaútočil na mě! Zabila jsem ho...	}{	251	}{	IsDead("Shu")	}{	}{	}{	}{	}{	}{	}{	}{	Ujalo a kořen škrtil...	}
+{	243	}{	Jo, je tam...	}{	Jo, je tam...	}{	261	}{	G.Ox_Planted == 1 and not IsDead("Shu")	}{	}{	}{	}{	}{	}{	}{	}{	I tak se to dá říci.	}
+{	245	}{	Chtěl bych se na něco zeptat...	}{	Chtěla bych se na něco zeptat...	}{	291	}{	}{	}{	}{	}{	}{	}{	}{	}{	Něco mě od vás zajímá.	}
+{	246	}{	Ještě ne, ale dám vám vědět. Nashle.	}{	Ještě ne, ale dám vám vědět. Nashle.	}{	0	}{	pc.HasItem("item_g_badlucktalisman")	}{	}{	}{	}{	}{	}{	}{	}{	Mé já ještě nebylo sazečem...	}
+{	251	}{	[Chuckles to self]Hmm, tak to měl nesporně smůlu. Má cena byla poměrně vysoká, můj zákazník bude nepochybně potěšen. A jako minule, přijměte toto spolu s mou vděčností.	}{	[Chuckles to self]Hmm, tak to měl nesporně smůlu. Má cena byla poměrně vysoká, můj zákazník bude nepochybně potěšen. A jako minule, přijměte toto spolu s mou vděčností.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Ox_Talisman = 2; pc.SetQuest("Ox",5); oxReward2()	}{	}{	}{	}{	}{	}{	}{	}
+{	252	}{	Nemáte ještě další práci?	}{	Nemáte ještě další práci?	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Další povinnosti?	}
+{	253	}{	Vy jste věděl, že to takto skončí?!	}{	Vy jste věděl, že to takto skončí?!	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé já tedy není sazeč, ale hlína.	}
+{	254	}{	Jasně, díky. Sbohem.	}{	Jasně, díky. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hmm... Asi vím, co myslíte, tak honem mizím.	}
+{	261	}{	Hmm... Na tom jsme se věru domluvili... Snad smůla časem rozkvete... Prosím, přijměte tuto odměnu.	}{	Hmm... Na tom jsme se věru domluvili... Snad smůla časem rozkvete... Prosím, přijměte tuto odměnu.	}{	#	}{	}{	G.Ox_Talisman = 2; pc.MoneyAdd(100); pc.SetQuest("Ox",4)	}{	}{	}{	}{	}{	}{	}{	}
+{	262	}{	Nemáte ještě další práci?	}{	Nemáte ještě další práci?	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Další povinnosti?	}
+{	263	}{	Jasně, díky. Sbohem.	}{	Jasně, díky. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hmm... Asi vím, co myslíte, tak honem mizím.	}
+{	271	}{	Vy jste příkladný zaměstnanec... Možná budeme v budoucnu znovu spolupracovat. Do té doby se držte. A pokud potkáte někoho na zcestí s duší na prodej, prosím, doporučte mu můj obchod.	}{	Vy jste příkladný zaměstnanec... Možná budeme v budoucnu znovu spolupracovat. Do té doby se držte. A pokud potkáte někoho na zcestí s duší na prodej, prosím, doporučte mu můj obchod.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	272	}{	Jasně. Sbohem.	}{	Jasně. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zaměstnanec měsíce? A máš to, tati.	}
+{	273	}{	Radši už půjdu... Začíná mi tady být nevolno. Sbohem.	}{	Radši už půjdu... Začíná mi tady být nevolno. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cítím tu sražené mléko. Musím se odebrat.	}
+{	281	}{	[Blows smoke, laughs]Když nemůžeš přimět člověka, aby sám vstoupil do pekla, přiměj démony, aby přišli za ním.	}{	[Blows smoke, laughs]Když nemůžeš přimět člověka, aby sám vstoupil do pekla, přiměj démony, aby přišli za ním.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	282	}{	To je dobrý... Tak sbohem.	}{	To je dobrý... Tak sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Oni jsou mezi námi. Musím už JÍT.	}
+{	283	}{	Vy jste úchylák. Máte kliku, že se nehodlám snížit na vaši úroveň...	}{	Vy jste úchylák. Máte kliku, že se nehodlám snížit na vaši úroveň...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	To už není legrační. Jsem pryč.	}
+{	284	}{	To je příhodný, že mluvíte o peklu, protože tam vás teď pošlu!	}{	To je příhodný, že mluvíte o peklu, protože tam vás teď pošlu!	}{	0	}{	}{	G.Ox_Laugh = 1	}{	}{	}{	}{	}{	}{	}{	Potřebujete vymítit... Zatancujeme si.	}
+{	285	}{	Nevím, co jseš zač, starče... ale zatím tě nezabiju. Sbohem.	}{	Nevím, co jseš zač, starče... ale zatím tě nezabiju. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cítím tu sražené mléko. Musím se odebrat.	}
+{	291	}{	Ano...	}{	Ano...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	292	}{	Jak je to s váma?	}{	Jak je to s váma?	}{	171	}{	G.Ox_Bio == 0	}{	}{	}{	}{	}{	}{	}{	}{	Sloupněte svou fasádu...	}
+{	293	}{	Prodáváte zbraně?	}{	Prodáváte zbraně?	}{	141	}{	G.Ox_Weapon == 0	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji atomovky! Máte?	}
+{	294	}{	Říká vám něco slovo hengeyokai?	}{	Říká vám něco slovo hengeyokai?	}{	151	}{	G.Yukie_Quest == 1 and G.Ox_Heng == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hengeyokai... víte něco?	}
+{	295	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	Někoho hledám... Fakt hnusnej, takovej slídil. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and not IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	Viděl jste nějakou kanálovou krysu?	}
+{	296	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	Někoho hledám... Vypadá celkem jako já. Viděl jste někoho takového?	}{	161	}{	G.Ox_Barabus == 0 and IsClan(pc,"Nosferatu") and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	297	}{	Už mě nic nenapadá. Sbohem.	}{	Už mě nic nenapadá. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	OK, já už odcházím.	}
+{	301	}{	Yes.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	302	}{	No.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	303	}{	[Short laugh]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	304	}{	For you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	305	}{	Hmm. . .	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	311	}{	[Laughing]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	321	}{	[Sound of him blowing smoke]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	334	}{	(Starting Condition)	}{	}{	181	}{	G.Ox_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	335	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

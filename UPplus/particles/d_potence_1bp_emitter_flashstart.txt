@@ -1,0 +1,26 @@
+Particle
+{
+	frames	"10"	//"10"
+
+	fps	"30"	//"30"
+
+	
+	spawn
+	{
+		particle	"D_Potence_1bp_flash"
+		burst		"10"
+	}
+	spawn // restored by EntenSchreck
+	{
+		particle	"D_Potence_1bp_flash2"
+		rate		"10"
+	}
+	spawn // added by EntenSchreck
+	{
+		particle	"d_potence_1bp_bodyglow2-normal"
+		burst		"100"
+		rate		"10"
+	}
+	
+}
+

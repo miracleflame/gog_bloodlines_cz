@@ -1,0 +1,334 @@
+{	1	}{	[Black Vietnam vet. Hot blooded; everything said with a tint of anger or urgency. Drill sergeant like.]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	[false and pointed enthusiasm]A hele, jestli tohle není naše celebrita. Výstavní děcko kamarillské [cam-er-ILL-uh]blahovůle. Tak jakou pochůzku ti princ nadělil dneska, hochu?	}{	[false and pointed enthusiasm]A hele, jestli tohle není naše celebrita. Výstavní děcko kamarillské [cam-er-ILL-uh]blahovůle. [loudly, to others]Tak čím dneska zaměstnal princ svou malou čubu?	}{	#	}{	}{	G.Skelter_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Šašek hraje svou hru a posílá za sebe svého malého pěšáka...	}{	Šašek hraje svou hru a posílá za sebe svého malého pěšáka...	}{	651	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Moc vtipný. Je tu někde Nines Rodriguez?	}{	Moc vtipný. Je tu někde Nines Rodriguez?	}{	21	}{	not IsClan(pc,"Malkavian") and G.Nines_Chat == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Sežeň mi Ninese, než tě vyšlu na pochůzku hledat svou dobitou pýchu...	}{	Hledám Ninese. Tak buď hodný chlapec a doběhni mi pro něj...	}{	21	}{	not IsClan(pc,"Malkavian") and G.Nines_Chat == 0 and G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	Zmiz mi z očí nebo ti ty tvoje vypíchnu...	}{	Zmiz mi z očí nebo ti ty tvoje vypíchnu...	}{	91	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	Jen si držkuj. Nestojíš mi ani za odseknutí.	}{	Jen si držkuj. Nestojíš mi ani za odseknutí.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Nines už na tebe čeká. Chovej se slušně a nezneužívej toho, že tě pozval. Já jsem Skelter. Jak něco zkusíš, budu to já, kdo vyprovodí tvůj popel ke dveřím.	}{	Nines už na tebe čeká. Chovej se slušně a nezneužívej toho, že tě pozval. Já jsem Skelter. Jak něco zkusíš, budu to já, kdo vyprovodí tvůj popel ke dveřím.	}{	#	}{	}{	G.Skelter_Name = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	Jasně, chápu. Máš minutku na pokec?	}{	Jasně, chápu. Máš minutku na pokec?	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	Jak říkám, potřebuju mluvit s Ninesem...	}{	Jak říkám, potřebuju mluvit s Ninesem...	}{	161	}{	G.Nines_Chat == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hledám toho, kdo mám jméno z čísel.	}
+{	30	}{	A tos vymyslel úplně sám? Nashle.	}{	A tos vymyslel úplně sám? Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už tady nejsem.	}
+{	31	}{	Musíš pochopit, že ti v žilách koluje šest tisíc let stará kletba, a je jedno, jak mocně si s ní připadáš...	}{	Musíš pochopit, že ti v žilách koluje šest tisíc let stará kletba, a je jedno, jak mocně si s ní připadáš...	}{	#	}{	}{	G.Skelter_Blood = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Kletba?	}{	Kletba?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	O jaké kletbě hovoříš?	}
+{	33	}{	No já nevím... mně to připadá dost dobrý.	}{	No já nevím... mně to připadá dost dobrý.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Krev je má blízká přítelkyně.	}
+{	34	}{	Vlastně je mi z toho docela na blití...	}{	Vlastně je mi z toho docela na blití...	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Červená šťáva vrhá temný stín na mou duši...	}
+{	41	}{	Ta krev je změť řetězů, která tě bude držet v područí celý zbytek tvé existence.	}{	Ta krev je změť řetězů, která tě bude držet v područí celý zbytek tvé existence.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Proč to říkáš?	}{	Proč to říkáš?	}{	51	}{	G.Skelter_Blood == 1	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova jsou rosolovitá míchanice...	}
+{	43	}{	Fakt si to myslíš?	}{	Fakt si to myslíš?	}{	51	}{	G.Skelter_Blood == 1 and G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Tvá hatmatilka je labyrintová...	}
+{	44	}{	O čem to mluvíš?	}{	O čem to mluvíš?	}{	51	}{	G.Skelter_Blood == 1 and not IsClan(pc,"Malkavian") and G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	(Auto-Link)	}{	(Auto-Link)	}{	51	}{	G.Skelter_Blood == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Stařešinové poroučí krvi, ovládají ji a krev poslouchá; nikdy ani neuslyšíš jejich vzývání, ale krev uslyší, a ty se podvolíš, ať chceš nebo ne.	}{	Stařešinové poroučí krvi, ovládají ji a krev poslouchá; nikdy ani neuslyšíš jejich vzývání, ale krev uslyší, a ty se podvolíš, ať chceš nebo ne.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{	A jak se dá uniknout?	}{	A jak se dá uniknout?	}{	61	}{	G.Skelter_Blood == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jak rozbiji tyto prastaré řetězy?	}
+{	54	}{	Mně to zní jako vampírské pověry.	}{	Mně to zní jako vampírské pověry.	}{	61	}{	G.Skelter_Blood == 1	}{	}{	}{	}{	}{	}{	}{	}{	Legendy, babské kecy a něco k tomu...	}
+{	55	}{	A takhle to bylo vždycky?	}{	A takhle to bylo vždycky?	}{	61	}{	G.Skelter_Blood == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	56	}{	No bezva. Můžu se na něco zeptat?	}{	No bezva. Můžu se na něco zeptat?	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	57	}{	Tak to je na prd. Měj se.	}{	Tak to je na prd. Měj se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Táhne se to až do doby Kaina. Nemůžeš nic dělat. Nějakýmu prastarýmu vampírovi na druhým konci světa se bude něco hnusnýho zdát a ty to ucítíš taky.	}{	Táhne se to až do doby Kaina. Nemůžeš nic dělat. Nějakýmu prastarýmu vampírovi na druhým konci světa se bude něco hnusnýho zdát a ty to ucítíš taky.	}{	#	}{	}{	G.Skelter_Stretch = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Kdo je Kain?	}{	Kdo je Kain?	}{	611	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mluvíš o temném otci?	}
+{	63	}{	Kaina? Co to sakra meleš?	}{	Kaina? Co to sakra meleš?	}{	611	}{	not IsClan(pc,"Malkavian") and G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	69	}{	Ještě mám další dotaz...	}{	Ještě mám další dotaz...	}{	591	}{	G.Skelter_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	70	}{	Tak já padám.	}{	Tak já padám.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už jsem někde jinde.	}
+{	71	}{	Chci tím říct, že když už ti za nitky tahá ta kletba, vážně chceš zahodit svý právo bojovat a přidat se ke Kamarille?	}{	Chci tím říct, že když už ti za nitky tahá ta kletba, vážně chceš zahodit svý právo bojovat a přidat se ke Kamarille?	}{	#	}{	}{	G.Skelter_Blood = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Každý má právo na svůj názor.	}{	Každý má právo na svůj názor.	}{	79	}{	G.Skelter_Name == 0	}{	}{	}{	}{	}{	}{	}{	}{	Názory jsou jako zadní otvory...	}
+{	73	}{	Co máš vlastně proti Kamarille?	}{	Co máš vlastně proti Kamarille?	}{	101	}{	G.Skelter_Cam == 0	}{	}{	}{	}{	}{	}{	}{	}{	Proč proklínáš Kamarillu?	}
+{	74	}{	Zdravíčko, pomotaný Skeltere!	}{	Zdravíčko, pomotaný Skeltere!	}{	671	}{	G.Skelter_Name == 0 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	75	}{	No to je pěkná teorie. Jak se jmenuješ?	}{	No to je pěkná teorie. Jak se jmenuješ?	}{	81	}{	G.Skelter_Name == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	Ale s Maškarádou souhlasíš, ne?	}{	Ale s Maškarádou souhlasíš, ne?	}{	171	}{	G.Skelter_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ale též se skrýváš za rouškou Maškarády, ano?	}
+{	77	}{	Popřemýšlím o tom. Ještě mám jinou otázku...	}{	Popřemýšlím o tom. Ještě mám jinou otázku...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	78	}{	To víš, že jo. Tak já půjdu.	}{	To víš, že jo. Tak já půjdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	79	}{	Hmph. To jsem rád, že to tak pěkně chápeš.	}{	Hmph. To jsem rád, že to tak pěkně chápeš.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	80	}{	(Auto-Link)	}{	(Auto-Link)	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Já jsem Skelter. A dělám, co můžu, aby Kalifornie zůstala svobodným státem Anarchů.	}{	Já jsem Skelter. A dělám, co můžu, aby Kalifornie zůstala svobodným státem Anarchů.	}{	#	}{	}{	G.Skelter_Name = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Potřebuju mluvit s Ninesem.	}{	Potřebuju mluvit s Ninesem.	}{	161	}{	G.Skelter_See == 0 and G.Nines_Chat == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	Proč vlastně Kamarillu tak nenávidíš?	}{	Proč vlastně Kamarillu tak nenávidíš?	}{	101	}{	G.Skelter_Cam == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	89	}{	Chtěl bych se na něco zeptat, Skeltere.	}{	Chtěla bych se na něco zeptat, Skeltere.	}{	591	}{	G.Skelter_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	90	}{	No dobře. Tak já půjdu.	}{	No dobře. Tak já půjdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Snažíš se tu rozpoutat rvačku, aby sem naběhl kamarillskej šerif a vyčistil to tady? Tak to teda ne. Řekni princovi, ať ti ukáže, jak dopadl ten zmrd, co tuhle fintu naposledy zkoušel. A když už v tom budete, vyřiď mu, že chci ten popelník zpátky.	}{	Snažíš se tu rozpoutat rvačku, aby sem naběhl kamarillskej šerif a vyčistil to tady? Tak to teda ne. Řekni princovi, ať ti ukáže, jak dopadl ten zmrd, co tuhle fintu naposledy zkoušel. A když už v tom budete, vyřiď mu, že chci ten popelník zpátky.	}{	#	}{	}{	G.Skelter_Ashtray = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Jak se jmenuješ?	}{	Jak se jmenuješ?	}{	81	}{	G.Skelter_Name == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	93	}{	A ty seš kdo? Uvítací komise Anarchů?	}{	A ty seš kdo? Uvítací komise Anarchů?	}{	81	}{	G.Skelter_Name == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	94	}{	Zdravíčko, pomotaný Skeltere!	}{	Zdravíčko, pomotaný Skeltere!	}{	671	}{	G.Skelter_Name == 0 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{	Hele, nechci dělat problémy. Potřebuju mluvit s Ninesem Rodriguezem.	}{	Hele, nechci dělat problémy. Potřebuju mluvit s Ninesem Rodriguezem.	}{	161	}{	G.Nines_Chat == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hledám toho, kdo mám jméno z čísel.	}
+{	96	}{	No to je fuk. Jdu za Ninesem...	}{	No to je fuk. Jdu za Ninesem...	}{	161	}{	not IsClan(pc,"Malkavian") and G.Nines_Chat == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	Kamarilla je prostě zbytečná. Jejich pravidla jsou přece jasný jak facka. Maškaráda a ty kecy okolo - jasně že to dává smysl. Stejně jako desatero přikázání. Znáš desatero přikázání, že jo?	}{	Kamarilla je prostě zbytečná. Jejich pravidla jsou přece jasný jak facka. Maškaráda a ty kecy okolo - jasně že to dává smysl. Stejně jako desatero přikázání. Znáš desatero přikázání, že jo?	}{	#	}{	}{	G.Skelter_Cam = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Jasně.	}{	Jasně.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Má hlava je jako hořící křoví...	}
+{	103	}{	Desatero přikázání?	}{	Desatero přikázání?	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dvanáctero morů a bučení pozlaceného telátka...	}
+{	109	}{	Ještě bych se zeptal na něco dalšího...	}{	Ještě bych se zeptala na něco dalšího...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	110	}{	Já jen vím, že už mi to kázání leze na nervy. Nashle.	}{	Já jen vím, že už mi to kázání leze na nervy. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj stín už dopadá na jiná místa. Sbohem.	}
+{	111	}{	Jo, nepokradeš, nezabiješ... Zní to dobře, ale oba víme, že každej den se může něco zesrat. A co když pak naběhne nějaká [derisively]"společnost" jako Kamarilla a sejme tě jen proto, že porušíš jedno podělaný přikázání?	}{	Jo, nepokradeš, nezabiješ... Zní to dobře, ale oba víme, že každej den se může něco zesrat. A co když pak naběhne nějaká [derisively]"společnost" jako Kamarilla a sejme tě jen proto, že porušíš jedno podělaný přikázání?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Chápu, co tím chceš říct.	}{	Chápu, co tím chceš říct.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova nosí pravdu jako padnoucí kýlní pás...	}
+{	114	}{	Právo a pořádek jsou v zájmu každého našince.	}{	Právo a pořádek jsou v zájmu každého našince.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sleduji poněkud uspořádanější cestu.	}
+{	119	}{	Ještě bych se zeptal na něco dalšího...	}{	Ještě bych se zeptala na něco dalšího...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	120	}{	A myslíš taky "Nebudeš nudit své publikum?" Měj se.	}{	A myslíš taky "Nebudeš nudit své publikum?" Měj se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už jsem někde jinde.	}
+{	121	}{	Dobře. Taková existence není nic pro nás. Tři roky jsem se řídil cízíma pravidlama ve Vietnamu. Ale teprve od svýho uchvácení chápu, jak vypadá skutečnej útlak.	}{	Dobře. Taková existence není nic pro nás. Tři roky jsem se řídil cízíma pravidlama ve Vietnamu. Ale teprve od svýho uchvácení chápu, jak vypadá skutečnej útlak.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	A zkus si k tomu makat pro prince.	}{	A zkus si k tomu makat pro prince.	}{	79	}{	G.Skelter_Name == 0	}{	}{	}{	}{	}{	}{	}{	}{	Útlak je šaškova hrací skříň...	}
+{	123	}{	Takže Anarchové jsou cesta ven, co?	}{	Takže Anarchové jsou cesta ven, co?	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pověz mi o dětech entropie...	}
+{	124	}{	Jo, ale teď je tvůj šéf pro změnu Nines, ne?	}{	Jo, ale teď je tvůj šéf pro změnu Nines, ne?	}{	141	}{	G.Skelter_Follow == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova zní majestátně, i když klečíš před Ninesem...	}
+{	125	}{	Fakt? Proč to říkáš?	}{	Fakt? Proč to říkáš?	}{	31	}{	G.Skelter_Blood == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova jsou kalná voda... Přeceď mi je...	}
+{	126	}{	Ale s Maškarádou souhlasíš, ne?	}{	Ale s Maškarádou souhlasíš, ne?	}{	171	}{	G.Skelter_Cam == 1 and G.Skelter_Name == 1 and G.Skelter_Quest == 0 and G.Skelter_Blood == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ale též se skrýváš za rouškou Maškarády, ano?	}
+{	131	}{	Mysli si, co chceš. Já se podrobovat nehodlám. Už jednou jsem se vzdal svých práv a skončil jsem v jihoasijské džungli jen s kvérem v prackách a plnou prdelí otázek. Teď jsem mrtvej a to je teprv to pravý peklo. To budu radši nadobro tuhej, než si to nechat znovu líbit.	}{	Mysli si, co chceš. Já se podrobovat nehodlám. Už jednou jsem se vzdal svých práv a skončil jsem v jihoasijské džungli jen s kvérem v prackách a plnou prdelí otázek. Teď jsem mrtvej a to je teprv to pravý peklo. To budu radši nadobro tuhej, než si to nechat znovu líbit.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	A proto se teď klaníš Ninesovi?	}{	A proto se teď klaníš Ninesovi?	}{	141	}{	G.Skelter_Follow == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova zní majestátně, i když klečíš před Ninesem...	}
+{	133	}{	Jo. Je mi to naprosto jasný.	}{	Jo. Je mi to naprosto jasný.	}{	79	}{	G.Skelter_Name == 0	}{	}{	}{	}{	}{	}{	}{	}{	Práce tvého jazyku produkuje pravdu.	}
+{	134	}{	Takže Anarchové jsou cesta ven, co?	}{	Takže Anarchové jsou cesta ven, co?	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pověz mi o dětech entropie...	}
+{	135	}{	To nechápu. Co má Vietnam společnýho s tím, že jsme vampíři?	}{	To nechápu. Co má Vietnam společnýho s tím, že jsme vampíři?	}{	31	}{	G.Skelter_Blood == 0	}{	}{	}{	}{	}{	}{	}{	}{	A co mají jako bambusy společného s chutí na krev?	}
+{	136	}{	Ale s Maškarádou souhlasíš, ne?	}{	Ale s Maškarádou souhlasíš, ne?	}{	171	}{	G.Skelter_Cam == 1 and G.Skelter_Name == 1 and G.Skelter_Quest == 0 and G.Skelter_Blood == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ale též se skrýváš za rouškou Maškarády, ano?	}
+{	137	}{	No teda. Mají vampíři taky cvokaře? Jdu odsud.	}{	No teda. Mají vampíři taky cvokaře? Jdu odsud.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	Ninesovi se nikdo neklaní. Jeho vedení je v tom, že nám jde příkladem. Lepší než nějakej připosranej buzerantskej byrokrat schovanej ve svý věži. Snad jedině kamarillská ovce v tom nevidí rozdíl.	}{	Ninesovi se nikdo neklaní. Jeho vedení je v tom, že nám jde příkladem. Lepší než nějakej připosranej buzerantskej byrokrat schovanej ve svý věži. Snad jedině kamarillská ovce v tom nevidí rozdíl.	}{	#	}{	}{	G.Skelter_Follow = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Naprosto souhlasím.	}{	Naprosto souhlasím.	}{	79	}{	G.Skelter_Name == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mé pocity se mísí s tvými...	}
+{	143	}{	Zdravíčko, pomotaný Skeltere!	}{	Zdravíčko, pomotaný Skeltere!	}{	671	}{	G.Skelter_Name == 0 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	144	}{	Kdo jsi?	}{	Kdo jsi?	}{	81	}{	G.Skelter_Name == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	145	}{	Ale s Maškarádou souhlasíš, ne?	}{	Ale s Maškarádou souhlasíš, ne?	}{	171	}{	G.Skelter_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ale též se skrýváš za rouškou Maškarády, ano?	}
+{	150	}{	Klídek, hromotluku. Radši půjdu pryč.	}{	Klídek, hromotluku. Radši půjdu pryč.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	151	}{	Anarchové? My jsme jediní, kdo ti umožní svobodný život po smrti, kámo.	}{	Anarchové? My jsme jediní, kdo ti umožní svobodný život po smrti, kamarádko.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Vypadá to tak.	}{	Vypadá to tak.	}{	79	}{	G.Skelter_Name == 0	}{	}{	}{	}{	}{	}{	}{	}{	Potvrzuješ mé vlastní vibrace...	}
+{	153	}{	A co Nines? Není on něco jako princ Anarchů?	}{	A co Nines? Není on něco jako princ Anarchů?	}{	141	}{	G.Skelter_Follow == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova zní majestátně, i když klečíš před Ninesem...	}
+{	154	}{	Vážně? Fakt je tak těžké být jako vampír svobodný?	}{	Vážně? Fakt je tak těžké být jako vampír svobodný?	}{	31	}{	G.Skelter_Blood == 0	}{	}{	}{	}{	}{	}{	}{	}{	Svoboda je pro zrůdy jako my tak těžká?	}
+{	155	}{	Ale s Maškarádou souhlasíš, ne?	}{	Ale s Maškarádou souhlasíš, ne?	}{	171	}{	G.Skelter_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ale též se skrýváš za rouškou Maškarády, ano?	}
+{	160	}{	Jdu odsud.	}{	Jdu odsud.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už tady nejsem.	}
+{	161	}{	No tak za ním běž. Tady si můžeš dělat, co chceš.[as opposed to elsewhere]	}{	No tak za ním běž. Tady si můžeš dělat, co chceš.[as opposed to elsewhere]	}{	#	}{	}{	G.Skelter_See = 1; G.Skelter_Questions = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Taky že jo. Zatím.	}{	Taky že jo. Zatím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Až sjedu dolů, vylezu zase na vršek skluzavky. Sbohem.	}
+{	163	}{	Nežádal jsem o povolení. Zatím.	}{	Nežádala jsem o povolení. Zatím.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	171	}{	Nemusím na všechny cenit tesáky, abych si připadal dobře. Maškaráda je jen blbá kamarillská nálepka, jinak mi nevadí. Žít a nechat žít. Máme dost svých starostí.	}{	Nemusím na všechny cenit tesáky, abych si připadal dobře. Maškaráda je jen blbá kamarillská nálepka, jinak mi nevadí. Žít a nechat žít. Máme dost svých starostí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	Ámen.	}{	Ámen.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	Haleluja!	}
+{	173	}{	To dává smysl.	}{	To dává smysl.	}{	181	}{	not IsClan(pc,"Malkavian") and G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	174	}{	Možná. Nemám v tom jasno.	}{	Možná. Nemám v tom jasno.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tvé zvuky jdou nějak z cesty...	}
+{	181	}{	Hele, když už mluvíme o Maškarádě, zrovna mě napadlo něco, s čím bys nám mohl pomoct.	}{	Hele, když už mluvíme o Maškarádě, zrovna mě napadlo něco, s čím bys nám mohla pomoct.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	No povídej...	}{	No povídej...	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mluv, mluv, mluv. Rychle řekni odpověď.	}
+{	183	}{	Nemám teď zrovna moc času, ale poslechnu si tě.	}{	Nemám teď zrovna moc času, ale poslechnu si tě.	}{	191	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Na propagaci svých myšlenek máš jen pár okamžiků...	}
+{	191	}{	Jde o jednu holku, co dělá poslední dobou moc kraválu. Fakt neskutečně otravná. Je to ghúlka jednoho cáklýho Toreadora[TOR-ee-uh-door], co se vypařil.	}{	Jde o jednu holku, co dělá poslední dobou moc kraválu. Fakt neskutečně otravná. Je to ghúlka jednoho cáklýho Toreadora[TOR-ee-uh-door], co se vypařil.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	A nejmenuje se čirou náhodou Patty, že ne?	}{	A nejmenuje se čirou náhodou Patty, že ne?	}{	206	}{	G.Patty_Known == 1	}{	}{	}{	}{	}{	}{	}{	}{	A jmenuje se to ghúlské děvče Patty?	}
+{	193	}{	Ghúlka? Co je to vlastně ghúl?	}{	Ghúlka? Co je to vlastně ghúl?	}{	201	}{	G.Knox_Ghoul < 2 and G.Mercurio_Ghoul == 0	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji vědět o ghúlech...	}
+{	194	}{	A jak se jmenuje?	}{	A jak se jmenuje?	}{	211	}{	G.Patty_Known == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jaké je jméno pro to ghúlské děvče?	}
+{	201	}{	Ghúl je lidský sluha pro našince. Neprojde uchvácením, ale krev svého pána pije. A ta krev ho poutá, nutí ho k poslušnosti, ale taky mu dává něco z naší moci. Ghúlové jsou na ní závislí, stejně jako feťák na svý dávce.	}{	Ghúl je lidský sluha pro našince. Neprojde uchvácením, ale krev svého pána pije. A ta krev ho poutá, nutí ho k poslušnosti, ale taky mu dává něco z naší moci. Ghúlové jsou na ní závislí, stejně jako feťák na svý dávce.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Skelter_Ghoul = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	Jo aha. A ta ghúlka se nejmenuje čirou náhodou Patty, že ne?	}{	Jo aha. A ta ghúlka se nejmenuje čirou náhodou Patty, že ne?	}{	206	}{	G.Patty_Known == 1 and G.Skelter_Patty == 0	}{	}{	}{	}{	}{	}{	}{	}{	A jmenuje se to ghúlské děvče Patty?	}
+{	203	}{	Bezva. Tak kdo je to zač?	}{	Bezva. Tak kdo je to zač?	}{	211	}{	G.Patty_Known == 0	}{	}{	}{	}{	}{	}{	}{	}{	Jaké je jméno pro to ghúlské děvče?	}
+{	204	}{	(Auto-Link)	}{	(Auto-Link)	}{	221	}{	G.Patty_Known == 1 and G.Skelter_Patty == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	206	}{	[disdain]Jo, Patty. Takže víš, o čem mluvím.	}{	[disdain]Jo, Patty. Takže víš, o čem mluvím.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Skelter_Patty = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	207	}{	A co je s ní za problém?	}{	A co je s ní za problém?	}{	221	}{	G.Skelter_Ghoul == 0	}{	}{	}{	}{	}{	}{	}{	}{	A ta Patty představuje pichlavý problém?	}
+{	208	}{	Jo. Ale co je to vlastně ghúl?	}{	Jo. Ale co je to vlastně ghúl?	}{	201	}{	G.Skelter_Ghoul == 0 and G.Knox_Ghoul < 2 and G.Mercurio_Ghoul == 0	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji vědět o ghúlech...	}
+{	209	}{	(Auto-Link)	}{	(Auto-Link)	}{	221	}{	G.Skelter_Ghoul == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	211	}{	Jmenuje se Patty. Poflakuje se po klubech v centru.	}{	Jmenuje se Patty. Poflakuje se po klubech v centru.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	(Auto-Link)	}{	(Auto-Link)	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	221	}{	Dřív sem chodila a s každým se děsně kamarádila. Byla to prča, dokud její vampírskej tatíček nezmizel. Teď od něj nemá jeho krev a nepřestane kvůli tomu prudit.	}{	Dřív sem chodila a s každým se děsně kamarádila. Byla to prča, dokud její vampírskej tatíček nezmizel. Teď od něj nemá jeho krev a nepřestane kvůli tomu prudit.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	222	}{	Proč jí prostě neřeknete, že už ji nechce vidět?	}{	Proč jí prostě neřeknete, že už ji nechce vidět?	}{	231	}{	}{	}{	}{	}{	}{	}{	}{	}{	Řekněte ji, že její tatíček se zakoukal jinde...	}
+{	223	}{	Copak nechápe, že je pryč?	}{	Copak nechápe, že je pryč?	}{	231	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	224	}{	A co s tím hodláš dělat?	}{	A co s tím hodláš dělat?	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jaký temný skutek má být proveden?	}
+{	231	}{	Říkali jsme jí, že je mrtvej. Ona prostě neposlouchá a ptá se znovu víc nahlas. Zasraná feťačka. Jednou takhle udělá scénu a pořádně nám všem zatopí.	}{	Říkali jsme jí, že je mrtvej. Ona prostě neposlouchá a ptá se znovu víc nahlas. Zasraná feťačka. Jednou takhle udělá scénu a pořádně nám všem zatopí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	232	}{	Jak to myslíš?	}{	Jak to myslíš?	}{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	O jakém mluvíš otopu?	}
+{	233	}{	Tak to vypadá, že máte problém...	}{	Tak to vypadá, že máte problém...	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jaký temný skutek je nutno provést?	}
+{	234	}{	Takže co mám udělat?	}{	Takže co mám udělat?	}{	241	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	236	}{	Lovci vampírů. Jak začneš dělat hovadiny a srát na Maškarádu, uvidíš, o čem mluvím. To mi věř - lovci nejsou problém, kterej za to stojí.	}{	Lovci vampírů. Jak začneš dělat hovadiny a srát na Maškarádu, uvidíš, o čem mluvím. To mi věř - lovci nejsou problém, kterej za to stojí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	237	}{	No dobře. Takže co s tou Patty?	}{	No dobře. Takže co s tou Patty?	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	A teď o tom ožehavém problému s Patty.	}
+{	238	}{	Jak to s tou ghúlkou teda vyřídíme?	}{	Jak to s tou ghúlkou teda vyřídíme?	}{	241	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	241	}{	Zašla moc daleko. Ta její nevymáchaná huba nežvaní, jen když chlemtá vampírskou krev. Musí zmizet. Udělej to a bude to naše malý tajemství, OK?	}{	Zašla moc daleko. Ta její nevymáchaná huba nežvaní, jen když chlemtá vampírskou krev. Musí zmizet. Udělej to a bude to naše malý tajemství, OK?	}{	#	}{	}{	G.Skelter_Quest = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	242	}{	Udělám to kvůli Maškarádě...	}{	Udělám to kvůli Maškarádě...	}{	251	}{	Humanity 6 & (not IsDead ("Patty") and G.Patty_SM == 0)	}{	}{	}{	}{	}{	}{	}{	}{	Kvůli Maškarádě udělám cokoliv!	}
+{	243	}{	Pro své bratry Anarchy cokoliv...	}{	Pro své bratry Anarchy cokoliv...	}{	251	}{	Humanity 6 & (not IsDead ("Patty") and G.Patty_SM == 0)	}{	}{	}{	}{	}{	}{	}{	}{	Budu sloužit Anarchům, entropickým dětem...	}
+{	244	}{	S radostí.	}{	S radostí.	}{	251	}{	Humanity -6 & (not IsDead ("Patty") and G.Patty_SM == 0)	}{	}{	}{	}{	}{	}{	}{	}{	Bude-li to třeba, rozpárám tu ghúlku.	}
+{	245	}{	Promiň. To není můj styl.	}{	Promiň, ale ne.	}{	261	}{	Humanity 6 & (not IsDead ("Patty") and G.Patty_SM == 0)	}{	}{	}{	}{	}{	}{	}{	}{	Sám musíš vyřešit svůj problém s Patty...	}
+{	246	}{	Nejsem tu od toho, abych po vás uklízel bordel.	}{	Nejsem tu od toho, abych po vás uklízela bordel.	}{	261	}{	Humanity 6 & (not IsDead ("Patty") and G.Patty_SM == 0)	}{	}{	}{	}{	}{	}{	}{	}{	Nejsem anarchská hospodyně, pomotaný Skeltere.	}
+{	247	}{	Normálně bych to s radostí vzal, ale dneska ne.	}{	Normálně bych to s radostí vzala, ale dneska ne.	}{	261	}{	Humanity -6 & (not IsDead ("Patty") and G.Patty_SM == 0)	}{	}{	}{	}{	}{	}{	}{	}{	Musím zničit jiné stvůry...	}
+{	248	}{	Já mizím.	}{	Já mizím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	249	}{	Už jsem se postaral o váš problém.	}{	Už jsem se postarala o váš problém.	}{	271	}{	IsDead ("Patty") or G.Patty_SM == 1	}{	FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	Morbidní Patty již nepředstavuje problém.	}
+{	251	}{	Fajn. Užij si to. Udělal bych to sám, ale znám se s jejím stvořitelem... Až to bude, dej vědět.	}{	Fajn. Užij si to. Udělal bych to sám, ale znám se s jejím stvořitelem... Až to bude, dej vědět.	}{	#	}{	}{	G.Skelter_Quest = 3; pc.SetQuest("Junky",1)	}{	}{	}{	}{	}{	}{	}{	}
+{	252	}{	Jasně. Ale ještě se chci na něco zeptat...	}{	Jasně. Ale ještě se chci na něco zeptat...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	259	}{	Najdu ji a vyřídím to. Zatím.	}{	Najdu ji a vyřídím to. Zatím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Prohlédnu ulice po té malé Patty. Sbohem.	}
+{	261	}{	Hmph. Tak ne že to někde rozkecáš, jasný?	}{	Hmph. Tak ne že to někde rozkecáš, jasný?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	262	}{	I když... Mohl bych to udělat.	}{	I když... Mohla bych to udělat.	}{	251	}{	G.Skelter_Quest = 1 }{	}{	}{	}{	}{	}{	}{	}{	Počkat! Vytrestám malou upovídanou Patty.	}
+{	269	}{	Jasný. Nashle.	}{	Jasný. Nashle.	}{	0	}{ G.Skelter_Quest == 1	}{ G.Skelter_Quest = 2	}{	}{	}{	}{	}{	}{	}{	Rozkecám to jen svým ostatním já. Sbohem.	}
+{	270	}{	Jasný. Nashle.	}{	Jasný. Nashle.	}{	0	}{ G.Skelter_Quest != 1	}{	}{	}{	}{	}{	}{	}{	}{	Rozkecám to jen svým ostatním já. Sbohem.	}
+{	271	}{	Dobrá práce. Lidští ghúlové jsou podle mě akorát na obtíž. Jsou jednoduše slabí a nespolehliví.	}{	Dobrá práce. Lidští ghúlové jsou podle mě akorát na obtíž. Jsou jednoduše slabí a nespolehliví.	}{	#	}{	}{	G.Skelter_Quest = 4; pc.SetQuest("Junky",3)	}{	}{	}{	}{	}{	}{	}{	}
+{	278	}{	Chci se na něco zeptat.	}{	Chci se na něco zeptat.	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	279	}{	Udělal jsem to pro dobro Maškarády. Zatím.	}{	Udělala jsem to pro dobro Maškarády. Zatím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Závoj nás stále kryje, pomotaný Skeltere. Sbohem.	}
+{	280	}{	Vždycky rád pomůžu, když je to pro Anarchy. Měj se.	}{	Vždycky ráda pomůžu, když je to pro Anarchy. Měj se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I já chci být entropické dítě! Sbohem!	}
+{	281	}{	O co jde?	}{	O co jde?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	282	}{	Nějak jsem přeslechl tvý jméno...	}{	Nějak jsem přeslechla tvý jméno...	}{	81	}{	G.Skelter_Name == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	283	}{	Zdravíčko, pomotaný Skeltere!	}{	Zdravíčko, pomotaný Skeltere!	}{	671	}{	G.Skelter_Name == 0 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	284	}{	Ty vampírský kecy mi vůbec nedávají smysl...	}{	Ty vampírský kecy mi vůbec nedávají smysl...	}{	31	}{	G.Skelter_Insight == 0	}{	G.Skelter_Insight = 1	}{	}{	}{	}{	}{	}{	}{	Hledám moudrost ohledně své dravé povahy!	}
+{	285	}{	Hledám práci...	}{	Hledám práci...	}{	191	}{	G.Skelter_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Máš nějaké skutky, které je třeba provést?	}
+{	286	}{	S tou Patty jsem si to rozmyslel. Udělám to.	}{	S tou Patty jsem si to rozmyslela. Udělám to.	}{	251	}{	G.Skelter_Quest == 2	}{	}{	}{	}{	}{	}{	}{	}{	Vyřeším tvůj rozpačitý problém s Patty...	}
+{	287	}{	Ten problém s Patty jsem vyřešil.	}{	Ten problém s Patty jsem vyřešila.	}{	271	}{	(G.Patty_Pisha == 1 or IsDead ("Patty") or G.Test_Patty == 1 or G.Patty_SM == 1) and G.Skelter_Quest == 3	}{	FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	Malá Patty už nebude dělat potíže...	}
+{	288	}{	Ten problém s Patty jsem vyřešil.	}{	Ten problém s Patty jsem vyřešila.	}{	271	}{	G.Patty_SD == 1 and G.Skelter_Quest == 3	}{	}{	}{	}{	}{	}{	}{	}{	Malá Patty už nebude dělat potíže...	}
+{	289	}{	S Patty jsem to vyřídil...	}{	S Patty jsem to vyřídila...	}{	576	}{	G.Patty_Alley > 0 and not IsDead ("Patty") and G.Test_Patty == 0 and G.Skelter_Quest == 3	}{	}{	}{	}{	}{	}{	}{	}{	Malá Patty už nebude dělat potíže...	}
+{	290	}{	Chtěl bych se na něco zeptat...	}{	Chtěla bych se na něco zeptat...	}{	591	}{	}{	G.Skelter_Questions = 1	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	300	}{	Mizím odsud.	}{	Mizím odsud.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	301	}{	Ty mizernej zmrde. To máš teda kuráž se tu ještě ukazovat, hajzle.	}{	Ty mizerná děvko. To máš teda kuráž se tu ještě ukazovat, svině.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Skelter_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	302	}{	Co jsem udělal?	}{	Co jsem udělala?	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nač ta ostrá slova, pomotaný Skeltere?	}
+{	303	}{	Klídek, Skeltere.	}{	Klídek, Skeltere.	}{	311	}{	G.Skelter_Name == 1 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	311	}{	Udals Ninese. Že prej sejmul toho primogena[PRIM-uh-jen].	}{	Udalas Ninese. Že prej sejmul toho primogena[PRIM-uh-jen].	}{	#	}{	}{	G.Skelter_Skeptical = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	312	}{	Prostě jsem ho tam viděl. Aspoň si to myslím.	}{	Prostě jsem ho tam viděla. Aspoň si to myslím.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jeho stín zkřížil můj u primogenova paláce...	}
+{	314	}{	Vím, co jsem viděl.	}{	Vím, co jsem viděla.	}{	321	}{	G.Story_State < 80	}{	}{	}{	}{	}{	}{	}{	}{	Nines nese vinu jako poskvrněnou svatozář.	}
+{	321	}{	Je to LaCroixova bouda. Nines byl s náma celej minulej týden. Je mimo debatu, že by tam moh bejt. Kurevsky to na něj zinscenovali. Jediný, co nevíme, je, jestli v tom máš taky prsty.	}{	Je to LaCroixova bouda. Nines byl s náma celej minulej týden. Je mimo debatu, že by tam moh bejt. Kurevsky to na něj zinscenovali. Jediný, co nevíme, je, jestli v tom máš taky prsty.	}{	#	}{	}{	G.Skelter_Setup = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	322	}{	Musím se přiznat, že toho nevím o nic víc než vy.	}{	Musím se přiznat, že toho nevím o nic víc než vy.	}{	351	}{	G.Story_State < 80	}{	}{	}{	}{	}{	}{	}{	}{	To je stočeno v mém podvědomí...	}
+{	323	}{	Já si nemyslím, že to udělal. Jen to tak vypadalo.	}{	Já si nemyslím, že to udělal. Jen to tak vypadalo.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Byl to Nines, ale ta čísla nedávají smysl...	}
+{	324	}{	Já nevím, co udělal nebo neudělal. Jen vím, co jsem viděl.	}{	Já nevím, co udělal nebo neudělal. Jen vím, co jsem viděla.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu říct jen to, co mi řekly moje bulvy...	}
+{	325	}{	Nemám. Ale o LaCroixovi máš recht, ušil to na Ninese s Ming-Xiao.	}{	Nemám. Ale o LaCroixovi máš recht, ušil to na Ninese s Ming-Xiao.	}{	351	}{	G.Story_State >= 80	}{	}{	}{	}{	}{	}{	}{	}{	Připočítej LaCroixe a vyskočí výsledek.	}
+{	326	}{	Možná že Nines není takovej hrdina, za jakýho ho máte.	}{	Možná že Nines není takovej hrdina, za jakýho ho máte.	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	Možná je váš pouliční princ jen běžný zločinec...	}
+{	331	}{	Tak poslouchej, červe, a poslouchej pořádně. Nines to neudělal a ty to víš. Nechci slyšet nic jinýho.	}{	Tak poslouchej, červe, a poslouchej pořádně. Nines to neudělal a ty to víš. Nechci slyšet nic jinýho.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	332	}{	Jen říkám, že vím, co jsem viděl, a nevypadalo to dobře.	}{	Jen říkám, že vím, co jsem viděla, a nevypadalo to dobře.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu říct jen to, co mi řekly moje bulvy...	}
+{	333	}{	Nines je bandita. A vy jste jen ufňukaný vampírský děcka.	}{	Nines je bandita. A vy jste jen ufňukaný vampírský děcka.	}{	341	}{	pc.GetQuestState("Junky") == 0	}{	}{	}{	}{	}{	}{	}{	}{	Nines inkasoval šek od šílence...	}
+{	334	}{	Nines je bandita. A vy jste jen ufňukaný vampírský děcka.	}{	Nines je bandita. A vy jste jen ufňukaný vampírský děcka.	}{	341	}{	pc.GetQuestState("Junky") > 0 and pc.GetQuestState("Junky") != 3	}{	pc.SetQuest("Junky",8)	}{	}{	}{	}{	}{	}{	}{	Nines inkasoval šek od šílence...	}
+{	341	}{	Ztrať se mi z očí nebo tě rozsekám na nudle.	}{	Ztrať se mi z očí nebo tě rozsekám na nudle.	}{	#	}{	}{	G.Skelter_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	342	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	351	}{	Docela bych věřil, že tě do toho taky namočili, ale budu tě sledovat, kluku.	}{	Docela bych věřil, že tě do toho taky namočili, ale budu tě sledovat, děvče.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Skelter_Setup = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	352	}{	Kam se Nines poděl?	}{	Kam se Nines poděl?	}{	361	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kde je ten, co má jméno z čísel?	}
+{	359	}{	Chtěl bych se na něco zeptat...	}{	Chtěla bych se na něco zeptat...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	360	}{	Cokoliv chceš. Jdu pryč.	}{	Cokoliv chceš. Jdu pryč.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Neslyším tě, jelikož jsem někde jinde.	}
+{	361	}{	Nečekej, že ho uvidíš, dokud se tohle svinstvo nevyřeší.	}{	Nečekej, že ho uvidíš, dokud se tohle svinstvo nevyřeší.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	369	}{	Chtěl bych se na něco zeptat...	}{	Chtěla bych se na něco zeptat...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	370	}{	Jasně. Tak já jdu.	}{	Jasně. Tak já jdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Půjdu vrhat svůj stín jinam. Sbohem.	}
+{	371	}{	Myslíš tu studentku dole? Abych se přiznal, připomíná mi ty ubohý válečný odpůrce, když jsem byl ve Vietnamu. Ale v téhle válce je na správný straně. Nenech se oblbnout její náturou.	}{	Myslíš tu studentku dole? Abych se přiznal, připomíná mi ty ubohý válečný odpůrce, když jsem byl ve Vietnamu. Ale v téhle válce je na správný straně. Nenech se oblbnout její náturou.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	372	}{	Ještě se chci na něco zeptat...	}{	Ještě se chci na něco zeptat...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat tvou šedou kůru?	}
+{	373	}{	Řekni mi ještě o někom.	}{	Řekni mi ještě o někom.	}{	631	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vidím někoho dalšího...	}
+{	380	}{	Dík, tak já jdu.	}{	Dík, tak já jdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	381	}{	To je ten chlap v rohu. Spravedlivej našinec. Bylo by fajn, kdyby měl k našemu boji trochu aktivnější postoj, ale nasrat na to - je to Jack! A Jack si dělá, co chce on. Bůh pomáhej těm, co mu vlezou do cesty.	}{	To je ten chlap v rohu. Spravedlivej našinec. Bylo by fajn, kdyby měl k našemu boji trochu aktivnější postoj, ale nasrat na to - je to Jack! A Jack si dělá, co chce on. Bůh pomáhej těm, co mu vlezou do cesty.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	383	}{	Ještě se chci na něco zeptat...	}{	Ještě se chci na něco zeptat...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat tvou šedou kůru?	}
+{	384	}{	Řekni mi ještě o někom.	}{	Řekni mi ještě o někom.	}{	631	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vidím někoho dalšího...	}
+{	390	}{	Dík.	}{	Dík.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	391	}{	Co tady sakra chceš?	}{	Co tady sakra chceš?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	392	}{	Kam se Nines poděl?	}{	Kam se Nines poděl?	}{	361	}{	G.Skelter_Setup == 1 and G.Story_State < 45	}{	}{	}{	}{	}{	}{	}{	}{	Kde je ten, co má jméno z čísel?	}
+{	393	}{	Hledám práci...	}{	Hledám práci...	}{	191	}{	G.Skelter_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Máš nějaké skutky, které je třeba provést?	}
+{	394	}{	S tou Patty jsem si to rozmyslel. Udělám to.	}{	S tou Patty jsem si to rozmyslela. Udělám to.	}{	251	}{	G.Skelter_Quest == 2	}{	}{	}{	}{	}{	}{	}{	}{	Vyřeším tvůj rozpačitý problém s Patty...	}
+{	395	}{	Ten problém s Patty jsem vyřešil.	}{	Ten problém s Patty jsem vyřešila.	}{	271	}{	(G.Patty_Pisha == 1 or IsDead ("Patty") or G.Test_Patty == 1 or G.Patty_SM == 1) and G.Skelter_Quest == 3	}{	FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	Malá Patty už nebude dělat potíže...	}
+{	396	}{	Ten problém s Patty jsem vyřešil.	}{	Ten problém s Patty jsem vyřešila.	}{	271	}{	G.Patty_SD == 1 and G.Skelter_Quest == 3	}{	}{	}{	}{	}{	}{	}{	}{	Malá Patty už nebude dělat potíže...	}
+{	397	}{	S Patty jsem to vyřídil...	}{	S Patty jsem to vyřídila...	}{	576	}{	G.Patty_Alley > 0 and not IsDead ("Patty") and G.Test_Patty == 0 and G.Skelter_Quest == 3	}{	}{	}{	}{	}{	}{	}{	}{	Malá Patty už nebude dělat potíže...	}
+{	398	}{	Chci se na něco zeptat.	}{	Chci se na něco zeptat.	}{	591	}{	}{	G.Skelter_Questions = 1	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	399	}{	Nic. Sbohem.	}{	Nic. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už jsem někde jinde.	}
+{	406	}{	Jestli znám Kuei-jiny[KWAY Jin]? Hmph. Ti zmrdi přilezli do Kalifornie před pěti rokama a drží se zuby nehty každýho kousku svodobnýho státu, kterej urvou. Jo, znám je.	}{	Jestli znám Kuei-jiny[KWAY Jin]? Hmph. Ti zmrdi přilezli do Kalifornie před pěti rokama a drží se zuby nehty každýho kousku svodobnýho státu, kterej urvou. Jo, znám je.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	407	}{	Jací jsou ve srovnání s náma?	}{	Jací jsou ve srovnání s náma?	}{	411	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsou Kuei-jinové a našinci příbuzní?	}
+{	408	}{	Můžou se s vampírama rovnat?	}{	Můžou se s vampírama rovnat?	}{	411	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsou pro nás soupeřem v boji?	}
+{	409	}{	Vy prostě válčíte s každým, co?	}{	Vy prostě válčíte s každým, co?	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vedete válku na všech frontách, pomotaný Skeltere.	}
+{	410	}{	Kdo je horší? Kuei-jinové nebo Kamarilla?	}{	Kdo je horší? Kuei-jinové nebo Kamarilla?	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	Které zlo je menší? Kuei-jinové nebo Kamarilla?	}
+{	411	}{	To ti teda povím; s náma nemají nic společnýho. Jsou to ďáblové. Zrádní pokurvení démoni. Když jsem viděl, čeho jsou schopní, tak mi najednou spousta věcí z Vietnamu začala dávat lepší smysl.	}{	To ti teda povím; s náma nemají nic společnýho. Jsou to ďáblové. Zrádní pokurvení démoni. Když jsem viděl, čeho jsou schopní, tak mi najednou spousta věcí z Vietnamu začala dávat lepší smysl.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	412	}{	Takže válčíte s úplně každým?	}{	Takže válčíte s úplně každým?	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vedete válku na všech frontách, pomotaný Skeltere.	}
+{	413	}{	Kdo je horší? Kuei-jinové nebo Kamarilla?	}{	Kdo je horší? Kuei-jinové nebo Kamarilla?	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	Které zlo je menší? Kuei-jinové nebo Kamarilla?	}
+{	414	}{	Ještě mám další dotaz...	}{	Ještě mám další dotaz...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	420	}{	Díky. Měj se.	}{	Díky. Měj se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	421	}{	Všichni jsou to okupanti. S Kuei-jinama se mnohem hůř dohodneš. Myslí si o sobě, že jsou nadřazení nebo co. Ale Kamarilla bude klidně lhát a pak tě bodne do zad. Kdo je horší? Záleží na tom vůbec?	}{	Všichni jsou to okupanti. S Kuei-jinama se mnohem hůř dohodneš. Myslí si o sobě, že jsou nadřazení nebo co. Ale Kamarilla bude klidně lhát a pak tě bodne do zad. Kdo je horší? Záleží na tom vůbec?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	422	}{	Tobě zjevně ne. Ještě mám další dotaz...	}{	Tobě zjevně ne. Ještě mám další dotaz...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	430	}{	Dobrý postřeh. Tak zatím.	}{	Dobrý postřeh. Tak zatím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nalézám se někde jinde.	}
+{	431	}{	Slyšel jsem, z něj vyleze nějakej prastarej vampír a vytáhne s sebou hotový peklo. Sakra, klidně by to moh bejt samotnej Kain. Někteří tvrdí, že je to první znamení Gehenny.	}{	Slyšel jsem, z něj vyleze nějakej prastarej vampír a vytáhne s sebou hotový peklo. Sakra, klidně by to moh bejt samotnej Kain. Někteří tvrdí, že je to první znamení Gehenny.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	432	}{	Gehenny?	}{	Gehenny?	}{	441	}{	G.Bertram_Gehenna == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	433	}{	Aha! Den, kdy se vrátí temný otec!	}{	Aha! Den, kdy se vrátí temný otec!	}{	681	}{	G.Bertram_Gehenna == 0 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	434	}{	Předpokládám, že to bude další kamarillská konspirace, že jo?	}{	Předpokládám, že to bude další kamarillská konspirace, že jo?	}{	451	}{	IsClan(pc,"Ventrue") or IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	435	}{	Nemůže to být nějaký trik Kamarilly?	}{	Nemůže to být nějaký trik Kamarilly?	}{	451	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	436	}{	Kain? Kdo je sakra Kain?	}{	Kain? Kdo je sakra Kain?	}{	611	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	437	}{	Takový povídačky mě neberou. Měj se.	}{	Takový povídačky mě neberou. Měj se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	441	}{	Gehenna: den, kdy všichni zemřeme, kdy naši předkové povstanou a přinesou konec světa. Spousta našinců věří, že se blíží konec, apokalypsa.	}{	Gehenna: den, kdy všichni zemřeme, kdy naši předkové povstanou a přinesou konec světa. Spousta našinců věří, že se blíží konec, apokalypsa.	}{	#	}{	}{	G.Bertram_Gehenna = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	442	}{	Předpokládám, že to bude další kamarillská konspirace, že jo?	}{	Předpokládám, že to bude další kamarillská konspirace, že jo?	}{	451	}{	IsClan(pc,"Ventrue") or IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	443	}{	Nemůže to být nějaký trik Kamarilly?	}{	Nemůže to být nějaký trik Kamarilly?	}{	451	}{	Intelligence 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	444	}{	Myslíš, že si to vymyslela Kamarilla?	}{	Myslíš, že si to vymyslela Kamarilla?	}{	451	}{	Intelligence -3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	449	}{	Ještě mám další dotaz...	}{	Ještě mám další dotaz...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	450	}{	Když to říkáš... Měj se.	}{	Když to říkáš... Měj se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	451	}{	Ne-e, Kamarilla tyhle věci popírá. Vampírští otcové, proroctví o soudném dni, tohle jsou pro Kamíky jen pověry.	}{	Ne-e, Kamarilla tyhle věci popírá. Vampírští otcové, proroctví o soudném dni, tohle jsou pro Kamíky jen pověry.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	452	}{	Tak kdo tomu vlastně věří?	}{	Tak kdo tomu vlastně věří?	}{	461	}{	}{	}{	}{	}{	}{	}{	}{	}{	A kdo tedy slézá tak vysoké pověsti?	}
+{	453	}{	A ty tomu věříš?	}{	A ty tomu věříš?	}{	471	}{	}{	}{	}{	}{	}{	}{	}{	}{	A jaká víra je v tvém srdci, pomotaný Skeltere?	}
+{	459	}{	Ještě mám další dotaz...	}{	Ještě mám další dotaz...	}{	591	}{	G.Bertram_Gehenna == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	460	}{	Díky. Měj se.	}{	Díky. Měj se.	}{	0	}{	G.Bertram_Gehenna == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	461	}{	Spousta lidí. [matter-of-factly]Třeba Sabbati. Všude možně se snaží naše předky najít a zabít je dřív, než stihnou povstat. Nebo se to o nich aspoň tvrdí. I když většina Sabbatů, co jsem potkal já, by nenašla ani svoje klíče od auta.	}{	Spousta lidí. [matter-of-factly]Třeba Sabbati. Všude možně se snaží naše předky najít a zabít je dřív, než stihnou povstat. Nebo se to o nich aspoň tvrdí. I když většina Sabbatů, co jsem potkal já, by nenašla ani svoje klíče od auta.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	462	}{	A co vy?	}{	A co vy?	}{	471	}{	}{	}{	}{	}{	}{	}{	}{	}{	A co entropické děti? Také věří těm povídkám?	}
+{	463	}{	Čemu věříš ty?	}{	Čemu věříš ty?	}{	471	}{	}{	}{	}{	}{	}{	}{	}{	}{	A jaká víra je v tvém srdci, pomotaný Skeltere?	}
+{	469	}{	Ještě mám další dotaz...	}{	Ještě mám další dotaz...	}{	591	}{	G.Bertram_Gehenna == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	470	}{	Je na čase jít si po svých. Čau.	}{	Je na čase jít si po svých. Čau.	}{	0	}{	G.Bertram_Gehenna == 1	}{	}{	}{	}{	}{	}{	}{	}{	Co? Neslyším, bo jsem někde jinde.	}
+{	471	}{	My? Anarchové? Hmph. U nás si každý může myslet, co chce. Já to beru. Vysvětlovalo by to všechnu tu krev v luftě. Nejspíš té potvoře všichni hrajeme přímo do karet.	}{	My? Anarchové? Hmph. U nás si každý může myslet, co chce. Já to beru. Vysvětlovalo by to všechnu tu krev v luftě. Nejspíš té potvoře všichni hrajeme přímo do karet.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	479	}{	Bezva. Ještě mám další dotaz...	}{	Bezva. Ještě mám další dotaz...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	480	}{	A já si o sobě myslel, že jsem paranoidní. Měj se.	}{	A já si o sobě myslela, že jsem paranoidní. Měj se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Musím zkoumat jiné reality. Sbohem.	}
+{	481	}{	Vypadáš, jako bys viděl ducha.	}{	Vypadáš, jako bys viděla ducha.	}{	#	}{	}{	G.Skelter_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	482	}{	Kde je Nines?	}{	Kde je Nines?	}{	491	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kde je ten, co má jméno z čísel?	}
+{	484	}{	Co já vím, možná že jo.	}{	Co já vím, možná že jo.	}{	501	}{	}{	}{	}{	}{	}{	}{	}{	}{	Duchové často chodí mezi živými...	}
+{	491	}{	Šel něco zařídit. Proč?	}{	Šel něco zařídit. Proč?	}{	#	}{	G.Skelter_Saw = G.Skelter_Saw + 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	492	}{	Právě jsem ho viděl. U vily Alistaira Grouta.	}{	Právě jsem ho viděla. U vily Alistaira Grouta.	}{	501	}{	G.Skelter_Saw == 1	}{	}{	}{	}{	}{	}{	}{	}{	Viděl jsem vašeho pouličního prince u primogenova paláce...	}
+{	493	}{	Víš to jistě? Před chvílí jsem ho potkal.	}{	Víš to jistě? Před chvílí jsem ho potkala.	}{	501	}{	G.Skelter_Saw == 1 and not IsClan(pc,"Malkavian") and G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	494	}{	A nešel náhodou zařídit vraždu malkavianského primogena?	}{	A nešel náhodou zařídit vraždu malkavianského primogena?	}{	501	}{	G.Skelter_Saw == 1 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	495	}{	Myslím, že Nines možná zabil Alistaira Grouta, malkavianského primogena.	}{	Myslím, že Nines možná zabil Alistaira Grouta, malkavianského primogena.	}{	511	}{	G.Skelter_Saw == 2	}{	}{	}{	}{	}{	}{	}{	}{	Nines možná vynuloval chorobného primogena...	}
+{	496	}{	Někdo zabil malkavianského primogena a já viděl Ninese na místě činu.	}{	Někdo zabil malkavianského primogena a já viděla Ninese na místě činu.	}{	511	}{	G.Skelter_Saw == 2 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	501	}{	Cože?	}{	Cože?	}{	#	}{	G.Skelter_Saw = G.Skelter_Saw + 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	502	}{	To je jedno. Kde je Nines?	}{	To je jedno. Kde je Nines?	}{	491	}{	G.Skelter_Saw == 1	}{	}{	}{	}{	}{	}{	}{	}{	Kde je ten, co má jméno z čísel?	}
+{	503	}{	Viděl ses teď někdy s Ninesem?	}{	Viděl ses teď někdy s Ninesem?	}{	491	}{	G.Skelter_Saw == 1 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	504	}{	Myslím, že Nines možná zabil Alistaira Grouta, malkavianského primogena.	}{	Myslím, že Nines možná zabil Alistaira Grouta, malkavianského primogena.	}{	511	}{	G.Skelter_Saw == 2	}{	}{	}{	}{	}{	}{	}{	}{	Nines možná vynuloval chorobného primogena...	}
+{	505	}{	Někdo zabil malkavianského primogena a já viděl Ninese na místě činu.	}{	Někdo zabil malkavianského primogena a já viděla Ninese na místě činu.	}{	511	}{	G.Skelter_Saw == 2 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	511	}{	To sou kecy. Nevím, jestli tě na tohle někdo nasadil, ale radši si dávej bacha na jazyk. Vím, co teď dělá, a nemá to nic společnýho s Kamarillou. Máme na starosti i jiný věci.	}{	To sou kecy. Nevím, jestli tě na tohle někdo nasadil, ale radši si dávej bacha na jazyk. Vím, co teď dělá, a nemá to nic společnýho s Kamarillou. Máme na starosti i jiný věci.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	512	}{	Když myslíš. Máš minutku?	}{	Když myslíš. Máš minutku?	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	513	}{	Okej, ale taky jsem našel tohle. Vypadá to, že Grout sejmul toho Toreadorskýho páprdu od Patty.	}{	Okej, ale taky jsem našla tohle. Vypadá to, že Grout sejmul toho Toreadorskýho páprdu od Patty.	}{	261	}{	G.Patty_Known == 1 and pc.HasItem("item_w_tzimisce2_claw") 	}{	pc.RemoveItem("item_w_tzimisce2_claw"); G.Grout_Kent = 1	}{	}{	}{	}{	}{	}{	}{	Okidoki. A tady je obrázek pána od Patty, který nahoře shořel.	}
+{	519	}{	Chci ti věřit, ale vím, co jsem viděl. Zatím.	}{	Chci ti věřit, ale vím, co jsem viděla. Zatím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu důvěřovat jen své sítnici.	}
+{	520	}{	Asi jo. Měj se.	}{	Asi jo. Měj se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Přeberu si to ve svém bludišti myšlenek.	}
+{	521	}{	Rád tě vidím, bratře.	}{	Rád tě vidím, sestro.	}{	#	}{	}{	G.Skelter_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	522	}{	Já tebe taky. Je tu Nines?	}{	Já tebe taky. Je tu Nines?	}{	541	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hledám očíslovaného pouličního prince...	}
+{	523	}{	Rád jsem zase tady. Jdu za Ninesem.	}{	Ráda jsem zase tady. Jdu za Ninesem.	}{	541	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	524	}{	Takže mě nezabiješ?	}{	Takže mě nezabiješ?	}{	531	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ty si nepřeješ mi ublížit, pomotaný Skeltere?	}
+{	531	}{	Klídek, tady jseš v bezpečí. Pod ochranou Anarchů. Žádnej strach.	}{	Klídek, tady jseš v bezpečí. Pod ochranou Anarchů. Žádnej strach.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	532	}{	Je tu Nines?	}{	Je tu Nines?	}{	541	}{	G.Nines_Finale == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hledám očíslovaného pouličního prince...	}
+{	533	}{	Tak mi drž palce.	}{	Tak mi drž palce.	}{	571	}{	G.Nines_Finale > 0	}{	}{	}{	}{	}{	}{	}{	}{	Osud je mnohdy matoucí přítel. Sbohem.	}
+{	541	}{	Je tady.[joking] Šmejd jeden si vymýšlí divoký historky. Že prej složil vlkodlaka. No věřil bys tomu?	}{	Je tady.[joking] Šmejd jeden si vymýšlí divoký historky. Že prej složil vlkodlaka. No věřila bys tomu?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	542	}{	Je to tak. Já jsem taky jednomu napráskal.	}{	Je to tak. Já jsem taky jednomu napráskala.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	543	}{	Složil jen jednoho? Tak to vyváznul snadno.	}{	Složil jen jednoho? Tak to vyváznul snadno.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	544	}{	Fakt? A to bylo před tím nebo potom, co utíkal pryč a řval jako malá holka?	}{	Fakt? A to bylo před tím nebo potom, co utíkal pryč a řval jako malá holka?	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	545	}{	Ten jeho bylo spíš štěnědlak. Já musel zmáknout velkýho tátu...	}{	Ten jeho bylo spíš štěnědlak. Já musela zmáknout velkýho tátu...	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	551	}{	[chuckles]Jo, jasně. A papež je můj ghúl. Mazej dovnitř.	}{	[chuckles]Jo, jasně. A papež je můj ghúl. Mazej dovnitř.	}{	#	}{	}{	G.Skelter_Pope = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	560	}{	Dík, Skeltere.	}{	Dík, Skeltere.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sbohem, pomotaný Skeltere.	}
+{	561	}{	Tak běž. Já budu hlídat.	}{	Tak běž. Já budu hlídat.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	562	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	571	}{	Hodně štěstí, bratře.	}{	Hodně štěstí, sestro.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	572	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	576	}{	Ke mně se dostalo něco jinýho. Pořád je naživu a teď žvaní i o tobě, kde jen může. Až se to roznese, a to mi věř, že se stane, bude to tvůj rybíz, cucáku.	}{	Ke mně se dostalo něco jinýho. Pořád je naživu a teď žvaní i o tobě, kde jen může. Až se to roznese, a to mi věř, že se stane, bude to tvůj rybíz, cucáku.	}{	#	}{	}{	G.Skelter_Quest = 5; pc.SetQuest("Junky",4); G.Skelter_Masquerade = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	577	}{	OK...	}{	OK...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Má hlava, má hlava, to ne.	}
+{	581	}{	Teď nemám náladu se s tebou bavit.	}{	Teď nemám náladu se s tebou bavit.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	582	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	591	}{	Jo?	}{	Jo?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	592	}{	Vůbec nechápu ty kecy o našincích.	}{	Vůbec nechápu ty kecy o našincích.	}{	31	}{	G.Skelter_Insight == 0 and G.Skelter_Setup == 0	}{	G.Skelter_Insight = 1	}{	}{	}{	}{	}{	}{	}{	Hledám moudrost ohledně své dravé povahy!	}
+{	593	}{	Můžeš mi zopakovat svou teroii o krvi našinců?	}{	Můžeš mi zopakovat svou teroii o krvi našinců?	}{	31	}{	G.Skelter_Blood == 1 and G.Skelter_Setup == 0	}{	}{	}{	}{	}{	}{	}{	}{	Pověz mi znovu o naší krvavé kletbě...	}
+{	595	}{	Co máš vlastně proti Kamarille?	}{	Co máš vlastně proti Kamarille?	}{	101	}{	G.Skelter_Cam == 0 and G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Proč proklínáš Kamarillu?	}
+{	596	}{	Co si myslíš o tom Ankarským sarkofágu?	}{	Co si myslíš o tom Ankarským sarkofágu?	}{	431	}{	G.Story_State >= 60	}{	}{	}{	}{	}{	}{	}{	}{	Promluv o Ankarském sarkofágu!	}
+{	597	}{	Připomeň mi Gehennu...	}{	Připomeň mi Gehennu...	}{	441	}{	G.Bertram_Gehenna == 1 and G.Ming_Met == 0	}{	}{	}{	}{	}{	}{	}{	}{	Promluvme o dni temného otce!	}
+{	598	}{	Víš něco o Kuei-jinech?	}{	Víš něco o Kuei-jinech?	}{	406	}{	G.Gary_Quest > 0 and G.Story_State < 90	}{	}{	}{	}{	}{	}{	}{	}{	Jaká máš slova o žroutech života Kuei-jinech?	}
+{	599	}{	Chtěl bych se na někoho zeptat...	}{	Chtěla bych se na někoho zeptat...	}{	631	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mám někoho ve své hlavě...	}
+{	600	}{	Jdu pryč.	}{	Jdu pryč.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	611	}{	[Lowers his voice]Kain, čéče. Otec všech vampírů. Zabil svého bratra Ábela a bůh ho proklel nesmrtelností a touhou po krvi. Dost hustý, čéče.	}{	[Lowers his voice]Kain, čéče. Otec všech vampírů. Zabil svého bratra Ábela a bůh ho proklel nesmrtelností a touhou po krvi. Dost hustý, čéče.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	612	}{	Ale tomu vážně nevěříš, že ne?	}{	Ale tomu vážně nevěříš, že ne?	}{	621	}{	G.Skelter_Caine == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ty věříš na takového strašáka?	}
+{	613	}{	Myslíš Kaina z bible? Fakt? Je to pravda?	}{	Myslíš Kaina z bible? Fakt? Je to pravda?	}{	621	}{	G.Skelter_Caine == 0	}{	}{	}{	}{	}{	}{	}{	}{	Syn Adama a Evy?	}
+{	614	}{	Ha! To se ti povedlo!	}{	Ha! To se ti povedlo!	}{	621	}{	G.Skelter_Caine == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova jsou jistě falešná a nejapná!	}
+{	618	}{	Řekni mi ještě o někom.	}{	Řekni mi ještě o někom.	}{	631	}{	G.Skelter_Questions == 1	}{	G.Skelter_Caine = 0	}{	}{	}{	}{	}{	}{	}{	Vidím někoho dalšího...	}
+{	619	}{	No teda. Ještě se chci zeptat na něco jinýho...	}{	No teda. Ještě se chci zeptat na něco jinýho...	}{	591	}{	G.Skelter_Questions == 1	}{	G.Skelter_Caine = 0	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	620	}{	Tak hustý, že to nevydejchám. Měj se.	}{	Tak hustý, že to nevydejchám. Měj se.	}{	0	}{	}{	G.Skelter_Caine = 0	}{	}{	}{	}{	}{	}{	}{	Jsem úplně pryč.	}
+{	621	}{	Mluv potichu. Existuje Kain? To nevím. A nevím, jestli to chci vědět.	}{	Mluv potichu. Existuje Kain? To nevím. A nevím, jestli to chci vědět.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	622	}{	Jasně, ale co tím chceš říct?	}{	Jasně, ale co tím chceš říct?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kam těmi slovy míříš?	}
+{	623	}{	Můžeš přejít k věci, hned jak budeš chtít.	}{	Můžeš přejít k věci, hned jak budeš chtít.	}{	71	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	629	}{	Ještě mám další dotaz...	}{	Ještě mám další dotaz...	}{	591	}{	G.Skelter_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	630	}{	Měj se.	}{	Měj se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem úplně pryč.	}
+{	631	}{	Jo? A kdo to má být?	}{	Jo? A kdo to má být?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	632	}{	Řekni mi o Kainovi...	}{	Řekni mi o Kainovi...	}{	611	}{	G.Skelter_Stretch == 1	}{	G.Skelter_Caine = 1	}{	}{	}{	}{	}{	}{	}{	Pověz o temném otci!	}
+{	633	}{	Co je zač ta Damsel?	}{	Co je zač ta Damsel?	}{	371	}{	G.Damsel_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	Kdo je ta počestná Damsel?	}
+{	634	}{	Co takhle Jack? Co o něm víš?	}{	Co takhle Jack? Co o něm víš?	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co Jack?	}
+{	640	}{	Ještě mám další dotaz...	}{	Ještě mám další dotaz...	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mohu dolovat v tvé šedé kůře?	}
+{	641	}{	Řekl jsem ti, ať mi jdeš z očí.	}{	Řekl jsem t,i ať mi jdeš z očí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	642	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	651	}{	Šašek? Cože? Co to k sakru vykládáš? Počkat... ty jseš Malkavian, že? Tak to jseš dvojnásob v hajzlu - nejen pošuk, ale ještě princův nohsled. Říkáš malý pěšák? To ses trefil. Možná nejseš tak mimo, jak vypadáš.	}{	Šašek? Cože? Co to k sakru vykládáš? Počkat... ty jseš Malkavianka, že? Tak to jseš dvojnásob v hajzlu - nejen pošuk, ale ještě princova služka. Říkáš malý pěšák? To ses trefila. Možná nejseš tak mimo, jak vypadáš.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	652	}{	Hledám toho, kdo mám jméno z čísel.	}{	Hledám toho, kdo mám jméno z čísel.	}{	661	}{	G.Nines_Chat == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	653	}{	Dokážeš hovořit s někým tak nakřápnutým jako já?	}{	Dokážeš hovořit s někým tak nakřápnutým jako já?	}{	281	}{	G.Nines_Chat == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	654	}{	Zdravíčko, pomotaný Skeltere!	}{	Zdravíčko, pomotaný Skeltere!	}{	671	}{	G.Skelter_Name == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	660	}{	Jsem úplně pryč.	}{	Jsem úplně pryč.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	661	}{	Bože, ty vaše řeči nesnáším. Jméno z čísel? Nines Rodriguez, že jo? Je tady. Ale dávej si pozor. Kamarillský špehy tady nemáme rádi.	}{	Bože, ty vaše řeči nesnáším. Jméno z čísel? Nines Rodriguez, že jo? Je tady. Ale dávej si pozor. Kamarillský špehy tady nemáme rádi.	}{	#	}{	}{	G.Skelter_See = 1; G.Skelter_Questions = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	662	}{	Jseš dvouhlavý pes na břehu jedovatého moře. Sbohem.	}{	Jseš dvouhlavý pes na břehu jedovatého moře. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	663	}{	Můj stín již dopadá na jiná místa. Sbohem.	}{	Můj stín již dopadá na jiná místa. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	671	}{	Co to? Jak víš...? Sakra. Ten zatracenej malkavianskej vhled. Z toho jde husí kůže. Ale máš recht. Jsem Skelter. A dělám, co můžu, aby Kalifornie zůstala svobodným státem Anarchů.	}{	Co to? Jak víš...? Sakra. Ten zatracenej malkavianskej vhled. Z toho jde husí kůže. Ale máš recht. Jsem Skelter. A dělám, co můžu, aby Kalifornie zůstala svobodným státem Anarchů.	}{	#	}{	}{	G.Skelter_Name = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	672	}{	Hledám toho, kdo mám jméno z čísel.	}{	Hledám toho, kdo mám jméno z čísel.	}{	161	}{	G.Skelter_See == 0 and G.Nines_Chat == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	673	}{	Proč proklínáš Kamarillu?	}{	Proč proklínáš Kamarillu?	}{	101	}{	G.Skelter_Cam == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	679	}{	Mohu dolovat v tvé šedé kůře?	}{	Mohu dolovat v tvé šedé kůře?	}{	591	}{	G.Skelter_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	680	}{	Jsem úplně pryč.	}{	Jsem úplně pryč.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	681	}{	J-jo. On a pár dalších nevrlých starých kapucáků, se kterýma rozhodně není příjemný povečeřet. Vypadá to, že o Gehenně už víš, ty pošahanej malkavianskej bastarde. Armageddon, čéče... zasranej Armageddon.	}{	J-jo. On a pár dalších nevrlých starých kapucáků, se kterýma rozhodně není příjemný povečeřet. Vypadá to, že o Gehenně už víš, ty pošahaná malkavianská mrcho. Armageddon, čéče... zasranej Armageddon.	}{	#	}{	}{	G.Bertram_Gehenna = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	683	}{	Že by příhodné kamarillské spiknutí?	}{	Že by příhodné kamarillské spiknutí?	}{	451	}{	Intelligence 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	684	}{	Třeba je to jen duchařská pohádka od starších pro děti.	}{	Třeba je to jen duchařská pohádka od starších pro děti.	}{	451	}{	Intelligence -3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	688	}{	Pověz o temném otci!	}{	Pověz o temném otci!	}{	611	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	689	}{	Mohu dolovat v tvé šedé kůře?	}{	Mohu dolovat v tvé šedé kůře?	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	690	}{	Jsem úplně pryč.	}{	Jsem úplně pryč.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	807	}{	(Starting Condition)	}{	}{	571	}{	G.Story_State == 115 and G.Skelter_Pope == 1 and G.Nines_Ending == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	808	}{	(Starting Condition)	}{	}{	561	}{	G.Story_State == 115 and G.Skelter_Pope == 1 and G.Nines_Ending == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	809	}{	(Starting Condition)	}{	}{	521	}{	G.Story_State == 115 and G.Skelter_Pope == 0 and G.Nines_Ending == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	810	}{	(Starting Condition)	}{	}{	641	}{	G.Skelter_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	811	}{	(Starting Condition)	}{	}{	391	}{	G.Story_State >= 25 and G.Skelter_Quest == 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	812	}{	(Starting Condition)	}{	}{	581	}{	G.Story_State < 25 and G.Skelter_Quest == 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	813	}{	(Starting Condition)	}{	}{	391	}{	G.Skelter_Skeptical == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	814	}{	(Starting Condition)	}{	}{	481	}{	G.Story_State == 20 and G.Skelter_Saw == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	815	}{	(Starting Condition)	}{	}{	281	}{	G.Story_State == 20 and G.Skelter_Saw > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	817	}{	(Starting Condition)	}{	}{	301	}{	G.Story_State >= 25 and G.Skelter_Setup == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	818	}{	(Starting Condition)	}{	}{	281	}{	G.Skelter_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	819	}{	(Starting Condition)	}{	}{	11	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

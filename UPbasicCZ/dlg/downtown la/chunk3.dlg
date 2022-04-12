@@ -1,0 +1,98 @@
+{	31	}{	Pardon, neviděl jsem vás. Právě jsem se dověděl, že můj bratr byl zabit ve službě. Jediné, co chtěl v životě dělat, bylo prosazovat právo a setkat se s Přemkem Podlahou, ale nějaký mladý syčák ho o to musel připravit...	}{	Pardon, neviděl jsem vás. Právě jsem se dověděl, že můj bratr byl zabit ve službě. Jediné, co chtěl v životě dělat, bylo prosazovat právo a setkat se s Přemkem Podlahou, ale nějaký mladý syčák ho o to musel připravit...	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	To mě mrzí. Vašeho bratra jsem neznal. Upřímnou soustrast.	}{	To mě mrzí. Vašeho bratra jsem neznala. Upřímnou soustrast	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nebylo mi známo, že... truchlíte. Je to tragédie.	}
+{	34	}{	Jo, jasně... Dělejte prostě svou práci a zabzučte mi.	}{	Jo, jasně... Dělejte prostě svou práci a zabzučte mi.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zbytečná slova. Otevřte pro mě dveře do nebes.	}
+{	91	}{	[Distant]Očekává vás. Můžete nahoru.	}{	[Distant]Očekává vás. Můžete nahoru.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	G.Chunk_Open = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	[Distant]A za kým přesně jdete?	}{	[Distant]A za kým přesně jdete?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Za LaCroixem.	}{	Za LaCroixem.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Za LaCroixem..	}
+{	131	}{	No... Věděl, co to obnáší, že je to nebezpečná práce. Ale ve snu by mě nenapadlo, že se mu to stane zrovna u té malinké galerie. Žijeme ve zvrhlém světě. Ale někteří prostě vyslyší volání spravedlnosti do zbraně...	}{	No... Věděl, co to obnáší, že je to nebezpečná práce. Ale ve snu by mě nenapadlo, že se mu to stane zrovna u té malinké galerie. Žijeme ve zvrhlém světě. Ale někteří prostě vyslyší volání spravedlnosti do zbraně...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Potoebuji se setkat s LaCroixem.	}{	Potoebuji se setkat s LaCroixem.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Potoebuji se setkat s LaCroixem.	}
+{	141	}{	Jo, jděte rovnou nahoru za panem LaCroixem.	}{	Jo, jděte rovnou nahoru za panem LaCroixem.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	361	}{	Víte, nevím, co se stalo, ale pan LaCroix říkal, že vás nemám poustět nahoru za žádných okolností. Říkal, že vás mám eskortovat z budovy, takže se obávám, že budete muset odejít.	}{	Víte, nevím, co se stalo, ale pan LaCroix říkal, že vás nemám poustět nahoru za žádných okolností. Říkal, že vás mám eskortovat z budovy, takže se obávám, že budete muset odejít.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	362	}{	Co když řeknu, že ne?	}{	Co když řeknu, že ne?	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Na to odpovím 'ne'.	}
+{	363	}{	Je mi líto, ale to neudělám.	}{	Je mi líto, ale to neudělám.	}{	381	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Než půjdu dolů, musím nahoru.	}
+{	364	}{	Když ses dnes ráno probudil, napadlo tě, že zemřeš?	}{	Když ses dnes ráno probudil, napadlo tě, že zemřeš?	}{	391	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Když ses dnes ráno probudil, napadlo tě, že zemřeš?	}
+{	365	}{	Dávám ti deset sekund, aby ses ztratil.	}{	Dávám ti deset sekund, aby ses ztratil.	}{	0	}{	Intimidate 8	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	Ušetřím tě jen následující tři vteřiny. 1...	}
+{	366	}{	Zeptej se sám sebe, co je důležitější. Tvá mizerně placená práce nebo tvůj život?	}{	Zeptej se sám sebe, co je důležitější. Tvá mizerně placená práce nebo tvůj život?	}{	0	}{	Persuasion 9	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	Když ti dá smrt druhou šanci, budeš bojovat nebo utečeš?	}
+{	367	}{	Utíkej pryč.	}{	Utíkej pryč.	}{	0	}{	Dominate 1	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	368	}{	Pašíku, ty nevíš, že jsi v rožnící jámě? Začíná tu být horko...	}{	Pašíku, ty nevíš, že jsi v rožnící jámě? Začíná tu být horko...	}{	0	}{	Dementation 1	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	Pašíku, ty nevíš, že jsi v rožnící jámě? Začíná tu být horko...	}
+{	369	}{	Teď máš šanci si zahrát na hrdinu. Zkus mě zastavit.	}{	Teď máš šanci si zahrát na hrdinu. Zkus mě zastavit.	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dělej zeď, pokud musíš, ale varuji tě, že jsem demoliční koule.	}
+{	370	}{	Utíkej pryč.	}{	Utíkej pryč.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles(); G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	371	}{	Je mi líto, buchtičko, není to osobní, pochop, ale pan LaCroix říkal, že už sem nesmíš chodit a že tě mám vyprovodit ven... Doufám, že to chápeš.	}{	Je mi líto, buchtičko, není to osobní, pochop, ale pan LaCroix říkal, že už sem nesmíš chodit a že tě mám vyprovodit ven... Doufám, že to chápeš.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	372	}{	Nechci ti něco udělat, takže se seber a běž.	}{	Nechci ti něco udělat, takže se seber a běž.	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rozlít tvůj džem, cukrový koblížku.	}
+{	373	}{	Odejdi a já ti to potom vynahradím, slibuju.	}{	Odejdi a já ti to potom vynahradím, slibuju.	}{	0	}{	Seduction 9	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	Odejdi a měj nachystanou náruč. Přiběhnu do ní posléze, vdolečku.	}
+{	374	}{	Utíkej pryč.	}{	Utíkej pryč.	}{	0	}{	Dominate 1	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	375	}{	Pašíku, ty nevíš, že jsi v rožnící jámě? Začíná tu být horko...	}{	Pašíku, ty nevíš, že jsi v rožnící jámě? Začíná tu být horko...	}{	0	}{	Dementation 1	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	Pašíku, ty nevíš, že jsi v rožnící jámě? Začíná tu být horko...	}
+{	376	}{	Utíkej pryč.	}{	Utíkej pryč.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles(); G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	377	}{	Uteč, smrtelníku!	}{	Uteč, smrtelníku!	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles(); G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	378	}{	Teď máš šanci si zahrát na hrdinu. Zkus mě zastavit.	}{	Teď máš šanci si zahrát na hrdinu. Zkus mě zastavit.	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dělej zeď, pokud musíš, ale varuji tě, že jsem demoliční koule.	}
+{	379	}{	Myslím, že tohle je konec. Tedy tvého života.	}{	Myslím, že tohle je konec. Tedy tvého života.	}{	391	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Když ses dnes ráno probudil, napadlo tě, že zemřeš?	}
+{	380	}{	Sejmul jsem tvýho bráchu a teď sejmu i tebe.	}{	Sejmula jsem tvýho bráchu a teď sejmu i tebe.	}{	391	}{	Humanity -5 & G.Chunk_Dead == 1 }{	}{	}{	}{	}{	}{	}{	}{	Nyní udělám to, co se přihodilo druhé koblize.	}
+{	381	}{	No tak, prostě odejděte, ano? Nerad bych použil sílu, ale mám povoleno ji použít. Nenuťte mě k tomu, šéfe.	}{	No tak, prostě odejděte, ano? Nerad bych použil sílu, ale mám povoleno ji použít. Nenuťte mě k tomu, slečinko.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	382	}{	Jedu nahoru. Můžeš mě zkusit zastavit nebo můžeš odejít.	}{	Jedu nahoru. Můžeš mě zkusit zastavit nebo můžeš odejít.	}{	401	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	383	}{	Dávám ti deset sekund, aby ses ztratil.	}{	Dávám ti deset sekund, aby ses ztratil.	}{	0	}{	Intimidate 8	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	384	}{	Zeptej se sám sebe, co je důležitější. Tvá mizerně placená práce nebo tvůj život?	}{	Zeptej se sám sebe, co je důležitější. Tvá mizerně placená práce nebo tvůj život?	}{	0	}{	Persuasion 9	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	385	}{	Utíkej pryč.	}{	Utíkej pryč.	}{	0	}{	Dominate 1	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	386	}{	Pašíku, ty nevíš, že jsi v rožnící jámě? Začíná tu být horko...	}{	Pašíku, ty nevíš, že jsi v rožnící jámě? Začíná tu být horko...	}{	0	}{	Dementation 1	}{	G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	387	}{	Utíkej pryč.	}{	Utíkej pryč.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles(); G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	388	}{	Uteč, smrtelníku!	}{	Uteč, smrtelníku!	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles(); G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	389	}{	Sejmul jsem tvýho bráchu a teď sejmu i tebe.	}{	Sejmula jsem tvýho bráchu a teď sejmu i tebe.	}{	391	}{	Humanity -5 & G.Chunk_Dead == 1 }{	}{	}{	}{	}{	}{	}{	}{	Nyní udělám to, co se přihodilo druhé koblize.	}
+{	390	}{	Bude z tebe výborná chuťovka před hlavním chodem.	}{	Bude z tebe výborná chuťovka před hlavním chodem.	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	391	}{	Cože?	}{	Cože?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	392	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	G.Chunk_Attack = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	401	}{	Pokud neodejdete, tak... tak nemám na vybranou.	}{	Pokud neodejdete, tak... tak nemám na vybranou.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	402	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	G.Chunk_Attack = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	431	}{	[Scared]Vy... Držte se zpátky! Nevím, co jste zač, ale... radím vám vrátit se tam, odkud jste přišel! A myslím to vážně!	}{	[Scared]Vy... Držte se zpátky! Nevím, co jste zač, ale... radím vám vrátit se tam, odkud jste přišla! A myslím to vážně!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Chunk_Spooked = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	432	}{	Tak já jdu.	}{	Tak já jdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	433	}{	Musím za  LaCroixem.	}{	Musím za  LaCroixem.	}{	441	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	434	}{	Donuť mě, tlusťochu.	}{	Donuť mě, tlusťochu.	}{	451	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	441	}{	Pan LaCroix nemá na programu žádnou schůzku s chrličem. Tak radši zmizte, než zavolám pro posily. Nebo do bulvárních novin.	}{	Pan LaCroix nemá na programu žádnou schůzku se skřetem. Tak radši zmizte, než zavolám pro posily. Nebo do bulvárních novin.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	442	}{	Dobře, tak já jdu.	}{	Dobře, tak já jdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	443	}{	No tak mě přinuť.	}{	No tak mě přinuť.	}{	451	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	451	}{	Už jsem vás varoval. Všude tu máme kamery. Jestli něco zkusíte, vaše huba zítra ve zprávách pokází spoustě lidem večeři.	}{	Už jsem vás varoval. Všude tu máme kamery. Jestli něco zkusíte, vaše huba zítra ve zprávách pokází spoustě lidem večeři.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	452	}{	Tak já jdu.	}{	Tak já jdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	453	}{	Když jsme u té večeře, ještě jsem nejedl. Vypadáte pikantně.	}{	Když jsme u té večeře, ještě jsem nejedla. Vypadáte pikantně.	}{	0	}{	}{	G.Chunk_Attack = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	454	}{	A vaše huba bude rozmázlá po celé recepci.	}{	A vaše huba bude rozmázlá po celé recepci.	}{	0	}{	}{	G.Chunk_Attack = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	461	}{	Zmizte odsud, varuji vás!	}{	Zmizte odsud, varuji vás!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	462	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	471	}{	Je mi to líto, ale nahoru teď nikdo nesmí.	}{	Je mi to líto, ale nahoru teď nikdo nesmí.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	472	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	481	}{	Nemůžu vás tam teď pustit.	}{	Nemůžu vás tam teď pustit.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	482	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	491	}{	Nemám teď otevírat nikomu, je mi líto, šéfe.	}{	Nemám teď otevírat nikomu, je mi líto, slečno.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	492	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	501	}{	Obávám se, že teď vás tam nemůžu pustit.	}{	Obávám se, že teď vás tam nemůžu pustit.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	502	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	511	}{	[Like Chunk, but distracted]Hmm? Aha, jděte nahoru.	}{	[Like Chunk, but distracted]Hmm? Aha, jděte nahoru.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	G.Chunk_Open = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	512	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	521	}{	Jděte nahoru...	}{	Jděte nahoru...	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	G.Chunk_Open = 3	}{	}{	}{	}{	}{	}{	}{	}
+{	522	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	531	}{	Už vás očekává.	}{	Už vás očekává.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	G.Chunk_Open = 4	}{	}{	}{	}{	}{	}{	}{	}
+{	532	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	541	}{	Hmm? Aha, to jste vy.	}{	Hmm? Aha, to jste vy.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	G.Chunk_Open = 5; G.Camera_Pressed = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	542	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	621	}{	Dej ty pracky pryč!	}{	Dej ty pracky pryč!	}{	#	}{	}{	G.Chunk_Reset = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	622	}{	Omlouvám se.	}{	Omlouvám se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Uups.	}
+{	661	}{	(Starting Condition)	}{	}{	621	}{	G.Chunk_Reset == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	662	}{	(Starting Condition)	}{	}{	461	}{	G.Chunk_Spooked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	663	}{	(Starting Condition)	}{	}{	431	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	664	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State >= 115 and not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	665	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State >= 115 and IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	666	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 110	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	667	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 105 and not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	668	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 105 and IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	669	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 100 and not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	670	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 100 and IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	671	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	672	}{	(Starting Condition)	}{	}{	541	}{	G.Story_State == 80	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	673	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 60	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	674	}{	(Starting Condition)	}{	}{	471	}{	G.Story_State >= 35 and G.Story_State < 70	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	675	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 30 and G.Chunk_Open == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	676	}{	(Starting Condition)	}{	}{	531	}{	G.Story_State == 30	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	677	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	678	}{	(Starting Condition)	}{	}{	521	}{	G.Story_State == 20	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	679	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 15 and G.Chunk_Open == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	680	}{	(Starting Condition)	}{	}{	511	}{	G.Story_State == 15	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	681	}{	(Starting Condition)	}{	}{	91	}{	G.Chunk_Open == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	682	}{	(Starting Condition)	}{	}{	31	}{	G.Story_State == 10 and IsDead("Chunk")	}{	}{	}{	}{	}{	}{	}{	}{	}

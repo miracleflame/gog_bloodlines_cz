@@ -1,0 +1,75 @@
+
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	
+	"infomodel"	"models/items/dayplanner/info/Info_dayplanner2.mdl"
+	"playermodel"	"models/items/dayplanner/ground/dayplanner2.mdl"
+	
+	"anim_prefix"	" "
+
+	"printname"	"Kniha"
+	"description"	"Toto vypadá jako týdenní záznam Douglase Streetse, předáka losangeleského úseku inženýrských sítí z roku 1957:
+
+			9.7. 57 - Zmizení čističů stok Whitmana, Pricea a Haddada rozpoutalo v novinách útok na naše oddělení. Na mně zbylo zjistit, co se s nimi stalo. Udělám vše, co bude v mých silách.
+
+			9.7. 57 - Mé dosavadní zkoumání v nezmapovaných oblastech stok bylo zatím neúspěšné.  Radnice mi nebyla schopna poskytnout výkresy těchto sekcí, proto musíme pokračovat naslepo.
+			
+			11.7. 57 - Byl jsem svědkem mnoha zvláštních a nevysvětlitelných zvuků a jevů v místech, která nepochybně patří mezi nejstarší část losangeleských stok.  Našel jsem tam zrezivělou plaketu s datem 1878.  Tato pozorování mohu popsat jedině jako nadpřirozená ve všech ohledech. Chlad. Stíny a šepot. Nemám pro to žádné vysvětlení, snad kromě přebujelé fantazie mé přepracované hlavy. Zítra budeme pokračovat.
+			
+			12.7. 57 - Stále ani stopa po zmizelých mužích, ale zmocňuje se mě strach, že v nejhlubších polohách těch stok skutečně přebývá něco děsivého. Nerad bych sklouzával k nějakým hororovým vysvětlením, mohu ovšem konstatovat, jaký z toho mám pocit.  Již se do těch temných chodeb nechci vracet. Podle mého názoru padli ti nebozí mužové za oběť nějakému prastarému zlu, co se tam dole skrývá.  Popíši starostovi, co jsem tam viděl, a budu se modlit, že mne za to nebude považovat za šílence.
+			
+			15.7. 57 - Starosta mne vyslechl ve vší vážnosti a velice moudře rozhodl zazdít nejnižší části stok, ve kterých jsem pozoroval ty děsivé přeludy a úkazy.  Veřejnosti bude dáno na vědomost, že Whitman, Price a Haddad se v těchto stokách ztratili, poněvadž byly staré a nespolehlivé. Tím se také odůvodní rozhodnutí je uzavřít ve snaze zabránit dalším nevysvětlitelným úmrtím. Nechť se tak stane. Modlím se, aby jejich duše nalezly klid v posmrtném životě. Pokud jde o mne, rezignoval jsem na své místo v našem oddělení.  Nepřeji si nadále pátrat po temných místech Země. Zanechávám tuto knihu zde, zazděnou mimo dosah kohokoliv. Snad i vzpomínka na tyto události vymizí spolu s ní.
+                        
+                                    S úctou, Douglas Streets, předák úseku pro inženýrské sítě"
+
+			
+			
+			
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"is_wieldable"		"0"
+	"weight"		"1"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"-1"
+	"is_visible_in_hud"		"1"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Magazine/Pickup.wav"
+		}
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/dayplanner2_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/dayplanner2"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{	1	}{	Táhni k čertu, svině! }{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Rozumím.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	Ano.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Ne.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	Baba Jaga!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	Co to k čertu dělaj?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	[persistent russian accent]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	[translation]Mají zbraň!	}{	[translation]Mají zbraň!	}{	#	}{	}{	G.Dema_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Stát! Kdo jseš sakra zač?	}{	Stát! Kdo jseš sakra zač?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Pusť mě dovnitř.	}{	Pusť mě dovnitř.	}{	0	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	0	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Jseš klíč. Dělej, co je tvůj účel.	}
+{	24	}{	Pusť mě dovnitř.	}{	Pusť mě dovnitř.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	Tvůj šéf si mě zavolal.	}{	Tvůj šéf si mě zavolal.	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{	Mám soukromou zprávu pro Borise. Od jeho... přítelkyně.	}{	Mám soukromou zprávu pro Borise. Od jeho... přítelkyně.	}{	41	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	Nesu slova od bohyně pro muže za těmito dveřmi.	}
+{	27	}{	Musím něco vyřídit tvýmu šéfovi, soudruhu. Uhni z cesty.	}{	Musím něco vyřídit tvýmu šéfovi, soudruhu. Uhni z cesty.	}{	51	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Mám pro muže za dveřmi slova, která vyžadují, abys odešel jinam.	}
+{	28	}{	Potřebuji mluvit s Borisem.	}{	Potřebuji mluvit s Borisem.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Musím hovořit s mužem za dveřmi.	}
+{	29	}{	Jsem z ochranky hotelu. Otevřete dveře.	}{	Jsem z ochranky hotelu. Otevřete dveře.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hotelový policajt. Tajná pokojová služba. Otvírej.	}
+{	31	}{	Nikdo tě nečeká.	}{	Nikdo tě nečeká.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Pusť mě dovnitř.	}{	Pusť mě dovnitř.	}{	0	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	33	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	0	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Jseš klíč. Dělej, co je tvůj účel.	}
+{	34	}{	Pusť mě dovnitř.	}{	Pusť mě dovnitř.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	35	}{	Tvůj šéf si mě zavolal.	}{	Tvůj šéf si mě zavolal.	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	36	}{	Musím s Borisem mluvit. Bude chtít slyšet to, co pro něj mám.	}{	Musím s Borisem mluvit. Bude chtít slyšet to, co pro něj mám.	}{	41	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	Muž za dveřmi chce slyšet má slova.	}
+{	37	}{	Musím něco vyřídit tvýmu šéfovi, soudruhu. Uhni z cesty.	}{	Musím něco vyřídit tvýmu šéfovi, soudruhu. Uhni z cesty.	}{	51	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Smrtelníku. Jdi. Mi. Z cesty.	}
+{	38	}{	To je divný. Neřekl ti, že mám přijít?	}{	To je divný. Neřekl ti, že mám přijít?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Možná jsi zapomněl zprávu o mém příchodu?	}
+{	39	}{	Jsem od údržby. Tečou vám trubky.	}{	Jsem od údržby. Tečou vám trubky.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Neslyšíš, jak trubky chrastí? Možná jsou plné hadů.	}
+{	40	}{	Jsem od pokojové služby. Nesu pánovi jeho kaviár.	}{	Jsem od pokojové služby. Nesu pánovi jeho kaviár.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	V mých kapsách jsou rybí vejce pro muže za dveřmi.	}
+{	41	}{	[threatening]Dej zprávu mě. Já dám jemu.	}{	[threatening]Dej zprávu mě. Já dám jemu.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Pusť mě dovnitř.	}{	Pusť mě dovnitř.	}{	0	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	0	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Jseš klíč. Dělej, co je tvůj účel.	}
+{	44	}{	Pusť mě dovnitř.	}{	Pusť mě dovnitř.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	Tvůj šéf si mě zavolal.	}{	Tvůj šéf si mě zavolal.	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	46	}{	To nejde. Ale je to důležité. Jestli se to nedozví, naštve se a na ráně budeš ty.	}{	To nejde. Ale je to důležité. Jestli se to nedozví, naštve se a na ráně budeš ty.	}{	61	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	Je to jen pro jeho uši. A jestli to do nich nedolehne, ty budeš hadrová panenka.	}
+{	47	}{	Je to osobní. A teď mě pusť.	}{	Je to osobní. A teď mě pusť.	}{	51	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Má slova nemají pro hluché smysl. Dveře!	}
+{	48	}{	A jak mám vědět, že ti můžu věřit?	}{	A jak mám vědět, že ti můžu věřit?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ty nejsi ta správná pokladnice pro má cenná slova.	}
+{	49	}{	Je to poměrně odborné. Radši mu to řeknu sám.	}{	Je to poměrně odborné. Radši mu to řeknu sama.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Má slova jsou vybraná a tvé uši neohrabané.	}
+{	50	}{	Věř mi - tuhle špatnou novinu mu nechceš říkat osobně.	}{	Věř mi - tuhle špatnou novinu mu nechceš říkat osobně.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pokud zabije posla, nebyl bys radši, abys nebyl ten posel?	}
+{	51	}{	Tak bych to neviděl.	}{	Tak bych to neviděl.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Pusť mě dovnitř.	}{	Pusť mě dovnitř.	}{	0	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	0	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Jseš klíč. Dělej, co je tvůj účel.	}
+{	54	}{	Pusť mě dovnitř.	}{	Pusť mě dovnitř.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	55	}{	Tvůj šéf si mě zavolal.	}{	Tvůj šéf si mě zavolal.	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	56	}{	Nebudu se opakovat.	}{	Nebudu se opakovat.	}{	61	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Muž za dveřmi očekává má slova.	}
+{	57	}{	Je to důležité. Jestli se to nedozví, naštve se a na ráně budeš ty.	}{	Je to důležité. Jestli se to nedozví, naštve se a na ráně budeš ty.	}{	61	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	Je to jen pro jeho uši. A jestli to do nich nedolehne, ty budeš hadrová panenka.	}
+{	58	}{	To mě nepřekvapuje.	}{	To mě nepřekvapuje.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	A vidíš vůbec něco?	}
+{	59	}{	Tak si to přeber a pusť mě dovnitř. Hned.	}{	Tak si to přeber a pusť mě dovnitř. Hned.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	A já to tak vidím.	}
+{	60	}{	Jsem z imigračního úřadu. Otevři dveře!	}{	Jsem z imigračního úřadu. Otevři dveře!	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Má mysl je zapomenuta vevnitř, nech mě ji vyzvednout.	}
+{	61	}{	Tak dobrá. Následuj mě.	}{	Tak dobrá. Následuj mě.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	Máš deset sekund na odchod. Pak ti ustřelím tu zkurvenou palici.	}{	Máš deset sekund na odchod. Pak ti ustřelím tu zkurvenou palici.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Dema_Go = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	[shouting, terrified]Baba Jaga! Baba Jaga!	}{	[shouting, terrified]Baba Jaga! Baba Jaga!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	G.Dema_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{	(Starting Condition)	}{	}{	81	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	96	}{	(Starting Condition)	}{	}{	21	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

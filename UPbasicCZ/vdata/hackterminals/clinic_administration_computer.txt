@@ -1,0 +1,124 @@
+TerminalDefinition
+{
+	"screen saver"		"Chirurgické kleště nejsou na hraní!"	// Bounces around on the screen when the terminal is not being used. 
+	"brackets"		""			// these surround the command prompt (2 characters)
+	"email_username"	"dboyle"		// printed at the top of the email window, not used for log in. 
+	"email_password"	"lakers"		// printed at the top of the email window, not used for log in. 
+
+
+	LogonScreen	// displayed when the user first logs on
+	{
+		// Any number of lines are acceptable
+		"line0"		"  Konzole santamonické kliniky"	// changed by wesp
+		"line1"		"  Kanceláře administrativy"	// changed by wesp
+		"line2"		"Danny Boyle, správce"
+
+	}
+
+	// you can have up to 5 subdirs per terminal
+	// and up to 6 functions per sub dir
+	// there are 8 total outputs per terminal, (0...7)
+	// talk to Brock if you'd like this number increased. 
+
+
+
+	SubDir
+	{
+		"name"			"Osoby"
+		"description"		"Důvěrné informace"	
+
+		Function
+		{
+			"name"		"Flabottomus, P"
+			"description"	"Zaměstnanecký záznam"	
+			"runtext"	"Flabottomus, P
+			Phil Flabottomus je loajální člověk a pracant, ale zdá, že trpí jakousi poruchou zažívacího traktu, jejíž výsledkem je bohužel zvýšená plynatost.  Ten zápach nelze nazvat jinak než příšerný.  Vypadá to, že s ním budeme muset něco udělat."
+		}
+
+		Function
+		{
+			"name"		"Bill, E"
+			"description"	"Zaměstnanecký záznam"	
+			"runtext"	"Bill, E
+			Dr. Bill pracuje na klinice jako internista a hádavec od roku 1999."
+		}
+		
+		Function
+		{
+			"name"		"St.Martin, M"
+			"description"	"Zaměstnanecký záznam"	
+			"runtext"	"St.Martin, M
+			Malcolm St.Martin je náš vedoucí doktor na noční směny."
+		}
+
+		Function
+		{
+			"name"		"Roberts, D"
+			"description"	"Zaměstnanecký záznam"	
+			"runtext"	"Roberts, D
+			Ještě nikdy nepřišel o pacienta. Nikdo není machr jako Dr. Roberts."
+		}
+
+		Function
+		{
+			"name"		"Thornton, K"
+			"description"	"Zaměstnanecký záznam"	
+			"runtext"	"Thornton, K
+			Je proti němu vedeno několik disciplinárních řízení za zbytečné gynekologické výkony.  Hrozí propuštění."
+		}
+
+	}
+
+	Email
+	{
+		"subject"	"Laskavost"				
+		"sender"	"Fred Dingo"
+		"body"		"Čau, Danny.  Udělej pro mě něco.  Zajdi prosím nahoru do Sledovaných látek a dones nějaké morfium.  Já teď fakt nemám čas. Dík.  FPes"
+		"dependency"	"G.Werewolf_Quest ==  0"
+	}
+		
+	Email
+	{
+		"subject"	"Re: tva mama"
+		"sender"	"Fred Dingo"		
+		"body"		"Ne, to nechci pro sebe, blbečku :)  Nevěděl jsem, že jim nahoře došel.  Možná něco najdeš u Malcolma.  Mimochodem, tvá máma nosí vojenské kanady. FPes"
+		"dependency"	"G.Werewolf_Quest ==  0"
+	}
+	Email
+	{
+		"subject"	"Re: amnézie"
+		"sender"	"Fred Dingo"		
+		"body"		"Kua, ty jseš ale hnusnej! Ale musím myslet na to, že mám zaklepat. Nechtěl bych ho chytit při 'vyšetření pánve'.  A hele, řekni svý mámě, ať mi přestane volat.  FPes"
+		"dependency"	"G.Werewolf_Quest ==  0"
+	}
+
+	Email
+	{
+		"subject"	"Divný vzorek krve"				
+		"sender"	"Fred Dingo"
+		"body"		"Čau, Danny.  Kdosi z novin nám poslal zajímavý krevní vzorek.  Nějakej magor jim nakecal, že je to vlkodlačí krev.  No věřil bys tomu?  Každopádně to nechcou zadarmo, takže mohl bys to zkouknout příští směnu? Dík. FPes"
+		"dependency"	"G.Werewolf_Quest ==  1"
+	}
+		
+	Email
+	{
+		"subject"	"Re: test krve"
+		"sender"	"Fred Dingo"		
+		"body"		"Jak mám sakra vědět, na co to máš testovat?  Něco vymysli :).  O nic nejde, jen zkontroluj, jestli je v tom něco divnýho. FPes"
+		"dependency"	"G.Werewolf_Quest ==  1"
+	}
+	Email
+	{
+		"subject"	"Re: a kde to je?"
+		"sender"	"Fred Dingo"		
+		"body"		"No vidíš to, promiň.  Ten vzorek je pod zámkem ve Sledovaných látkách.  A hele, nepudem v pátek někam zapařit? FPes"
+		"dependency"	"G.Werewolf_Quest ==  1"
+	}
+	Email
+	{
+		"subject"	"Re: jseš na tenkým ledu"
+		"sender"	"Fred Dingo"		
+		"body"		"Bože, spadnuls z Marsu?  Před pár hodinama jsem poslal Phila, aby to heslo změnil.  To nový je stejný jako Malcolmovo malé chlípné tajemství.  Jejda, já to fakt napsal? Radši tenhle mejl hned po přečtení smaž! Potkáme se teda v sobotu ráno v parku.  FPes"
+		"dependency"	"G.Werewolf_Quest ==  1"
+	}
+}

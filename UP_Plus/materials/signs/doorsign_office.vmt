@@ -1,8 +1,0 @@
-LightmappedGeneric
-{
-	"$basetexture" "signs\doorsign_office"
-	"$surfaceprop" "plastic"
-	"$translucent" "1"
-	"$decal" "1"
-	"$decalscale" ".2"	// plus
-}

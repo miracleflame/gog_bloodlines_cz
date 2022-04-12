@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$translucent" 1
-	"$basetexture" "decals/signs/smokeshop"
-	"$decal" 1
-	"$decalscale" 0.1	// changed by wesp
-}

@@ -1,0 +1,120 @@
+{	1	}{	[message left on an answering machine]Mr. Milton. You know who this is and I do hope you realize that we're still on for tonight. Meet me at the agreed upon location, across from the bar by the underpass. Bring your associate Mr. Durbin as it is a two-man job that I am proposing. With any luck the two of you are already on your way and I shall see you soon. Goodbye.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	[If pc kills him, pc gains a masquerade point]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	NE! Nepřibližuj se, vampíre. Zmiz kurva odsud! S tebou nemám co do činění!	}{	NE! Nepřibližuj se, vampírko. Zmiz kurva odsud! S tebou nemám co do činění!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Copak, copak? Bojíme se férového boje?	}{	Copak, copak? Bojíme se férového boje?	}{	21	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Nasaď svůj hněv proti zdatnějšímu protivníkovi...	}
+{	13	}{	To je možné, ale já mám co do činění s tebou.	}{	To je možné, ale já mám co do činění s tebou.	}{	21	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Hádej se či ne, smrt tě nemine...	}
+{	14	}{	Vyklop, proč jsi to udělal?	}{	Vyklop, proč jsi to udělal?	}{	31	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Jaké temné sny tě dohnaly k této můře?	}
+{	15	}{	Chceš uvést něco na svou obhajobu, než vynesu rozsudek, zbabělče?	}{	Chceš uvést něco na svou obhajobu, než vynesu rozsudek, zbabělče?	}{	31	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Prozraď svůj příběh, než padne opona...	}
+{	21	}{	Má práce je u konce. Nechci s tebou bojovat, ale když mě přinutíš, budu.	}{	Má práce je u konce. Nechci s tebou bojovat, ale když mě přinutíš, budu.	}{	#	}{	}{	Whisper("Danger")	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	A co byla tvá práce? Zabíjení náhodných ubožáků? Zrada tajemství našinců?	}{	A co byla tvá práce? Zabíjení náhodných ubožáků? Zrada tajemství našinců?	}{	31	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Tvá práce byla jako zabíjení much a vyzrazování temných tajemství...	}
+{	23	}{	Práce? Jaká práce? Zabíjení slabých ovcí? Zbabělče.	}{	Práce? Jaká práce? Zabíjení slabých ovcí? Zbabělče.	}{	31	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Tvá práce byla zabíjení ovcí, zbabělče.	}
+{	24	}{	Vyklop, proč jsi to udělal?	}{	Vyklop, proč jsi to udělal?	}{	41	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Jaké temné sny tě dohnaly k této můře?	}
+{	25	}{	Chceš uvést něco na svou obhajobu, než vynesu rozsudek, zbabělče?	}{	Chceš uvést něco na svou obhajobu, než vynesu rozsudek, zbabělče?	}{	41	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Prozraď svůj příběh, než padne opona...	}
+{	31	}{	Co je ti sakra do toho? Mně je fuk, jestli to chápeš.	}{	Co je ti sakra do toho? Mně je fuk, jestli to chápeš.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Stejně bych chtěl slyšet tvou verzi.	}{	Stejně bych chtěla slyšet tvou verzi.	}{	41	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Osvětli mou rozbitou mysl...	}
+{	33	}{	Radši bys měl začít mluvit, dokud můžeš.	}{	Radši bys měl začít mluvit, dokud můžeš.	}{	41	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Písek v hodinách dochází. Mluv!	}
+{	34	}{	Proč ses musel tak předvádět? Nestačilo je probodnout nebo něco?	}{	Proč ses musel tak předvádět? Nestačilo je probodnout nebo něco?	}{	51	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Tvá řezničina přitáhla slunce na naše bratry...	}
+{	35	}{	To je fakt. Bylo by mi to k ničemu, když tu z tebe za chvíli zbyde jen hromádka popela,	}{	To je fakt. Bylo by mi to k ničemu, když tu z tebe za chvíli zbyde jen hromádka popela,	}{	0	}{	Humanity -5	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Přečtu si tvé důvody z kouře nad tvým popelem...	}
+{	41	}{	[vehement]Takže ty mě chceš soudit? Chceš rozhodovat o tom, jestli si ti vrahouni zasloužili vykuchat? Nikdy nemůžeš vědět, jaké to je! NIKDY!	}{	[vehement]Takže ty mě chceš soudit? Chceš rozhodovat o tom, jestli si ti vrahouni zasloužili vykuchat? Nikdy nemůžeš vědět, jaké to je! NIKDY!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Porušil jsi Maškarádu a ohrozil bezpečnost každého našince.	}{	Porušil jsi Maškarádu a ohrozil bezpečnost každého našince.	}{	51	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Pokusil ses sundat masku nám všem a vrhnout nás do slunce...	}
+{	43	}{	Rozsudek už padnul. Proušil jsi pravidla a proto tě musím zabít.	}{	Rozsudek už padnul. Proušil jsi pravidla a proto tě musím zabít.	}{	51	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Strhnul jsi závoj, za což teď ukončím tvou bolest...	}
+{	44	}{	Zkus to. Třeba to pochopím.	}{	Zkus to. Třeba to pochopím.	}{	61	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Mé uši čekají na tvá slova...	}
+{	45	}{	Vrahouni? Prostě vyklop, co se stalo.	}{	Vrahouni? Prostě vyklop, co se stalo.	}{	61	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova jsou zvadlé slupky. Očekávám novou sklizeň.	}
+{	46	}{	Tvoje kecy mě nezajímají. Chcípni!	}{	Tvoje kecy mě nezajímají. Chcípni!	}{	0	}{	Humanity -5	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Odešlu tě nyní do věčné temnoty, zbabělče...	}
+{	51	}{	To čekáš, že mě ty vaše debilní vampírský pravidla budou zajímat? Mě nezajímá nic.	}{	To čekáš, že mě ty vaše debilní vampírský pravidla budou zajímat? Mě nezajímá nic.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	A mě zajímá proč.	}{	A mě zajímá proč.	}{	61	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Zvážím tvá slova spravedlivě...	}
+{	53	}{	Co to vykládáš?	}{	Co to vykládáš?	}{	61	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Promluv a pak buď souzen...	}
+{	54	}{	A ty nechceš, aby někdo znal tvou verzi? Tak mluv.	}{	A ty nechceš, aby někdo znal tvou verzi? Tak mluv.	}{	61	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Mé uši čekají na tvá slova...	}
+{	55	}{	Stejně jseš mrtvej. Tak mi to klidně můžeš říct.	}{	Stejně jseš mrtvej. Tak mi to klidně můžeš říct.	}{	61	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova jsou zvadlé slupky. Očekávám novou sklizeň.	}
+{	56	}{	Tak se připrav na konečnou smrt.	}{	Tak se připrav na konečnou smrt.	}{	0	}{	Humanity -5	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Tak se připrav na konečnou smrt.	}
+{	61	}{	Pobili mou rodinu, i děti. Banda druhořadých kriminálníků, co chtěla vykrást dům, vzít si auto a vůbec. Nemělo to žádný smysl, plán, žádné výkupné, prostě je zabili a proč? Protože tam byli, stáli v cestě.	}{	Pobili mou rodinu, i děti. Banda druhořadých kriminálníků, co chtěla vykrást dům, vzít si auto a vůbec. Nemělo to žádný smysl, plán, žádné výkupné, prostě je zabili a proč? Protože tam byli, stáli v cestě.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	S tím jsi zřejmě nemohl nic dělat.	}{	S tím jsi zřejmě nemohl nic dělat.	}{	71	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Osud nikomu nedává opratě...	}
+{	63	}{	Na každýho jednou dojde.	}{	Na každýho jednou dojde.	}{	71	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Písek z hodin se vysype každému...	}
+{	64	}{	Takže zabíjení lidí ti ulevilo?	}{	Takže zabíjení lidí ti ulevilo?	}{	71	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Smrt není doktor...	}
+{	65	}{	Takže ses rozhodl, že se trochu pomstíš?	}{	Takže ses rozhodl, že se trochu pomstíš?	}{	71	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Pomsta je chladná a nádherná společnice...	}
+{	71	}{	Všichni z toho vyvázli. Celá moje rodina mrtvá, můj život v troskách. Měl jsem si to nechat líbit?!	}{	Všichni z toho vyvázli. Celá moje rodina mrtvá, můj život v troskách. Měl jsem si to nechat líbit?!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Já to chápu.	}{	Já to chápu.	}{	81	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Už ten vzorek vidím jasněji...	}
+{	73	}{	No já bych to tak rozhodně nenechal.	}{	No já bych to tak rozhodně nenechala.	}{	81	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	I má ruka se srpem by se mstila...	}
+{	74	}{	Takže ty vraždy byly tvá odplata?	}{	Takže ty vraždy byly tvá odplata?	}{	91	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Vzal jsi tedy vážky do svých rukou?	}
+{	75	}{	Takže teď je z tebe velkej drsnej pomstychtivej vampír?	}{	Takže teď je z tebe velkej drsnej pomstychtivej vampír?	}{	91	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Teď tedy neživotem proklínáš živé?	}
+{	81	}{	Všechny jsem je hledal. A lovil. A jednoho po druhém jsem našel. Ten v Hollywoodu byl poslední.	}{	Všechny jsem je hledal. A lovil. A jednoho po druhém jsem našel. Ten v Hollywoodu byl poslední.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Takže tvá odplata je u konce.	}{	Takže tvá odplata je u konce.	}{	91	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	A nyní jsou vážky v rovnováze...	}
+{	83	}{	Byl to dobrý pocit, co? Pomstít se.	}{	Byl to dobrý pocit, co? Pomstít se.	}{	91	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Vzteklé srdce se dobře plní krví...	}
+{	84	}{	Měl jsi tu pomstu provést poněkud nenápadněji.	}{	Měl jsi tu pomstu provést poněkud nenápadněji.	}{	91	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Tvá pomsta ohrozila masky nás všech.	}
+{	85	}{	Prostě nešlo odolat...	}{	Prostě nešlo odolat...	}{	101	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Užil sis sladkou chuť řezničiny...	}
+{	86	}{	A to je všechno? Skončils se zabíjením? Pověsíš teď ty pařáty na hřebík?	}{	A to je všechno? Skončils se zabíjením? Pověsíš teď ty pařáty na hřebík?	}{	101	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Uložíš teď ten krvavý nůž do pochvy?	}
+{	87	}{	Ale teď už bez toho nebudeš moct být, co?	}{	Ale teď už bez toho nebudeš moct být, co?	}{	101	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Ale teď jsi otrokem své krvavé žízně...	}
+{	91	}{	Odplata. Spravedlnost. Říkej tomu, jak chceš. Měl jsem v hlavě jen to, abych je ulovil, roztrhal na kusy a slíznul si jejich krev z pařátů.	}{	Odplata. Spravedlnost. Říkej tomu, jak chceš. Měl jsem v hlavě jen to, abych je ulovil, roztrhal na kusy a slíznul si jejich krev z pařátů.	}{	#	}{	}{	G.Sam_Revenge = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Musíš se víc ovládat.	}{	Musíš se víc ovládat.	}{	101	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Musíš to zvíře uvnitř krotit...	}
+{	93	}{	A jak se teď budeš s tou potřebou vypořádávat?	}{	A jak se teď budeš s tou potřebou vypořádávat?	}{	101	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Stále bojuješ se svými vražednými démony...	}
+{	94	}{	Předal jsi vládu nad sebou Bestii.	}{	Předal jsi vládu nad sebou Bestii.	}{	111	}{	Humanity 4	}{	}{	}{	}{	}{	}{	}{	}{	Odevzdal ses své temnější straně...	}
+{	95	}{	To vypadá, žes ochutnal, jaká je ta Bestie v tobě.	}{	To vypadá, žes ochutnal, jaká je ta Bestie v tobě.	}{	111	}{	Humanity -4	}{	}{	}{	}{	}{	}{	}{	}{	Zahřálo tě zabíjení? Chutnala Bestii krev?	}
+{	96	}{	Dostal jsi je. Je po všem. Teď bys měl jít dál.	}{	Dostal jsi je. Je po všem. Teď bys měl jít dál.	}{	101	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Dluh byl splacen. Nyní zvol jinou cestu.	}
+{	97	}{	Takže, teď z tebe bude poslušný vampír nebo tě budu muset utratit?	}{	Takže, teď z tebe bude poslušný vampír nebo tě budu muset utratit?	}{	101	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Pokud se nedvrátíš od temnoty, pošlu tě do propasti...	}
+{	101	}{	Já nevím. Zmasakrování těch hajzlů bylo poprvé, co jsem cokoliv cítil od doby, kdy jsem přišel o rodinu. Určitě se najde dost takových, jejichž zločiny nebyly nikdy potrestány...	}{	Já nevím. Zmasakrování těch hajzlů bylo poprvé, co jsem cokoliv cítil od doby, kdy jsem přišel o rodinu. Určitě se najde dost takových, jejichž zločiny nebyly nikdy potrestány...	}{	#	}{	}{	G.Sam_Revenge = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Mluví z tebe Bestie. Ovládá tě.	}{	Mluví z tebe Bestie. Ovládá tě.	}{	111	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Bestie si v tobě razí cestu hlouběji...	}
+{	103	}{	Bestie se tě zmocňuje...	}{	Bestie se tě zmocňuje...	}{	111	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Jsi ztlučený a zakrvácený od své Bestie...	}
+{	104	}{	Jestli v tom hodláš pokračovat, budu tě muset utratit.	}{	Jestli v tom hodláš pokračovat, budu tě muset utratit.	}{	121	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Pokud neutišíš svůj vztek, udělám to já...	}
+{	105	}{	I já mám své vroubky. Chceš začít se mnou, zubatý mstiteli?	}{	I já mám své vroubky. Chceš začít se mnou, zubatý mstiteli?	}{	121	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Ani má minulost není jako padlý sníh, vrahu... Zkus svůj rozsudek na mě!	}
+{	106	}{	Jen hledáš výmluvu, proč dál krmit svou Bestii.	}{	Jen hledáš výmluvu, proč dál krmit svou Bestii.	}{	111	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova jsou jen maskou na tvé zvířecí nátuře...	}
+{	107	}{	Já věděl, že se tomu neubráníš, chudinko...	}{	Já věděla, že se tomu neubráníš, chudinko...	}{	111	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Jsi pouhá bestie s šatem našince...	}
+{	111	}{	Aspoň ji umím nějak použít! Kolik vampírů je schopno využít své schopnosti za správnou věc? Já udělal aspoň něco.	}{	Aspoň ji umím nějak použít! Kolik vampírů je schopno využít své schopnosti za správnou věc? Já udělal aspoň něco.	}{	#	}{	}{	Whisper("Deluded")	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Gangrelové získávají sílu z instinktu, ne z Bestie.	}{	Gangrelové získávají sílu z instinktu, ne z Bestie.	}{	141	}{	Humanity 5 & IsClan(pc,"Gangrel")	}{	FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	}
+{	113	}{	Jako Gangrel jseš slaboch, když se podvoluješ své Bestii...	}{	Jako Gangrel jseš slaboch, když se podvoluješ své Bestii...	}{	141	}{	Humanity -5 & IsClan(pc,"Gangrel")	}{	FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	}
+{	114	}{	Měl by ses naučit větší sebekontrole, jinak si na tebe šerif došlápne.	}{	Měl by ses naučit větší sebekontrole, jinak si na tebe šerif došlápne.	}{	121	}{	Humanity 4	}{	FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Ovládej se, jak umíš nejvíc, jinak tě šaškův pes sežere...	}
+{	115	}{	Mám pro tebe novinu. To nikoho nezajímá. Pokračuj v tom a vyžereš si to.	}{	Mám pro tebe novinu. To nikoho nezajímá. Pokračuj v tom a vyžereš si to.	}{	121	}{	Humanity -4	}{	FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Něco takového tě může dovést k nicotě. Odvrať se od této cesty...	}
+{	116	}{	To je možné, ale přestal ses ovládat... Musím se s tebou vypořádat.	}{	To je možné, ale přestal ses ovládat... Musím se s tebou vypořádat.	}{	131	}{	Humanity 5	}{	FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Ano, ale já teď držím vážky a ty budeš souzen...	}
+{	117	}{	Jediný, cos udělal, je, žes nakrmil svou Bestii a za to zaplatíš...	}{	Jediný, cos udělal, je, žes nakrmil svou Bestii a za to zaplatíš...	}{	131	}{	Humanity -5 & G.Patch_Plus == 0	}{	FindPlayer().HumanityAdd( 2 )	}{	}{	}{	}{	}{	}{	}{	Tvá Bestie ti přinesla smrt...	}
+{	118	}{	Jediný, cos udělal, je, žes nakrmil svou Bestii a za to zaplatíš...	}{	Jediný, cos udělal, je, žes nakrmil svou Bestii a za to zaplatíš...	}{	131	}{	Humanity -5 & G.Patch_Plus == 1	}{	FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Tvá Bestie ti přinesla smrt...	}
+{	119	}{	A teď se za to zodpovíš. Je čas zaplatit!	}{	A teď se za to zodpovíš. Je čas zaplatit!	}{	0	}{	not IsClan(pc,"Gangrel")	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Má vlastní Bestie volá po tvé krvi!	}
+{	121	}{	Nebudu se ke všemu tomu zlu ve světě obracet zády.	}{	Nebudu se ke všemu tomu zlu ve světě obracet zády.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Myslíš si, že by tvá rodina ocenila to, co teď předvádíš?	}{	Myslíš si, že by tvá rodina ocenila to, co teď předvádíš?	}{	151	}{	Persuasion 7	}{	}{	}{	}{	}{	}{	}{	}{	Pochválili by tě tví mrtví milovaní za tvé činy?	}
+{	123	}{	Ale hlavně by ses neměl obracet zády k Maškarádě.	}{	Ale hlavně by ses neměl obracet zády k Maškarádě.	}{	131	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Masku, kterou nosíme, je nutno respektovat!	}
+{	124	}{	Jen se podívej do zrcadla, kámo. Nejseš žádnej superhrdina.	}{	Jen se podívej do zrcadla, kámo. Nejseš žádnej superhrdina.	}{	131	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Ty nejsi hrdina, vrahu...	}
+{	125	}{	Teď máš poslední šanci.	}{	Teď máš poslední šanci.	}{	131	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Nebudu již znovu varovat.	}
+{	126	}{	No tak prostě chcípneš.	}{	No tak prostě chcípneš.	}{	131	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Pak tedy smrt na tebe upře zraky...	}
+{	127	}{	Nejsi žádný soudce, ale i tak se setkáš se svým popravčím.	}{	Nejsi žádný soudce, ale i tak se setkáš se svým popravčím.	}{	0	}{	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Já tedy obrátím svou zbraň proti tobě!	}
+{	131	}{	Nikomu se zodpovídat nebudu a ty mě nikdy nedostaneš živého, vampíre. Nikoho nenechám, aby mi ještě něco vzal. Nikoho! Buď se tady rozejdeme a nebo jeden z nás zemře.	}{	Nikomu se zodpovídat nebudu a ty mě nikdy nedostaneš živého, vampírko. Nikoho nenechám, aby mi ještě něco vzal. Nikoho! Buď se tady rozejdeme a nebo jeden z nás zemře.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Myslíš si, že by tvá rodina ocenila to, co teď předvádíš?	}{	Myslíš si, že by tvá rodina ocenila to, co teď předvádíš?	}{	151	}{	Persuasion 7	}{	}{	}{	}{	}{	}{	}{	}{	Pochválili by tě tví mrtví milovaní za tvé činy?	}
+{	133	}{	Hlavně si pamatuj, žes mě k tomu přinutil...	}{	Hlavně si pamatuj, žes mě k tomu přinutil...	}{	0	}{	Humanity 5	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Spravedlnost volá po tvé smrti a já poslechnu...	}
+{	134	}{	Zavři klapačku a chcípni.	}{	Zavři klapačku a chcípni.	}{	0	}{	Humanity -5	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Plýtváš slovy, vrahu! Zemři!	}
+{	135	}{	Už tu s tebou nebudu ztrácet čas. A nediv se, až se jednou probudíš napíchnutej na kolík.	}{	Už tu s tebou nebudu ztrácet čas. A nediv se, až se jednou probudíš napíchnutej na kolík.	}{	0	}{	Humanity 5	}{	G.Killer_Freed = 1; pc.SetQuest("Serial",10)	}{	}{	}{	}{	}{	}{	}{	Zanechám tu tebe i tvou Bestii...	}
+{	136	}{	Ztrať se mi z očí.	}{	Ztrať se mi z očí.	}{	0	}{	Humanity -5	}{	G.Killer_Freed = 1; pc.SetQuest("Serial",10)	}{	}{	}{	}{	}{	}{	}{	Odejdi a už nikdy nevrhej stín na mou cestu...	}
+{	141	}{	Mám snad být loajální k jákémusi klanu, o kterém nic nevím jen proto, že jsem přežil útok? Nechali mě tam chcípnout! Jen díky prozřetelnosti jsem teď tím, čím jsem. Dělám jen to, k čemu jsem byl určen.	}{	Mám snad být loajální k jákémusi klanu, o kterém nic nevím jen proto, že jsem přežil útok? Nechali mě tam chcípnout! Jen díky prozřetelnosti jsem teď tím, čím jsem. Dělám jen to, k čemu jsem byl určen.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Ta role oběti ti vážně svědčí.	}{	Ta role oběti ti vážně svědčí.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nosíš lítost jako pohodlné tričko.	}
+{	143	}{	Není na tobě, aby sis vybíral, co se ti líbí nebo nelíbí na vampíří existenci.	}{	Není na tobě, aby sis vybíral, co se ti líbí nebo nelíbí na vampíří existenci.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Naše nátura není dvojsečná zbraň.	}
+{	150	}{	Jseš ostuda našinců. Chcípni, kaitife!	}{	Jseš ostuda našinců. Chcípni, kaitife!	}{	0	}{	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Zemři, bezklanný!	}
+{	151	}{	[anguished, breaking down]Ne... Bože, ne! Ne! Musí to skončit. Takhle nemůžu existovat. Máš pravdu. Bože, máš pravdu! Už to nikdy neudělám, přísahám. Odpusť mi.	}{	[anguished, breaking down]Ne... Bože, ne! Ne! Musí to skončit. Takhle nemůžu existovat. Máš pravdu. Bože, máš pravdu! Už to nikdy neudělám, přísahám. Odpusť mi.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Dobře. Jdi. A pamatuj na svůj slib.	}{	Dobře. Jdi. A pamatuj na svůj slib.	}{	0	}{	Humanity 5	}{	G.Killer_Freed = 1; pc.SetQuest("Serial",9)	}{	}{	}{	}{	}{	}{	}{	Odejdi a už nikdy nevrhej stín na mou cestu...	}
+{	153	}{	Tak se ztrať. A ber to tak, žes měl kliku.	}{	Tak se ztrať. A ber to tak, žes měl kliku.	}{	0	}{	Humanity -5	}{	G.Killer_Freed = 1; pc.SetQuest("Serial",9)	}{	}{	}{	}{	}{	}{	}{	Štěstí se usmálo na tvou vražednou mrtvolu. Nechám tě.	}
+{	154	}{	Pozdě. Nyní ve smrti potkáš svou rodinu.	}{	Pozdě. Nyní ve smrti potkáš svou rodinu.	}{	0	}{	Humanity 5	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Brzy se setkáš se svými drahými zesnulými...	}
+{	155	}{	To by nešlo. Chcípni, posero.	}{	To by nešlo. Chcípni, posero.	}{	0	}{	Humanity -5	}{	G.Killer_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Kostky již byly vrženy. Smrt čeká!	}
+{	156 }{ Fajn. V tom případě bys měl dát řeč s lidmi v Poslední rundě v centru. }{ Fajn. V tom případě bys měl dát řeč s lidmi v Poslední rundě v centru. }{ 0 }{ Humanity 5 & G.Patch_Plus == 1 }{ G.Killer_Nines = 1; G.Killer_Freed = 1; pc.SetQuest("Serial",9) }{ }{ }{ }{ }{ }{ }{ Báječné. Nyní běž a promluv s devátým v Poslední rundě v centru. }
+{	161	}{	[rote politeness, put out]Mohu vám s něčím pomoci?	}{	[rote politeness, put out]Mohu vám s něčím pomoci?	}{	#	}{	}{	Whisper("Threat")	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Uh... Dnes je venku docela chladno...	}{	Uh... Dnes je venku docela chladno...	}{	171	}{	pc.wits < 3	}{	}{	}{	}{	}{	}{	}{	}{	Noc je chládná jako uzrálá mrtvola...	}
+{	163	}{	Život by byl mnohem snažší, kdybys mohl, příteli.	}{	Život by byl mnohem snažší, kdybys mohl, příteli.	}{	171	}{	pc.wits > 2	}{	}{	}{	}{	}{	}{	}{	}{	Třeba s odhalením tajemství života. Můžete?	}
+{	164	}{	Jak se vám vede?	}{	Jak se vám vede?	}{	181	}{	pc.perception < 3	}{	}{	}{	}{	}{	}{	}{	}{	Jakpak to ubýhá?	}
+{	165	}{	Zdáte se mi ustaraný. Co vás tíží?	}{	Zdáte se mi ustaraný. Co vás tíží?	}{	181	}{	pc.perception > 2	}{	}{	}{	}{	}{	}{	}{	}{	Těžké břímě leží na vašich ramenou...	}
+{	166	}{	... Líbí se vám v Santa Monice?	}{	... Líbí se vám v Santa Monice?	}{	171	}{	pc.intelligence < 3	}{	}{	}{	}{	}{	}{	}{	}{	Zamlouvá se vám dáma u moře?	}
+{	167	}{	Nic nejíte. Čekáte na někoho?	}{	Nic nejíte. Čekáte na někoho?	}{	181	}{	pc.intelligence > 2	}{	}{	}{	}{	}{	}{	}{	}{	Nedopřáváte sobě jídlo. Čekáte na něčí příchod?	}
+{	168	}{	Ne. S ničím.	}{	Ne. S ničím.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	171	}{	Asi jo.	}{	Asi jo.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	Vypadáte ustaraně. Je všechno v pořádku?	}{	Vypadáte ustaraně. Je všechno v pořádku?	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	Divné břímě leží na vašich ramenou...	}
+{	173	}{	Jak se vede?	}{	Jak se vede?	}{	181	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	174	}{	Čekáte na někoho? Nic nejíte.	}{	Čekáte na někoho? Nic nejíte.	}{	181	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	175	}{	Nechám vás o samotě.	}{	Nechám vás o samotě.	}{	191	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	181	}{	Nechápu, co je vám do toho.	}{	Nechápu, co je vám do toho.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Tak pardon, nebudu obtěžovat.	}{	Tak pardon, nebudu obtěžovat.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Temné a těžké břímě...	}
+{	183	}{	Jak chcete. Nashle.	}{	Jak chcete. Nashle.	}{	191	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	191	}{	Sbohem.	}{	Sbohem.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	193	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	194	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	201	}{	Nech mě prosím být.	}{	Nech mě prosím být.	}{	#	}{	}{	G.Killer_Freed = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	213	}{	(Starting Condition)	}{	}{	161	}{	G.Story_State < 5 and npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	214	}{	(Starting Condition)	}{	}{	193	}{	G.Killer_Lucky == 0 and npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	215	}{	(Starting Condition)	}{	}{	11	}{	G.Killer_Lucky == 1 and G.Killer_Freed == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	216	}{	(Starting Condition)	}{	}{	201	}{	G.Killer_Freed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	217	}{	(Starting Condition)	}{	}{	193	}{	G.Killer_Freed == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	218	}{	(Starting Condition)	}{	}{	193	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	}

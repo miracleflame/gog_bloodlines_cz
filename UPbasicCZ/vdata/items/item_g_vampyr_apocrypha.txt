@@ -1,0 +1,66 @@
+
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	
+	"infomodel"	"models/items/Diary/Info/Info_Diary.mdl"
+	"playermodel"	"models/items/Diary/Ground/Diary.mdl"
+	
+	"anim_prefix"	" "
+
+	"printname"	"Vampírský padělek"
+	"description"	"Tato kniha se jmenuje Vampírský padělek:
+			Neznámý sarkofág
+			Objeven Juliem of Gaulem roku 1068 n.l.
+			v Otomanské říši, poblíž Ankary
+
+			Původ tohoto temného a tajemného talismanu je vesměs neznámý a zhusta se považuje za záhadu. Nebýt rytiny Julia de Gaula, který jej poprvé objevil a posléze znovu pohřbil, neměli bychom o něm téměř žádné historické záznamy, snad kromě různých nepodložených legend o jeho zlém vlivu, které jsou k nalezení v některých spiscích bratrstva. Historikové ani teologové nebyli schopni zjistit jeho přesný věk ani místo původu, i když symboly a nápisy napovídají, že by se mohlo jednat o oblast někdejší sumerské nebo mezopotámské říše. Nikdy nebyl otevřen, proto jakékoliv dohady týkající se jeho obsahu jsou zcela	spekulativní. Vampírský původ nebyl vyloučen, přesto mnoho církevních učenců zřejmě věří, že uvnitř jsou ostatky krále, jehož jméno bylo dosud ztraceno v historii. Stejně tak ovšem musí zaznít, že sám Julius de Gaul popisuje tento artefakt jako 'pekelný a strašlivý předmět plný prastarého a nepopiratelného zla'. I smrt svého písaře	přisuzuje sarkofágu, protože ten, když ho poprvé spatřil, se začal zmítat v křečích a následně zemřel."
+
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"is_wieldable"		"0"
+	"weight"		"1"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"-1"
+	"is_visible_in_hud"	"1"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Magazine/Pickup.wav"
+		}
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/Diary_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/Diary"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

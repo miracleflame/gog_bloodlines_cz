@@ -1,0 +1,83 @@
+{	1	}{	Čau... Už t-tě povolal? Jdeš na-nahoru za biskupem?	}{	Čau... Už t-tě povolal? Jdeš na-nahoru za biskupem?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	2	}{	Povolal?	}{	Povolal?	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{	Povolal?	}
+{	3	}{	Co to vykládáš?	}{	Co to vykládáš?	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{	Tvá slova kroutí mou karamelu v hlavě...	}
+{	4	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	5	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	6	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	7	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	8	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	9	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	10	}{	Jo. My dva si musíme pokecat. Měj se...	}{	Jo. My dva si musíme pokecat. Měj se...	}{	0	}{	G.Junkie_Exit == 1	}{	G.Junkie_End = 1	}{	}{	}{	}{	}{	}{	}{	Já a biskup máme neuzavřený obchod. Sbohem.	}
+{	11	}{	Ty jseš v bra-bratrstvu novej, co? Čerstvě osvícenej? Já už tu j-jsem pár dní. Když s tebou chce biskup m-mluvit, povolá tě a p-pak jdeš tady po schodech... d-do chrámu...	}{	Ty jseš v bra-bratrstvu nová, co? Čerstvě osvícená? Já už tu j-jsem pár dní. Když s tebou chce biskup m-mluvit, povolá tě a p-pak jdeš tady po schodech... d-do chrámu...	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	12	}{	Do chrámu? Co se tam nahoře děje?	}{	Do chrámu? Co se tam nahoře děje?	}{	21	}{		}{		}{	}{	}{	}{	}{	}{	}{	Pověz o tom hrozném chrámu.	}
+{	13	}{	Už jsi ho viděla? Jaký je?	}{	Už jsi ho viděla? Jaký je?	}{	51	}{		}{		}{	}{	}{	}{	}{	}{	}{	Co o tom choromyslném demagogovi víš?	}
+{	14	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	15	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	16	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	17	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	18	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	19	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	20	}{	Já tam jdu zrovna teď. Měj se.	}{	Já tam jdu zrovna teď. Měj se.	}{	0	}{	G.Junkie_Exit == 1	}{	G.Junkie_End = 1	}{	}{	}{	}{	}{	}{	}{	Tou cestou se nyní ubírám. Sbohem.	}
+{	21	}{	T-to já nevím. Teda něco jsem s-slyšela, ale ještě mě nepovolal. Má ká-kámoška... Byla tam pár dní zpět... P-prej viděla h-hrozný věci...	}{	T-to já nevím. Teda něco jsem s-slyšela, ale ještě mě nepovolal. Má ká-kámoška... Byla tam pár dní zpět... P-prej viděla h-hrozný věci...	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	22	}{	Jaký hrozný věci?	}{	Jaký hrozný věci?	}{	31	}{		}{		}{	}{	}{	}{	}{	}{	}{	Jaké ohavné vize?	}
+{	23	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	24	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	25	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	26	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	27	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	28	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	29	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	30	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	31	}{	P-prý krev. V-všude. Taky viděla pár povolaných, promluvila na ně, ale oni j-jen tupě civěli. Jeden se na ni z-začal vrhat, tak utekla...	}{	P-prý krev. V-všude. Taky viděla pár povolaných, promluvila na ně, ale oni j-jen tupě civěli. Jeden se na ni z-začal vrhat, tak utekla...	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	32	}{	Určitě tě taky brzo povolá a pak se setkáte...	}{	Určitě tě taky brzo povolá a pak se setkáte...	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{	Brzy budeš povolána a vyžiješ se v těch rituálech...	}
+{	33	}{	Máš asi strach...	}{	Máš asi strach...	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{	Strach je jako tvůj závoj...	}
+{	34	}{	Možná celý bratrstvo není úplně praštěný...	}{	Možná celý bratrstvo není úplně praštěný...	}{	41	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	35	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	36	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	37	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	38	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	39	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	40	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	41	}{	J-jo. Vím, že biskup říkal, ž-že se musíme zbavit svých pozemských obav na c-cestě k Devátému kruhu. Ale já se tam bojím jít. Chci... chci jít domů...	}{	J-jo. Vím, že biskup říkal, ž-že se musíme zbavit svých pozemských obav na c-cestě k Devátému kruhu. Ale já se tam bojím jít. Chci... chci jít domů...	}{	#	}{		}{	G.Junkie_End = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	42	}{	Neboj. Já už se o biskupa postarám...	}{	Neboj. Já už se o biskupa postarám...	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Zbav se svých obav. Smrt si přišla pro biskupa i jeho bratrstvo...	}
+{	43	}{	Brzo se s ním uvidíš a budeš ho v chrámu uctívat. Měj se.	}{	Brzo se s ním uvidíš a budeš ho v chrámu uctívat. Měj se.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Raduj se! Brzy budeš temného pána uctívat. Sbohem.	}
+{	44	}{	Pojď blíž. Mám něco, co ti uleví...	}{	Pojď blíž. Mám něco, co ti uleví...	}{	0	}{		}{	{	pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Taková drahocenná bolest. Pojď, drahá, já si ji od tebe vezmu...	}
+{	45	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	46	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	47	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	48	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	49	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	50	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	51	}{	B-biskup? Jednou jsem h-ho viděla... je krásný a jde z něj strach... P-pořád se mi o něm zdá. Dělá se mnou vš-všechno možný, v těch snech... Nechci si to p-pamatovat...	}{	B-biskup? Jednou jsem h-ho viděla... je krásný a jde z něj strach... P-pořád se mi o něm zdá. Dělá se mnou vš-všechno možný, v těch snech... Nechci si to p-pamatovat...	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	52	}{	Co se děje tam nahoře v chrámu?	}{	Co se děje tam nahoře v chrámu?	}{	21	}{		}{		}{	}{	}{	}{	}{	}{	}{	Pověz o tom hrozném chrámu.	}
+{	53	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	54	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	55	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	56	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	57	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	58	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	59	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	60	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	61	}{	P-prosím... Chci jít domů...	}{	P-prosím... Chci jít domů...	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	62	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	63	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	64	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	65	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	66	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	67	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	68	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	69	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	70	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	71	}{	P-pa-pane bože. Ty jseš bratr Kanker, že? Už jsem o to-tobě... vlastně - omlouvám se... V-vítej, bratře.	}{	P-pa-pane bože. Ty jseš bratr Kanker, že? Už jsem o to-tobě... vlastně - omlouvám se... V-vítej, bratře.	}{	#	}{		}{	G.Junkie_End = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	72	}{	To slýchám pořád. Jsem obyčejný kultista, jako ty...	}{	To slýchám pořád. Jsem obyčejná kultistka, jako ty...	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	73	}{	Co? Jo aha. Nejsem Kanker. To mám z takové bizardní nehody s mixérem...	}{	Co? Jo aha. Nejsem Kanker. To mám z takové bizardní nehody s mixérem...	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	74	}{	Prosím tě. Toho šmejda jsem zabil. Tak sklapni, než to taky schytáš.	}{	Prosím tě. Toho šmejda jsem zabila. Tak sklapni, než to taky schytáš.	}{	61	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	75	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	76	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	77	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	78	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	79	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	80	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	81	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	82	}{	(Starting Condition)	}{		}{	61	}{	G.Junkie_End == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	83	}{	(Starting Condition)	}{		}{	71	}{	IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{		}

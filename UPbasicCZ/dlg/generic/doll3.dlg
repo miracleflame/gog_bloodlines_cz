@@ -1,0 +1,199 @@
+{	1	}{	Známe se?	}{	Známe se?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Můžeme na tom pracovat.	}{	Můžeme na tom pracovat.	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{	}{	}{	}{	}{	}{	}{	}{	Spíše to chci změnit	}
+{	3	}{	Můžeme na tom pracovat.	}{	Můžeme na tom pracovat.	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{	}{	}{	}{	}{	}{	}{	}{	Spíše to chci změnit	}
+{	4	}{	Můžeme na tom pracovat.	}{	Můžeme na tom pracovat.	}{	211	}{	Seduction 6 & OneOfSet(3,4)	}{	}{	}{	}{	}{	}{	}{	}{	Spíše to chci změnit	}
+{	5	}{	Můžeme na tom pracovat.	}{	Můžeme na tom pracovat.	}{	241	}{	Seduction 6 & OneOfSet(4,4)	}{	}{	}{	}{	}{	}{	}{	}{	Spíše to chci změnit	}
+{	9	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pokud tě mé oči lépé prozkoumají, možná řeknu ano.	}
+{	10	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pokud tě mé oči lépé prozkoumají, možná řeknu ano.	}
+{	11	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pokud tě mé oči lépé prozkoumají, možná řeknu ano.	}
+{	12	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pokud tě mé oči lépé prozkoumají, možná řeknu ano.	}
+{	13	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pokud tě mé oči lépé prozkoumají, možná řeknu ano.	}
+{	14	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pokud tě mé oči lépé prozkoumají, možná řeknu ano.	}
+{	15	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	To nevím, možná kdybych se ti mohl líp prohlídnout...	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pokud tě mé oči lépé prozkoumají, možná řeknu ano.	}
+{	16	}{	Proč? Co po mě chceš?	}{	Proč? Co po mě chceš?	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Proč se ptáte? Potřebujete něco?	}
+{	17	}{	Proč? Co po mě chceš?	}{	Proč? Co po mě chceš?	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Proč se ptáte? Potřebujete něco?	}
+{	18	}{	Proč? Co po mě chceš?	}{	Proč? Co po mě chceš?	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Proč se ptáte? Potřebujete něco?	}
+{	19	}{	Proč? Co po mě chceš?	}{	Proč? Co po mě chceš?	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Proč se ptáte? Potřebujete něco?	}
+{	20	}{	Proč? Co po mě chceš?	}{	Proč? Co po mě chceš?	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Proč se ptáte? Potřebujete něco?	}
+{	21	}{	Proč? Co po mě chceš?	}{	Proč? Co po mě chceš?	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Proč se ptáte? Potřebujete něco?	}
+{	22	}{	Proč? Co po mě chceš?	}{	Proč? Co po mě chceš?	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Proč se ptáte? Potřebujete něco?	}
+{	23	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	281	}{	Seduction -6 & OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}
+{	24	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	291	}{	Seduction -6 & OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}
+{	25	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	301	}{	Seduction -6 & OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}
+{	26	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	311	}{	Seduction -6 & OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}
+{	27	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}
+{	28	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}
+{	29	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}{	344	}{	Seduction -6 & OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vždyť ani neznáme sami sebe. To je hlavolam života.	}
+{	30	}{	Podrž tu myšlenku.	}{	Podrž tu myšlenku.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Musím si to rozmyslet...	}
+{	31	}{	...Ano?	}{	...Ano?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Jseš jasnovidka? Zrovna jsem se chtěl zeptat, jestli se k tobě můžu přidat.	}{	Jseš jasnovidka? Zrovna jsem se chtěla zeptat, jestli se k tobě můžu přidat.	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{	}{	}{	}{	}{	}{	}{	}{	Jste vědma? Zrovna se chci otázat na totéž.	}
+{	33	}{	Jseš jasnovidka? Zrovna jsem se chtěl zeptat, jestli se k tobě můžu přidat.	}{	Jseš jasnovidka? Zrovna jsem se chtěla zeptat, jestli se k tobě můžu přidat.	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{	}{	}{	}{	}{	}{	}{	}{	Jste vědma? Zrovna se chci otázat na totéž.	}
+{	34	}{	Jseš jasnovidka? Zrovna jsem se chtěl zeptat, jestli se k tobě můžu přidat.	}{	Jseš jasnovidka? Zrovna jsem se chtěla zeptat, jestli se k tobě můžu přidat.	}{	211	}{	Seduction 6 & OneOfSet(3,4)	}{	}{	}{	}{	}{	}{	}{	}{	Jste vědma? Zrovna se chci otázat na totéž.	}
+{	35	}{	Jseš jasnovidka? Zrovna jsem se chtěl zeptat, jestli se k tobě můžu přidat.	}{	Jseš jasnovidka? Zrovna jsem se chtěla zeptat, jestli se k tobě můžu přidat.	}{	241	}{	Seduction 6 & OneOfSet(4,4)	}{	}{	}{	}{	}{	}{	}{	}{	Jste vědma? Zrovna se chci otázat na totéž.	}
+{	39	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Už teď se z tebe vznáším v oblacích. Je to krása.	}
+{	40	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Už teď se z tebe vznáším v oblacích. Je to krása.	}
+{	41	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Už teď se z tebe vznáším v oblacích. Je to krása.	}
+{	42	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Už teď se z tebe vznáším v oblacích. Je to krása.	}
+{	43	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Už teď se z tebe vznáším v oblacích. Je to krása.	}
+{	44	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Už teď se z tebe vznáším v oblacích. Je to krása.	}
+{	45	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	Děvče, jsem z tebe úplně mimo. Zamysli se nad tím.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Už teď se z tebe vznáším v oblacích. Je to krása.	}
+{	46	}{	Myslím, že nejerotičtější část ženskýho těla jsou kozičky.	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}
+{	47	}{	Myslím, že nejerotičtější část ženskýho těla jsou kozičky.	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}
+{	48	}{	Myslím, že nejerotičtější část ženskýho těla jsou kozičky.	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}
+{	49	}{	Myslím, že nejerotičtější část ženskýho těla jsou kozičky.	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}
+{	50	}{	Myslím, že nejerotičtější část ženskýho těla jsou kozičky.	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}
+{	51	}{	Myslím, že nejerotičtější část ženskýho těla jsou kozičky.	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}
+{	52	}{	Myslím, že nejerotičtější část ženskýho těla jsou kozičky.	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Přitahuješ mě jako mouchu přitahuje hromada voňavýho hnoje.	}
+{	53	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	281	}{	Seduction -6 & OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Zahleď se do hloubi mých očí a rázem budeš má.	}
+{	54	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	291	}{	Seduction -6 & OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Zahleď se do hloubi mých očí a rázem budeš má.	}
+{	55	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	301	}{	Seduction -6 & OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Zahleď se do hloubi mých očí a rázem budeš má.	}
+{	56	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	311	}{	Seduction -6 & OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Zahleď se do hloubi mých očí a rázem budeš má.	}
+{	57	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Zahleď se do hloubi mých očí a rázem budeš má.	}
+{	58	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Zahleď se do hloubi mých očí a rázem budeš má.	}
+{	59	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	Podívej se mi do očí. Nejsi zhypnotizovaná?	}{	341	}{	Seduction -6 & OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Zahleď se do hloubi mých očí a rázem budeš má.	}
+{	60	}{	Nebudu rušit.	}{	Nebudu rušit.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Teď ne.	}
+{	61	}{	Pozveš mě na panáka?	}{	Pozveš mě na panáka?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Proč zůstávat jen u toho?	}{	Proč zůstávat jen u toho?	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{	}{	}{	}{	}{	}{	}{	}{	Nechci se omezovat jen na to...	}
+{	63	}{	Proč zůstávat jen u toho?	}{	Proč zůstávat jen u toho?	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{	}{	}{	}{	}{	}{	}{	}{	Nechci se omezovat jen na to...	}
+{	64	}{	Proč zůstávat jen u toho?	}{	Proč zůstávat jen u toho?	}{	211	}{	Seduction 6 & OneOfSet(3,4)	}{	}{	}{	}{	}{	}{	}{	}{	Nechci se omezovat jen na to...	}
+{	65	}{	Proč zůstávat jen u toho?	}{	Proč zůstávat jen u toho?	}{	241	}{	Seduction 6 & OneOfSet(4,4)	}{	}{	}{	}{	}{	}{	}{	}{	Nechci se omezovat jen na to...	}
+{	69	}{	Těžko říct, co z toho budu mít?	}{	Těžko říct, co z toho budu mít?	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je možné, zvláště pokud se mi vrátí.	}
+{	70	}{	Těžko říct, co z toho budu mít?	}{	Těžko říct, co z toho budu mít?	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je možné, zvláště pokud se mi vrátí.	}
+{	71	}{	Těžko říct, co z toho budu mít?	}{	Těžko říct, co z toho budu mít?	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je možné, zvláště pokud se mi vrátí.	}
+{	72	}{	Těžko říct, co z toho budu mít?	}{	Těžko říct, co z toho budu mít?	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je možné, zvláště pokud se mi vrátí.	}
+{	73	}{	Těžko říct, co z toho budu mít?	}{	Těžko říct, co z toho budu mít?	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je možné, zvláště pokud se mi vrátí.	}
+{	74	}{	Těžko říct, co z toho budu mít?	}{	Těžko říct, co z toho budu mít?	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je možné, zvláště pokud se mi vrátí.	}
+{	75	}{	Těžko říct, co z toho budu mít?	}{	Těžko říct, co z toho budu mít?	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je možné, zvláště pokud se mi vrátí.	}
+{	76	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Povězte mi, kolik panáků snesete?	}
+{	77	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Povězte mi, kolik panáků snesete?	}
+{	78	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Povězte mi, kolik panáků snesete?	}
+{	79	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Povězte mi, kolik panáků snesete?	}
+{	80	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Povězte mi, kolik panáků snesete?	}
+{	81	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Povězte mi, kolik panáků snesete?	}
+{	82	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	To záleží na tom, po kolika panácích odpadneš a budeš mít pak okno...	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Povězte mi, kolik panáků snesete?	}
+{	83	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	281	}{	Seduction -6 & OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pozvu tě na cokoliv a pak spolu třeba uděláme cokoliv.	}
+{	84	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	291	}{	Seduction -6 & OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pozvu tě na cokoliv a pak spolu třeba uděláme cokoliv.	}
+{	85	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	301	}{	Seduction -6 & OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pozvu tě na cokoliv a pak spolu třeba uděláme cokoliv.	}
+{	86	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	311	}{	Seduction -6 & OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pozvu tě na cokoliv a pak spolu třeba uděláme cokoliv.	}
+{	87	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pozvu tě na cokoliv a pak spolu třeba uděláme cokoliv.	}
+{	88	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pozvu tě na cokoliv a pak spolu třeba uděláme cokoliv.	}
+{	89	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	Cokoliv budeš chtít, když to povede do postýlky.	}{	344	}{	Seduction -6 & OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pozvu tě na cokoliv a pak spolu třeba uděláme cokoliv.	}
+{	90	}{	Snad někdy jindy...	}{	Snad někdy jindy...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ne v tuto chvíli.	}
+{	91	}{	No konečně. Neměl bys nachávat slečnu takhle čekat!	}{	No konečně. Neměla bys nachávat slečnu takhle čekat!	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Na tohle jsem myslel každou vteřinu, co jsme nebyli spolu.	}{	Na tohle jsem myslela každou vteřinu, co jsme nebyli spolu.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Souhlasím! Musím ti to nyní vynahradit.	}
+{	93	}{	Proto jsem zase tu. Dal bych si ještě.	}{	Proto jsem zase tu. Dala bych si ještě.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Mě čekání také ničí. Proto už nečekejme.	}
+{	95	}{	Vydrž ještě chvilku, bejby.	}{	Vydrž ještě chvilku, bejby.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	To je pravda, leč udělám to zase.	}
+{	121	}{	[Frightened/disgusted]Co se proboha stalo s... tebou?! [Revulsion]Fuuj!	}{	[Frightened/disgusted]Co se proboha stalo s... tebou?! [Revulsion]Fuuj!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Jakmile jednou zhrubneš, nic jiného už se nepřiblíží.	}{	Jakmile jednou zhrubneš, nic jiného už se nepřiblíží.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	123	}{	Počítá se to, co je vevnitř. A já jsem plný hnědožluté tekutiny.	}{	Počítá se to, co je vevnitř. A já jsem plná hnědožluté tekutiny.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	124	}{	To samé, co teď provedu s tebou, děvenko!	}{	To samé, co teď provedu s tebou, děvenko!	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	125	}{	Možná jde ze mě strach, ale když zavřeš oči, budeš si mě pamatovat.	}{	Možná jde ze mě strach, ale když zavřeš oči, budeš si mě pamatovat.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	... Myslím, že už teď se mi líbíš.	}{	... Myslím, že už teď se mi líbíš.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	153	}{	Kdybych byl v tvé kůži, taky bych se mi líbil.	}{	Kdybych byl v tvé kůži, taky bych se mi líbila.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je normální stav. Řekni mi ještě něco podobného.	}
+{	154	}{	Kdybych byl v tvé kůži, taky bych se mi líbil.	}{	Kdybych byl v tvé kůži, taky bych se mi líbila.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je normální stav. Řekni mi ještě něco podobného.	}
+{	155	}{	Kdybych byl v tvé kůži, taky bych se mi líbil.	}{	Kdybych byl v tvé kůži, taky bych se mi líbila.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je normální stav. Řekni mi ještě něco podobného.	}
+{	156	}{	Kdybych byl v tvé kůži, taky bych se mi líbil.	}{	Kdybych byl v tvé kůži, taky bych se mi líbila.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je normální stav. Řekni mi ještě něco podobného.	}
+{	157	}{	Kdybych byl v tvé kůži, taky bych se mi líbil.	}{	Kdybych byl v tvé kůži, taky bych se mi líbila.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je normální stav. Řekni mi ještě něco podobného.	}
+{	158	}{	Kdybych byl v tvé kůži, taky bych se mi líbil.	}{	Kdybych byl v tvé kůži, taky bych se mi líbila.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je normální stav. Řekni mi ještě něco podobného.	}
+{	159	}{	Kdybych byl v tvé kůži, taky bych se mi líbil.	}{	Kdybych byl v tvé kůži, taky bych se mi líbila.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	To je normální stav. Řekni mi ještě něco podobného.	}
+{	160	}{	A já už dokonce vím, že ty se líbíš mně.	}{	A já už dokonce vím, že ty se líbíš mně.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Já mám úplnou jistotu, že se mi líbíš.	}
+{	161	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Mnoho jiných žen to říká také, takže ti to věřím.	}
+{	162	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Mnoho jiných žen to říká také, takže ti to věřím.	}
+{	163	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Mnoho jiných žen to říká také, takže ti to věřím.	}
+{	164	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Mnoho jiných žen to říká také, takže ti to věřím.	}
+{	165	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Mnoho jiných žen to říká také, takže ti to věřím.	}
+{	166	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Mnoho jiných žen to říká také, takže ti to věřím.	}
+{	167	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	Stejně jako mnoha jiným šťastným slečnám.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Mnoho jiných žen to říká také, takže ti to věřím.	}
+{	169	}{	To určitě říkáš každýmu.	}{	To určitě říkáš každýmu.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	To zní všedně, jako 'Miluji tě'.	}
+{	170	}{	To určitě říkáš každýmu.	}{	To určitě říkáš každýmu.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	To zní všedně, jako 'Miluji tě'.	}
+{	171	}{	To určitě říkáš každýmu.	}{	To určitě říkáš každýmu.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	To zní všedně, jako 'Miluji tě'.	}
+{	172	}{	To určitě říkáš každýmu.	}{	To určitě říkáš každýmu.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	To zní všedně, jako 'Miluji tě'.	}
+{	173	}{	To určitě říkáš každýmu.	}{	To určitě říkáš každýmu.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	To zní všedně, jako 'Miluji tě'.	}
+{	174	}{	To určitě říkáš každýmu.	}{	To určitě říkáš každýmu.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	To zní všedně, jako 'Miluji tě'.	}
+{	175	}{	To určitě říkáš každýmu.	}{	To určitě říkáš každýmu.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	To zní všedně, jako 'Miluji tě'.	}
+{	181	}{	Pokračuj...	}{	Pokračuj...	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pusť mě blíž a budeš skučet slastí. To si nelze splést.	}
+{	183	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pusť mě blíž a budeš skučet slastí. To si nelze splést.	}
+{	184	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pusť mě blíž a budeš skučet slastí. To si nelze splést.	}
+{	185	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pusť mě blíž a budeš skučet slastí. To si nelze splést.	}
+{	186	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pusť mě blíž a budeš skučet slastí. To si nelze splést.	}
+{	187	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pusť mě blíž a budeš skučet slastí. To si nelze splést.	}
+{	188	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	Bejby, chci ti to udělat neskutečným způsobem. A pak si to zopáknout.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Pusť mě blíž a budeš skučet slastí. To si nelze splést.	}
+{	191	}{	Budu se tě držet jako klíště na psovi.	}{	Budu se tě držet jako klíště na psovi.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Budu se tě držet jako klíště na psovi.	}
+{	192	}{	Budu se tě držet jako klíště na psovi.	}{	Budu se tě držet jako klíště na psovi.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Budu se tě držet jako klíště na psovi.	}
+{	193	}{	Budu se tě držet jako klíště na psovi.	}{	Budu se tě držet jako klíště na psovi.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Budu se tě držet jako klíště na psovi.	}
+{	194	}{	Budu se tě držet jako klíště na psovi.	}{	Budu se tě držet jako klíště na psovi.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Budu se tě držet jako klíště na psovi.	}
+{	195	}{	Budu se tě držet jako klíště na psovi.	}{	Budu se tě držet jako klíště na psovi.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Budu se tě držet jako klíště na psovi.	}
+{	196	}{	Budu se tě držet jako klíště na psovi.	}{	Budu se tě držet jako klíště na psovi.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Budu se tě držet jako klíště na psovi.	}
+{	197	}{	Budu se tě držet jako klíště na psovi.	}{	Budu se tě držet jako klíště na psovi.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Budu se tě držet jako klíště na psovi.	}
+{	198	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem, či šprýmem.	}
+{	199	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem, či šprýmem.	}
+{	200	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem, či šprýmem.	}
+{	201	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem, či šprýmem.	}
+{	202	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem, či šprýmem.	}
+{	203	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem, či šprýmem.	}
+{	204	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem... Nahoď první verš.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Myslím, že mé pocity vůči tobě by se nejlépe vyjádřily rýmem, či šprýmem.	}
+{	206	}{	Já bych rád, ale při pohledu na tebe ztrácím řeč.	}{	Já bych ráda, ale při pohledu na tebe ztrácím řeč.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	To nemohu, tvá krása blokuje můj jazyk.	}
+{	211	}{	Že mi jen nevalíš šrouby do hlavy?	}{	Že mi jen nevalíš šrouby do hlavy?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	Nejsem ten typ, ale ty jseš každopádně můj.	}{	Nejsem ten typ, ale ty jseš každopádně můj.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	To v tvé přítomnosti ani nechci umět.	}
+{	213	}{	Jen hloupé holky si nechají valit šrouby...	}{	Jen hloupé holky si nechají valit šrouby...	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Šrouby si šetřím na hloupé šlečny...	}
+{	221	}{	Však se ti to líbilo.	}{	Však se ti to líbilo.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Nesháníš snad další?	}
+{	222	}{	Však se ti to líbilo.	}{	Však se ti to líbilo.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Nesháníš snad další?	}
+{	223	}{	Však se ti to líbilo.	}{	Však se ti to líbilo.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Nesháníš snad další?	}
+{	224	}{	Však se ti to líbilo.	}{	Však se ti to líbilo.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Nesháníš snad další?	}
+{	225	}{	Však se ti to líbilo.	}{	Však se ti to líbilo.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Nesháníš snad další?	}
+{	226	}{	Však se ti to líbilo.	}{	Však se ti to líbilo.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Nesháníš snad další?	}
+{	227	}{	Však se ti to líbilo.	}{	Však se ti to líbilo.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Nesháníš snad další?	}
+{	229	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Kdyby se volilo podle sex-appealu, byla bys prezidentkou.	}
+{	230	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Kdyby se volilo podle sex-appealu, byla bys prezidentkou.	}
+{	231	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Kdyby se volilo podle sex-appealu, byla bys prezidentkou.	}
+{	232	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Kdyby se volilo podle sex-appealu, byla bys prezidentkou.	}
+{	233	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Kdyby se volilo podle sex-appealu, byla bys prezidentkou.	}
+{	234	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Kdyby se volilo podle sex-appealu, byla bys prezidentkou.	}
+{	235	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	Kdyby být sexy byl sport, už bys měla zlatou.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Kdyby se volilo podle sex-appealu, byla bys prezidentkou.	}
+{	241	}{	Takže... Býváš tady často?	}{	Takže... Býváš tady často?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	242	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vyhledávám místa s beznadějnými případy.	}
+{	243	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vyhledávám místa s beznadějnými případy.	}
+{	244	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vyhledávám místa s beznadějnými případy.	}
+{	245	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vyhledávám místa s beznadějnými případy.	}
+{	246	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vyhledávám místa s beznadějnými případy.	}
+{	247	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vyhledávám místa s beznadějnými případy.	}
+{	248	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	Když někam chodí zoufalé ženské, chodím tam taky.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Vyhledávám místa s beznadějnými případy.	}
+{	249	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržen.	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržena.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Jak to víš? Co o mě ještě víš, co já nevím?	}
+{	250	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržen.	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržena.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Jak to víš? Co o mě ještě víš, co já nevím?	}
+{	251	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržen.	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržena.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Jak to víš? Co o mě ještě víš, co já nevím?	}
+{	252	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržen.	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržena.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Jak to víš? Co o mě ještě víš, co já nevím?	}
+{	253	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržen.	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržena.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Jak to víš? Co o mě ještě víš, co já nevím?	}
+{	254	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržen.	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržena.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Jak to víš? Co o mě ještě víš, co já nevím?	}
+{	255	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržen.	}{	Ty jsi detektiv? Protože v tom případě potřebuju být zadržena.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Jak to víš? Co o mě ještě víš, co já nevím?	}
+{	258	}{	Ne, ale doufám, že teď už budu.	}{	Ne, ale doufám, že teď už budu.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Prozatím ne, ale myslím, že to nyní změní.	}
+{	259	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Netřeba slov. Vím, že nedokážeš odolat.	}
+{	260	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Netřeba slov. Vím, že nedokážeš odolat.	}
+{	261	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Netřeba slov. Vím, že nedokážeš odolat.	}
+{	262	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Netřeba slov. Vím, že nedokážeš odolat.	}
+{	263	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Netřeba slov. Vím, že nedokážeš odolat.	}
+{	264	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Netřeba slov. Vím, že nedokážeš odolat.	}
+{	265	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	Krásní lidé nemusí na nic odpovídat, prostě mají tvou plnou pozornost.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Netřeba slov. Vím, že nedokážeš odolat.	}
+{	271	}{	Nejsi jako ostatní chlapi, co?	}{	Nejsi jako ostatní holky, co?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Doll3_Seduce = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	272	}{	Ani nevíš, jak velkou máš pravdu. Ukážu ti proč.	}{	Ani nevíš, jak velkou máš pravdu. Ukážu ti proč.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Netušíš, jak ses nyní trefila. Nech mě to předvést.	}
+{	273	}{	Už ti někdo udělal tohle?	}{	Už ti někdo udělal tohle?	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Provedu ti krásný skutek...	}
+{	274	}{	Chci ti ukázat slast, jaké na světě není.	}{	Chci ti ukázat slast, jaké na světě není.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	V mých rtech je skryta extáze, uvidíš.	}
+{	281	}{	To bylo roztomilé - jen musíš 'roztomilé' nahradit za 'absolutně odporné'.	}{	To bylo roztomilé - jen musíš 'roztomilé' nahradit za 'absolutně odporné'.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	282	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	291	}{	[Fake orgasm]Přišlo ti to povědomé? Neřekla bych.	}{	[Fake orgasm]Přišlo ti to povědomé? Neřekla bych.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	292	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	301	}{	Pane bože, můj cit na sráče se rozezněl!	}{	Pane bože, můj cit na krávy se rozezněl!	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	302	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	311	}{	Nejsem teplá, ale asi začnu být.	}{	Nejsem hetero, ale asi začnu být.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	312	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	321	}{	Myslím, že bysme měli poznat jiný lidi. Teď hned. A už se nedívat zpátky. Ani na sebe a ani spolu nemluvit, už nikdy víc.	}{	Myslím, že bysme měli poznat jiný lidi. Teď hned. A už se nedívat zpátky. Ani na sebe a ani spolu nemluvit, už nikdy víc.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	322	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	331	}{	Řekla bych, až peklo zamrzne, ale ta šance tu vždycky je... Takže radši jinak - s tebou ani v pekle.	}{	Řekla bych, až peklo zamrzne, ale ta šance tu vždycky je... Takže radši jinak - s tebou ani v pekle.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	332	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	341	}{	Ó, ty jseš ten typ člověka, kterého každá žena chce. Aby ho srazil vlak.	}{	Ó, ty jseš ten typ člověka, kterého každá žena chce. Aby ho srazil vlak.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	342	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	344	}{	Dám ti svý číslo. Můžeš? Tady máš první číslici. [Gives player the finger]	}{	Dám ti svý číslo. Můžeš? Tady máš první číslici. [Gives player the finger]	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	345	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	355	}{	(Starting Condition)	}{	}{	121	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	356	}{	(Starting Condition)	}{	}{	91	}{	G.Doll3_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	357	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

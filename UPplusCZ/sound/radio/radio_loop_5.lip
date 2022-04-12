@@ -1,0 +1,294 @@
+VERSION 1.2
+PLAINTEXT
+{
+Radio Loop 5
+}
+WORDS
+{
+WORD talk-a 000 029
+{
+}
+WORD talk-b 029 064
+{
+}
+WORD talk-c 064 093
+{
+}
+WORD talk-d 093 127
+{
+}
+WORD talk-e 127 160
+{
+}
+WORD talk-f 160 185
+{
+}
+WORD talk-g 185 215
+{
+}
+WORD talk-h 216 232
+{
+}
+WORD talk-h 232 250
+{
+}
+WORD talk-i 250 272
+{
+}
+WORD talk-j 272 295
+{
+}
+WORD talk-k 295 324
+{
+}
+WORD talk-l 324 355
+{
+}
+WORD talk-m 355 389
+{
+}
+WORD song-a 390 395
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 404 "
+Ještě nespíte?
+Chcete se o něco podělit?
+Zavolejte mi...
+323-KL5-KTRK.
+Ptejte se na tu fešandu.
+Hej, noční sovy!
+Šplíchá už každému na maják...
+nebo se mi to jen zdá?
+Poslední dobou skoro neslyšíme nic než špatné zprávy.
+Nemáte taky ten pocit?
+Jako by se svět rozpadal pod nohama?
+Co kdybysme si o tom dnes povídali?
+A kdyby to nešlo, můžeme se spolehnout...
+na vaše obvyklé úchylárny.
+" 0 29
+
+PHRASE char 461 "
+Linko pět, jsi živě v Noci s Deb.
+Pověz mi, míří společnost do pekel nebo ne?
+» Myslím, že ano, Deb.
+A proč si to myslíš?
+» Za prvé, před měsícem mě vyhodili z práce...
+a naše vedení si za to vyplatilo bonus.
+» To mě mrzí.
+» A nedávno jsem vykouknul z okna...
+tady v Santa Monice...
+Bývalo to tak pěkné město...
+Viděl jsem, jak někdo vystřílel místní jídelnu, kde jsem snídal mnoho let...
+Věřila bys tomu?
+Dnes už je každému všechno lhostejné.
+" 29 64
+
+PHRASE char 449 "
+» Rozumím.
+» A kluk mého souseda, panečku...
+cpal do sebe speed, už když nastoupil na střední.
+A krade rodičům.
+» To je hanba.
+Ano, víš, pamatuji časy...
+kdy se takové věci neděly.
+Víš proč?
+» Proč tedy?
+No protože tehdy mohl muž zmlátit ženu a děti...
+když nechtěli poslouchat!
+Ani nemuseli být vlastní...
+Mohli jsme těm frackům prostě jednu vlepit!
+Ha, staré dobré časy.
+Zajdi si do herny, dědo...
+a zavzpomínej ještě na něco.
+" 64 93
+
+PHRASE char 552 "
+Chcete se někdo podělit o něco, co nekončí obviněním z napadení?
+» Jo, ahoj.
+» Páni, to je rarita, ženský názor, který není můj...
+Tak ven s tím, sestro.
+» Ehm, chtěla jsem jen říct, že s tebou souhlasím...
+skoro ve všem.
+Za posledních pár let se věci fakt zhoršily.
+» Mm-hm.
+Jo, jakože...
+Nedovedu si představit, že bych do tohodle světa přivedla dítě.
+» Rozumím.
+» Teda pokud by to nebylo dítě Ashe Riverse.
+Ten je úplně bezvadnej, Deb!
+Pro něj bych porodila i dodávku dětí.
+Pane bože!
+» Jo, ale jakou pravděpodobnost tomu dáváš?
+" 93 127
+
+PHRASE char 502 "
+» To nevím.
+Ale do jeho klubu chodím skoro každý den.
+» Dobře, ale vraťme se k tématu.
+» A jednou jsem dělala servírku...
+na jednom předávání cen...
+A chystala jsem mu drink a on mi řekl...
+«Díky, krásko.»
+A v ten moment tam jako určitě něco bylo...
+chápeš?
+» Jasně, drahá, ale dnešní téma není Ash Rivers.
+» Jo, no...
+To je vlastně docela dobře, protože ostatní ženy...
+by se od něj měly...
+držet dál!
+Rozumíš mi?
+» Jsem ráda, že můžu poskytnout platformu pro pošuky obou pohlaví.
+" 127 160
+
+PHRASE char 413 "
+Zkusme se držet tématu, co říkáte?
+» Noc s Deb?
+» To jsem já.
+» Nedávno jsem zjistil, že jsem vampír.
+» Aha, taky jsem byla vampírkou...
+a pak jsem ten kostým sundala.
+» To není sranda, opravdu mám o sebe strach.
+» Aha.
+» Ta holka v klubu mě odtáhla na záchod a něco se mnou udělala!
+» Když já chodila do klubů, říkali jsme tomu laskavost.
+Posluchači, vydrž moment, na druhé lince je Frankenstein.
+" 160 185
+
+PHRASE char 431 "
+Frankensteine...
+chtěl bys k tomu něco říct?
+...
+Aha.
+Co ty na to, posluchači?
+» Nelžu ti, fakt se mi to stalo.
+Může se to stát komukoliv.
+...
+...
+» To je dobrý argument, chceš poradit?
+Umyj ty oční stíny...
+obleč si něco, co není černé...
+a zajdi se opálit na pláž.
+Páni, Noc s Deb...
+nepodporuje gótský styl.
+A to mi můžete věřit, předstírat, že jste vampír...
+udělá dojem jen na někoho podobně postiženého.
+" 185 215
+
+PHRASE char 213 "
+Další.
+» Deb, podle mě svět byl v chaosu...
+je v chaosu a i dál bude v chaosu.
+» Ahá, optimista.
+» Ale počkej chvíli, vím, co je příčinou všech problémů.
+» Bradavky v televizi?
+» Přesně tak!
+» Nahota?
+" 216 232
+
+PHRASE char 385 "
+» Nikoliv její nadbytek, ale nedostatek, oblečení je pokrytecké.
+Lidé za ním schovávají své skutečné já.
+Oblečení také podněcuje k třídnímu boji...
+k pocitům nadřazenosti a k nošení zbraní.
+Kolik bys řekla, že lidi za oblečení utratí?
+Co kdyby ty peníze šly na vědu?
+Už dávno bysme žili ve futuristickém světě!
+" 232 250
+
+PHRASE char 351 "
+» Už jsi byl někdy v nudistické kolonii?
+Není to hezký.
+» To, že si myslíš, že by mělo být, je výsledek mediální masáže.
+Bereš nahotu moc vážně.
+Zamysli se.
+Kdyby uvaděč v biografu neměl kalhoty,...
+utekla bys odtamtud jedna dvě!
+Ale v novém světě bys akorát řekla...
+«Kukuřici a limonádu, prosím.»
+» Ne, spíš by mě přešla všechna chuť.
+" 250 272
+
+PHRASE char 406 "
+» Není snad obezita jeden z největších problémů, co máme?
+Další výhoda nahoty.
+A co všechen tyátr kolem toho, když si někdo usmyslí,...
+že půjde po ulici, jak ho příroda stvořila?
+Zatčení za nemravné chování?
+Ale v nahém světě by to bylo normální.
+Lidé by se se zájmem ptali, před kolika lidmi jste se dnes odhalili?
+» Nakolik jsem na své holky pyšná, myslím, že ukazovat je budu jen privátně.
+" 272 295
+
+PHRASE char 549 "
+Další.
+» Deb, tady končí sranda, tentokrát jsem narazil na něco...
+co je větší než cokoliv, co si můžeš představit.
+Hrozba pro existenci celého lidstva.
+» Čau, Gomezi!
+To se pozná mizerná noc, když už jsem se těšila na tvůj telefonát.
+» Deb, na tohle není svět vůbec připraven.
+Tohle je největší bomba v historii lidstva.
+Ta největší, Deb!
+Jak jsem se to dověděl ti nemůžu říct, ale i tak tady teď riskuju život.
+Jsi připravená to slyšet?
+» No... jasně.
+Občané Los Angeles, jsou mezi vámi vampíři.
+» To snad ne, už zase vampíři...
+" 295 324
+
+PHRASE char 546 "
+» Dej mi šanci, Deb!
+Vampíři jsou mezi námi a tak to bylo od počátku věků.
+A Los Angeles...
+Tady je vampírů na osobu víc...
+než kdekoliv jinde na světě.
+Vampíři zabíjejí lidi v jednom kuse...
+ale jejich tajné společenstvo to kryje.
+Kdo vyhodil do vzduchu sklad v Santa Monice?
+Vampíři!
+Kdo zabil posádku Elizabeth Dane?
+Vampíři!
+Chceš vědět, co se stalo s tím sarkofágem, co zmizel?
+Sebrali ho vampíři...
+přesněji řečeno jejich princ.
+Chce ho použít proti jinému společenství vampírů...
+kteří se tady ve městě chtějí uchytit.
+" 324 355
+
+PHRASE char 654 "
+A to není všechno!
+V tom sarkofágu by mohl být ještě starší vampír.
+Prastarý arcivampír!
+» Prostě v našem městě jsou vampíři na každém kroku.
+V tomto městě o ně nejde nezakopnout.
+» Tak to je, Deb.
+Nemrtví jsou všude kolem nás.
+Musíme povstat a postavit se těm zlovolným vampírským vládcům...
+dokud není pozdě!
+» Tak jste to slyšeli.
+Sežeňte si, kříže, česnek a nákrčníky.
+Panečku.
+Deb sice není nemrtvá, ale je k smrti unavená a slunce už brzo vyjde.
+Půjdu už domů a dám si svůj těžce vydělaný klídek a pohodu.
+Ale nebojte...
+Budu zpátky na stejné stanici zítra večer.
+Tak se mějte, fandové...
+a ať vás vampíři nekoušou celou noc.
+" 355 389
+
+PHRASE char 9 "(Music)" 390 395
+}
+}
+OPTIONS
+{
+voice_duck 0
+speaker_name Rádio
+}

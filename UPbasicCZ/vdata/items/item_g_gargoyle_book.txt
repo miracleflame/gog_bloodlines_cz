@@ -1,0 +1,63 @@
+
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	
+	"infomodel"	"models/items/Diary/Info/Info_Diary.mdl"
+	"playermodel"	"models/items/Diary/Ground/Diary.mdl"
+	
+	"anim_prefix"	" "
+
+	"printname"	"Divotvorné bytosti"
+	"description"	"E. Bankins, Regent, Chicago
+Chrliči: V průběhu jednoho konfliktu s Tzimisci v době středověku začal klan Tremere ještě intenzivněji pátrat v tajemstvích magie krve a stvořil rasu ochránců, známou jako chrliči. Už od svého vzniku byli chrliči využíváni jako průzkumníci, bojovníci a jako stráže. Jsou to zrůdy, vampíři, z moci krve a masa, skrze které vznikli. Nejsou ničím jiným než pozůstatky z jiných klanů, kterým se dostalo druhé příležitosti sloužit svým tremerským stvořitelům. Naneštěstí mnoho z nich dospělo k nesprávnému názoru, že jejich služba není nic než otroctví, a uprchlo od svých pánů vstříc jakési falešné utopii. Většina uprchlých chrličů žije izolovaně a upřednostňuje samotu dokonce před společností jiných svého druhu.
+
+Homunkulové: Pro tu nejpodřadnější a bezduchou práci si mnoho Tremerů vytváří takzvané homunkuly. Jsou to bytosti bez duše, které mohou nabývat mnoha podob - okřídlených, mnohonohých nebo jiných. Homunkulové jsou neochvějně věrní, ale jejich vzhled s sebou nese vážné riziko porušení Maškarády."
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"is_wieldable"		"0"
+	"weight"		"1"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"-1"
+	"is_visible_in_hud"		"1"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Book/Pickup.wav"
+		}
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/Diary_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/Diary"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

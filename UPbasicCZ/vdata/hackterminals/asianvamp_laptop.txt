@@ -1,0 +1,71 @@
+TerminalDefinition
+{
+	"screen saver"		"TOGV"		// Bounces around on the screen when the terminal is not being used, changed by wesp. 
+	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
+
+	LogonScreen	// displayed when the user first logs on
+	{
+		// Any number of lines are acceptable
+		"line0"		"Chrám zlatých ctností"  
+		"line1"		"   Zprávy o činnosti"
+		
+	}
+
+	// you can have up to 5 subdirs per terminal
+	// and up to 6 functions per sub dir
+	// there are 8 total outputs per terminal, (0...7)
+	// talk to Brock if you'd like this number increased. 
+
+	SubDir
+	{
+		"name"			"Zprávy"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
+//		"password"		""				// password required to run commands in this menu (16 characters)
+		"description"		"Sledování Kainitů" 	// This is printed each time the user enters this menu (128 characters)
+
+		Function
+		{
+			"name"		"12.10.04"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Zpráva 01"		// this is a description of this function  (128 characters)
+			"runtext"	"Zpráva 01
+			Má počáteční pozorování indikují, že Kainité v této oblasti jsou roztříštění a neorganizovaní. Jsou tu významné postavy, ale zdá se, že mezi nimi vře jakýsi spor. Budu nadále sledovat a poslouchat."
+
+		}
+		
+		Function
+		{
+			"name"		"18.10.04"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Zpráva 02"		// this is a description of this function  (128 characters)
+			"runtext"	"Zpráva 02
+			Tito Kainité jsou zvláštní a slabá rasa. Svého daru nesmrtelnosti plýtvají na malicherné machinace a tělesné požitky. S ovládnutím tohoto města nebudou větší potíže."
+		}
+
+		Function
+		{
+			"name"		"21.10.04"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Zpráva 03"		// this is a description of this function  (128 characters)
+			"runtext"	"Zpráva 03
+			Podle všeho jeden z místních Kainitů, myslím, že se jim říká Nosferatu, odhalil mou přítomnost v oblasti. Zodpovědnost k mému sledování svěřil jednomu užvaněnému smrtelnému hlupákovi. Začal jsem si s tím rádoby špehem hrát - alespoň malé rozptýlení od běžných povinností."
+		}
+
+		Function	// changed by wesp
+		{
+			"name"		"23.10.04"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Zpráva 04"		// this is a description of this function  (128 characters)
+			"runtext"	"Zpráva 04
+			Upoutal jsem pozornost jednoho nováčka, princova agenta, který objevil mrtvolu Virgila Crumba. Není mi známo, kdo to je, ale je mnohem schopnější než většina Kainitů, na které jsem dosud narazil. Připravím se pro případ, že se naše cesty zkříží, protože střet se zdá být nevyhnutelný. Pokud to nepřežiju, nechť je má poslední zpráva jasná: Santa Monika je zralá k podmanění. Pokud přijdeme ve větším počtu, narazíme pouze na slabý odpor."
+		}
+
+// wesp		Function
+//		{
+//			"name"		"23.10.04"			// this is what the player must type in to trigger this function. (16 characters)
+//			"description"	"Zpráva 04"		// this is a description of this function  (128 characters)
+//			"runtext"	"Zdá se, že jsem k sobě upoutal pozornost jednoho nováčka, princova agenta. Není mi známo, kdo to je, ale má mnohem více schopností než většina Kainitů, na které jsem dosud narazil. Pro jistotu se připravím pro případ, že se naše cesty zkříží."
+//		}
+// wesp		Function
+//		{
+//			"name"		"24.10.04"			// this is what the player must type in to trigger this function. (16 characters)
+//			"description"	"Report 05"		// this is a description of this function  (128 characters)
+//			"runtext"	"Agent, o kterém již byla řeč objevil mrtvolu Virgila Crumba. Střet se zdá být nevyhnutelný. Pokud nevyváznu živ, nechť má poslední zpráva jasně uvádí, že Santa Monika je zralá k podmanění. Pokud přijdeme ve větším počtu, narazíme pouze na slabý odpor."
+//		}
+	}
+}

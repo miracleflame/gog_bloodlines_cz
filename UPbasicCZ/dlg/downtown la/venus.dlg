@@ -1,0 +1,156 @@
+{	1	}{	Kdokoliv sem vleze si musí dát panáka, povinně. Zábrany jsou první věc, kterou musíme odstranit. A za další dva mi budeš vykládat svý nejhnusnější a nejzvrhlejší historky. Já jsem tvá rocková kněžka a teď nadešel čas na zpověď.	}{	Kdokoliv sem vleze si musí dát panáka, povinně. Zábrany jsou první věc, kterou musíme odstranit. A za další dva mi budeš vykládat svý nejhnusnější a nejzvrhlejší historky. Já jsem tvá rocková kněžka a teď nadešel čas na zpověď.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	S kým mám vlastně to potěšení se bavit?	}{	S kým mám vlastně to potěšení se bavit?	}{	11	}{	Seduction 5	}{	}{	}{	}{	}{	}{	}{	}{	Tys kněžka tohoto dunivého chrámu?	}
+{	3	}{	Kdo jsi?	}{	Kdo jsi?	}{	21	}{	Seduction -5	}{	}{	}{	}{	}{	}{	}{	}{	Jakým jménem tě v davu zavolám?	}
+{	5	}{	A ty jseš barmanka nebo fanynka The Cure?	}{	A ty jseš barmanka nebo fanynka The Cure?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Gotická architektura, barvy oblečení... Takže ty budeš...?	}
+{	7	}{	Chlastu se ani nedotknu. Sbohem.	}{	Chlastu se ani nedotknu. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	To mi k ničemu není. Sbohem.	}
+{	11	}{	Mé jméno je Venuše, fešáku. Nechtěl by ses z něčeho vyzpovídat?	}{	Mé jméno je Venuše, fešando. Nechtěla by ses z něčeho vyzpovídat?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Venus_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Larry se zmínil?	}{	Larry se zmínil?	}{	141	}{	G.Larry_Venus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jdu od tlusťocha, bohyně lásky.	}
+{	13	}{	Poslední, co strkal nos do mých věcí, už ho nemá.	}{	Poslední, co strkal nos do mých věcí, už ho nemá.	}{	61	}{	Intimidate 5	}{	}{	}{	}{	}{	}{	}{	}{	Zvědavost zabije nejen kočku, ale každého, kdo se takto ptá.	}
+{	14	}{	Toho by bylo, ale nemůžu o tom mluvit.	}{	Toho by bylo, ale nemůžu o tom mluvit.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Až hřích bude bláto, já budu prase. Ale nemohu se dělit.	}
+{	15	}{	Před několika dny se mi totálně rozbořil svět.	}{	Před několika dny se mi totálně rozbořil svět.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už uběhlo několik měsíců, co do mě vstoupilo šílenství.	}
+{	16	}{	Slyšelas o tom skladu, co vyletěl v Santa Monice do luftu? To jsem byl já.	}{	Slyšelas o tom skladu, co vyletěl v Santa Monice do luftu? To jsem byla já.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé vlastní ruce odstřelily budovu v Santa Monice.	}
+{	17	}{	Pozabíjel jsem plno lidí.	}{	Pozabíjela jsem plno lidí.	}{	51	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Smrt je můj stín a mnozí v něm stáli.	}
+{	18	}{	Ne... Ani ne.	}{	Ne... Ani ne.	}{	31	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Nic, co nemohu spolknout.	}
+{	21	}{	Mé jméno je Venuše. Nechtěl by ses z něčeho vyzpovídat?	}{	Mé jméno je Venuše. Nechtěla by ses z něčeho vyzpovídat?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Venus_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Zmínil se Larry?	}{	Zmínil se Larry?	}{	141	}{	G.Larry_Venus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jdu od tlusťocha, bohyně lásky.	}
+{	23	}{	Poslední, co strkal nos do mých věcí, už ho nemá.	}{	Poslední, co strkal nos do mých věcí, už ho nemá.	}{	61	}{	Intimidate 5	}{	}{	}{	}{	}{	}{	}{	}{	Zvědavost zabije nejen kočku, ale každého, kdo se takto ptá.	}
+{	24	}{	Toho by bylo, ale nemůžu o tom mluvit.	}{	Toho by bylo, ale nemůžu o tom mluvit.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Až hřích bude bláto, já budu prase. Ale nemohu se dělit.	}
+{	25	}{	Před několika dny se mi totálně rozbořil svět.	}{	Před několika dny se mi totálně rozbořil svět.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už uběhlo několik měsíců, co do mě vstoupilo šílenství.	}
+{	26	}{	Slyšelas o tom skladu, co vyletěl v Santa Monice do luftu? To jsem byl já.	}{	Slyšelas o tom skladu, co vyletěl v Santa Monice do luftu? To jsem byla já.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé vlastní ruce odstřelily budovu v Santa Monice.	}
+{	27	}{	Pozabíjel jsem plno lidí.	}{	Pozabíjela jsem plno lidí.	}{	51	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Smrt je můj stín a mnozí v něm stáli.	}
+{	28	}{	Ne... Ani ne.	}{	Ne... Ani ne.	}{	31	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Nic, co nemohu spolknout.	}
+{	31	}{	Tohle mi tady říká každej druhej, ale nevěřím tomu ani za mák. Tak co teda máš? Krádeže v práci, sex na hřbitově nebo sleduješ holku od vedle dalekohledem?	}{	Tohle mi tady říká každej druhej, ale nevěřím tomu ani za mák. Tak co teda máš? Krádeže v práci, sex na hřbitově nebo sleduješ holku od vedle dalekohledem?	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Nic takovýho.	}{	Nic takovýho.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ty stránky jsou popsané morbidnějšími skutky.	}
+{	33	}{	Před několika dny se mi totálně rozbořil svět.	}{	Před několika dny se mi totálně rozbořil svět.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už uběhlo několik měsíců, co do mě vstoupilo šílenství.	}
+{	34	}{	Slyšelas o tom skladu, co vyletěl v Santa Monice do luftu? To jsem byl já.	}{	Slyšelas o tom skladu, co vyletěl v Santa Monice do luftu? To jsem byla já.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé vlastní ruce odstřelily budovu v Santa Monice.	}
+{	35	}{	Prostě bitky, hrubá mluva...	}{	Prostě bitky, hrubá mluva...	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Podpalování zadků a rozdmýchávání plamenů.	}
+{	41	}{	To zní vážně. Budu potřebovat detaily, abych věděla, jestli mám servírovat Zdrávas nebo Vstupenku do pekla.	}{	To zní vážně. Budu potřebovat detaily, abych věděla, jestli mám servírovat Zdrávas nebo Vstupenku do pekla.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Použij fantazii. Nashle.	}{	Použij fantazii. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mluv se vzpomínkou na mě. Jsem pryč.	}
+{	43	}{	Slyšelas o tom skladu, co vyletěl v Santa Monice do luftu? To jsem byl já.	}{	Slyšelas o tom skladu, co vyletěl v Santa Monice do luftu? To jsem byla já.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé vlastní ruce odstřelily budovu v Santa Monice.	}
+{	44	}{	Chutná mi krev. Lidská.	}{	Chutná mi krev. Lidská.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Popíjím železné mléko ze zranění živých...	}
+{	45	}{	Jednou jsem volil republikány.	}{	Jednou jsem volila republikány.	}{	51	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	46	}{	Někdy, když mi příšera ze snu zamává, zamávám zpět.	}{	Někdy, když mi příšera ze snu zamává, zamávám zpět.	}{	381	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Někdy, když mi příšera ze snu zamává, zamávám zpět.	}
+{	51	}{	[shocked but interested]Skutečně? Tak to se bojím, že tu nemám nic, čím by se takový hřích dal smýt. Ale víš ty co, naser na to, v nebi se stejně neděje nic vzrušujícího, no ne?	}{	[shocked but interested]Skutečně? Tak to se bojím, že tu nemám nic, čím by se takový hřích dal smýt. Ale víš ty co, naser na to, v nebi se stejně neděje nic vzrušujícího, no ne?	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Jo, být andělem je na prd.	}{	Jo, být andělem je na prd.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vskutku. A já se andělem stejně nestanu.	}
+{	61	}{	Jo jo, na někoho jako ty jsem čekala. Víš, jedna záležitost se mi tak trochu vymkla z rukou a teď potřebuju někoho, kdo by vyřídil jistým lidem, že tento měsíc nedostanou zaplaceno. Mám tvou pozornost?	}{	Jo jo, na někoho jako ty jsem čekala. Víš, jedna záležitost se mi tak trochu vymkla z rukou a teď potřebuju někoho, kdo by vyřídil jistým lidem, že tento měsíc nedostanou zaplaceno. Mám tvou pozornost?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Venus_Job = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Máš. Pokračuj...	}{	Máš. Pokračuj...	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé uši slintají. Mluv dál.	}
+{	63	}{	Už od chvíle, co jsme se začali bavit...	}{	Už od chvíle, co jsme se začali bavit...	}{	71	}{	Seduction 4	}{	}{	}{	}{	}{	}{	}{	}{	Cokoliv opustí tvá ústa, beru za své.	}
+{	64	}{	Tak na deset vteřin...	}{	Tak na deset vteřin...	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Má trpělivost je jako mokrý papír.	}
+{	65	}{	Promiň, nemáš. Nashle.	}{	Promiň, nemáš. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Toto teď není má cesta. Sbohem.	}
+{	71	}{	Parkoviště vedle hotelu Empire. Pár halamů, ruský přízvuk, trochu natvrdlí. Potřebuju jim vyřídit, že Venuše pro ně nemá prachy. A to je celý.	}{	Parkoviště vedle hotelu Empire. Pár halamů, ruský přízvuk, trochu natvrdlí. Potřebuju jim vyřídit, že Venuše pro ně nemá prachy. A to je celý.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Venus_Job = 2; pc.SetQuest("Confession",2); G.Venus_Quest = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Počítej se mnou.	}{	Počítej se mnou.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tento úkol je můj.	}
+{	73	}{	To je celý?	}{	To je celý?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	74	}{	Co z toho budu mít?	}{	Co z toho budu mít?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jaká bude má kořist?	}
+{	75	}{	Rozmyslím si to. Omluv mě.	}{	Rozmyslím si to. Omluv mě.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj mozek musí nejprve probublat tvou nabídku.	}
+{	81	}{	To je celý.	}{	To je celý.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Počítej se mnou.	}{	Počítej se mnou.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tento úkol je můj.	}
+{	83	}{	Co z toho budu mít?	}{	Co z toho budu mít?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jaká bude má kořist?	}
+{	84	}{	Rozmyslím si to. Omluv mě.	}{	Rozmyslím si to. Omluv mě.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj mozek musí nejprve probublat tvou nabídku.	}
+{	91	}{	Pití na účet podniku do příštího týdne.	}{	Pití na účet podniku do příštího týdne.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Já nepiju.	}{	Já nepiju.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé sebevědomí nepotřebuje pomoc.	}
+{	93	}{	Hotový prachy.	}{	Hotový prachy.	}{	101	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Chci raději vidět naše předky.	}
+{	95	}{	Rozmyslím si to. Omluv mě.	}{	Rozmyslím si to. Omluv mě.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj mozek musí nejprve probublat tvou nabídku.	}
+{	101	}{	Chceš prachy? Klidně, můžu to zařídit. Otázka je, stojíš za to?	}{	Chceš prachy? Klidně, můžu to zařídit. Otázka je, stojíš za to?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Každopádně. Počítej se mnou.	}{	Každopádně. Počítej se mnou.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nepochybuj, promluvím s carovými dětmi.	}
+{	103	}{	Rozmyslím si to. Omluv mě.	}{	Rozmyslím si to. Omluv mě.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj mozek musí nejprve probublat tvou nabídku.	}
+{	111	}{	Čekala jsem, že se chytíš. Takže hotel Empire a řekni jim, že jsem na mizině. [Quickly]Umíš rychle běhat, že jo? No to je jedno, hlavně nerozpoutej pouliční bitku. Ti týpci mají konexe. Ale teď už se musí rockové kněžce vyzpovídat další. Měj se, zlato.	}{	Čekala jsem, že se chytíš. Takže hotel Empire a řekni jim, že jsem na mizině. [Quickly]Umíš rychle běhat, že jo? No to je jedno, hlavně nerozpoutej pouliční bitku. Ti týpci mají konexe. Ale teď už se musí rockové kněžce vyzpovídat další. Měj se, zlato.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Venus_Quest = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Za pár minut jsem zpátky.	}{	Za pár minut jsem zpátky.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jako vítr se vrátím.	}
+{	113	}{	Doufám, že někdo zkusí něco, čeho bude litovat.	}{	Doufám, že někdo zkusí něco, čeho bude litovat.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sotva udržím tvůj vzkaz v ústech.	}
+{	114	}{	Jo a zbav se prosím tě toho otravnýho turniketu.	}{	Jo a zbav se prosím tě toho otravnýho turniketu.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	Budu pryč stejně jako ten hloupý větrák ve dveřích.	}
+{	121	}{	[Pretending to not hear above the music]Cože?	}{	[Pretending to not hear above the music]Cože?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Tak jsem to vyřídil.	}{	Tak jsem to vyřídila.	}{	131	}{	G.Igor_Talk == 1	}{	}{	}{	}{	}{	}{	}{	}{	Tvůj vzkaz byl doručen, bohyně...	}
+{	124	}{	Ta práce... Cože to mám udělat?	}{	Ta práce... Cože to mám udělat?	}{	71	}{	G.Venus_Job == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jaký žes pro mě měla úkol, bohyně?	}
+{	125	}{	Ta práce... udělám to.	}{	Ta práce... udělám to.	}{	111	}{	G.Venus_Job == 2 and G.Venus_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Budu tvým poslíčkem.	}
+{	126	}{	Chtěl bych se vyzpovídat.	}{	Chtěla bych se vyzpovídat.	}{	41	}{	G.Venus_Know == 1 and G.Venus_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mám něco ke zpovědi.	}
+{	129	}{	Ten chlápek... udělám to.	}{	Ten chlápek... udělám to.	}{	201	}{	G.Venus_Boris == 1	}{	}{	}{	}{	}{	}{	}{	}{	Zničím bíleho Rusa.	}
+{	130	}{	Ale nic. Nashle.	}{	Ale nic. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	131	}{	Nic neslyším, promluvíme si u mě v kanclu.	}{	Nic neslyším, promluvíme si u mě v kanclu.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	OK.	}{	OK.	}{	0	}{	}{	G.Venus_Office = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	Larry? Takže ty jseš ten [paraphrasing a reference she does not understand]'hustej bouchač', co mi sem poslal?	}{	Larry? Takže ty jseš ta [paraphrasing a reference she does not understand]'zabijácká Kleopatra', co mi sem poslal?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Larry_Venus = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	(Auto-Link)	}{	(Auto-Link)	}{	61	}{	G.Venus_Job == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	143	}{	Jo, to jsem.	}{	Jo, to jsem.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sím, ano.	}
+{	151	}{	[Somewhat disgusted]Mrtvolná šťáva hraje v Ďáblově sluji. Tady je Zpovědnice. Žádný zrůdičky ve svým podniku nechci.	}{	[Somewhat disgusted]Mrtvolná šťáva hraje v Ďáblově sluji. Tady je Zpovědnice. Žádný zrůdičky ve svým podniku nechci.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Larry se zmínil?	}{	Larry se zmínil?	}{	141	}{	G.Larry_Venus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jdu od tlusťocha, bohyně lásky.	}
+{	154	}{	Tak pardon. Sbohem.	}{	Tak pardon. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	155	}{	V pohodě, to je jen maska. Ale asi půjdu.	}{	V pohodě, to je jen maska. Ale asi půjdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	Každopádně jseš lepší než můj vyhazovač. Chudák malej teď nemůže otočit hlavu doprava... [frenetic, antsy]Boris už volal. Nebyl z toho dneška nadšenej, xindl jeden. Hele, jak by se ti líbilo podnikat v klubu, hmm?	}{	Každopádně jseš lepší než můj vyhazovač. Chudák malej teď nemůže otočit hlavu doprava... [frenetic, antsy]Boris už volal. Nebyl z toho dneška nadšenej, xindl jeden. Hele, jak by se ti líbilo podnikat v klubu, hmm?	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Venus_Quest = 2; pc.SetQuest("Confession",5)	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Asi se nechytám.	}{	Asi se nechytám.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hmm? Nějak mě rozptylovaly hlasy.	}
+{	163	}{	Boris?	}{	Boris?	}{	171	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Boris?	}
+{	164	}{	Vlastnit svůj klub? To jsem vždycky chtěl!	}{	Vlastnit svůj klub? To jsem vždycky chtěla!	}{	171	}{	G.Extra_Lines == 1 and IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	Není to tak super jako pinball, ale ano.	}
+{	165	}{	Jasně, co by ne.	}{	Jasně, co by ne.	}{	171	}{	G.Extra_Lines == 1 and not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	Nový měsíc mě vždy vábí.	}
+{	166	}{	Poslouchám...	}{	Poslouchám...	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Není to tak vzrušující jako kolotoče, ale ano.	}
+{	171	}{	Abych to tu mohla otevřít, musela jsem si vzít dost velkou půjčku od vrchního hajzla jménem Boris. A pokaždý, když nedám dohromady splátku i s úrokama, ten šmejd si vezme, co se mu zachce, jako náhradu...	}{	Abych to tu mohla otevřít, musela jsem si vzít dost velkou půjčku od vrchního hajzla jménem Boris. A pokaždý, když nedám dohromady splátku i s úrokama, ten šmejd si vezme, co se mu zachce, jako náhradu...	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Igor_Talk = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	A dál?	}{	A dál?	}{	181	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Plácej až do umdlení, bohyně.	}
+{	173	}{	To je můj člověk...	}{	To je můj člověk...	}{	181	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Je tak senzační?	}
+{	181	}{	Mám tady práci, takže to zkrátím. Odmítám toho zazobanýho, misogynskýho papriku ještě někdy ojíždět, aby mi ten klub nevzal. Takže potřebuju někoho, kdo ho odstraní. Udělej to a já z tebe udělám tichýho společníka.	}{	Mám tady práci, takže to zkrátím. Odmítám toho zazobanýho, misogynskýho papriku ještě někdy ojíždět, aby mi ten klub nevzal. Takže potřebuju někoho, kdo ho odstraní. Udělej to a já z tebe udělám tichýho společníka.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Nejsem vrah. Zapomeň na to.	}{	Nejsem vrah. Zapomeň na to.	}{	191	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Smrt si mě našla, ale já ji nehledám.	}
+{	183	}{	Jako by se stalo.	}{	Jako by se stalo.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Budu Mars, co tě zachrání před Vulkánem, bohyně lásky.	}
+{	184	}{	V čem je háček?	}{	V čem je háček?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Bohyně, prohlašuješ to příliš snadno.	}
+{	185	}{	Mám ho zavraždit? Říkal jsem si, že to bude něco těžkýho...	}{	Mám ho zavraždit? Říkala jsem si, že to bude něco těžkýho...	}{	191	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Jsem tvůj Cháron, Venuše.	}
+{	191	}{	Boris je velkej hlavoun u ruský mafie. Myslíš, že to není jedno?	}{	Boris je velkej hlavoun u ruský mafie. Myslíš, že to není jedno?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Venus_Boris = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	Nečekal jsem, že to bude nějaká brnkačka. Ale udělám to.	}{	Nečekala jsem, že to bude nějaká brnkačka. Ale udělám to.	}{	201	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ne, ne, i tak cara zavraždím.	}
+{	193	}{	Furt je to jen člověk, ne? Do rána bude po něm.	}{	Furt je to jen člověk, ne? Do rána bude po něm.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Smrt pokoří žebráka stejně jako krále.	}
+{	194	}{	Už jsem zmáknul větší zvířata. Nech to na mně.	}{	Už jsem zmáknula větší zvířata. Nech to na mně.	}{	201	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Pokud to dýchá, nemůže se mi to rovnat. Uvidíš.	}
+{	195	}{	Promiň, neudělám to, ať už je to kdokoliv. Sbohem.	}{	Promiň, neudělám to, ať už je to kdokoliv. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé vychování mi brání. Musím ustoupit.	}
+{	201	}{	Je v hotelu Empire. Vždycky se mu tam poflakuje několik buranských mlátičů, co soutěží, kdo udělá drsnější úšklebek. Nemá zrovna pevný nervy a nejspíš už zase několik hodin nasává. Tady máš klíč do podstřešního patra.	}{	Je v hotelu Empire. Vždycky se mu tam poflakuje několik buranských mlátičů, co soutěží, kdo udělá drsnější úšklebek. Nemá zrovna pevný nervy a nejspíš už zase několik hodin nasává. Tady máš klíč do podstřešního patra.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Venus_Quest = 3; pc.GiveItem("item_k_empire_mafia_key"); pc.SetQuest("Venus",1)	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	Až se vrátím, nebude mezi živými.	}{	Až se vrátím, nebude mezi živými.	}{	0	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ano. Carova vláda brzy skončí.	}
+{	203	}{	Brzo si promluvíme o tom klubu...	}{	Brzo si promluvíme o tom klubu...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vrátím se zaujmout tu post rockového velitele.	}
+{	204	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	Budu pryč jako ten váš stupidní větrák ve dvěřých.	}
+{	211	}{	Boris?	}{	Boris?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	Mrtvej.	}{	Mrtvej.	}{	241	}{	IsDead("Boris")	}{	G.Venus_Boris = 2	}{	}{	}{	}{	}{	}{	}{	Car padnul.	}
+{	213	}{	Ten dluh je vyřešen. A nyní jsme partneři.	}{	Ten dluh je vyřešen. A nyní jsme partneři.	}{	251	}{	G.Boris_Debt == 1	}{	G.Pay_Base = G.Story_State; G.Venus_Money = 1; pc.SetQuest("Venus",4); pc.RemoveItem("item_k_empire_mafia_key")	}{	}{	}{	}{	}{	}{	}{	Již nebude obtěžovat tvůj chrám. Ale já ano.	}
+{	214	}{	Ještě žije.	}{	Ještě žije.	}{	221	}{	not IsDead("Boris")	}{	}{	}{	}{	}{	}{	}{	}{	Carovo srdce stále bubnuje rytmus života.	}
+{	215	}{	Ještě jsem se k tomu nedostal. Zastavím se potom.	}{	Ještě jsem se k tomu nedostala. Zastavím se potom.	}{	0	}{	not IsDead("Boris")	}{	}{	}{	}{	}{	}{	}{	}{	O ano, to byla má cesta. Jsem pryč.	}
+{	221	}{	A já myslela, že jseš profík - tohle je dost rutinní prácička. A nebo tě zisky z klubu nemotivujou dost?	}{	A já myslela, že jseš profík - tohle je dost rutinní prácička. A nebo tě zisky z klubu nemotivujou dost?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	222	}{	Dělám to jen pro prachy. A dostal jsem lepší nabídku.	}{	Dělám to jen pro prachy. A dostala jsem lepší nabídku.	}{	231	}{	G.Boris_Venus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Zodpovídám se panteonu mrtvých prezidentů. A ti říkali, zabij bohyni.	}
+{	223	}{	Ještě jsem se k tomu nedostal. Zastavím se potom.	}{	Ještě jsem se k tomu nedostala. Zastavím se potom.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	O ano, to byla má cesta. Jsem pryč.	}
+{	231	}{	No snad jsi... [gasps]	}{	No snad jsi... [gasps]	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	pc.SetQuest("Venus",6)	}{	}{	}{	}{	}{	}{	}{	}
+{	232	}{	Přesně tak.	}{	Přesně tak.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	Naopak.	}
+{	241	}{	Tohle je jeho krev? Tak to jsme teď asi partneři. Kdybys jen věděl, co všechno jsem musela udělat, abych si to tady udržela. Tak hele, parťáku. Zastav se tady jednou za pár dní a dostaneš svůj podíl. Tady je ten dnešní.	}{	Tohle je jeho krev? Tak to jsme teď asi partneři. Kdybys jen věděla, co všechno jsem musela udělat, abych si to tady udržela. Tak hele, parťačko. Zastav se tady jednou za pár dní a dostaneš svůj podíl. Tady je ten dnešní.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	pc.MoneyAdd(250); G.Pay_Base = G.Story_State; G.Venus_Money = 1; pc.SetQuest("Venus",4); pc.RemoveItem("item_k_empire_mafia_key")	}{	}{	}{	}{	}{	}{	}{	}
+{	242	}{	(Auto-Link)	}{	(Auto-Link)	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	251	}{	A teď nám musím nějaký prachy vydělat. Tvůj výdělek ti budu nechávat bokem. Tak si ho nezapomeň co pár dní přijít shrábnout.	}{	A teď nám musím nějaký prachy vydělat. Tvůj výdělek ti budu nechávat bokem. Tak si ho nezapomeň co pár dní přijít shrábnout.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	252	}{	Neboj se, ještě se uvidíme. Měj se, Venuše.	}{	Neboj se, ještě se uvidíme. Měj se, Venuše.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Budu se vracet spolu s hvězdami, bohyně.	}
+{	253	}{	Vlastně bych měl nějaký návrhy ke klubu...	}{	Vlastně bych měla nějaký návrhy ke klubu...	}{	261	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ovoce mých horečnatých snů by výborně vymalovalo okolní zdi.	}
+{	254	}{	Jo. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	Jo. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	Budu pryč jako ten váš stupidní větrák ve dvěřých.	}
+{	261	}{	To bych si ráda poslechla, ale teď musím najít novýho dýdžeje. Ten náš furt točí tu hopsací elektroniku z osmdesátých - příšerně ojetá pakárna. Ale stejně, díky moc.	}{	To bych si ráda poslechla, ale teď musím najít novýho dýdžeje. Ten náš furt točí tu hopsací elektroniku z osmdesátých - příšerně ojetá pakárna. Ale stejně, díky moc.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	262	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	271	}{	No to je dost, že jdeš. Hotovo?	}{	No to je dost, že jdeš. Hotovo?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	272	}{	Radši si promluvme v kanceláři.	}{	Radši si promluvme v kanceláři.	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jen pro tvé uši.	}
+{	276	}{	Ještě ne. Nashle.	}{	Ještě ne. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hotovo? Ne, zapomenuto. Jsem pryč.	}
+{	281	}{	[Can't hear over the music]Cože?	}{	[Can't hear over the music]Cože?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	282	}{	Radši si promluvme v kanceláři!	}{	Radši si promluvme v kanceláři!	}{	291	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jen pro tvé uši!	}
+{	291	}{	Nic neslyším, promluvíme si u mě v kanclu.	}{	Nic neslyším, promluvíme si u mě v kanclu.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	292	}{	OK.	}{	OK.	}{	0	}{	}{	G.Venus_Office = 1	}{	}{	}{	}{	}{	}{	}{	Hotovo.	}
+{	301	}{	Prachy, že jo?	}{	Prachy, že jo?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	302	}{	(Auto-Link)	}{	(Auto-Link)	}{	321	}{	(G.Pay_Base + 5 > G.Story_State)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	303	}{	(Auto-Link)	}{	(Auto-Link)	}{	311	}{	(G.Pay_Base + 5 == G.Story_State)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	304	}{	(Auto-Link)	}{	(Auto-Link)	}{	331	}{	(G.Pay_Base + 5 < G.Story_State)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	311	}{	Mám tu pro tebe tvůj podíl.	}{	Mám tu pro tebe tvůj podíl.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd((G.Story_State - G.Pay_Base) * 25)	}{	}{	}{	}{	}{	}{	}{	}
+{	312	}{	Díky, Venuše. Jen tak dál.	}{	Díky, Venuše. Jen tak dál.	}{	0	}{	}{	G.Pay_Base = G.Story_State	}{	}{	}{	}{	}{	}{	}{	Kéž poutníci stále proudí do tvého chrámu, bohyně.	}
+{	313	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1; G.Pay_Base = G.Story_State	}{	}{	}{	}{	}{	}{	}{	Budu pryč jako ten váš stupidní větrák ve dvěřých.	}
+{	321	}{	Zastav se zase za pár dní. Bude tu na tebe čekat další balík.	}{	Zastav se zase za pár dní. Bude tu na tebe čekat další balík.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	322	}{	Fajn.	}{	Fajn.	}{	341	}{	G.Scream == 0	}{	G.Scream = 1	}{	}{	}{	}{	}{	}{	}{	Rozuměno.	}
+{	323	}{	Fajn.	}{	Fajn.	}{	351	}{	G.Scream == 1	}{	G.Scream = 2	}{	}{	}{	}{	}{	}{	}{	Rozuměno.	}
+{	324	}{	Fajn.	}{	Fajn.	}{	361	}{	G.Scream == 2	}{	G.Scream = 3	}{	}{	}{	}{	}{	}{	}{	Rozuměno.	}
+{	325	}{	Fajn.	}{	Fajn.	}{	371	}{	G.Scream == 3	}{	G.Scream = 0	}{	}{	}{	}{	}{	}{	}{	Rozuměno.	}
+{	331	}{	Nějak se neukazuješ. Kupí se ti tady peníze. Tumáš, to by mělo stačit na zajímavej večer.	}{	Nějak se neukazuješ. Kupí se ti tady peníze. Tumáš, to by mělo stačit na zajímavej večer.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd((G.Story_State - G.Pay_Base) * 25)	}{	}{	}{	}{	}{	}{	}{	}
+{	332	}{	Dík. Jen tak dál.	}{	Dík. Jen tak dál.	}{	0	}{	}{	G.Pay_Base = G.Story_State	}{	}{	}{	}{	}{	}{	}{	Tvé požehnání s chutí přijímám, bohyně.	}
+{	333	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1; G.Pay_Base = G.Story_State	}{	}{	}{	}{	}{	}{	}{	Budu pryč jako ten váš stupidní větrák ve dvěřých.	}
+{	341	}{	[Screaming to crowd]Vidím tu málo hřešení.	}{	[Screaming to crowd]Vidím tu málo hřešení.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	342	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	351	}{	[Screaming to crowd]1...2...3 a jedem, lidi!	}{	[Screaming to crowd]1...2...3 a jedem, lidi!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	352	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	361	}{	[Screaming to crowd]Zvedněte prdele a alou na parket, vy honiči.	}{	[Screaming to crowd]Zvedněte prdele a alou na parket, vy honiči.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	362	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	371	}{	[Screaming to crowd]Jestli do dvaceti sekund neuvidím tucet prdelí na place, poletíte všichni na ulici.	}{	[Screaming to crowd]Jestli do dvaceti sekund neuvidím tucet prdelí na place, poletíte všichni na ulici.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	372	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	381	}{	Příšera ze snu? Výborně, někdo zase rozdával pochybný cukroví. Ale to je v poho - žádnej rozum, žádnej strach, že jo?	}{	Příšera ze snu? Výborně, někdo zase rozdával pochybný cukroví. Ale to je v poho - žádnej rozum, žádnej strach, že jo?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	382	}{	(Auto-Link)	}{	(Auto-Link)	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	403	}{	(Starting Condition)	}{	}{	301	}{	G.Venus_Money == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	404	}{	(Starting Condition)	}{	}{	211	}{	G.Venus_Office == 1 and G.Venus_Quest == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	405	}{	(Starting Condition)	}{	}{	271	}{	G.Venus_Quest == 3 and G.Venus_Office == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	406	}{	(Starting Condition)	}{	}{	161	}{	G.Igor_Talk == 1 and G.Venus_Office == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	407	}{	(Starting Condition)	}{	}{	121	}{	G.Venus_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	408	}{	(Starting Condition)	}{	}{	151	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	409	}{	(Starting Condition)	}{	}{	121	}{	G.Venus_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	410	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

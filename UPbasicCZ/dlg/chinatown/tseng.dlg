@@ -1,0 +1,73 @@
+{	1	}{	[Barked like a soldier]Vítejte v Tsengových léčivých bylinkách! Já jsem Tseng! Jak vám mohu pomoci?	}{	[Barked like a soldier]Vítejte v Tsengových léčivých bylinkách! Já jsem Tseng! Jak vám mohu pomoci?	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	G.Tseng_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Nevypadáte jako někdo, kdo prodává bylinky.	}{	Nevypadáte jako někdo, kdo prodává bylinky.	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	Mohl byste třeba míň prskat...	}{	Mohl byste třeba míň prskat...	}{	21	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Potřebuju lék na Tongy.	}{	Potřebuju lék na Tongy.	}{	41	}{	not IsClan(pc,"Malkavian") and G.Tong_Known == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	Nechcete mi něco povědět?	}{	Nechcete mi něco povědět?	}{	141	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Nechcete mi něco povědět?	}
+{	6	}{	Pomozte mi jediným způsobem, který znáte...	}{	Pomozte mi jediným způsobem, který znáte...	}{	141	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	Prodej bylinek je poctivá práce! Přišel jsem do Ameriky po propuštění z čínské ar... bylinkářské jednotky, abych pomohl stárnoucím rodičům s obchodem. Nyní jsem zcela určitě americký občan! Bůh žehnej spojenecké vlajce!	}{	Prodej bylinek je poctivá práce! Přišel jsem do Ameriky po propuštění z čínské ar... bylinkářské jednotky, abych pomohl stárnoucím rodičům s obchodem. Nyní jsem zcela určitě americký občan! Bůh žehnej spojenecké vlajce!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	G.Tseng_Bio = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	No tak, já vím, že jste byl u armády.	}{	No tak, já vím, že jste byl u armády.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Potřebuju lék na Tongy.	}{	Potřebuju lék na Tongy.	}{	41	}{	G.Tong_Known == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Na životopis jsem se neptal...	}{	Na životopis jsem se neptala...	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Omluvte mě!	}{	Omluvte mě!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Nevypadáte jako někdo, kdo prodává bylinky.	}{	Nevypadáte jako někdo, kdo prodává bylinky.	}{	11	}{	G.Tseng_Bio == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	No tak, já vím, že jste byl u armády.	}{	No tak, já vím, že jste byl u armády.	}{	31	}{	G.Tseng_Bio == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	Potřebuju lék na Tongy.	}{	Potřebuju lék na Tongy.	}{	41	}{	G.Tong_Known == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	<kašle>	}{	<kašle>	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Víte něco o zbraních?	}{	Víte něco o zbraních?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	33	}{	Potřebuju lék na Tongy.	}{	Potřebuju lék na Tongy.	}{	41	}{	G.Tong_Known == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Na Tongy? Zkusil jste diplomacii?	}{	Na Tongy? Zkusila jste diplomacii?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Nezabrala. Máte něco jiného?	}{	Nezabrala. Máte něco jiného?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	Nemyslím, že by poslouchali. Máte něco na usmíření?	}{	Nemyslím, že by poslouchali. Máte něco na usmíření?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{	Jdu to zkusit. Nashle.	}{	Jdu to zkusit. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Prosím, počkejte!	}{	Prosím, počkejte!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	G.Tseng_Guns = 1; tsengsShowGuns()	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	(Auto-Link)	}{	(Auto-Link)	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Tady mám léky na mnoho problémů! Žádné kreditky.	}{	Tady mám léky na mnoho problémů! Žádné kreditky.	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Bezva. Tak ukažte, co máte...	}{	Bezva. Tak ukažte, co máte...	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	63	}{	Ve městě je spousta úchylů. Něco by se hodilo.	}{	Ve městě je spousta úchylů. Něco by se hodilo.	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Zbraně nikdy neřeší problémy. Vezmu tucet.	}
+{	64	}{	Snad později. Chci se na něco zeptat.	}{	Snad později. Chci se na něco zeptat.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nejprve nakoupím odpovědi.	}
+{	65	}{	Musím sehnat nějaký háky a pak dojdu. Mějte se, Tsengu.	}{	Musím sehnat nějaký háky a pak dojdu. Mějte se, Tsengu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Když nakoupím nové zbraně, ty staré budou závidět. Jsem na jiném místě.	}
+{	71	}{	Číňané vynalezli střelný prach! Ano, o zbraních vím!	}{	Číňané vynalezli střelný prach! Ano, o zbraních vím!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	A máte nějaké?	}{	A máte nějaké?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	73	}{	Tak proč je přede mnou schováváte?	}{	Tak proč je přede mnou schováváte?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	[Affirmative grunt]...!	}{	[Affirmative grunt]...!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	To je jedno, radši se podívám na ty zbraně.	}{	To je jedno, radši se podívám na ty zbraně.	}{	0	}{	G.Guns_Tseng == 1 and G.Tseng_Guns == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	83	}{	To je jedno, radši se podívám na ty zbraně.	}{	To je jedno, radši se podívám na ty zbraně.	}{	0	}{	G.Guns_Tseng == 0 and G.Tseng_Guns == 1	}{	tsengsShowGuns(); npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	84	}{	Znáte se s Wong Ho?	}{	Znáte se s Wong Ho?	}{	91	}{	G.Tseng_Wong < 2 and G.Ming_Wongho == 1	}{	}{	}{	}{	}{	}{	}{	}{	Rudý Drak má v sobě Wong Ho. Víte to?	}
+{	85	}{	Hledám nězvěstnou osobu, jmenuje se Barabus. Víte něco?	}{	Hledám nězvěstnou osobu, jmenuje se Barabus. Víte něco?	}{	111	}{	G.Tseng_Barabus == 0 and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	Víte o Barabusovi, přiznejte se!	}
+{	86	}{	Říká vám něco slovo 'hengeyokai'?	}{	Říká vám něco slovo 'hengeyokai'?	}{	121	}{	G.Yukie_Quest == 1 and G.Tseng_Henge == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hengeyokai! Řekl jste to někdy?	}
+{	89	}{	Už budu muset jít. Nashle.	}{	Už budu muset jít. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	A s tím mizím...	}
+{	91	}{	Ano!	}{	Ano!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Víte něco užitečného?	}{	Víte něco užitečného?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Proneste o něm větu.	}
+{	93	}{	Dobrej chlapík, že?	}{	Dobrej chlapík, že?	}{	91	}{	G.Tseng_Wong == 0	}{	G.Tseng_Wong = 1	}{	}{	}{	}{	}{	}{	}{	Ano!	}
+{	94	}{	Ještě mám jiný dotaz.	}{	Ještě mám jiný dotaz.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chci nakoupit další opdověď.	}
+{	95	}{	Moc jste mi pomohl, sbohem.	}{	Moc jste mi pomohl, sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	A s tím mizím...	}
+{	101	}{	[Said furtively]Když půjdete do jeho restaurace... v úterý... po šesté... A když pěkně poprosíte... udělají vám do kotlíku horký sojový sýr. Lahůdka.	}{	[Said furtively]Když půjdete do jeho restaurace... v úterý... po šesté... A když pěkně poprosíte... udělají vám do kotlíku horký sojový sýr. Lahůdka.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Tseng_Wong = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Ještě mám jiný dotaz.	}{	Ještě mám jiný dotaz.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chci nakoupit další opdověď.	}
+{	103	}{	Moc jste mi pomohl, sbohem.	}{	Moc jste mi pomohl, sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	A s tím mizím...	}
+{	111	}{	Ne, nevím! Možná zajděte za Wong Ho v Rudém drakovi... On zná mnoho lidí!	}{	Ne, nevím! Možná zajděte za Wong Ho v Rudém drakovi... On zná mnoho lidí!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	G.Tseng_Barabus = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Ještě mám jiný dotaz.	}{	Ještě mám jiný dotaz.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chci nakoupit další opdověď.	}
+{	113	}{	Díky a nashle.	}{	Díky a nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	A s tím mizím...	}
+{	121	}{	To je nějaká bylinka? Pravděpodobně jsem mimo.	}{	To je nějaká bylinka? Pravděpodobně jsem mimo.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Tseng_Henge = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Ještě mám jiný dotaz.	}{	Ještě mám jiný dotaz.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chci nakoupit další opdověď.	}
+{	123	}{	Evidentně se ptám špatného člověka. Tak nashle.	}{	Evidentně se ptám špatného člověka. Tak nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	A s tím mizím...	}
+{	131	}{	Vítejte zpět!	}{	Vítejte zpět!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Vy jste byl v armádě?	}{	Vy jste byl v armádě?	}{	31	}{	G.Tseng_Guns == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	133	}{	Potřebuju lék na Tongy.	}{	Potřebuju lék na Tongy.	}{	41	}{	G.Tseng_Guns == 0 and G.Tong_Known == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	134	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	0	}{	G.Guns_Tseng == 1 and G.Tseng_Guns == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	}
+{	135	}{	Ukažte zásoby.	}{	Ukažte zásoby.	}{	0	}{	G.Guns_Tseng == 1 and G.Tseng_Guns == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	136	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	0	}{	G.Guns_Tseng == 0 and G.Tseng_Guns == 1	}{	tsengsShowGuns(); npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	}
+{	137	}{	Ukažte zásoby.	}{	Ukažte zásoby.	}{	0	}{	G.Guns_Tseng == 0 and G.Tseng_Guns == 1	}{	tsengsShowGuns(); npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	138	}{	Mám dotaz.	}{	Mám dotaz.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chci nakoupit další opdověď.	}
+{	139	}{	Dneska nic nepotřebuju. Mějte se.	}{	Dneska nic nepotřebuju. Mějte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Když nakoupím nové zbraně, ty staré budou závidět. Jsem na jiném místě.	}
+{	141	}{	[Softer, concerned]Vy jste z imigračního?	}{	[Softer, concerned]Vy jste z imigračního?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	To si nemyslím...	}{	To si nemyslím...	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	143	}{	Co myslíte vy?	}{	Co myslíte vy?	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	Jste od... policie?	}{	Jste od... policie?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Ne, ale opruzovat lidi mě baví.	}{	Ne, ale opruzovat lidi mě baví.	}{	51	}{	}{	G.Tseng_Guns = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	153	}{	Koblihožrouti jsou mi cizí...	}{	Koblihožrouti jsou mi cizí...	}{	51	}{	}{	G.Tseng_Guns = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	[Barked like a soldier]Vítejte v Tsengových léčivých bylinkách! Já jsem Tseng! Jak vám mo- [Notices the player's skin is grey and disgusting]Tseng nemá licenci na poskytování lékařských doporučení, ale domnívám se, že bylinky vám s vaším stavem nepomohou.	}{	[Barked like a soldier]Vítejte v Tsengových léčivých bylinkách! Já jsem Tseng! Jak vám mo- [Notices the player's skin is grey and disgusting]Tseng nemá licenci na poskytování lékařských doporučení, ale domnívám se, že bylinky vám s vaším stavem nepomohou.	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	G.Tseng_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Kdo by to řekl... Nic jiného tu nemáte?	}{	Kdo by to řekl... Nic jiného tu nemáte?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	163	}{	Potřebuju lék na Tongy.	}{	Potřebuju lék na Tongy.	}{	41	}{	G.Tong_Known == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	203	}{	(Starting Condition)	}{	}{	131	}{	G.Tseng_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	204	}{	(Starting Condition)	}{	}{	161	}{	IsClan(pc,"Nosferatu") and npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	205	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

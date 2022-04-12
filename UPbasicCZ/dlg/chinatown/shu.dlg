@@ -1,0 +1,32 @@
+{	1	}{	HEJ! Co to tam kurva děláš? To je má skříňka, sráči!	}{	HEJ! Co to tam kurva děláš? To je má skříňka, děvko!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Baf.	}{	Baf.	}{	71	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	To bude omyl. Spletl jsem si ji se svou, pardon.	}{	To bude omyl. Spletla jsem si ji se svou, pardon.	}{	11	}{	Persuasion 5 & (pc.humanity >= 5 and not IsClan(pc,"Nosferatu"))	}{	}{	}{	}{	}{	}{	}{	}{	To je má... Ne, to je má chyba. Omyl.	}
+{	4	}{	A já se v ní hrabal... Jestli se ti to nelíbí, tak s tím něco dělej.	}{	A já se v ní hrabala... Jestli se ti to nelíbí, tak s tím něco dělej.	}{	21	}{	Intimidate 5 & not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	Ano, jistě. Právě si ji prohlížím.	}
+{	5	}{	To se ti jen zdá. Spi...	}{	To se ti jen zdá. Spi...	}{	31	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	To se ti jen zdá. Spi...	}
+{	6	}{	I nejtlustější žába musí zpátky do vody... kvak, kvak...	}{	I nejtlustější žába musí zpátky do vody... kvak, kvak...	}{	41	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	I nejtlustější žába musí zpátky do vody... kvak, kvak...	}
+{	7	}{	No a?	}{	No a?	}{	51	}{	Humanity 5 & not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	Ano?	}
+{	8	}{	Jestli máš rád svůj život, kliď se mi z cesty.	}{	Jestli máš rád svůj život, kliď se mi z cesty.	}{	21	}{	Humanity -5 & not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	Odhopkej, žabko, odhopkej.	}
+{	11	}{	Žádnej omyl! Viděl jsem tě! Cos mi to dal kurva do skříňky? Víš, kdo vůbec jsem? Chceš chcípnout, sráči?	}{	Žádnej omyl! Viděl jsem tě! Cos mi to dala kurva do skříňky? Víš, kdo vůbec jsem? Chceš chcípnout, děvko?	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Uklidněte se... Nic se nestalo, jen omyl. Omlouvám se.	}{	Uklidněte se... Nic se nestalo, jen omyl. Omlouvám se.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nehopkej tolik, žabko.	}
+{	13	}{	Hele, nemáš pocit, že to kapku přeháníš?	}{	Hele, nemáš pocit, že to kapku přeháníš?	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Ne, to ty nevíš, s kým si tu zahráváš, demente.	}{	Ne, to ty nevíš, s kým si tu zahráváš, demente.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ja smrt již znám, chceš se také něco naučit?	}
+{	21	}{	Ha! Fakt? Já jsem magor, sráči! Sejmu tě, je mi to fuk!	}{	Ha! Fakt? Já jsem magor, děvko! Sejmu tě, je mi to fuk!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Mně taky. Tak se ukaž, tlusťochu.	}{	Mně taky. Tak se ukaž, tlusťochu.	}{	0	}{	Humanity 5	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Zde se opět projeví darwinizmus v čiré podobě.	}
+{	23	}{	Krucinál. Teď jsi mě ale fakt nasral. ARRrr!	}{	Krucinál. Teď jsi mě ale fakt nasral. ARRrr!	}{	0	}{	Humanity -5	}{	pc.FrenzyTrigger()	}{	}{	}{	}{	}{	}{	}{	Mé zvíře se probouzí, žabko... ARRrr!	}
+{	24	}{	Budu hodnej. Prostě vychladni a nepřijdeš k úrazu.	}{	Budu hodná. Prostě vychladni a nepřijdeš k úrazu.	}{	61	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Odhopkej, ať můžeš i zítra hopkat.	}
+{	31	}{	Jsem magor, sráči. Já tě... Já teď... zavřu oči, sráči...	}{	Jsem magor, děvko. Já tě... Já teď... zavřu oči, děvko...	}{	#	}{	npc.SetDisposition("Neutral", 3)	}{	G.Shu_Sleep = 1; pc.SetQuest("Ox",3)	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Sráči, já tě, já tě... [Frog croaking]Kvak! Kvak, kvak, kvak!	}{	Děvko, já tě, já tě... [Frog croaking]Kvak! Kvak, kvak, kvak!	}{	#	}{	npc.SetDisposition("Neutral", 3)	}{	G.Shu_Frog = 1; pc.SetQuest("Ox",3)	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	No a, sráči? Víš, kdo já jsem? Ty jo... Víš, co dělám lidem, co strkají rypák do mých věcí?! He, sráči?	}{	No a, děvko? Víš, kdo já jsem? Ty jo... Víš, co dělám lidem, co strkají rypák do mých věcí?! He, děvko?	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Proboha, už jsem se omluvil...	}{	Proboha, už jsem se omluvila...	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Spořádáš vše kromě omluvy, jak je vidět.	}
+{	53	}{	Co já vím... Sníš je?	}{	Co já vím... Sníš je?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co já vím... Sníš je?	}
+{	54	}{	Fakt by sis měl dávat bacha na jazyk...	}{	Fakt by sis měl dávat bacha na jazyk...	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Soutěž v močení nevyhraji, ale soutěž v dělání krvavé kaše z obličeje mohu.	}
+{	61	}{	Je na čase tě naučit, jak se chovat k cizím věcem! Jo, sráči, teď sis to posral!	}{	Je na čase tě naučit, jak se chovat k cizím věcem! Jo, děvko, teď sis to posrala!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	To se ti jen zdá. Spi...	}{	To se ti jen zdá. Spi...	}{	31	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	To se ti jen zdá. Spi...	}
+{	63	}{	I nejtlustější žába musí zpátky do vody... kvak, kvak...	}{	I nejtlustější žába musí zpátky do vody... kvak, kvak...	}{	41	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	I nejtlustější žába musí zpátky do vody... kvak, kvak...	}
+{	64	}{	Tak moment...	}{	Tak moment...	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Čím jako?	}
+{	65	}{	No jestli to myslíš vážně...	}{	No jestli to myslíš vážně...	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Ha, ha... konečně.	}
+{	71	}{	...	}{	...	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	npc.SetRelationship("player D_FR 5"); pc.SetQuest("Ox",3)	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

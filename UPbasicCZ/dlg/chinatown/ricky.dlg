@@ -1,0 +1,166 @@
+{	1	}{	Měl bych tě znát?	}{	Měl bych tě znát?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	2	}{	Ty jseš Johnny?	}{	Ty jseš Johnny?	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{	Slyšíš na "Johnny"?	}
+{	3	}{	Kde je Johnny?	}{	Kde je Johnny?	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nepáchneš jako Johnny...	}
+{	4	}{	Hledám Johnnyho, musím s ním něco projednat.	}{	Hledám Johnnyho, musím s ním něco projednat.	}{	21	}{	Persuasion 7	}{		}{	}{	}{	}{	}{	}{	}{	Johnny mi chce říct své tajemství...	}
+{	5	}{	Johnny mě očekává, nebo to na mě není vidět?	}{	Johnny mě očekává, nebo to na mě není vidět?	}{	61	}{	Seduction 7 & not pc.IsMale()	}{		}{	}{	}{	}{	}{	}{	}{	Johnny potřebuje něco, kolem čeho omotat nohy.	}
+{	6	}{	Ahoj, já jsem chlap, co tě zavraždil.	}{	Ahoj, já jsem holka, co tě zavraždila.	}{	51	}{		}{		}{	}{	}{	}{	}{	}{	}{	Jsem tvůj vrah. Pá pá!	}
+{	7	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	8	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	9	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	10	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	11	}{	Johnny je nahoře. A nikdo za ním nepůjde, dokud já neřeknu, že jo.	}{	Johnny je nahoře. A nikdo za ním nepůjde, dokud já neřeknu, že jo.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	12	}{	Johnny mě očekává, nebo to na mě není vidět?	}{	Johnny mě očekává, nebo to na mě není vidět?	}{	61	}{	Seduction 7 & not pc.IsMale()	}{		}{	}{	}{	}{	}{	}{	}{	Johnny potřebuje něco, kolem čeho omotat nohy.	}
+{	13	}{	Hledám Johnnyho, musím s ním něco projednat.	}{	Hledám Johnnyho, musím s ním něco projednat.	}{	21	}{	Persuasion 7	}{		}{	}{	}{	}{	}{	}{	}{	Johnny mi chce říct své tajemství...	}
+{	14	}{	Tak to řekni, nebo ti urvu hlavu a donutím ji, aby to řekla.	}{	Tak to řekni, nebo ti urvu hlavu a donutím ji, aby to řekla.	}{	31	}{	Intimidate 8	}{		}{	}{	}{	}{	}{	}{	}{	Možná když na sobě budu mít tvou kůži, bude se se mnou bavit.	}
+{	15	}{	Aha, díky...	}{	Aha, díky...	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Myslím, že té hře rozumím.	}
+{	16	}{	Jdu nahoru a sejmu každýho, kdo mi poleze do cesty.	}{	Jdu nahoru a sejmu každýho, kdo mi poleze do cesty.	}{	51	}{		}{		}{	}{	}{	}{	}{	}{	}{	Půjdu do schodů, ruku v ruce s kamarádkou smrtí, když bude třeba.	}
+{	17	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	18	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	19	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	20	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	21	}{	Nevypadáš jako někdo, s kým by potřeboval mluvit...	}{	Nevypadáš jako někdo, s kým by potřeboval mluvit...	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	22	}{	Dělej kurva svou práci a vyřiď mu, že jsem tady.	}{	Dělej kurva svou práci a vyřiď mu, že jsem tady.	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nevypadám jako někdo, s kým by kdokoliv chtěl mluvit.	}
+{	23	}{	Kdo kurva jseš? Běž mě ohlásit, kokote, než se naseru.	}{	Kdo kurva jseš? Běž mě ohlásit, kokote, než se naseru.	}{	31	}{		}{		}{	}{	}{	}{	}{	}{	}{	Možná když na sobě budu mít tvou kůži, bude se se mnou bavit.	}
+{	24	}{	Fajn, tak já nabídnu svý zboží někomu jinýmu...	}{	Fajn, tak já nabídnu svý zboží někomu jinýmu...	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{	Někdo šťastnější tedy obdrží mou kořist.	}
+{	25	}{	Co, ty si myslíš, že jsem fízl? Nejsem fízl, jak tě to proboha napadlo?	}{	Co, ty si myslíš, že jsem fízl? Nejsem fízl, jak tě to proboha napadlo?	}{	31	}{		}{		}{	}{	}{	}{	}{	}{	}{	A jako kdo tedy vypadám? Vypadají hezky?	}
+{	26	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	27	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	28	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	29	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	30	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	31	}{	He,he... Víš, kdo tady tomu šéfuje? Myslíš si, že tu odrovnáš každýho, drsňáku?	}{	He,he... Víš, kdo tady tomu šéfuje? Myslíš si, že tu odrovnáš každýho, co, svině?	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	32	}{	Každýho možná ne, ale tvý koule určitě...	}{	Každýho možná ne, ale tvý koule určitě...	}{	81	}{	Intimidate 8	}{		}{	}{	}{	}{	}{	}{	}{	Hej, co to je... Jako by to byl váček se dvěma rozmačkanýma věcma...	}
+{	33	}{	Každopádně... Jinak bych to ani nechtěl. A tím končíš, Tongu...	}{	Každopádně... Jinak bych to ani nechtěla. A tím končíš, Tongu...	}{	51	}{		}{		}{	}{	}{	}{	}{	}{	}{	Musím ukojit svou zvědavost.	}
+{	34	}{	Proč se vůbec namáhám s řečma? Jdeme na nože.	}{	Proč se vůbec namáhám s řečma? Jdeme na nože.	}{	51	}{	Humanity -5	}{		}{	}{	}{	}{	}{	}{	}{	Proč se vůbec namáhám s řečma? Jdeme na nože.	}
+{	35	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	36	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	37	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	38	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	39	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	40	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	41	}{	Johnny je v kanceláři nahoře. A jak něco zkusíš, nedostaneš se odsud živej, je to jasný?	}{	Johnny je v kanceláři nahoře. A jak něco zkusíš, nedostaneš se odsud živá, je to jasný?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Johnny_Permission = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	42	}{	Jasný.	}{	Jasný.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Došlo mi to.	}
+{	43	}{	Musels to říct... Nech si kvér v kalhotách...	}{	Musels to říct... Nech si kvér v kalhotách...	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Povídej a nestřílej.	}
+{	44	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	45	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	46	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	47	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	48	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	49	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	50	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	51	}{	[To everybody around him]Odstřelte tu hnidu!	}{	[To everybody around him]Odstřelte tu hnidu!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	52	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{		}
+{	53	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	54	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	55	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	56	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	57	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	58	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	59	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	60	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	61	}{	Nevypadáš jako Johnnyho typ, ale mně se líbíš. Co kdybys tu chvíli zůstala?	}{	Nevypadáš jako Johnnyho typ, ale mně se líbíš. Co kdybys tu chvíli zůstala?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	62	}{	Musím s Johnnym něco projednat.	}{	Musím s Johnnym něco projednat.	}{	21	}{	Persuasion 7	}{		}{	}{	}{	}{	}{	}{	}{	Johnny mi chce sdělit své tajemství...	}
+{	63	}{	A co kdybys mě nechal jít za Johnnym a já ti za to neukroutím koule.	}{	A co kdybys mě nechal jít za Johnnym a já ti za to neukroutím koule.	}{	81	}{	Intimidate 6	}{		}{	}{	}{	}{	}{	}{	}{	Hej, co to je... Jako by to byl váček se dvěma rozmačkanýma věcma...	}
+{	64	}{	To mi lichotí, ale vážně se musím vidět s Johnnym...	}{	To mi lichotí, ale vážně se musím vidět s Johnnym...	}{	91	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nejdřív Johnny, pak ten druhý...	}
+{	65	}{	Možná. Zatím čau.	}{	Možná. Zatím čau.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Kvůli hudbě někdy dělám horší věci...	}
+{	66	}{	S tebou? Zlato, až odsud vidím, že ty na mě nemáš.	}{	S tebou? Zlato, až odsud vidím, že ty na mě nemáš.	}{	71	}{		}{		}{	}{	}{	}{	}{	}{	}{	Co prosím? Já myslela, že jsi Johnnyho taneční kastrát.	}
+{	67	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	68	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	69	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	70	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	71	}{	[angry, insulted]Vypadni odsud, lesbo!	}{	[angry, insulted]Vypadni odsud, lesbo!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Ricky_Pissed = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	73	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	74	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	75	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	76	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	77	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	78	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	79	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	80	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	81	}{	[In a high voice and in pain]Johnny je v kanceláři nahoře! Tak běž, běž... nechte ho jít![makes sound of extreme discomfort/near crying]	}{	[In a high voice and in pain]Johnny je v kanceláři nahoře! Tak běž, běž... nechte ji jít![makes sound of extreme discomfort/near crying]	}{	#	}{	npc.SetDisposition("Sad", 3)	}{	G.Johnny_Permission = 1; G.Ricky_Pissed = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	82	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	83	}{	Dík, mazlíku.	}{	Dík, mazlíku.	}{	0	}{	not IsMale(pc)	}{		}{	}{	}{	}{	}{	}{	}{	Tys takové dobrotisko!	}
+{	84	}{	Páni, hele, kam jsem strčil ruku... Tak já jdu za Johnnym.	}{	Páni, hele, kam jsem strčila ruku... Tak já jdu za Johnnym.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Mé ruce mají svou hlavu. Dost hříšnou. Pá pá.	}
+{	85	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	86	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	87	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	88	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	89	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	90	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	91	}{	Tak to budeš muset přijít jindy, že?	}{	Tak to budeš muset přijít jindy, že?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	92	}{	Musím s Johnnym něco projednat.	}{	Musím s Johnnym něco projednat.	}{	21	}{	Persuasion 7	}{		}{	}{	}{	}{	}{	}{	}{	Johnny mi chce sdělit své tajemství...	}
+{	93	}{	A co kdybys mě nechal jít za Johnnym a já ti za to neukroutím koule.	}{	A co kdybys mě nechal jít za Johnnym a já ti za to neukroutím koule.	}{	81	}{	Intimidate 8	}{		}{	}{	}{	}{	}{	}{	}{	Hej, co to je... Jako by to byl váček se dvěma rozmačkanýma věcma...	}
+{	94	}{	Možná. Zatím čau.	}{	Možná. Zatím čau.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Kvůli hudbě někdy dělám horší věci...	}
+{	95	}{	Ty žárlíš, protože chci mluvit s tvým milencem?	}{	Ty žárlíš, protože chci mluvit s tvým milencem?	}{	71	}{		}{		}{	}{	}{	}{	}{	}{	}{	Slibuji, že mu nebudu sahat na místa, která patří jen tobě.	}
+{	96	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	97	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	98	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	99	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	100	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	101	}{	Co jseš kurva zač? Hotová obluda!	}{	Co jseš kurva zač? Hotová obluda!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	102	}{	Ty jseš Johnny?	}{	Ty jseš Johnny?	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	103	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	104	}{	Hledám Johnnyho, musím s ním něco projednat.	}{	Hledám Johnnyho, musím s ním něco projednat.	}{	21	}{	Persuasion 7	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	105	}{	Máš problém?	}{	Máš problém?	}{	111	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	106	}{	Já jsem možná obluda, ale ty jseš mrtvola.	}{	Já jsem možná obluda, ale ty jseš mrtvola.	}{	51	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	107	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	108	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	109	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	110	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	111	}{	Jo, v jednom kuse.	}{	Jo, v jednom kuse.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	112	}{	Ty jseš Johnny?	}{	Ty jseš Johnny?	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{	Slyšíš na "Johnny"?	}
+{	113	}{	Kde je Johnny?	}{	Kde je Johnny?	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{	Nepáchneš jako Johnny...	}
+{	114	}{	Hledám Johnnyho, musím s ním něco projednat.	}{	Hledám Johnnyho, musím s ním něco projednat.	}{	21	}{	Persuasion 7	}{		}{	}{	}{	}{	}{	}{	}{	Johnny mě chce říct své tajemství...	}
+{	115	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	116	}{	Fakt? Já taky. A svý problémy obvykle reším násilím...	}{	Fakt? Já taky. A svý problémy obvykle reším násilím...	}{	51	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vážně? Já též. A své problémy běžně řeším násilím...	}
+{	117	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	118	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	119	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	120	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	121	}{	Yeah?	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	122	}{	You got a problem?	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	123	}{	I'm crazy, you don't want to know what I'll do to you!	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	124	}{	Yeah.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	125	}{	Nah.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	126	}{	What?!	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	127	}{	Hell I care?	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	128	}{	Už jsem řek, Johnny je nahoře.	}{	Už jsem řek, Johnny je nahoře.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	129	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	130	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	131	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	132	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	133	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	134	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	135	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	136	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	137	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	138	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	139	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	140	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	141	}{	So I was all like 'pop, pop' and dude was all like, I can't feel my legs! Ain't nobody better forget to put MY fries in the bag, dawg. 	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	142	}{	Where did you find this guy? What kind of whack ass DJ calls himself the Flow?	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	143	}{	I think Johnny's getting a little too high on our own supply. Coke don't grow on trees, bro.	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	144	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	145	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	146	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	147	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	148	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	149	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	150	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	151	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	152	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	153	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	154	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	155	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	156	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	157	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	158	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	159	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	160	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	161	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	162	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	163	}{	(Starting Condition)	}{		}{	128	}{	G.Johnny_Permission == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	164	}{	(Starting Condition)	}{		}{	101	}{	IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	165	}{	(Starting Condition)	}{		}{	71	}{	G.Ricky_Pissed == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	166	}{	(Starting Condition)	}{		}{	1	}{	npc.times_talked == 1	}{		}{	}{	}{	}{	}{	}{	}{		}

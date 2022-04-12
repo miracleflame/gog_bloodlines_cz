@@ -1,0 +1,130 @@
+{	1	}{	...	}{	...	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Výborný večírek, že?	}{	Výborný večírek, že?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tohle je ale párty...	}
+{	3	}{	Co máte za problém?	}{	Co máte za problém?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co ve vás bublá?	}
+{	4	}{	Zajímaly by vás rodinné drby?	}{	Zajímaly by vás rodinné drby?	}{	161	}{	G.Chris_Gossip == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mé já prý mělo problémy, ale pak si pohovořilo se členy vaší rodiny...	}
+{	5	}{	Dobrý večer. Jak se jmenujete?	}{	Dobrý večer. Jak se jmenujete?	}{	51	}{	Seduction 7 & (G.Chris_Seduce == 0 and not IsMale(pc))	}{	}{	}{	}{	}{	}{	}{	}{	Ahoj! Potřebuji jméno a to vaše chci více než jiné.	}
+{	6	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	11	}{	Humanity 5 & G.Chris_Outdo == 0	}{	}{	}{	}{	}{	}{	}{	}{	Stahují se nad vás mračna. Pročpak?	}
+{	7	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	G.Chris_Sarcophagus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
+{	11	}{	Rodinné sešlosti... Na kolika z nich se ještě musíme předvést, než nás začnou brát vážně? A... otevřeně.	}{	Rodinné sešlosti... Na kolika z nich se ještě musíme předvést, než nás začnou brát vážně? A... otevřeně.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	O čem to mluvíte?	}{	O čem to mluvíte?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ano, otevřeně. Jistě. To je zřejmé. O co se jedná?	}
+{	13	}{	Jo! Přesně tak...	}{	Jo! Přesně tak...	}{	141	}{	Persuasion 6	}{	}{	}{	}{	}{	}{	}{	}{	Pálí mě to jako tisíc sluncí.	}
+{	14	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
+{	15	}{	Výborný večírek, že?	}{	Výborný večírek, že?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tohle je ale párty...	}
+{	21	}{	Co? ... Jistě.	}{	Co? ... Jistě.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Co máte za problém?	}{	Co máte za problém?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co ve vás bublá?	}
+{	23	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	G.Chris_Sarcophagus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
+{	24	}{	Mají to tady pěkný.	}{	Mají to tady pěkný.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé já doteď nevědělo, co znamená slovo okázalý, ale tento dům vysvětluje sám...	}
+{	25	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	11	}{	Humanity 5 & G.Chris_Outdo == 0	}{	}{	}{	}{	}{	}{	}{	}{	Stahují se nad vás mračna. Pročpak?	}
+{	26	}{	Bavte se.	}{	Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pa.	}
+{	31	}{	Znáte strýce Bruna.	}{	Znáte strýce Bruna.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
+{	33	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Stahují se nad vás mračna. Pročpak?	}
+{	34	}{	Viděl jste teď nějaký dobrý film?	}{	Viděl jste teď nějaký dobrý film?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jo on. Drsnej chlapík. Je to ten na krabici s pizzou?	}
+{	35	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	11	}{	Humanity 5 & G.Chris_Outdo == 0	}{	}{	}{	}{	}{	}{	}{	}{	Stahují se nad vás mračna. Pročpak?	}
+{	36	}{	Jo. Bavte se.	}{	Jo. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
+{	41	}{	Omlouvám se, ale leží mi v hlavě spousta věcí. Tak mě omluvte.	}{	Omlouvám se, ale leží mi v hlavě spousta věcí. Tak mě omluvte.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	... Já jsem Christopher - Giovanni. A vy?	}{	... Já jsem Christopher - Giovanni. A vy?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Chris_Seduce = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Maria Rosselini. Ráda vás poznávám.	}{	Maria Rosselini. Ráda vás poznávám.	}{	61	}{	G.Maria_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	Oslovujte mě Maria Rosselini, prosím.	}
+{	53	}{	Všechno, co jste kdy v ženě hledal.	}{	Všechno, co jste kdy v ženě hledal.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše osobní sukuba.	}
+{	61	}{	Druhý člověk na večírku, co není Giovanni. Ale... to je jedno.	}{	Druhý člověk na večírku, co není Giovanni. Ale... to je jedno.	}{	#	}{	}{	G.Chris_Introduce = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Stahují se nad vás mračna. Pročpak?	}
+{	63	}{	Výborný večírek, že?	}{	Výborný večírek, že?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tohle je ale párty...	}
+{	64	}{	O co jde?	}{	O co jde?	}{	181	}{	Persuasion 9	}{	}{	}{	}{	}{	}{	}{	}{	Hmm?	}
+{	66	}{	Těší mě, Christophere. A bavte se.	}{	Těší mě, Christophere. A bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	To zajisté je.	}
+{	71	}{	Um... Toto je rodinná sešlost. Nemyslíte, že to bylo poněkud nevhodné? Možná jsme přímí příbuzní. Tedy ne že by to některým našim příbuzným v něčem bránilo, ale...	}{	Um... Toto je rodinná sešlost. Nemyslíte, že to bylo poněkud nevhodné? Možná jsme přímí příbuzní. Tedy ne že by to některým našim příbuzným v něčem bránilo, ale...	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Mé jméno je Rosselini. Jsem Maria.	}{	Mé jméno je Rosselini. Jsem Maria.	}{	61	}{	G.Maria_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	Naše příjmení se nerýmují, jako u ostatních. Moje je Rosselini, následuje hned po Marii.	}
+{	73	}{	Určitě si nechcete někam zajít a trochu si 'promluvit'?	}{	Určitě si nechcete někam zajít a trochu si 'promluvit'?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechcete mě zavést někam do tmy a vlhka?	}
+{	81	}{	Nic, co by se vás týkalo. Omluvte mě.	}{	Nic, co by se vás týkalo. Omluvte mě.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Sarkofág? Jaký sarkofág?	}{	Sarkofág? Jaký sarkofág?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Nehrajte blbého a vyklopte, kde je.	}{	Nehrajte blbého a vyklopte, kde je.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Moc přesvědčivé! Škoda, že tu nemám květiny.	}
+{	93	}{	Jejda, myslel jsem toalety...	}{	Jejda, myslela jsem toalety...	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pokaždé si popletu sarkofág s toaletou.	}
+{	94	}{	To je jedno. Bavte se.	}{	To je jedno. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co? Kdo, já? Ale já tady nejsem.	}
+{	101	}{	Ven odsud a pak druhé dveře vlevo.	}{	Ven odsud a pak druhé dveře vlevo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{	Jestli to není nějaký slang nebo heslo, na které už jsem moc starý, tak nevím, o čem to kruci mluvíte. Běžte otravovat někoho jiného. Na tohle nemám náladu.	}{	Jestli to není nějaký slang nebo heslo, na které už jsem moc starý, tak nevím, o čem to kruci mluvíte. Běžte otravovat někoho jiného. Na tohle nemám náladu.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Chris_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Ptám se naposledy. Kde je sarkofág?	}{	Ptám se naposledy. Kde je sarkofág?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nenuťte mě hledat přímo ve vás.	}
+{	113	}{	Řekněte, kde je sarkofág.	}{	Řekněte, kde je sarkofág.	}{	121	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	114	}{	Řekněte, kde je sarkofág.	}{	Řekněte, kde je sarkofág.	}{	121	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	Začínám ztrácet trpělivost a příčetnost.	}{	Začínám ztrácet trpělivost a příčetnost.	}{	121	}{	Dementation 1	}{	}{	}{	}{	}{	}{	}{	}{	Začínám ztrácet trpělivost a příčetnost.	}
+{	116	}{	Potřebuji vědět, kde ten sarkofág je.	}{	Potřebuji vědět, kde ten sarkofág je.	}{	121	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	Začínám ztrácet trpělivost a příčetnost.	}
+{	117	}{	To je jedno. Bavte se.	}{	To je jedno. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co? Kdo, já? Ale já tady nejsem.	}
+{	121	}{	Jaký sarkofág? Já vážně nevím, o čem mluvíte.	}{	Jaký sarkofág? Já vážně nevím, o čem mluvíte.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	To je jedno. Bavte se.	}{	To je jedno. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co? Kdo, já? Ale já tady nejsem.	}
+{	131	}{	Nevím, co to melete, ale začínám si myslet, že tady nemáte co dělat. Dejte si odchod nebo zavolám ochranku.	}{	Nevím, co to melete, ale začínám si myslet, že tady nemáte co dělat. Dejte si odchod nebo zavolám ochranku.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Jen do toho. Než dorazí, už bude šestkrát po vás.	}{	Jen do toho. Než dorazí, už bude šestkrát po vás.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	Tak to tu konečně roztočíme, ne?	}
+{	133	}{	Dobře, odcházím. Promiňte mi.	}{	Dobře, odcházím. Promiňte mi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Odchod.	}
+{	141	}{	Staví nás proti vlastním příbuzným kvůli privilegiu přidat se ke klice moci. A ptají se jen, cos dokázal? Kolik jsi vydělal? Jaké máš kontakty? Nemůžete tady říct nikomu nic, jinak to použijí proti vám...	}{	Staví nás proti vlastním příbuzným kvůli privilegiu přidat se ke klice moci. A ptají se jen, cos dokázal? Kolik jsi vydělal? Jaké máš kontakty? Nemůžete tady říct nikomu nic, jinak to použijí proti vám...	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Chcete tím říct, že kdybyste měl na ostatní nějakou špínu, tak byste ji nepoužil?	}{	Chcete tím říct, že kdybyste měl na ostatní nějakou špínu, tak byste ji nepoužil?	}{	151	}{	Persuasion 6 & (G.Patch_Plus == 0 or pc.GetQuestState("Dirt") > 0)	}{	}{	}{	}{	}{	}{	}{	}{	Hrajete si se špínou stejně jako ostatní bratranci.	}
+{	143	}{	Chcete tím říct, že kdybyste měl na ostatní nějakou špínu, tak byste ji nepoužil?	}{	Chcete tím říct, že kdybyste měl na ostatní nějakou špínu, tak byste ji nepoužil?	}{	151	}{	Persuasion 6 & (G.Patch_Plus == 1 and pc.GetQuestState("Dirt") == 0)	}{	pc.SetQuest("Dirt",1)	}{	}{	}{	}{	}{	}{	}{	Hrajete si se špínou stejně jako ostatní bratranci.	}
+{	146	}{	Tak ať prorazíte. Bavte se.	}{	Tak ať prorazíte. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jistém jiném místě.	}
+{	151	}{	... Srdce říká ne, ale mé obchodnické já mi radí zašlapat je do země. Myslím, že bych to použil. A vím, že oni nejspíš udělají totéž.	}{	... Srdce říká ne, ale mé obchodnické já mi radí zašlapat je do země. Myslím, že bych to použil. A vím, že oni nejspíš udělají totéž.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Chris_Gossip = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Mluvil jsem s Mirou. Je HIV pozitivní. Má to ze závislosti na heroinu.	}{	Mluvila jsem s Mirou. Je HIV pozitivní. Má to ze závislosti na heroinu.	}{	241	}{	G.Mira_Secret == 1 and G.Mira_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mira do sebe píchla jedovatou jehlu. Je pozitivní.	}
+{	153	}{	Adam Dunsirn je na mizině. V podstatě žebrá o peníze.	}{	Adam Dunsirn je na mizině. V podstatě žebrá o peníze.	}{	251	}{	G.Adam_Secret == 1 and G.Adam_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Adamova banka je černá díra. Pokutálejte dvacetník po zemi a uvidíte, jak se po něm vrhne.	}
+{	154	}{	Takže kdybych zachytil nějaké drby na ostatní, zajímalo by vás to?	}{	Takže kdybych zachytila nějaké drby na ostatní, zajímalo by vás to?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	Když exhumuji tajemství, nakoupíte kostry?	}
+{	161	}{	Jo, myslím, že ano.	}{	Jo, myslím, že ano.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Mluvil jsem s Mirou. Je HIV pozitivní. Má to ze závislosti na heroinu.	}{	Mluvila jsem s Mirou. Je HIV pozitivní. Má to ze závislosti na heroinu.	}{	241	}{	G.Mira_Secret == 1 and G.Mira_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mira do sebe píchla jedovatou jehlu. Je pozitivní.	}
+{	163	}{	Adam Dunsirn je na mizině. V podstatě žebrá o peníze.	}{	Adam Dunsirn je na mizině. V podstatě žebrá o peníze.	}{	251	}{	G.Adam_Secret == 1 and G.Adam_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Adamova banka je černá díra. Pokutálejte dvacetník po zemi a uvidíte, jak se po něm vrhne.	}
+{	164	}{	Ale to není to, co vás trápí, že ne? Svěřte se mi...	}{	Ale to není to, co vás trápí, že ne? Svěřte se mi...	}{	171	}{	Persuasion 9 & (G.Chris_Secret == 0 and G.Chris_Outdo == 0)	}{	}{	}{	}{	}{	}{	}{	}{	To byl závoj hozený přes oheň...	}
+{	165	}{	Když se mi něco donese, dám vám vědět.	}{	Když se mi něco donese, dám vám vědět.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Znásilním mysli zdejších hostů a navrátím se.	}
+{	171	}{	Ani nevím, kdo jste... Já jsem Chris Giovanni, mimochodem.	}{	Ani nevím, kdo jste... Já jsem Chris Giovanni, mimochodem.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	Viktor. Viktor Rosselini.	}{	Maria. Maria Rosselini.	}{	181	}{	not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	173	}{	Na mé pozvánce je napsáno Viktor Rosselini.	}{	Na mé pozvánce je napsáno Maria Rosselini.	}{	181	}{	IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	174	}{	Těší mě, Christophere. A bavte se.	}{	Těší mě, Christophere. A bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	To zajisté je.	}
+{	181	}{	Možná jsem paranoidní, ale jak mám vědět, že se vám dá věřit?	}{	Možná jsem paranoidní, ale jak mám vědět, že se vám dá věřit?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Vypadáte mravně. Také mám tajemství, se kterým před lidi nemohu...	}{	Vypadáte mravně. Také mám tajemství, se kterým před lidi nemohu...	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem přehrada tajemství.	}
+{	191	}{	Tak vy první... Když to bude něco jako u mě, povím vám, co mám za problém.	}{	Tak vy první... Když to bude něco jako u mě, povím vám, co mám za problém.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Chris_Outdo = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	Jsem na vodní sporty a tím nemyslím vodní lyžování...	}{	Jsem na vodní sporty a tím nemyslím vodní lyžování...	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Lížu krev z mnoha panenských ran...	}
+{	193	}{	Uvědomil jsem si, že jsem ateista. Vzdal jsem se katolicizmu.	}{	Uvědomila jsem si, že jsem ateistka. Vzdala jsem se katolicizmu.	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už nějakou dobu jsem bez boha. Je to někdy hrozná závislost.	}
+{	194	}{	Jsem někdo jiný, jestli chápete, co tím myslím...	}{	Jsem někdo jiný, jestli chápete, co tím myslím...	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	Žiji ve skříni. Nemohu vyjít ven.	}
+{	195	}{	Scházím se s puberťačkou.	}{	Scházím se s puberťákem.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Rád sleduji telku, i když vlastně okny jiných lidí.	}
+{	201	}{	To je nechutné... Ale jinak nic závratného.	}{	To je nechutné... Ale jinak nic závratného.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	Uvědomil jsem si, že jsem ateista. Vzdal jsem se katolicizmu.	}{	Uvědomila jsem si, že jsem ateistka. Vzdala jsem se katolicizmu.	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už nějakou dobu jsem bez boha. Je to někdy hrozná závislost.	}
+{	203	}{	Jsem členem sociální demokracie...	}{	Jsem členkou sociální demokracie...	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Beru věci, ani o tom nevím. Mám tolik hotelových mýdel, že je to na zvracení.	}
+{	204	}{	Scházím se s puberťačkou.	}{	Scházím se s puberťákem.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Rád sleduji telku, i když vlastně okny jiných lidí.	}
+{	205	}{	Jsem někdo jiný, jestli chápete, co tím myslím...	}{	Jsem někdo jiný, jestli chápete, co tím myslím...	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	Žiji ve skříni. Nemohu vyjít ven.	}
+{	211	}{	To nic není, aspoň pokud jde o mě.	}{	To nic není, aspoň pokud jde o mě.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	Jsem někdo jiný, jestli chápete, co tím myslím...	}{	Jsem někdo jiný, jestli chápete, co tím myslím...	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	Žiji ve skříni. Nemohu vyjít ven.	}
+{	213	}{	Chodím na psychiatrické terapie kvůli depresi.	}{	Chodím na psychiatrické terapie kvůli depresi.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Beru věci, ani o tom nevím. Mám tolik hotelových mýdel, že je to na zvracení.	}
+{	214	}{	Přejel jsem sousedova psa. Schválně.	}{	Přejela jsem sousedova psa. Schválně.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé auto srazilo jelena, protože se na mě divně díval.	}
+{	215	}{	Uvědomil jsem si, že jsem ateista. Vzdal jsem se katolicizmu.	}{	Uvědomila jsem si, že jsem ateistka. Vzdala jsem se katolicizmu.	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už nějakou dobu jsem bez boha. Je to někdy hrozná závislost.	}
+{	221	}{	Vážně? V téhle rodině... za něco takového vás můžou exkomunikovat, když si nedáte pozor. Dobrá, chcete-li vědět, co mně leží v hlavě, povím vám to.	}{	Vážně? V téhle rodině... za něco takového vás můžou exkomunikovat, když si nedáte pozor. Dobrá, chcete-li vědět, co mně leží v hlavě, povím vám to.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	222	}{	(Auto-Link)	}{	(Auto-Link)	}{	231	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	231	}{	Zjistil jsem to před několika měsíci. Má matka měla známost, než jsem se narodil. Ukázalo se, že můj otec vůbec není Giovanni. Můj skutečný otec je spisovatel Michael Avellone... Kdyby to někdo zjistil, už bych si v téhle rodině neškrtnul.	}{	Zjistil jsem to před několika měsíci. Má matka měla známost, než jsem se narodil. Ukázalo se, že můj otec vůbec není Giovanni. Můj skutečný otec je spisovatel Michael Avellone... Kdyby to někdo zjistil, už bych si v téhle rodině neškrtnul.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Chris_Secret = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	232	}{	Podařilo se mi zjistit něco na vaše příbuzné. Chcete to slyšet?	}{	Podařilo se mi zjistit něco na vaše příbuzné. Chcete to slyšet?	}{	161	}{	G.Chris_Gossip == 0 and (G.Patch_Plus == 0 or pc.GetQuestState("Dirt") > 0)	}{	G.Chris_Gossip = 1	}{	}{	}{	}{	}{	}{	}{	Mám exhumovaná tajemství. Koupíte kostlivce?	}
+{	233	}{	Podařilo se mi zjistit něco na vaše příbuzné. Chcete to slyšet?	}{	Podařilo se mi zjistit něco na vaše příbuzné. Chcete to slyšet?	}{	161	}{	G.Chris_Gossip == 0 and G.Patch_Plus == 1 and pc.GetQuestState("Dirt") == 0	}{	G.Chris_Gossip = 1; pc.SetQuest("Dirt",1)	}{	}{	}{	}{	}{	}{	}{	Mám exhumovaná tajemství. Koupíte kostlivce?	}
+{	234	}{	Žádný strach. Vaše tajemství je v bezpečí. Bavte se.	}{	Žádný strach. Vaše tajemství je v bezpečí. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dohlédnu na vaše tajemství jako by to byla královská hrobka.	}
+{	241	}{	To jsem měl čekat. Chlastala už když jsme byli děcka a pokaždé, když jsem ji viděl potom, jela v něčem tvrdším. Je to ostuda... To se strýci Brunovi rozhodně nebude zamlouvat.	}{	To jsem měl čekat. Chlastala už když jsme byli děcka a pokaždé, když jsem ji viděl potom, jela v něčem tvrdším. Je to ostuda... To se strýci Brunovi rozhodně nebude zamlouvat.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Chris_Told = 1; G.Mira_Secret = 2; pc.AwardExperience("Gio01")	}{	}{	}{	}{	}{	}{	}{	}
+{	242	}{	(Auto-Link)	}{	(Auto-Link)	}{	261	}{	G.Adam_Secret == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	243	}{	Adam Dunsirn je na mizině. V podstatě žebrá o peníze.	}{	Adam Dunsirn je na mizině. V podstatě žebrá o peníze.	}{	251	}{	G.Adam_Secret == 1 and G.Adam_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Adamova banka je černá díra. Pokutálejte dvacetník po zemi a uvidíte, jak se po něm vrhne.	}
+{	244	}{	Když se mi donese ještě něco, dám vědět.	}{	Když se mi donese ještě něco, dám vědět.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Znásilním mysli zdejších hostů a navrátím se.	}
+{	251	}{	Skutečně? Adam vždycky vypadal, že má na krku chytrou hlavu. V téhle rodině je být na dně skoro totéž co být mrtvý. A já mu málem svěřil své investice.	}{	Skutečně? Adam vždycky vypadal, že má na krku chytrou hlavu. V téhle rodině je být na dně skoro totéž co být mrtvý. A já mu málem svěřil své investice.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Chris_Told = 1; G.Adam_Secret = 2; pc.AwardExperience("Gio02")	}{	}{	}{	}{	}{	}{	}{	}
+{	252	}{	(Auto-Link)	}{	(Auto-Link)	}{	261	}{	G.Mira_Secret == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	253	}{	Mluvil jsem s Mirou. Je HIV pozitivní. Má to ze závislosti na heroinu.	}{	Mluvila jsem s Mirou. Je HIV pozitivní. Má to ze závislosti na heroinu.	}{	241	}{	G.Mira_Secret == 1 and G.Mira_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mira do sebe píchla jedovatou jehlu. Je pozitivní.	}
+{	254	}{	Když se mi donese ještě něco, dám vědět.	}{	Když se mi donese ještě něco, dám vědět.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Znásilním mysli zdejších hostů a navrátím se.	}
+{	261	}{	Adam a Mira budou totálně nahraní, až se to všechno donese Brunovi. Nezapomenu na to, a rozhodně se zasadím o vaše přijetí, až budu mít nějaký vliv.	}{	Adam a Mira budou totálně nahraní, až se to všechno donese Brunovi. Nezapomenu na to, a rozhodně se zasadím o vaše přijetí, až budu mít nějaký vliv.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Chris_Win = 1; pc.GiveItem("item_g_ring_03"); pc.AwardExperience("Gio03"); pc.SetQuest("Dirt",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	262	}{	Hodně štěstí.	}{	Hodně štěstí.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ať se dílo podaří...	}
+{	263	}{	Pamatujte, kde máte přátele, Chrisi.	}{	Pamatujte, kde máte přátele, Chrisi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nezapomeňte, upomínám lidi i po zlém.	}
+{	271	}{	Řekl jsem vám to mezi čtyřma očima! Ale nebojte, jestli půjdu ke dnu, stáhnu vás s sebou! Merdoso!	}{	Řekl jsem vám to mezi čtyřma očima! Ale nebojte, jestli půjdu ke dnu, stáhnu vás s sebou! Merdoso!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	272	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	281	}{	Adam a Mira budou totálně nahraní, až se to všechno donese Brunovi. Nezapomenu na to, a rozhodně se zasadím o vaše přijetí, až budu mít nějaký vliv.	}{	Adam a Mira budou totálně nahraní, až se to všechno donese Brunovi. Nezapomenu na to, a rozhodně se zasadím o vaše přijetí, až budu mít nějaký vliv.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	282	}{	Hodně štěstí.	}{	Hodně štěstí.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ať se dílo podaří...	}
+{	283	}{	Pamatujte, kde máte přátele, Chrisi.	}{	Pamatujte, kde máte přátele, Chrisi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nezapomeňte, upomínám lidi i po zlém.	}
+{	291	}{	Yeah?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	292	}{	[Annoyed]What?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	293	}{	Get out of here! You're lucky I don't hit you!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	294	}{	Yeah.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	295	}{	No.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	296	}{	Thanks again.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	297	}{	What?!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	298	}{	I don't know.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	299	}{	Just leave me alone.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	300	}{	Fantastic.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	301	}{	By the way-	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	302	}{	Here, take this.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	303	}{	Huh?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	344	}{	(Starting Condition)	}{	}{	281	}{	G.Chris_Win == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	345	}{	(Starting Condition)	}{	}{	271	}{	G.Chris_Secret == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	346	}{	(Starting Condition)	}{	}{	131	}{	G.Chris_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	347	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

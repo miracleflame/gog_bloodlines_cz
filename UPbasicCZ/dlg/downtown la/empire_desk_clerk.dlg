@@ -1,0 +1,29 @@
+{	1	}{	Ano? Mohu vám pomoci?	}{	Ano? Mohu vám pomoci?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Je zde ubytována dáma jménem Jezebel Locke?	}{	Je zde ubytována dáma jménem Jezebel Locke?	}{	11	}{	G.Hannah_Jezebel == 1	}{	}{	}{	}{	}{	}{	}{	}{	Hledám královnu Jezebel!	}
+{	3	}{	Teď zrovna ne. Zatím.	}{	Teď zrovna ne. Zatím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji lepidlo na šedou hmotu. Sbohem.	}
+{	11	}{	Ano. Slečna Locke patří mezi naše... populární hosty. Proč se ptáte?	}{	Ano. Slečna Locke patří mezi naše... populární hosty. Proč se ptáte?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Potřebuji klíč k jejímu apartmánu.	}{	Potřebuji klíč k jejímu apartmánu.	}{	21	}{	G.Jezebel_Dead == 0	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji klíč od jejího království.	}
+{	13	}{	Vlastně ne.	}{	Vlastně ne.	}{	0	}{	G.Jezebel_Dead == 1	}{	}{	}{	}{	}{	}{	}{	}{	Je mi líto, už nevím.	}
+{	21	}{	To nemohu udělat. Je to proti pravidlům našeho hotelu.	}{	To nemohu udělat. Je to proti pravidlům našeho hotelu.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Jsme staří přátele a chci ji překvapit...	}{	Jsme staří přátele a chci ji překvapit...	}{	31	}{	Persuasion 4 & not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	Jsem královnin dávno ztracený pokrevní bratr...	}{	Jsem královnina dávno ztracená pokrevní sestra...	}{	31	}{	Persuasion 4 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	Ale pro mě to uděláte.	}{	Ale pro mě to uděláte.	}{	31	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	No tak, dejte mi ten klíč a já vám pak poskytnu jistou pokojovou službu.	}{	No tak, dejte mi ten klíč a já vám pak poskytnu jistou pokojovou službu.	}{	31	}{	Seduction 4 & not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Královnin klíč pro mě značí extra pokojovou službu pro vás.	}
+{	26	}{	Jestli mi ten klíč nedáte, vytrhnu vám jazyk.	}{	Jestli mi ten klíč nedáte, vytrhnu vám jazyk.	}{	31	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Máte na výběr mezi klíčem a rozbitou lebkou.	}
+{	27	}{	Dejte mi ten klíč!	}{	Dejte mi ten klíč!	}{	31	}{	Dominate 2 & IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	28	}{	Jsem pánem klíčů a ty mi jeden předáš! }{ Jsem paní klíčů a ty mi jeden předáš! }{ 31 }{ Dementation 2 }{ }{ }{ }{ }{ }{ }{ }{ }
+{	29	}{	Poslyšte, vážně se musím dostat do jejího apartmá.	}{	Poslyšte, vážně se musím dostat do jejího apartmá.	}{	41	}{	IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Prosím! Musím najít královnu temnoty!	}
+{	30	}{	Jak chcete. Nashle.	}{	Jak chcete. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	31	}{	Aha. Tak v tom případě bych snad mohl udělat výjimku. Zde je klíč od jejího apartmánu. Přeji příjemný večer.	}{	Aha. Tak v tom případě bych snad mohl udělat výjimku. Zde je klíč od jejího apartmánu. Přeji příjemný večer.	}{	#	}{	}{	pc.AwardExperience("Plague02"); pc.GiveItem("item_k_empire_jezebel_key")	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Díky a nashle.	}{	Díky a nashle.	}{	0	}{	}{	G.Clerk_End = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Je mi líto. Kdybych přinesl z kanceláře klíč každému, kdo si řekne, už bych dávno přišel o práci. Pokud tedy nemáte něco jiného, mám tady práci.	}{	Je mi líto. Kdybych přinesl z kanceláře klíč každému, kdo si řekne, už bych dávno přišel o práci. Pokud tedy nemáte něco jiného, mám tady práci.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	No tak, dejte mi ten klíč a já vám pak poskytnu jistou pokojovou službu.	}{	No tak, dejte mi ten klíč a já vám pak poskytnu jistou pokojovou službu.	}{	31	}{	Seduction 4 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Královnin klíc pro mě znací jistou pokojovou službu pro vás.	}
+{	43	}{	Chápu, mějte se.	}{	Chápu, mějte se.	}{	0	}{	}{	G.Clerk_End = 1	}{	}{	}{	}{	}{	}{	}{	Můj stín již dopadá na jiná místa. Sbohem.	}
+{	44	}{	Jak chcete. Nashle.	}{	Jak chcete. Nashle.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.Clerk_End = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	Tak si trhni nohou, saláte.	}{	Tak si trhni nohou, saláte.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.Clerk_End = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Máte přání?	}{	Máte přání?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Ne. Nashle.	}{	Ne. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	61	}{	Proboha! Zavolejte hygienu! Je tu další oběť moru! Nepřibližujte se!	}{	Proboha! Zavolejte hygienu! Je tu další oběť moru! Nepřibližujte se!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Starting Condition)	}{	}{	61	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	73	}{	(Starting Condition)	}{	}{	51	}{	G.Clerk_End == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -1,7 +1,0 @@
-particle {
-	loop "1"	
-	spawn {
-		particle "inspection_stars"
-		rate     "30"
-	}
-}

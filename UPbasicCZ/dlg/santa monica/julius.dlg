@@ -1,0 +1,70 @@
+{	1	}{	[Stutters, horribly, nervous stutter- not humorous]Brý ve-ve-ve-večer.	}{	[Stutters, horribly, nervous stutter- not humorous]Brý ve-ve-ve-večer.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	Viděl jsi tu nějaký chlápky s baseballovkama?	}{	Viděl jsi tu nějaký chlápky s baseballovkama?	}{	151	}{	G.Mercurio_Quest == 1 and G.Beachhouse == 0	}{	}{	}{	}{	}{	}{	}{	}{	Zahlédl jsi smečku plážových démonů s pálkami?	}
+{	4	}{	Víš něco o té vraždě na promenádě?	}{	Víš něco o té vraždě na promenádě?	}{	141	}{	G.Know_Murder == 1	}{	}{	}{	}{	}{	}{	}{	}{	Krev se rozlévá po promenádě. Proč?	}
+{	5	}{	Jseš v pořádku?	}{	Jseš v pořádku?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zníš jako hemofilická sekačka na trávu.	}
+{	6	}{	Co je to sakra s tebou?	}{	Co je to sakra s tebou?	}{	11	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Proč jsou tvá slova tak křivá?	}
+{	7	}{	Jasně. Sbohem.	}{	Jasně. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	11	}{	To-to nic ne-ne-není.	}{	To-to nic ne-ne-není.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Nebudu otravovat. Sbohem.	}{	Nebudu otravovat. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ztrácíš se z mého stínu...	}
+{	13	}{	Ty se mě bojíš?	}{	Ty se mě bojíš?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mluvíš s někým, kdo tu není.	}
+{	21	}{	N-n-n-ne. M-m-mám jen prob-prob-problém s ře-ře-řečí. Omlo-mlo-mlouvám se.	}{	N-n-n-ne. M-m-mám jen prob-prob-problém s ře-ře-řečí. Omlo-mlo-mlouvám se.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Tak já nebudu otravovat. Sbohem.	}{	Tak já nebudu otravovat. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zadrháváš jako zaseklá pila.	}
+{	23	}{	Ubo-bo-bo-bohost.	}{	Ubo-bo-bo-bohost.	}{	0	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Jsem už někde jinde.	}
+{	31	}{	C-c-c-co po mně ch-ch-chceš?	}{	C-c-c-co po mně ch-ch-chceš?	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Ty jseš Julius?	}{	Ty jseš Julius?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jseš Caesar?	}
+{	33	}{	Znáš Davida Hattera?	}{	Znáš Davida Hattera?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Znáš se s šíleným Hatterem?	}
+{	34	}{	Ty zasranej zrádče!	}{	Ty zasranej zrádče!	}{	41	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Přináším věčnou temnotu!	}
+{	41	}{	[Nervous, guilty]N-n-n-n-ne...	}{	[Nervous, guilty]N-n-n-n-ne...	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Tys o nás vyprávěl smrtelníkovi?	}{	Tys o nás vyprávěl smrtelníkovi?	}{	51	}{	}{	G.Julius_Cringe = 1	}{	}{	}{	}{	}{	}{	}{	Našeptával tvůj jazyk teplokrevnému?	}
+{	43	}{	Moc kecáš, Juliusi.	}{	Moc kecáš, Juliusi.	}{	51	}{	}{	G.Julius_Cringe = 1	}{	}{	}{	}{	}{	}{	}{	Ano, ano a ano...	}
+{	44	}{	Co sis vůbec myslel? Nevíš, jaké z toho plynou následky?	}{	Co sis vůbec myslel? Nevíš, jaké z toho plynou následky?	}{	51	}{	}{	G.Julius_Cringe = 1	}{	}{	}{	}{	}{	}{	}{	Viníci vždy nejhlasitěji prohlašují svou nevinu.	}
+{	51	}{	[Starts whimpering]P-p-p-p-rosím! Já t-t-to ne-ne-ne-věděl! Já ne-ne-nechtěl. J-j-já ani ne-ne-nechápu, c-co jsem z-z-zač. J-j-já nic n-n-nevěděl!	}{	[Starts whimpering]P-p-p-p-rosím! Já t-t-to ne-ne-ne-věděl! Já ne-ne-nechtěl. J-j-já ani ne-ne-nechápu, c-co jsem z-z-zač. J-j-já nic n-n-nevěděl!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Smůla, ale za prozrazení naší existence smrtelníkům je trest.	}{	Smůla, ale za prozrazení naší existence smrtelníkům je trest.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nestoudná kuřata musí být potrestána.	}
+{	53	}{	Víš, jaký je trest, že Juliusi? Že to víš?	}{	Víš, jaký je trest, že Juliusi? Že to víš?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cena za vykecání je vysoká...	}
+{	54	}{	C-c-c-co to s tebou sakra je? Bojíš se, co?	}{	C-c-c-co to s tebou sakra je? Bojíš se, co?	}{	61	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Boj se mnohohlavého trestonoše!	}
+{	61	}{	[Whimpers]Mr-mrzí m-m-mě to. Pro-pro-prosím! Už to ni-ni-nikdy neu-neu-neudělám!	}{	[Whimpers]Mr-mrzí m-m-mě to. Pro-pro-prosím! Už to ni-ni-nikdy neu-neu-neudělám!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Juliusi, trestem je smrt.	}{	Juliusi, trestem je smrt.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Světlo tvých slov skončí ve věčném spánku.	}
+{	63	}{	Juliusi, vážně chceš skončit takhle? Škemrat tu na kolenou?	}{	Juliusi, vážně chceš skončit takhle? Škemrat tu na kolenou?	}{	71	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Tvoje skuhrání otravuje mou mozkovnu.	}
+{	64	}{	To máš sakra pravdu, že už to neuděláš. Protože tě zabiju.	}{	To máš sakra pravdu, že už to neuděláš. Protože tě zabiju.	}{	71	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Ano, mé ruce vyplní, co říkáš.	}
+{	71	}{	[Cries, groan of shock and disbelief]To n-n-n-ne. P-p-pa-pane bo-bo-bože.	}{	[Cries, groan of shock and disbelief]To n-n-n-ne. P-p-pa-pane bo-bo-bože.	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Já si ty pravidla nevymyslel, chápeš to, ne?	}{	Já si ty pravidla nevymyslela, chápeš to, ne?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ta pravidla jsou převzata z kamene.	}
+{	73	}{	Ale no tak. Myslíš, že z toho mám radost? Jen plním rozkazy.	}{	Ale no tak. Myslíš, že z toho mám radost? Jen plním rozkazy.	}{	81	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Mandát k mému jednání leží v krvi.	}
+{	74	}{	Tak jak to chceš? Stětí? Opečení? Nebo na Cobaina?	}{	Tak jak to chceš? Stětí? Opečení? Nebo na Cobaina?	}{	81	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	Červi a larvy! Tvá mrtvola shnije ve vlastní šťávě!	}
+{	81	}{	[Sobbing]P-p-pro-prosím! Smi-smi-smiluj s-se!	}{	[Sobbing]P-p-pro-prosím! Smi-smi-smiluj s-se!	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Když tě nechám jít a oni to zjistí, může mě to stát krk.	}{	Když tě nechám jít a oni to zjistí, může mě to stát krk.	}{	91	}{	Humanity 8	}{	}{	}{	}{	}{	}{	}{	}{	Když tě nechám jít a oni to zjistí, může mě to stát krk.	}
+{	83	}{	Smůla, Juliusi. Rád bych, aby to šlo udělat jinak.	}{	Smůla, Juliusi. Ráda bych, aby to šlo udělat jinak.	}{	91	}{	Humanity 8	}{	}{	}{	}{	}{	}{	}{	}{	Smůla, Juliusi. Není vyhnutí...	}
+{	84	}{	Jen mi to ztěžuješ. Přestaň s tím.	}{	Jen mi to ztěžuješ. Přestaň s tím.	}{	91	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Z toho bulení se mi chce propíchnout ti zornice.	}
+{	85	}{	Jak jsi sakra přežil až do teďka? Každopádně teď jsi skončil.	}{	Jak jsi sakra přežil až do teďka? Každopádně teď jsi skončil.	}{	131	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Mé smilování je stejně mrtvé jako Julius.	}
+{	91	}{	Mů-mů-mů-můžeš m-mě ne-ne-nechat j-j-jít! P-p-p-přísah-ám, ž-že odjedu z L-los A-a-angeles, P-p-řísahám!	}{	Mů-mů-mů-můžeš m-mě ne-ne-nechat j-j-jít! P-p-p-přísah-ám, ž-že odjedu z L-los A-a-angeles, P-p-řísahám!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Ale to by ses pak už nikdy - nikdy - nesměl vrátit.	}{	Ale to by ses pak už nikdy - nikdy - nesměl vrátit.	}{	101	}{	Humanity 8	}{	}{	}{	}{	}{	}{	}{	}{	A pak už tvůj stím nikdy nesmí dopadnout na město temných andělů.	}
+{	93	}{	Já ti nevím. Naštval bych tím dost lidí. Co z toho kouká pro mě?	}{	Já ti nevím. Naštvala bych tím dost lidí. Co z toho kouká pro mě?	}{	121	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	Co mi za svůj neživot dáš za pěkné dary?	}
+{	94	}{	To vážně nejde, Juliusi. Promiň.	}{	To vážně nejde, Juliusi. Promiň.	}{	131	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	Jediná možnost je pro mě sloužit slepé dámě.	}
+{	95	}{	To si piš, že odjedeš z L.A. Ovšem v pytlíku na kafe.	}{	To si piš, že odjedeš z L.A. Ovšem v pytlíku na kafe.	}{	131	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Z tvých zbytků se bude vařit káva.	}
+{	101	}{	V-v-vážně. P-p-přísahám! S-s-s-smiluj s-se!	}{	V-v-vážně. P-p-přísahám! S-s-s-smiluj s-se!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Fajn. Zmiz z L.A. Ale ještě tě tu jednou najdu, tak tě na místě sejmu.	}{	Fajn. Zmiz z L.A. Ale ještě tě tu jednou najdu, tak tě na místě sejmu.	}{	111	}{	Humanity 8	}{	}{	}{	}{	}{	}{	}{	}{	Ještě tě jednou ucítím v okolí, tak to bude spálený popel.	}
+{	103	}{	Ale co z toho budu mít? Chceš se z toho vyzout zadarmo, Juliusi?	}{	Ale co z toho budu mít? Chceš se z toho vyzout zadarmo, Juliusi?	}{	121	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	Za své slitování potřebuji platbu.	}
+{	104	}{	To vážně nejde, Juliusi. Promiň.	}{	To vážně nejde, Juliusi. Promiň.	}{	131	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	Jediná možnost je pro mě sloužit slepé dámě.	}
+{	105	}{	Falešná naděje. No byla to zábava. Ale konec srandy. Pěkně drž.	}{	Falešná naděje. No byla to zábava. Ale konec srandy. Pěkně drž.	}{	131	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Smilování došlo.	}
+{	111	}{	[Elated, sobbing]D-dě-dě-děkuju! M-m-mock-mockrát d-d-děkuju!	}{	[Elated, sobbing]D-dě-dě-děkuju! M-m-mock-mockrát d-d-děkuju!	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	pc.SetQuest("Writer",9)	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Pamatuj si, v tomhle neživotě už se sem nevracej. A teď padej.	}{	Pamatuj si, v tomhle neživotě už se sem nevracej. A teď padej.	}{	0	}{	G.Patch_Plus == 0	}{	G.Julius_Cringe = 0; G.Julius_Release = 1; pc.HumanityAdd(1)	}{	}{	}{	}{	}{	}{	}{	Nechť mé uši už nikdy nezaslechnou tvoje vykoktané pitomosti. Sbohem.	}
+{	113	}{	Pamatuj si, v tomhle neživotě už se sem nevracej. A teď padej.	}{	Pamatuj si, v tomhle neživotě už se sem nevracej. A teď padej.	}{	0	}{	G.Patch_Plus == 1	}{	G.Julius_Cringe = 0; G.Julius_Release = 1; pc.HumanityAdd(1); pc.AwardExperience("Writer06")	}{	}{	}{	}{	}{	}{	}{	Nechť mé uši už nikdy nezaslechnou tvoje vykoktané pitomosti. Sbohem.	}
+{	121	}{	No. M-moc toho n-n-ne-nemám. Jen ně-ně-něco pe-pe-něz. Ně-neco kolem sto-sto-stovky.	}{	No. M-moc toho n-n-ne-nemám. Jen ně-ně-něco pe-pe-něz. Ně-neco kolem sto-sto-stovky.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Nech si je. Ale okamžitě zmiz. Jestli se vrátíš, nepřežiješ to.	}{	Nech si je. Ale okamžitě zmiz. Jestli se vrátíš, nepřežiješ to.	}{	111	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Nech si své haléře. Znova se uvidíme v jednosměrném vlaku do temných míst.	}
+{	123	}{	Fajn, dej mi, co máš a padej z města. Jestli tě ještě uvidím, jseš mrtvej.	}{	Fajn, dej mi, co máš a padej z města. Jestli tě ještě uvidím, jseš mrtvej.	}{	111	}{	Humanity 8 & G.Patch_Plus == 0	}{	pc.MoneyAdd(100); pc.HumanityAdd(-2)	}{	}{	}{	}{	}{	}{	}{	Přijmu tvou ubohou platbu. Nyní odejdi, než vezmu sobě i ten zbytek.	}
+{	124	}{	Fajn, dej mi, co máš a padej z města. Jestli tě ještě uvidím, jseš mrtvej.	}{	Fajn, dej mi, co máš a padej z města. Jestli tě ještě uvidím, jseš mrtvej.	}{	111	}{	Humanity -8	}{	pc.MoneyAdd(100)	}{	}{	}{	}{	}{	}{	}{	Dávej. A pokud se naše stíny znovu zkříží, vezmu si i tvůj neživot.	}
+{	125	}{	Tak málo?! Tak to sorry, můžu přijít o mnohem víc.	}{	Tak málo?! Tak to sorry, můžu přijít o mnohem víc.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Bylo by třeba více zeleně, Caesare.	}
+{	126	}{	Nezapomenu si je vzít z tvé mrtvoly.	}{	Nezapomenu si je vzít z tvé mrtvoly.	}{	131	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Prosiju tvůj popel a najdu tvůj poklad.	}
+{	127	}{	Fajn, dej mi, co máš a padej z města. Jestli tě ještě uvidím, jseš mrtvej.	}{	Fajn, dej mi, co máš a padej z města. Jestli tě ještě uvidím, jseš mrtvej.	}{	111	}{	Humanity 8 & G.Patch_Plus == 1	}{	pc.MoneyAdd(100); pc.HumanityAdd(-1)	}{	}{	}{	}{	}{	}{	}{	Dávej. A pokud se naše stíny znovu zkříží, vezmu si i tvůj neživot.	}
+{	131	}{	[Sick with disbelief, choking on tears]P-p-pa-pane bože. N-ne. [Hold this for about half-minute, pitiful sob/scream]Ne!	}{	[Sick with disbelief, choking on tears]P-p-pa-pane bože. N-ne. [Hold this for about half-minute, pitiful sob/scream]Ne!	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Tohle je na mě moc. Vypadni z města. Ale jak se vrátíš, už nezaváhám.	}{	Tohle je na mě moc. Vypadni z města. Ale jak se vrátíš, už nezaváhám.	}{	111	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Nemohu porazit tak ubohého červa. Odejdi a navždy zůstaň pryč.	}
+{	133	}{	Je mi to líto. Není jiná možnost.	}{	Je mi to líto. Není jiná možnost.	}{	0	}{	Humanity 5	}{	G.Julius_Cringe = 1	}{	}{	}{	}{	}{	}{	}{	Slepá dáma říká, co je třeba udělat. Sbohem.	}
+{	134	}{	Všichni jsme jen pěšáci ve hře bez pravidel, Juliusi. Nebude to bolet, slibuju.	}{	Všichni jsme jen pěšáci ve hře bez pravidel, Juliusi. Nebude to bolet, slibuju.	}{	0	}{	G.Extra_Lines == 1	}{	G.Julius_Cringe = 1	}{	}{	}{	}{	}{	}{	}{	Oba jsme jen pěšáci a temná ruka mě vede, abys byl skolen. Hra je u konce.	}
+{	135	}{	Ubožáku. Nezasloužíš si patřit mezi našince. Tohle si užiju.	}{	Ubožáku. Nezasloužíš si patřit mezi našince. Tohle si užiju.	}{	0	}{	Humanity -5	}{	G.Julius_Cringe = 1	}{	}{	}{	}{	}{	}{	}{	Je mi z tebe mdlo. Užiju si prolévání tvé zkažené krve.	}
+{	141	}{	V-v-vraždě? Ne, ne. J-já jsem t-tu ne-ne-nebyl, když s-se to s-s-stalo.	}{	V-v-vraždě? Ne, ne. J-já jsem t-tu ne-ne-nebyl, když s-se to s-s-stalo.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	No tak dík.	}{	No tak dík.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	143	}{	Dí-dí-dí-díky, vole.	}{	Dí-dí-dí-díky, vole.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ano... tam, kde jsi byl, tě zase dostihne. Jsem pryč.	}
+{	151	}{	T-t-to já ne-ne-nevím. Ze-ze-zeptej s-se É-é-éčka. T-to je ten b-b-bez trič-trička.	}{	T-t-to já ne-ne-nevím. Ze-ze-zeptej s-se É-é-éčka. T-to je ten b-b-bez trič-trička.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Fajn. Dík.	}{	Fajn. Dík.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vyhledám to písmeno, o které mluvíš. Sbohem.	}
+{	153	}{	T-t-tak to bude všechno, k-ká-kámo.	}{	T-t-tak to bude všechno, k-ká-kámo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Půjdu tedy mezi D a F.	}
+{	163	}{	(Starting Condition)	}{	}{	31	}{	G.David_Julius == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	164	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

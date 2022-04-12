@@ -1,0 +1,57 @@
+{	1	}{	Co? Běžte pryč! Nechte mě být!	}{	Co? Běžte pryč! Nechte mě být!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Chci se zeptat na tu nemoc, co sužuje místní bezdomovce...	}{	Chci se zeptat na tu nemoc, co sužuje místní bezdomovce...	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji vědět o té nakaze, co pronásleduje bezdomovce...	}
+{	3	}{	Nic, jen jdu kolem.	}{	Nic, jen jdu kolem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
+{	11	}{	Vážně? Tak tomu nevěřím! Chcete moje hliníkový plechovky, co? Nic nedostanete! Běžte pryč!	}{	Vážně? Tak tomu nevěřím! Chcete moje hliníkový plechovky, co? Nic nedostanete! Běžte pryč!	}{	#	}{	}{	G.TinCanBill_Heard_F = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Řekněte, co víte!	}{	Řekněte, co víte!	}{	21	}{	Dominate 2 & IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Zpívej píseň o temné nemoci, duchaprázdná ženo!	}{	Zpívej píseň o temné nemoci, duchaprázdná ženo!	}{	21	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Cože? Nepamatujete si na mě? Známe se přece z útulku pro bezdomovce...	}{	Cože? Nepamatujete si na mě? Známe se přece z útulku pro bezdomovce...	}{	21	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	Nevzpomenete si na přátelskou známou tvář?	}
+{	15	}{	Jestli nezačneš okamžitě mluvit, tak zrecykluju tebe!	}{	Jestli nezačneš okamžitě mluvit, tak zrecykluju tebe!	}{	21	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Mluv nebo udělám guláš z tvých vnitřností...	}
+{	16	}{	Uklidni se zlatíčko. Víš, mě vždycky přitahovaly staší ženy...	}{	Uklidni se zlatíčko. Víš, mě vždycky přitahovaly staší ženy...	}{	21	}{	Seduction 4 & pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Pod tvou uschlou krásou se mi podlamují kolena. Nepovíš mi svůj příběh?	}
+{	17	}{	A nezmění desetidolarovka váš názor?	}{	A nezmění desetidolarovka váš názor?	}{	21	}{	Haggle 5 & pc.CurrentMoney() >= 10	}{	pc.MoneyRemove( 10 )	}{	}{	}{	}{	}{	}{	}{	Promaže vám deset babek hlasivky?	}
+{	18	}{	Myslíte, že dvacet babek změní váš pohled na věc?	}{	Myslíte, že dvacet babek změní váš pohled na věc?	}{	21	}{	Haggle -5 & pc.CurrentMoney() >= 20	}{	pc.MoneyRemove( 20 )	}{	}{	}{	}{	}{	}{	}{	Dvacet lupenů za vaše hloupé plkání?	}
+{	19	}{	Vaše plechovky mě nezajímají, potřebuji jen informaci...	}{	Vaše plechovky mě nezajímají, potřebuji jen informaci...	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Váš vratný poklad mě nezaujal!	}
+{	20	}{	Nebudete přece něco tajit před někým jako já...	}{	Nebudete přece něco tajit před někým jako já...	}{	21	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	No dobrá. Vím jen to, že starej Bill Plechovka cosi brebentil o jakési příšeře, co ho někam odvlekla a nakazila. Víc nevím a nepovím.	}{	No dobrá. Vím jen to, že starej Bill Plechovka cosi brebentil o jakési příšeře, co ho někam odvlekla a nakazila. Víc nevím a nepovím.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	A kde je ten Bill Plechovka?	}{	A kde je ten Bill Plechovka?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	A kde najdu toho plechového muže?	}
+{	31	}{	Normálně je ve své uličce, co je naproti od tamtoho baru.	}{	Normálně je ve své uličce, co je naproti od tamtoho baru.	}{	#	}{	}{	G.TinCanBill_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Díky a nashle.	}{	Díky a nashle.	}{	0	}{	pc.GetQuestState("Plague") == 9 and pc.GetQuestState("AllPlague") != 11	}{	pc.SetQuest("AllPlague",10)	}{	}{	}{	}{	}{	}{	}{	Sbohem, má ucouraná krásko.	}
+{	33	}{	Díky a nashle.	}{	Díky a nashle.	}{	0	}{	not (pc.GetQuestState("Plague") == 9 or pc.GetQuestState("Plague") == 6)	}{	pc.SetQuest("Plague",5)	}{	}{	}{	}{	}{	}{	}{	Sbohem, má ucouraná krásko.	}
+{	34	}{	Díky a nashle.	}{	Díky a nashle.	}{	0	}{	pc.GetQuestState("Plague") == 6 or pc.GetQuestState("AllPlague") == 11	}{	}{	}{	}{	}{	}{	}{	}{	Sbohem, má ucouraná krásko.	}
+{	41	}{	Tak to už jsem slyšela mockrát! Vraťte se s nějakými dolary a možná vám uvěřím!	}{	Tak to už jsem slyšela mockrát! Vraťte se s nějakými dolary a možná vám uvěřím!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Řekněte, co víte!	}{	Řekněte, co víte!	}{	21	}{	Dominate 2 & IsClan(pc, "Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	Zpívej píseň o temné nemoci, duchaprázdná ženo!	}{	Zpívej píseň o temné nemoci, duchaprázdná ženo!	}{	21	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{	Hej! Přece se známe z binga! Řeknete mi, co víte...	}{	Hej! Přece se známe z binga! Řeknete mi, co víte...	}{	21	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	Nevzpomenete si na přátelskou známou tvář?	}
+{	45	}{	Tohle je poslední varování, žebračko.	}{	Tohle je poslední varování, žebračko.	}{	21	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Mluv nebo udělám guláš z tvých vnitřností...	}
+{	46	}{	Jste tak krásná, když se zlobíte. Určitě mi nic neřeknete?	}{	Jste tak krásná, když se zlobíte. Určitě mi nic neřeknete?	}{	21	}{	Seduction 4 & pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Pod vaší uschlou krásou se mi podlamují kolena. Nepovíte mi svůj příběh?	}
+{	47	}{	Dobrá, dobrá, tady máte deset babek. A teď mluvte.	}{	Dobrá, dobrá, tady máte deset babek. A teď mluvte.	}{	21	}{	Haggle 5 & pc.CurrentMoney() >= 10	}{	pc.MoneyRemove( 10 )	}{	}{	}{	}{	}{	}{	}{	Promaže vám deset babek hlasivky?	}
+{	48	}{	Fajn. Tu máte dvacku a spusťte.	}{	Fajn. Tu máte dvacku a spusťte.	}{	21	}{	Haggle -5 & pc.CurrentMoney() >= 20	}{	pc.MoneyRemove( 20 )	}{	}{	}{	}{	}{	}{	}{	Dvacet lupenů za vaše hloupé plkání?	}
+{	49	}{	Peníze nechcete, má přítomnost je více než vynahradí.	}{	Peníze nechcete, má přítomnost je více než vynahradí.	}{	21	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	50	}{	Jak chcete. Jdu pryč.	}{	Jak chcete. Jdu pryč.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše vratná kořist mě neoslovuje!	}
+{	51	}{	P-prosím, nechte mě být!	}{	P-prosím, nechte mě být!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Uklidněte se. Jsem milejší, než si myslíte. Jen potřebuju informace o té místní epidemii...	}{	Uklidněte se. Jsem milejší, než si myslíte. Jen potřebuju informace o té místní epidemii...	}{	61	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{	Pokud nechce vypadat jako já, vyklopte, co víte o té epidemii...	}{	Pokud nechce vypadat jako já, vyklopte, co víte o té epidemii...	}{	61	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Vím jen to, že starej Bill Plechovka c-cosi říkal o jakési příšeře, co ho někam o-odvlekla a nakazila. Najdete ho v uličce, co je naproti od baru. P-prosím. N-neubližujte mi.	}{	Vím jen to, že starej Bill Plechovka c-cosi říkal o jakési příšeře, co ho někam o-odvlekla a nakazila. Najdete ho v uličce, co je naproti od baru. P-prosím. N-neubližujte mi.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	G.TinCanBill_Nos = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Promiňte, pokud jsem vás vyděsil.	}{	Promiňte, pokud jsem vás vyděsila.	}{	0	}{	pc.GetQuestState("Plague") == 9 and pc.GetQuestState("AllPlague") != 11	}{	pc.SetQuest("AllPlague",10)	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	Jestli to řeknete ještě někomu, je po vás, babo. Jasný?	}{	Jestli to řeknete ještě někomu, je po vás, babo. Jasný?	}{	0	}{	pc.GetQuestState("Plague") == 9 and pc.GetQuestState("AllPlague") != 11	}{	pc.SetQuest("AllPlague",10)	}{	}{	}{	}{	}{	}{	}{	}
+{	64	}{	Promiňte, pokud jsem vás vyděsil.	}{	Promiňte, pokud jsem vás vyděsila.	}{	0	}{	not (pc.GetQuestState("Plague") == 9 or pc.GetQuestState("Plague") == 6)	}{	pc.SetQuest("Plague",5)	}{	}{	}{	}{	}{	}{	}{	}
+{	65	}{	Jestli to řeknete ještě někomu, je po vás, babo. Jasný?	}{	Jestli to řeknete ještě někomu, je po vás, babo. Jasný?	}{	0	}{	not (pc.GetQuestState("Plague") == 9 or pc.GetQuestState("Plague") == 6)	}{	pc.SetQuest("Plague",5)	}{	}{	}{	}{	}{	}{	}{	}
+{	66	}{	Promiňte, pokud jsem vás vyděsil.	}{	Promiňte, pokud jsem vás vyděsila.	}{	0	}{	pc.GetQuestState("Plague") == 6 or pc.GetQuestState("AllPlague") == 11	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	67	}{	Jestli to řeknete ještě někomu, je po vás, babo. Jasný?	}{	Jestli to řeknete ještě někomu, je po vás, babo. Jasný?	}{	0	}{	pc.GetQuestState("Plague") == 6 or pc.GetQuestState("AllPlague") == 11	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	N-nechte mě být...	}{	N-nechte mě být...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	P-prosím. Dejte mi pokoj!	}{	P-prosím. Dejte mi pokoj!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	77	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Nesete nějaké peníze nebo chcete pořád ukrást moje plechovky?	}{	Nesete nějaké peníze nebo chcete pořád ukrást moje plechovky?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Řekněte, co víte!	}{	Řekněte, co víte!	}{	21	}{	Dominate 2 & IsClan(pc, "Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	Zpívej píseň o temné nemoci, duchaprázdná ženo!	}{	Zpívej píseň o temné nemoci, duchaprázdná ženo!	}{	21	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	84	}{	Hej! Přece se známe z binga! Řeknete mi, co víte...	}{	Hej! Přece se známe z binga! Řeknete mi, co víte...	}{	21	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	Nevzpomenete si na přátelskou známou tvář?	}
+{	85	}{	Buď začnete mluvit nebo vás donutím ty plechovky sežrat.	}{	Buď začnete mluvit nebo vás donutím ty plechovky sežrat.	}{	21	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Mluv nebo udělám guláš z tvých vnitřností...	}
+{	86	}{	Vaše vlasy tak nádherně září v měsíčním světle. Promluv, má lásko...	}{	Vaše vlasy tak nádherně září v měsíčním světle. Promluv, má lásko...	}{	21	}{	Seduction 4 & pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Pod vaší uschlou krásou se mi podlamují kolena. Nepovíš mi svůj příběh?	}
+{	87	}{	Tady máte deset babek a řekněte, co víte o té epidemii...	}{	Tady máte deset babek a řekněte, co víte o té epidemii...	}{	21	}{	Haggle 5 & pc.CurrentMoney() >= 10	}{	pc.MoneyRemove( 10 )	}{	}{	}{	}{	}{	}{	}{	Promaže vám deset babek hlasivky?	}
+{	88	}{	Tady máte dvacku. A teď mi řekněte, co víte o té epidemii...	}{	Tady máte dvacku. A teď mi řekněte, co víte o té epidemii...	}{	21	}{	Haggle -5 & pc.CurrentMoney() >= 20	}{	pc.MoneyRemove( 20 )	}{	}{	}{	}{	}{	}{	}{	Dvacet lupenů za vaše hloupé plkání?	}
+{	89	}{	Pokoušíš se mít tajemství před někým jako jsem já?	}{	Pokoušíš se mít tajemství před někým jako jsem já?	}{	21	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	90	}{	Už jsem vám říkal, že vaše plechovky nechci...	}{	Už jsem vám říkala, že vaše plechovky nechci...	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše vratná kořist mě neoslovuje!	}
+{	102	}{	(Starting Condition)	}{	}{	51	}{	IsClan(pc,"Nosferatu") and G.TinCanBill_Nos == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	103	}{	(Starting Condition)	}{	}{	76	}{	IsClan(pc,"Nosferatu") and G.TinCanBill_Nos == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	104	}{	(Starting Condition)	}{	}{	71	}{	G.TinCanBill_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	105	}{	(Starting Condition)	}{	}{	81	}{	G.TinCanBill_Heard_F == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
