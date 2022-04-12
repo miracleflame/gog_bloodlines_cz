@@ -361,12 +361,12 @@ DisciplineTgt
 
 		"Dmg_Health"		"35%"
 
-		Trigger_Casting
-		{
-			"DisciplineFX"	"Use_Spell"
-			"Source"		"Target"
-			"Affects"		"Self"
-		}
+		//Trigger_Casting
+		//{
+		//	"DisciplineFX"	"Use_Spell"
+		//	"Source"		"Target"
+		//	"Affects"		"Self"
+		//}
 
 		Effect_Tgt_Hit
 		{
@@ -450,12 +450,12 @@ DisciplineTgt
 
 		"Dmg_Health"		"19-35%"
 
-		Trigger_Casting
-		{
-			"DisciplineFX"	"Use_Spell"
-			"Source"		"Target"
-			"Affects"		"Self"
-		}
+		//Trigger_Casting
+		//{
+		//	"DisciplineFX"	"Use_Spell"
+		//	"Source"		"Target"
+		//	"Affects"		"Self"
+		//}
 
 		Effect_Tgt_Hit
 		{
@@ -485,12 +485,12 @@ DisciplineTgt
 //		"AI_Schedule"		"SCHED_TROIKA_D_BLOODSHOT_KNOCKBACK"
 		"Duration"			"2"
 
-		Trigger_Casting
-		{
-			"DisciplineFX"	"Use_Spell"
-			"Source"		"Target"
-			"Affects"		"Self"
-		}
+		//Trigger_Casting
+		//{
+		//	"DisciplineFX"	"Use_Spell"
+		//	"Source"		"Target"
+		//	"Affects"		"Self"
+		//}
 
 		Effect_Tgt_Hit
 		{
@@ -539,12 +539,12 @@ DisciplineTgt
 //		"AI_Schedule"		"SCHED_TROIKA_D_BLOODSHOT_KNOCKBACK"
 		"Duration"			"2"
 
-		Trigger_Casting
-		{
-			"DisciplineFX"	"Use_Spell"
-			"Source"		"Target"
-			"Affects"		"Self"
-		}
+		//Trigger_Casting
+		//{
+		//	"DisciplineFX"	"Use_Spell"
+		//	"Source"		"Target"
+		//	"Affects"		"Self"
+		//}
 
 		Effect_Tgt_Hit
 		{
@@ -585,12 +585,12 @@ DisciplineTgt
 //		"AI_Schedule"		"SCHED_TROIKA_D_BLOODSHOT_KNOCKBACK"
 		"Duration"			"2"
 
-		Trigger_Casting
-		{
-			"DisciplineFX"	"Use_Spell"
-			"Source"		"Target"
-			"Affects"		"Self"
-		}
+		//Trigger_Casting
+		//{
+		//	"DisciplineFX"	"Use_Spell"
+		//	"Source"		"Target"
+		//	"Affects"		"Self"
+		//}
 
 		Effect_Tgt_Hit
 		{
@@ -651,12 +651,12 @@ DisciplineTgt
 
 		"Dmg_Health"		"2-3%"
 
-		Trigger_Casting
-		{
-			"DisciplineFX"	"Use_Spell"
-			"Source"		"Target"
-			"Affects"		"Self"
-		}
+		//Trigger_Casting
+		//{
+		//	"DisciplineFX"	"Use_Spell"
+		//	"Source"		"Target"
+		//	"Affects"		"Self"
+		//}
 
 		Effect_Tgt_Hit
 		{
@@ -693,7 +693,7 @@ DisciplineTgt
 	"Discipline"	"Thaumaturgy"
 	"Level"		"2"
 
-	"TgtHightlightParticle"	"D_Target_Aura_Emitter"
+// wesp	"TgtHightlightParticle"	"D_Target_Aura_Emitter"
 
 	"ViewModel"		"models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"
 	"BloodCost"		"2"
@@ -773,6 +773,45 @@ DisciplineTgt
 			Mapping
 			{
 				"HitTable"	"Hit_Invulnerable"
+			}
+		}
+
+           Affects_Table	// added by wesp
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Killer"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+           Affects_Table	// added by wesp
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"ChangBros"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+           Affects_Table	// added by wesp
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"ChangBrosClaw"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
 			}
 		}
 
@@ -1194,6 +1233,13 @@ DisciplineTgt
 	Hit_Supernatural_NoEffect
 	{
 		"Duration"			"3"	// In order to play particles/etc.
+
+		Trigger_Casting
+		{
+			"DisciplineFX"	"Use_Spell"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
 
 		Effect_Tgt_Hit
 		{
@@ -2031,8 +2077,13 @@ DisciplineTgt
 	{
 // wesp		"AI_Schedule"		"SCHED_TROIKA_DO_THEFTOFVITAE_ACTIVITY"
 		"Duration"			"3"
-// wesp		"Gesture_Anim"		"ACT_THEFTPAIN_PRE_INTO"
-// wesp		"Gesture_Duration"		"1.0"
+		"Gesture_Anim"		"ACT_BLOOD_MALADY_LOOP"	// changed by wesp
+		"Gesture_Duration"		"1.0"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Thaumaturgy-Blood Malady)"	// added by wesp
+		}
 
 		Trigger_Casting
 		{
@@ -2781,6 +2832,7 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
+           "AI_Schedule"		"SCHED_TROIKA_DO_BLOODBOIL_ACTIVITY"	// added by wesp
 		"Duration"			"3"	// In order to play particles/etc.
 
 		Trigger_Casting
@@ -3210,10 +3262,10 @@ DisciplineTgt
 		"Duration"		"2.7"
 		"Gesture_Anim"		"ACT_CAST_LAYER_HOLY_LIGHT"
 		"Gesture_Duration"	"2.0"
-		//TraitEffect
-		//{
-		//	"Effect"	"Discipline (Default - use Spell)"
-		//}
+		TraitEffect
+		{
+			"Effect"	"Discipline (Default - use Spell)"
+		}
 	}
 	Brujah
 	{

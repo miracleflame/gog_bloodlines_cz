@@ -73,7 +73,7 @@ SoundScheme
 
 	RandomSound
 	{
-		"Filename"	"Whispers\Distrust\Hemlock alt.wav"
+		"Filename"	"Whispers\Distrust\Hemlock.wav"		// changed by wesp
 		"PitchMin"	"100"	
 		"PitchMax"	"100"
 		"Volume"	"25"
@@ -108,7 +108,7 @@ SoundScheme
 
 	RandomSound
 	{
-		"Filename"	"Whispers\Ambiguous\Moon alt.wav"
+		"Filename"	"Whispers\Ambiguous\Moon.wav"		// changed by wesp
 		"PitchMin"	"100"	
 		"PitchMax"	"100"
 		"Volume"	"25"
@@ -146,6 +146,23 @@ SoundScheme
 		"PitchMin"	"100"	
 		"PitchMax"	"100"
 		"Volume"	"90"
+		"Frequency"	"20"
+		
+		"AudibleRadius"		"2500"		// when played, the sound will be attenuated so that it can be heard from this far away
+		"DistMin"		"500"		// the sound will be played at a point no less than this distance from the player
+		"DistMax"		"600"		// the sound will be played at a point no farther than this distance from the player
+		"HeightMin"		"0"		// the sound will played no lower than these many units below the sound scheme entity
+		"HeightMax"		"0"		// the sound will be played no higher than these many units above the sound scheme entity
+		"AngleMin"		"180"
+		"AngleMax"		"360"
+	}
+
+	RandomSound
+	{
+		"Filename"	"area\special\tutorial\sabbatcardoors.wav"	// added by wesp
+		"PitchMin"	"100"	
+		"PitchMax"	"100"
+		"Volume"	"75"
 		"Frequency"	"20"
 		
 		"AudibleRadius"		"2500"		// when played, the sound will be attenuated so that it can be heard from this far away

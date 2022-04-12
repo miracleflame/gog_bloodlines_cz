@@ -229,7 +229,7 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Small"
-			"Text"		"Any Kindred who wishes to blend into mortal society must obey its laws. Criminal acts - assault, burglary, murder - are met with brutal force from human law enforcement."
+			"Text"		"Any Kindred who wishes to blend into mortal society must obey its laws. Criminal acts - assault, burglary, murder, or brandishing weapons in public areas - are met with brutal force from human law enforcement."	// changed by wesp
 		}
 
 //		//Game tips
@@ -462,7 +462,8 @@ If you fail to pick a lock, use Bloodbuff. The temporary increase in Dexterity w
 			"Size"		"Small"
 			"CharTemplate"	"Player_Brujah"
 			"Text"		"Use a cab to travel between cities and other distant locales.
-As new areas become available, they will be added to the cab map."
+As new areas become available, they will be added to the cab map.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -472,7 +473,8 @@ As new areas become available, they will be added to the cab map."
 			"Size"		"Small"
 			"CharTemplate"	"Player_Gangrel"
 			"Text"		"Use a cab to travel between cities and other distant locales.
-As new areas become available, they will be added to the cab map."
+As new areas become available, they will be added to the cab map.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -482,7 +484,8 @@ As new areas become available, they will be added to the cab map."
 			"Size"		"Small"
 			"CharTemplate"	"Player_Malkavian"
 			"Text"		"Use a cab to travel between cities and other distant locales.
-As new areas become available, they will be added to the cab map."
+As new areas become available, they will be added to the cab map.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -492,7 +495,8 @@ As new areas become available, they will be added to the cab map."
 			"Size"		"Small"
 			"CharTemplate"	"Player_Toreador"
 			"Text"		"Use a cab to travel between cities and other distant locales.
-As new areas become available, they will be added to the cab map."
+As new areas become available, they will be added to the cab map.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -502,7 +506,8 @@ As new areas become available, they will be added to the cab map."
 			"Size"		"Small"
 			"CharTemplate"	"Player_Tremere"
 			"Text"		"Use a cab to travel between cities and other distant locales.
-As new areas become available, they will be added to the cab map."
+As new areas become available, they will be added to the cab map.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -512,7 +517,8 @@ As new areas become available, they will be added to the cab map."
 			"Size"		"Small"
 			"CharTemplate"	"Player_Ventrue"
 			"Text"		"Use a cab to travel between cities and other distant locales.
-As new areas become available, they will be added to the cab map."
+As new areas become available, they will be added to the cab map.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -2137,7 +2143,7 @@ Not all firearms have alternate fire modes."
 			"Type"		"Game"
 			"StoryState"	"35"
 			"Size"		"Small"
-			"Text"		"The Feat Adjustment is the difference between your skill (feat score) and the requirement of a weapon. This adjustment is applied to the weapon's Lethality."
+			"Text"		"The Feat Adjustment is the difference between your skill (feat score) and the requirement of a weapon. This adjustment is added to the weapon's Lethality."	// changed by wesp
 		}
 
 /////////////////////////
@@ -2295,7 +2301,7 @@ Not all firearms have alternate fire modes."
 			"Type"		"Game"
 			"StoryState"	"40"
 			"Size"		"Small"
-			"Text"		"The Feat Adjustment is the difference between your skill (feat score) and the requirement of a weapon. This adjustment is applied to the weapon's Lethality."
+			"Text"		"The Feat Adjustment is the difference between your skill (feat score) and the requirement of a weapon. This adjustment is added to the weapon's Lethality."	// changed by wesp
 		}
 
 /////////////////////////

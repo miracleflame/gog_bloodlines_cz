@@ -1,0 +1,18 @@
+Particle	// added by wesp
+{
+	frames 		"15"
+//	max_frames	"80"
+	sprite		"StarSOF"
+	size		".25~0.5,.22"
+
+	rotation	"100,-360~360"
+	Parent_speed	"1"
+	Radius_speed	"3~6"
+	red		"455,255"
+	green		"255"
+	blue		"955,0"
+	color		"0,60,0"
+	mask		"0"
+}
+
+

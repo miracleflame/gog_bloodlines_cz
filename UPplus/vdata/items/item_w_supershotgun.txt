@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"		"Franchi SPAS-15"	// changed by wesp
-	"description"		"The SPAS-15 semi-automatic shotgun looks and fires more like an assault rifle than a traditional shotgun. It delivers bursts of deadly shot at a devastating pace. The SPAS-15 has both semi-automatic and pump action functionality."	// changed by wesp
+	"description"		"The SPAS-15 automatic shotgun looks and fires more like an assault rifle than a traditional shotgun. It delivers bursts of deadly shot at a devastating pace. The SPAS-15 has both automatic and pump action functionality."	// changed by wesp
 	"viewmodel"		"models/weapons/supershotgun/view/v_supershotgun.mdl"
 	"playermodel"		"models/weapons/supershotgun/ground/g_supershotgun.mdl"
 	"wieldmodel_f"		"models/weapons/supershotgun/wield/w_f_supershotgun.mdl"
@@ -54,7 +54,7 @@ WeaponData
 	Magazine
 	{
 		"ammoprintname"		"SPAS-15 12 Gauge Shells"	// changed by wesp
-		"ammodescription"	"This magazine holds six 12 gauge shells for the SPAS-15."	// changed by wesp
+		"ammodescription"	"This magazine holds six 12 gauge 000 buck shells for the SPAS-15."	// changed by wesp
 		"ammo_worth"		"12"//"18"
 		"ammoinfomodel"		"models/weapons/ammo/supershotgun/i_supershotgun_ammo.mdl"
 
@@ -115,16 +115,14 @@ WeaponData
 		"CrosshairRunSizeMax"	"66"		//"90"	// max size of the crosshair when the player is running [0-99]
 
 		"CrosshairIncSpeedMin"	"40"	//"60"min speed(10 Firearm Feat) at which to increase bloom -low # slower
-		"CrosshairIncSpeedMax"	"40"	//"60"max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairIncSpeedMax"	"60"	//"60"max speed(1 Firearm Feat) at which to increase bloom -high # faster, changed by wesp
 		"CrosshairDecSpeedMin"	"8"	//min speed(1 Firearm Feat) at which to decrease bloom -low # slower
 		"CrosshairDecSpeedMax"	"20"	//"40"max speed(10 Firearm Feat) at which to decrease bloom -high # faster
 
 		"CrosshairFirePercent"	"0.8"			// percent to bloom to crosshair upon firing a bullet
 
-		"MajorKnockbackDist"	"50.0"			// maximum distance to cause major knockback, changed by Wesp
+		"MajorKnockbackDist"	"105.0"			// maximum distance to cause major knockback
 		"MinorKnockbackDist"	"250.0"			// maximum distance to cause minor knockback
-
-
 
 		"SpreadAngle"		"7.0"
 		"CriminalLevel"	"4"

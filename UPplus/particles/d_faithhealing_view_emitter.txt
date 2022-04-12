@@ -1,0 +1,14 @@
+Particle	// added by wesp
+{
+	loop "0"
+	fps "30"
+
+	spawn
+	{
+		particle "d_faithhealing_view"
+		rate "30"
+		radius "0"
+	}
+
+}
+

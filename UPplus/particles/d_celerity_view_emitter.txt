@@ -1,0 +1,13 @@
+Particle	// added by wesp
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle "d_celerity_emitter"
+		rate "30"
+		radius ".4~1"
+	}
+
+}

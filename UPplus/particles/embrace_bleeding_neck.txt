@@ -1,4 +1,4 @@
-Particle
+Particle	// changed by wesp
 {
 	loop	"0"
 	frames	"250"
@@ -9,8 +9,8 @@ Particle
 		rate "1"
 		phi	"0~360"
 		theta	"0~360"
-		z	"11"
-		x	"-0.2"
+		z	"5"	// changed by wesp from 11
+		x	"-1.2"	// changed by wesp from -0.2
 		y	"-2.5"
 	}
 
@@ -20,19 +20,19 @@ Particle
 		rate "1"
 		phi	"0~360"
 		theta	"0~360"
-		z	"11"
-		x	"0.5"
+		z	"5"	// changed by wesp from 11
+		x	"-0.5"	// changed by wesp from 0.5
 		y	"-2.5"
 	}
 
 	spawn
 	{
 		particle "embrace_bleeding_neck_fx2"
-		burst "1"
+		burst "12"
 		phi	"0~360"
 		theta	"0~360"
-		z	"11"
-		x	"-0.2"
+		z	"5"	// changed by wesp from 11
+		x	"-1.2"	// changed by wesp from -0.2
 		y	"-2.5"
 	}
 
@@ -42,8 +42,8 @@ Particle
 		burst "1"
 		phi	"0~360"
 		theta	"0~360"
-		z	"11"
-		x	"0.5"
+		z	"5"	// changed by wesp from 11
+		x	"-0.5"	// changed by wesp from 0.5
 		y	"-2.5"
 	}
 }
