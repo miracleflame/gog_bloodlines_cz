@@ -34,7 +34,7 @@ V žurnálu jsou informace a instrukce týkající se tvých úkolů a také ins
 		"Wide"		"375"
 		"Tall"		"225"	//375
 		"TextRGBA"		"[245, 245, 245, 200]"
-		"BackgroundRGBA"		"[0, 0, 0, 100]"
+		"BackgroundRGBA"		"[0, 0, 0, 0]"
 	}
 
 	TextBlock
@@ -45,7 +45,7 @@ V žurnálu jsou informace a instrukce týkající se tvých úkolů a také ins
 		"Wide"		"215"
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
-		"BackgroundRGBA"		"[0, 0, 0, 100]"
+		"BackgroundRGBA"		"[0, 0, 0, 0]"
 		"Font"		"Trebuchet"
 	}
 }

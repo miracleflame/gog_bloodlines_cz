@@ -286,7 +286,7 @@ StringData
 			"Name7"		"Použít"                // Equip
 			"Name8"		"Nepoužitelné" 						        // Can't equip
 			"Name9"		"Přečíst"
-			"Name10"	"Mimo úroveň"
+			"Name10"		"Mimo úroveň"
 			"Name11"	"Použít"                // Use
 			"Name12"	"Nepoužitelné"											// Can't use
 		}
@@ -305,15 +305,15 @@ StringData
 //			"Name8"	"CURRENT"  // Changed to fix clipping issue
 		}
 
-		UIKnowledgeStrs	// basic
+		UIKnowledgeStrs	// changed by wesp
 		{
 			"Name0"		"Mžouráš na ty klikaté značky na stránkách, ale nějak ti nedochází, co znamenají.  I přesto máš nejasný dojem, že je tam napsané 'negramotný tupče'."
 			"Name1"		"Ve Světě temnoty není dost světla, aby se tahle kniha dala číst. Přinejmenším ne pro tebe, omezenče!"
 			"Name2"		"Jako produktu českého veřejného školství je tato kniha za hranicemi tvého chápání."
 			"Name3"		"Jako by tam bylo napsáno něco jako 'Kopírování zakázáno!', ale určitě to čteš špatně."
 			"Name4"		"Páni, teď by se ti fakt hodilo vědět, co je to ten antidisestablishmentarizmus."
-			"Name5"		"Nemáš ponětí, co by se z téhle knihy dalo vyčíst." //"In the game of life, your reading skills are ET for the 2600."
-			"Name6"		"Nemáš ponětí, co by se z téhle knihy dalo vyčíst." //"Vampire might not need glasses, but they DO need 'Hooked on Phonics.'"
+			"Name5"		"In the game of life, your reading skills are ET for the 2600."
+			"Name6"		"Vampire might not need glasses, but they DO need 'Hooked on Phonics.'"
 			"Name7"		"Nemáš tolik pít z puberťáků, běž vycucnout knihovníka a třeba ti dojde, o čem to je."
 		}
 
@@ -521,7 +521,7 @@ StringData
 //				"Name3"	"Hide"	// Command the Wearied Mind 1d
 //				"Name4"	"Jump"	// Command the Wearied Mind 1e
 //				"Name5"	"Leave"	// Command the Wearied Mind 1f
-//				"wName6"	"Mesmerize"				// 2
+//				"Name6"	"Mesmerize"				// 2
 //				"Name7"	"Sleep"				// 3
 //				"Name8"	"Impose Will"			// 4
 //				"Name9"	"Possession"			// 5

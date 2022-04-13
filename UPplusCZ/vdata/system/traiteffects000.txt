@@ -26,7 +26,7 @@ TraitEffectsData
 //					"Value"	-- Ignore the base value.  Use this instead.
 //					"Cost"	-- Use this cost structure instead of the default.
 //					"BloodCost"	-- Modify the BloodCost to activate this (discipline) by a given value (+/-).
-//					"Po#kození"	-- Modify the Damage from this (discipline) by a given %.
+//					"Poškození"	-- Modify the Damage from this (discipline) by a given %.
 //					"Trvání"	-- Modify the Duration of this (discipline) by a given %.
 //	}
 //
@@ -755,7 +755,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"BloodPool"	// This is a "Feeding" penalty
-				"Modifier"	"Po#kození -2"
+				"Modifier"	"Poškození -2"
 			}
 		}
 
@@ -785,7 +785,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"BloodPool"
-				"Modifier"	"Po#kození 2"	// changed by wesp
+				"Modifier"	"Poškození 2"	// changed by wesp
 			}
 			TraitEffect
 			{	// Restrict it to only the opposite gender
@@ -805,7 +805,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"BloodPool"
-				"Modifier"	"Po#kození 2"	// changed by wesp
+				"Modifier"	"Poškození 2"	// changed by wesp
 			}
 			TraitEffect
 			{	// Restrict it to only the opposite gender
@@ -925,7 +925,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"BloodPool"	// This is a "Feeding" Bonus (Constrained by the above flag to only work for Tramps)
-				"Modifier"	"Po#kození 2"	// changed by wesp
+				"Modifier"	"Poškození 2"	// changed by wesp
 			}
 //			Knowledge Advancement Penalty
 			TraitEffect
@@ -1310,7 +1310,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"Animalism"
-				"Modifier"	"Po#kození 135%"			
+				"Modifier"	"Poškození 135%"			
 			}
 			TraitEffect
 			{
@@ -1434,7 +1434,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"Dementation"	// changed by wesp
-				"Modifier"	"Po#kození 140%"
+				"Modifier"	"Poškození 140%"
 			}
 			TraitEffect
 			{
@@ -1521,7 +1521,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"Animalism"
-				"Modifier"	"Po#kození 135%"			
+				"Modifier"	"Poškození 135%"			
 			}
 			TraitEffect
 			{
@@ -1687,7 +1687,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"Dominate"
-				"Modifier"	"Po#kození 140%"
+				"Modifier"	"Poškození 140%"
 			}
 
 			TraitEffect
@@ -1822,7 +1822,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"Thaumaturgy"
-				"Modifier"	"Po#kození 200%"
+				"Modifier"	"Poškození 200%"
 			}
 
 			TraitEffect
@@ -1834,8 +1834,8 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"BloodPool"
-//				"Modifier"	"Po#kození 2"
-				"Modifier"	"Po#kození -2"
+//				"Modifier"	"Poškození 2"
+				"Modifier"	"Poškození -2"
 			}
 
 			TraitEffect
@@ -1934,7 +1934,11 @@ TraitEffectsData
 				"Trait"	"Dodge"
 				"Modifier"	"Max 3"
 			}
-
+			TraitEffect
+			{
+				"Trait"	"item_w_tzimisce2_head"
+				"Modifier"	"+1"
+			}
 		}
 
 		TraitEffectGroup
@@ -2195,7 +2199,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"BloodPool"
-				"Modifier"	"Po#kození 2"	// changed by wesp
+				"Modifier"	"Poškození 2"	// changed by wesp
 			}
 			TraitEffect
 			{	// Restrict it to only the opposite gender
@@ -2220,7 +2224,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"Intelligence"
-				"Modifier"	"Max 3"	// changed by wesp
+				"Modifier"	"Max 3"
 			}
 		}
 
@@ -2233,7 +2237,13 @@ TraitEffectsData
 				"Modifier"	"+1"
 			}
 
-			TraitEffect
+			TraitEffect	// added by wesp
+			{
+				"Trait"	"Dodge"
+				"Modifier"	"+1"
+			}
+
+			TraitEffect	// added by wesp
 			{
 				"Trait"	"Perception"
 				"Modifier"	"Max 3"
@@ -2614,6 +2624,7 @@ TraitEffectsData
 				"Modifier"	"+1"
 			}
 		}
+
 		TraitEffectGroup
 		{
 			"InternalName"	"Discipline (Fortitude3)"
@@ -2629,6 +2640,7 @@ TraitEffectsData
 				"Modifier"	"+1"
 			}
 		}
+
 		TraitEffectGroup
 		{
 			"InternalName"	"Discipline (Fortitude4)"
@@ -2644,6 +2656,7 @@ TraitEffectsData
 				"Modifier"	"+1"
 			}
 		}
+
 		TraitEffectGroup
 		{
 			"InternalName"	"Discipline (Fortitude5)"
@@ -3137,13 +3150,11 @@ TraitEffectsData
 				"Trait"	"Excluded_Equipment"
 				"Modifier"	"Value Clawed_Form"
 			}
-
 			TraitEffect
 			{
 				"Trait"	"item_w_fists"
 				"Modifier"	"-1"
 			}
-
 			TraitEffect
 			{
 				"Trait"	"item_w_claws"
@@ -3607,7 +3618,7 @@ TraitEffectsData
 			TraitEffect
 			{
 				"Trait"	"Thaumaturgy"
-				"Modifier"	"Po#kození 140%"	// changed by wesp from 138%
+				"Modifier"	"Poškození 140%"	// changed by wesp from 138%
 			}
 		}
 

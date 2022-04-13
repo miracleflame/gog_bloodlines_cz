@@ -1,7 +1,5 @@
 LoadingTips
 {
-
-
 //
 //
 //	[Loading Tips]
@@ -10,9 +8,6 @@ LoadingTips
 //		LOCALIZATION:	Localize/Translate the "Text" Fields ***ONLY***!!!
 //
 //
-
-
-
 //
 //
 //
@@ -35,8 +30,6 @@ LoadingTips
 //	}
 //
 
-
-
 /////////////////////////
 /////////////////////////
 //before starting a new game(into character creation): G.Story_State = -6
@@ -56,7 +49,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"-6"
 			"Size"		"Small"
-
 			"Text"		"Ve světě temnoty tahají nesmrtelná monstra za nitky osudu lidstva. Je to svět plný násilí a zoufalství, ale útěk z něj je na denním pořádku, což je možná až příliš často..."
 		}
 
@@ -78,7 +70,7 @@ LoadingTips
 			"Size"		"Small"
 			"Text"		"Vampíři se neskrývají jen před smrtelníky, ale i sami před sebou, ve snaze nevidět, jaké zrůdy se z nich ve skutečnosti staly."
 		}
-	
+
 		// StoryState -3, before the tutorial
 		Tip
 		{
@@ -99,7 +91,6 @@ LoadingTips
 		Princ Lacroix pro tebe vyčlenil jeden z bezpečných bytů patřících Kamarille. V něm najdeš některé důležité věci, jako počítač a svou e-mailovou schránku. Tento byt je tvá základna."
 		}
 
-
 		// StoryState -1, before SM proper
 		Tip
 		{
@@ -109,17 +100,15 @@ LoadingTips
 			"Text"		"Porušením Maškarády, které způsobíš odhalením nebo prozrazením existence nadpřirozených jevů před smrtelníky, se vystavuješ riziku přepadení ze strany lovců vampírů a rovněž proti sobě obrátíš i ostatní našince. Každé porušení se ti započítá. Pokud se dopustíš pátého porušení v řadě, hra pro tebe skončí."
 		}
 
-
-
 		// StoryState 2, before first Elyisum
 		Tip
 		{
 			"Type"		"Game"
 			"StoryState"	"2"
 			"Size"		"Small"
-			"Text"		"Elyzeum:  Vstupuješ do Elyzea. Elyzeum je doména mocného vampíra. Zde nemůžeš útočit ani používat vampírské disciplíny s výjimkou Hlasu krve na Páčení. Někdy se budeš moci v Elyzeu z někoho napít, ale pokud ho vysátím zabiješ, přijdeš o část své lidskosti."
+			"Text"		"Elyzeum:
+			  Vstupuješ do Elyzea. Elyzeum je doména mocného vampíra. Zde nemůžeš útočit ani používat vampírské disciplíny s výjimkou Hlasu krve na Páčení. Někdy se budeš moci v Elyzeu z někoho napít, ale pokud ho vysátím zabiješ, přijdeš o část své lidskosti."
 		}
-
 
 		// StoryState 3, before first Combat
 		Tip
@@ -137,7 +126,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Vampíři musí být opatrní a stále mít na paměti dodržování Maškarády. Pokud by lidská společnost jako celek upřela svou pozornost k velké Rodině, dokázala by ji rychle rozprášit. Pověry jsou nejsilnější zbraní vampírů. Tím, že podporují lidskou neochotu uvěřit nadpřirozenému, vnucují lidem samolibou důvěru v rozum, a sami bagatelizují existenci vampírů jako výplod fantazie pomatenců, dokáží vampíři manipulovat celou společností smrtelných ovcí a chránit je i sebe před těmi málo lidmi, kteří vědí, že vampíři se skutečně potulují nocí."
 		}
 
@@ -146,7 +134,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Kamarilla je největší existující vampírská frakce, jejíž hlavním cílem je udržet v platnosti Maškarádu a tím zajistit bezpečnost velké Rodiny i v moderní době. Kamarilla je současně otevřené společenství, za své členy považuje všechny vampíry (ať už do ní chtějí patřit nebo ne), a každý vampír, bez ohledu na původ a klan, se může ke Kamarille hlásit."
 		}
 
@@ -155,7 +142,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Sabbat má svoje kořeny prý až ve stejnojmenné středověké sektě smrti. Nyní je to vampírská frakce, která je obávaná snad všemi našinci, kteří do ní nepatří. Sabbat je nestvůrný a násilnický spolek, který již dávno zavrhnul zbytky lidského uvažování a morálky. Místo toho se jeho členové vyžívají ve své vampírské existenci. Sabbatu se také říka Černá ruka a jeho hlavními cíly je svrhnout všechny tradice, zlikvidovat Kamarillu a podrobit si lidstvo jako rasu."
 		}
 
@@ -164,7 +150,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Princ:
 			Jednoduše řečeno, princ je natolik mocný vampír, že dokáže vládnout nad celým městem, kodifikovat pro něj zákony a udržet v něm mír a pořádek. Takovou pozici obvykle zastává starší vampír, protože kdo jiný než starší vampír má potřebné charizma a moc, aby byl schopen převzít a udržet vládu nad velkým městem?"
 		}
@@ -174,7 +159,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Klan:
 			Část společnosti našinců, která sdílí stejné tělesné a povahové rysy, které zdědili z krve při uchvácení. Existuje 13 známých klanů, z nichž všechny byly údajně založeny členy Třetí generace."
 		}
@@ -184,7 +168,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Lidskost:
 			Lidskost je soubor morálních zásad, které umožňují našincům udržet si svou citlivost z předchozího života, navzdory své přeměně v parazitická monstra. V zásadě je to jediná věc, která vampíra chrání před tím, aby se zvrhnul v bezduché krvelačné zvíře zotročené svou žízní."
 		}
@@ -194,7 +177,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Krev je pro vampíra zcela zásadní. Nejen že na ní závisí jeho existence, ale současně se v ní skrývá nadpřirozená moc. Lidské jídlo, vzduch nebo touha, to všechno je pro vampíra bezvýznamné. Jeho jedinou vášní je krev a bez ní začne rychle chřadnout a upadne do mrtvolné nečinnosti."
 		}
 
@@ -203,7 +185,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"O vampírech už celá staletí kolují zvěsti, že jsou to hladové noční stvůry, temné postavy, co se vynoří z temnoty, aby unášely nemluvňata z kolébek a prolévaly krev nevinných. Ovšem vampíři jsou také bytosti nadpozemské krásy, nesmírné vášně a dravé smyslnosti. Jejich nejdůležitějším společným rysem nicméně zůstává jejich zatracení. Důležitější než původ, klan, sekta nebo cíl zůstává fakt, že všichni vampíři jsou nemrtví dravci. Loajalita a povinnosti jsou proti neuhasitelné žízni vždy druhořadé."
 		}
 
@@ -212,7 +193,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Vampíři nejčastěji přebývají ve městech, i když podle některých je to spíš věc volby nežli přirozenosti. Města vampírům nabízejí všechno, co si mohou přát; takřka nevyčerpatelné zásoby krve, dostatek kontaktu, který uspokojí i ty nejdružnější, současně také dost ústraní i pro ty největší samotáře a konečně útočiště před vlkodlaky, kteří se drží spíše v divočině mimo města."
 		}
 
@@ -221,7 +201,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Vampíři, kteří potřebují schopné sluhy, si často vytvářejí ghúly. Ti vzniknou, když vampír nechá člověka nebo zvíře napít se jeho krve, aniž by nejdřív vysál tu jeho. Ghúlové sice nejsou tak mocní jako vampíři sami, ale přijatá krev vampíra jim leckdy dodá nadpřirozenou sílu, vytrvalost a houževnatost."
 		}
 
@@ -230,7 +209,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Klan Malkavian:
 			Dokonce i jiní vampíři se Malkavianů bojí. Prokletá krev jejich klanu jim zkalila mysl, takže ve výsledku je úplně každý Malkavian na světě nevyléčitelně choromyslný. Ještě horší je, že jejich šílenství může nabýt v zásadě jakékoliv podoby; od nezvládnutelných vražedných choutek až po stavy blízké katatonii."
 		}
@@ -240,17 +218,15 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Klan Nosferatu:
 			Zatímco vampíři jiných klanů stále vypadají jako lidé a mohou se pohybovat ve společnosti, Nosferatu jsou díky prokleté krvi ohyzdní a znetvoření. Jako takoví se ocitli na periférii společnosti Kainitů, kteří je považují za nechutné a jednají s nimi, jen když musí."
 		}
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Každý našinec, který chce zapadnout do společnosti smrtelníků, musí dodržovat její zákony. Zločiny jako je ublížení na zdraví, loupež nebo vražda jsou tvrdě stíhany policejními složkami."
 		}
 
@@ -261,7 +237,6 @@ LoadingTips
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Body zkušenosti získáváš za plnění úkolů a to i v jejich průběhu za vyřešení jednotlivých cílů. Body navíc lze získat za nalezení skryté cesty k cíli nebo za vyřešení úkolu nekonvenčním způsobem."
 		}
 
@@ -270,7 +245,6 @@ LoadingTips
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Pokud nevíš, kam máš jít nebo s kým promluvit, pročti si svůj žurnál úkolů (implicitně klávesa L)."
 		}
 
@@ -279,7 +253,6 @@ LoadingTips
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"K ochraně před kulkami přispívá úroveň činností Obrana a Údery. Navíc polovina zranění od kulek se vstřebává automaticky."
 		}
 
@@ -288,9 +261,7 @@ LoadingTips
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Klávesou Sání krve (implicitně F) se zakousneš do krku své oběti. Pokud s ní právě bojuješ, bude mít šanci se bránit. Jinak se tvůj pokus zdaří vždy.
-
 Vysoká úroveň činnosti boje Beze zbraně sníží úspěšnost obrany protivníků proti vysátí krve přímo v boji."
 		}
 
@@ -299,7 +270,6 @@ Vysoká úroveň činnosti boje Beze zbraně sníží úspěšnost obrany protiv
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Pokud je tvá úroveň Přesvědčování dostatečně dobrá, můžou se v rozhovorech objevit nové volby zobrazené modře. Výběrem těchto voleb povedeš rozhovor asertivně směrem ke svým cílům."
 		}
 
@@ -308,9 +278,7 @@ Vysoká úroveň činnosti boje Beze zbraně sníží úspěšnost obrany protiv
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"V rozhovorech můžeš využívat Svádění, pokud je tvá úroveň v této činnosti dostatečně dobrá. Díky němu můžeš od lidí získat to, co chceš, a dokonce se z nich napít na veřejnosti bez rizika porušení Maškarády.
-                        
 Použití Svádění v rozhovorech je zobrazeno fialově."                        
 		}
 
@@ -319,7 +287,6 @@ Použití Svádění v rozhovorech je zobrazeno fialově."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Pokud je tvá úroveň Donucování dostatečně dobrá, můžou se v rozhovorech objevit nové volby zobrazené zeleně. Někteří lidé se nechají zastrašit snadněji než jiní."
 		}
 
@@ -328,7 +295,6 @@ Použití Svádění v rozhovorech je zobrazeno fialově."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Tvá úroveň boje Na blízko přímo ovlivňuje, kolik zranění způsobíš kontaktními zbraněmi. Rovněž se od ni odvíjí, jak snadno dokáže protivník zablokovat, vykrýt nebo přerušit tvůj útok kontaktní zbraní."
 		}
 
@@ -337,7 +303,6 @@ Použití Svádění v rozhovorech je zobrazeno fialově."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Tvá úroveň boje Na dálku přímo ovlivňuje, kolik zranění způsobíš střelnými zbraněmi. Také určuje, jak snadno se vampíři a jiné nadpřirozené bytosti budou schopni bránit tvé střelbě."
 		}
 
@@ -346,9 +311,7 @@ Použití Svádění v rozhovorech je zobrazeno fialově."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Pokud se chceš plížit, musíš být v podřepu (implicitně klávesa Ctrl), schovávat se ve tmě a sledovat ukazatel světla. Čím vyšší úroveň Plížení, tím hůř tě nepřátelé zahlédnou nebo zaslechnou.
-
 Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 		}
 
@@ -357,7 +320,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Kdykoliv na tebe někdo zaútočí, automaticky se aplikuje tvá Obrana. Jako vampír se touto činností můžeš bránit útokům beze zbraně, kontaktní zbraní a kulkám."
 		}
 
@@ -366,7 +328,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Ke tvé obraně v boji přispívá mnoho faktorů. Pokud budeš za body zkušenosti zvyšovat Důvtip, Vytrvalost a Uhýbání, utrpíš v boji menší zranění. Oblečení a neprůstřelné vesty rovněž snižují zranění."
 		}
 
@@ -375,7 +336,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Zabíjením nevinných lidí ztrácíš svou lidskost. Nízká úroveň lidskosti zvyšuje riziko záchvatů běsu. Kromě toho, pokud budeš upadat ke své zvířecí nátuře, projeví se to i na tvých dialogových volbách."
 		}
 
@@ -384,7 +344,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Lidé jsou pro vampíry hlavním zdrojem potravy. Ale malé množství krve lze zíkat i z krys. Dají se využít i krevní balíčky, pokud nějaké najdeš."
 		}
 
@@ -393,7 +352,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Jedna z nejpozoruhodnějších vampírských schopností je regenerace fyzických zranění. Soustředením krve dokáže vampír zahojit rány od kulek a obnovit ztracené končetiny. 
 Tělo vampírů časem zahojí všechna zranění. Pití krve proces hojení urychlí."
 		}
@@ -403,7 +361,6 @@ Tělo vampírů časem zahojí všechna zranění. Pití krve proces hojení ury
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"V bezpečných oblastech jsou mapy na autobusových zastávkách. Využívej je, pokud začneš bloudit."
 		}
 
@@ -412,9 +369,7 @@ Tělo vampírů časem zahojí všechna zranění. Pití krve proces hojení ury
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Pokud se Bestie zmocní kontroly, dojde k záchvatu běsu. Vampír v běsu je jako zdivočelý stroj na zabíjení, který chce za každou cenu přežít.
-
 V běsu získáš neuvěřitelnou ničivou sílu, ale nemůžeš se po dobu záchvatu nijak ovládat."
 		}
 		Tip
@@ -422,11 +377,8 @@ V běsu získáš neuvěřitelnou ničivou sílu, ale nemůžeš se po dobu zác
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Pokud tě začne pronásledovat policie, schovej se. Když tě nebudou schopni najít, nakonec pátrání odvolají.
-
-Při odvolání pátrání se o tom na obrazovce objeví zpráva.
-"
+Při odvolání pátrání se o tom na obrazovce objeví zpráva."
 		}
 
 		Tip
@@ -434,7 +386,6 @@ Při odvolání pátrání se o tom na obrazovce objeví zpráva.
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"V kanálech může vampír najít bezpečí a soukromí, pokud potřebuje."
 		}
 
@@ -460,7 +411,6 @@ Při odvolání pátrání se o tom na obrazovce objeví zpráva.
 			"StoryState"	"0"
 			"Size"		"Large"
 			"Text"		"Různé manuály a učené spisy lze buď koupit nebo najít. Přečtením těchto knih se natrvalo zvýší jeden tvůj atribut nebo dovednost.
-
 Než si ale takovou knihu budeš moci přečíst, musíš dosáhnout požadované úrovně Učení a také požadované úrovně pro atribut nebo dovednost, která se má studiem knihy zvýšit."
 		}
 
@@ -510,8 +460,8 @@ Pokud se ti nepodaří vypáčit zámek, aktivuj Hlas krve. Dočasný nárůst O
 			"Size"		"Small"
 			"CharTemplate"	"Player_Brujah"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
-                        
-Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
+Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -521,8 +471,8 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"Size"		"Small"
 			"CharTemplate"	"Player_Gangrel"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
-                        
-Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
+Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -543,8 +493,8 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"Size"		"Small"
 			"CharTemplate"	"Player_Toreador"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
-                        
-Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
+ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -565,8 +515,8 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"Size"		"Small"
 			"CharTemplate"	"Player_Ventrue"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
-                        
-Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
+Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -576,10 +526,8 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"Size"		"Small"
 			"CharTemplate"	"Player_Nosferatu"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj s pomocí map v kanalizaci.
-
-Jakmile se nějaká nová oblast zpřístupní, objeví se na této mapě."
+Jakmile se nějaká nová oblast zpřístupní, objeví se na této mapě kanalizace."
 		}
-
 
 /////////////////////////
 	// HelpTips for StoryState 10
@@ -645,7 +593,6 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na této mapě."
 			"Text"		"Nedá se říci, že by princ nad městem přímo vládnul. Jeho role je spíše dozorce nebo nejvyšší úředník než panovník. Rozhoduje spory mezi našinci, představuje nejvyšší autoritu vzhledem k tradicím a historii svého města a také udržuje mír. Jeho hlavní starostí je Maškaráda a její zachování a dodržování."
 		}
 
-
 		Tip
 		{
 			"Type"		"World"
@@ -669,7 +616,6 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na této mapě."
 			"Size"		"Large"
 			"Text"		"Anarchové jsou vampíři, kteří odmítají tradice podle Kaina a diktát starších, kteří se je snaží vynucovat. Starší ale paradoxně, i když s nechutí, přikládají Anarchům určité postavení, díky jejich schopnosti získat si moc i přes odpor starších. Anarchové si také získávají respekt svým usilím a nadšením pro svou věc, což je něco, čeho většina starších, zatížených svým věkem a nespokojeností, není schopna. Ovšem i přesto jsou Anarchové obecně vnímáni jako hyeny, co živoří z toho, co starším proklouzne mezi prsty."
 		}
-
 
 		Tip
 		{
@@ -740,7 +686,6 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na této mapě."
 			Již od nepaměti představují Ventruové vůdčí sílu vampírů, která prosazuje prastaré tradice a utváří osud většiny našinců. V dávnověku byli členové klanu vybíráni mezi šlechtou, obchodními magnáty a dalšími bohatými a vlivnými lidmi. V dnešní době klan získává nováčky z bohatých rodin s dlouhým rodokmenem, mezi ambiciózními prospěcháři a politiky. Bez ohledu na původ, vampíři Ventrue udržují stabilitu a řád v Kamarille."
 		}
 
-
 		//Game Tips
 
 		Tip
@@ -749,7 +694,6 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na této mapě."
 			"StoryState"	"10"
 			"Size"		"Large"
 			"Text"		"Činnost boje Beze zbraně určuje, jak snadno můžeš vysát krev oběti přímo v boji. Čím vyšší hodnota, tím menší šance oběti, že se tvému pokusu o vysátí krve ubrání.
-
 Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěstmi, případně pařáty, a jak snadno je budou moci protivníci vykrýt, odklonit nebo přerušit."
 		}
 
@@ -759,7 +703,6 @@ Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěs
 			"StoryState"	"10"
 			"Size"		"Large"
 			"Text"		"Úroveň Smlouvání ovlivňuje všechny ceny pro nákup i prodej. Ceny u obchodníka se automaticky přizpůsobí této úrovni.
-
 Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouvání ti budou k dispozici speciální dialogové volby."
 		}
 
@@ -769,8 +712,8 @@ Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouván
 			"StoryState"	"10"
 			"Size"		"Large"
 			"Text"		"Hlad může vyvolat záchvat běsu stejně jako strach nebo vztek vyvolaný těžkými fyzickými zraněními.
-
-Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve."
+Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve.
+Feed often and maintain your Humanity to prevent frenzy."
 		}
 
 		Tip
@@ -827,7 +770,6 @@ Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který 
 			"StoryState"	"10"
 			"Size"		"Large"
 			"Text"		"Stisknutím směrových kláves při útoku na blízko aktivuješ různé druhy úderů. Každá směrová klávesa se váže k jinému typu útoku.
-
 Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnováhy. Naopak pokud budeš útočit pořád stejně, protivník začne tvé údery očekávat a bude se mu lépe dařit je odrážet."
 		}
 
@@ -849,7 +791,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"10"
 			"Size"		"Large"
 			"Text"		"Vampíři jsou mimořádně odolní vůči palným zbraním. Při boji s nimi a s dalšími nadpřirozenými využívej raději sečné zbraně a své vampírské disciplíny."
@@ -857,7 +799,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"10"
 			"Size"		"Small"
 			"Text"		"Čas od času se vracej do archu své postavy (implicitně klávesa C) a vylepšuj ji rozdělováním bodů zkušenosti, které máš z vyřešených úkolů."
@@ -865,7 +807,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"10"
 			"Size"		"Small"
 			"Text"		"Balíčky s krví pomohou doplnit zásobu krve a urychlí hojení ran. I když se hůře shánějí a nejsou tak vydatné jako čerstvá krev, mohou tě zachránit, když jiná potrava není k dispozici."
@@ -878,6 +820,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"Size"		"Small"
 			"Text"		"Sečné zbraně jsou stejně smrtící proti lidem i vampírům. K lepšímu snášení sečných ran přispívají schopnost Obrana a úroveň Odolnosti vůči Smrtícímu zranění."
 		}
+
 		Tip
 		{
 			"Type"		"Game"	// added by wesp
@@ -950,7 +893,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"Text"		"Nedá se říci, že by princ nad městem přímo vládnul. Jeho role je spíše dozorce nebo nejvyšší úředník než panovník. Rozhoduje spory mezi našinci, představuje nejvyšší autoritu vzhledem k tradicím a historii svého města a také udržuje mír. Jeho hlavní starostí je Maškaráda a její zachování a dodržování."
 		}
 
-
 		Tip
 		{
 			"Type"		"World"
@@ -974,7 +916,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"Size"		"Large"
 			"Text"		"Anarchové jsou vampíři, kteří odmítají tradice podle Kaina a diktát starších, kteří se je snaží vynucovat. Starší ale paradoxně, i když s nechutí, přikládají Anarchům určité postavení, díky jejich schopnosti získat si moc i přes odpor starších. Anarchové si také získávají respekt svým usilím a nadšením pro svou věc, což je něco, čeho většina starších, zatížených svým věkem a nespokojeností, není schopna. Ovšem i přesto jsou Anarchové obecně vnímáni jako hyeny, co živoří z toho, co starším proklouzne mezi prsty."
 		}
-
 
 		Tip
 		{
@@ -1045,7 +986,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			Již od nepaměti představují Ventruové vůdčí sílu vampírů, která prosazuje prastaré tradice a utváří osud většiny našinců. V dávnověku byli členové klanu vybíráni mezi šlechtou, obchodními magnáty a dalšími bohatými a vlivnými lidmi. V dnešní době klan získává nováčky z bohatých rodin s dlouhým rodokmenem, mezi ambiciózními prospěcháři a politiky. Bez ohledu na původ, vampíři Ventrue udržují stabilitu a řád v Kamarille."
 		}
 
-
 		//Game Tips
 
 		Tip
@@ -1054,7 +994,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"StoryState"	"15"
 			"Size"		"Large"
 			"Text"		"Činnost boje Beze zbraně určuje, jak snadno můžeš vysát krev oběti přímo v boji. Čím vyšší hodnota, tím menší šance oběti, že se tvému pokusu o vysátí krve ubrání.
-
 Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěstmi, případně pařáty, a jak snadno je budou moci protivníci vykrýt, odklonit nebo přerušit."
 		}
 
@@ -1064,7 +1003,6 @@ Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěs
 			"StoryState"	"15"
 			"Size"		"Large"
 			"Text"		"Úroveň Smlouvání ovlivňuje všechny ceny pro nákup i prodej. Ceny u obchodníka se automaticky přizpůsobí této úrovni.
-
 Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouvání ti budou k dispozici speciální dialogové volby."
 		}
 
@@ -1132,7 +1070,6 @@ Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který 
 			"StoryState"	"15"
 			"Size"		"Large"
 			"Text"		"Stisknutím směrových kláves při útoku na blízko aktivuješ různé druhy úderů. Každá směrová klávesa se váže k jinému typu útoku.
-
 Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnováhy. Naopak pokud budeš útočit pořád stejně, protivník začne tvé údery očekávat a bude se mu lépe dařit je odrážet."
 		}
 
@@ -1154,7 +1091,8 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
+
 			"StoryState"	"15"
 			"Size"		"Large"
 			"Text"		"Vampíři jsou mimořádně odolní vůči palným zbraním. Při boji s nimi a s dalšími nadpřirozenými využívej raději sečné zbraně a své vampírské disciplíny."
@@ -1162,7 +1100,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"15"
 			"Size"		"Small"
 			"Text"		"Čas od času se vracej do archu své postavy (implicitně klávesa C) a vylepšuj ji rozdělováním bodů zkušenosti, které máš z vyřešených úkolů."
@@ -1170,7 +1108,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"15"
 			"Size"		"Small"
 			"Text"		"Balíčky s krví pomohou doplnit zásobu krve a urychlí hojení ran. I když se hůře shánějí a nejsou tak vydatné jako čerstvá krev, mohou tě zachránit, když jiná potrava není k dispozici."
@@ -1178,7 +1116,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"15"
 			"Size"		"Small"
 			"Text"		"Sečné zbraně jsou stejně smrtící proti lidem i vampírům. K lepšímu snášení sečných ran přispívají schopnost Obrana a úroveň Odolnosti vůči Smrtícímu zranění."
@@ -1238,7 +1176,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"Text"		"Nedá se říci, že by princ nad městem přímo vládnul. Jeho role je spíše dozorce nebo nejvyšší úředník než panovník. Rozhoduje spory mezi našinci, představuje nejvyšší autoritu vzhledem k tradicím a historii svého města a také udržuje mír. Jeho hlavní starostí je Maškaráda a její zachování a dodržování."
 		}
 
-
 		Tip
 		{
 			"Type"		"World"
@@ -1262,7 +1199,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"Size"		"Large"
 			"Text"		"Anarchové jsou vampíři, kteří odmítají tradice podle Kaina a diktát starších, kteří se je snaží vynucovat. Starší ale paradoxně, i když s nechutí, přikládají Anarchům určité postavení, díky jejich schopnosti získat si moc i přes odpor starších. Anarchové si také získávají respekt svým usilím a nadšením pro svou věc, což je něco, čeho většina starších, zatížených svým věkem a nespokojeností, není schopna. Ovšem i přesto jsou Anarchové obecně vnímáni jako hyeny, co živoří z toho, co starším proklouzne mezi prsty."
 		}
-
 
 		Tip
 		{
@@ -1333,7 +1269,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			Již od nepaměti představují Ventruové vůdčí sílu vampírů, která prosazuje prastaré tradice a utváří osud většiny našinců. V dávnověku byli členové klanu vybíráni mezi šlechtou, obchodními magnáty a dalšími bohatými a vlivnými lidmi. V dnešní době klan získává nováčky z bohatých rodin s dlouhým rodokmenem, mezi ambiciózními prospěcháři a politiky. Bez ohledu na původ, vampíři Ventrue udržují stabilitu a řád v Kamarille."
 		}
 
-
 		//Game Tips
 
 		Tip
@@ -1342,7 +1277,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"StoryState"	"20"
 			"Size"		"Large"
 			"Text"		"Činnost boje Beze zbraně určuje, jak snadno můžeš vysát krev oběti přímo v boji. Čím vyšší hodnota, tím menší šance oběti, že se tvému pokusu o vysátí krve ubrání.
-
 Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěstmi, případně pařáty, a jak snadno je budou moci protivníci vykrýt, odklonit nebo přerušit."
 		}
 
@@ -1352,7 +1286,6 @@ Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěs
 			"StoryState"	"20"
 			"Size"		"Large"
 			"Text"		"Úroveň Smlouvání ovlivňuje všechny ceny pro nákup i prodej. Ceny u obchodníka se automaticky přizpůsobí této úrovni.
-
 Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouvání ti budou k dispozici speciální dialogové volby."
 		}
 
@@ -1362,8 +1295,8 @@ Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouván
 			"StoryState"	"20"
 			"Size"		"Large"
 			"Text"		"Hlad může vyvolat záchvat běsu stejně jako strach nebo vztek vyvolaný těžkými fyzickými zraněními.
-
-Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve."
+Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve.
+Feed often and maintain your Humanity to prevent frenzy."
 		}
 
 		Tip
@@ -1420,7 +1353,6 @@ Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který 
 			"StoryState"	"20"
 			"Size"		"Large"
 			"Text"		"Stisknutím směrových kláves při útoku na blízko aktivuješ různé druhy úderů. Každá směrová klávesa se váže k jinému typu útoku.
-
 Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnováhy. Naopak pokud budeš útočit pořád stejně, protivník začne tvé údery očekávat a bude se mu lépe dařit je odrážet."
 		}
 
@@ -1442,7 +1374,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"20"
 			"Size"		"Large"
 			"Text"		"Vampíři jsou mimořádně odolní vůči palným zbraním. Při boji s nimi a s dalšími nadpřirozenými využívej raději sečné zbraně a své vampírské disciplíny."
@@ -1450,7 +1382,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"20"
 			"Size"		"Small"
 			"Text"		"Čas od času se vracej do archu své postavy (implicitně klávesa C) a vylepšuj ji rozdělováním bodů zkušenosti, které máš z vyřešených úkolů."
@@ -1458,16 +1390,15 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"20"
 			"Size"		"Small"
 			"Text"		"Balíčky s krví pomohou doplnit zásobu krve a urychlí hojení ran. I když se hůře shánějí a nejsou tak vydatné jako čerstvá krev, mohou tě zachránit, když jiná potrava není k dispozici."
 		}
 
-
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"20"
 			"Size"		"Small"
 			"Text"		"Sečné zbraně jsou stejně smrtící proti lidem i vampírům. K lepšímu snášení sečných ran přispívají schopnost Obrana a úroveň Odolnosti vůči Smrtícímu zranění."
@@ -1519,7 +1450,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"Text"		"Nedá se říci, že by princ nad městem přímo vládnul. Jeho role je spíše dozorce nebo nejvyšší úředník než panovník. Rozhoduje spory mezi našinci, představuje nejvyšší autoritu vzhledem k tradicím a historii svého města a také udržuje mír. Jeho hlavní starostí je Maškaráda a její zachování a dodržování."
 		}
 
-
 		Tip
 		{
 			"Type"		"World"
@@ -1543,7 +1473,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"Size"		"Large"
 			"Text"		"Anarchové jsou vampíři, kteří odmítají tradice podle Kaina a diktát starších, kteří se je snaží vynucovat. Starší ale paradoxně, i když s nechutí, přikládají Anarchům určité postavení, díky jejich schopnosti získat si moc i přes odpor starších. Anarchové si také získávají respekt svým usilím a nadšením pro svou věc, což je něco, čeho většina starších, zatížených svým věkem a nespokojeností, není schopna. Ovšem i přesto jsou Anarchové obecně vnímáni jako hyeny, co živoří z toho, co starším proklouzne mezi prsty."
 		}
-
 
 		Tip
 		{
@@ -1631,7 +1560,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"StoryState"	"25"
 			"Size"		"Large"
 			"Text"		"Činnost boje Beze zbraně určuje, jak snadno můžeš vysát krev oběti přímo v boji. Čím vyšší hodnota, tím menší šance oběti, že se tvému pokusu o vysátí krve ubrání.
-
 Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěstmi, případně pařáty, a jak snadno je budou moci protivníci vykrýt, odklonit nebo přerušit."
 		}
 
@@ -1641,7 +1569,6 @@ Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěs
 			"StoryState"	"25"
 			"Size"		"Large"
 			"Text"		"Úroveň Smlouvání ovlivňuje všechny ceny pro nákup i prodej. Ceny u obchodníka se automaticky přizpůsobí této úrovni.
-
 Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouvání ti budou k dispozici speciální dialogové volby."
 		}
 
@@ -1651,8 +1578,8 @@ Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouván
 			"StoryState"	"25"
 			"Size"		"Large"
 			"Text"		"Hlad může vyvolat záchvat běsu stejně jako strach nebo vztek vyvolaný těžkými fyzickými zraněními.
-
-Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve."
+Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve.
+Feed often and maintain your Humanity to prevent frenzy."
 		}
 
 		Tip
@@ -1709,7 +1636,6 @@ Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který 
 			"StoryState"	"25"
 			"Size"		"Large"
 			"Text"		"Stisknutím směrových kláves při útoku na blízko aktivuješ různé druhy úderů. Každá směrová klávesa se váže k jinému typu útoku.
-
 Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnováhy. Naopak pokud budeš útočit pořád stejně, protivník začne tvé údery očekávat a bude se mu lépe dařit je odrážet."
 		}
 
@@ -1731,7 +1657,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"25"
 			"Size"		"Large"
 			"Text"		"Vampíři jsou mimořádně odolní vůči palným zbraním. Při boji s nimi a s dalšími nadpřirozenými využívej raději sečné zbraně a své vampírské disciplíny."
@@ -1739,7 +1665,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"25"
 			"Size"		"Small"
 			"Text"		"Čas od času se vracej do archu své postavy (implicitně klávesa C) a vylepšuj ji rozdělováním bodů zkušenosti, které máš z vyřešených úkolů."
@@ -1747,7 +1673,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"25"
 			"Size"		"Small"
 			"Text"		"Balíčky s krví pomohou doplnit zásobu krve a urychlí hojení ran. I když se hůře shánějí a nejsou tak vydatné jako čerstvá krev, mohou tě zachránit, když jiná potrava není k dispozici."
@@ -1815,7 +1741,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"Text"		"Nedá se říci, že by princ nad městem přímo vládnul. Jeho role je spíše dozorce nebo nejvyšší úředník než panovník. Rozhoduje spory mezi našinci, představuje nejvyšší autoritu vzhledem k tradicím a historii svého města a také udržuje mír. Jeho hlavní starostí je Maškaráda a její zachování a dodržování."
 		}
 
-
 		Tip
 		{
 			"Type"		"World"
@@ -1839,7 +1764,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"Size"		"Large"
 			"Text"		"Anarchové jsou vampíři, kteří odmítají tradice podle Kaina a diktát starších, kteří se je snaží vynucovat. Starší ale paradoxně, i když s nechutí, přikládají Anarchům určité postavení, díky jejich schopnosti získat si moc i přes odpor starších. Anarchové si také získávají respekt svým usilím a nadšením pro svou věc, což je něco, čeho většina starších, zatížených svým věkem a nespokojeností, není schopna. Ovšem i přesto jsou Anarchové obecně vnímáni jako hyeny, co živoří z toho, co starším proklouzne mezi prsty."
 		}
-
 
 		Tip
 		{
@@ -1927,7 +1851,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"StoryState"	"30"
 			"Size"		"Large"
 			"Text"		"Činnost boje Beze zbraně určuje, jak snadno můžeš vysát krev oběti přímo v boji. Čím vyšší hodnota, tím menší šance oběti, že se tvému pokusu o vysátí krve ubrání.
-
 Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěstmi, případně pařáty, a jak snadno je budou moci protivníci vykrýt, odklonit nebo přerušit."
 		}
 
@@ -1937,7 +1860,6 @@ Hodnota pro boj Beze zbraně také určuje, jak budou účinné tvé útoky pěs
 			"StoryState"	"30"
 			"Size"		"Large"
 			"Text"		"Úroveň Smlouvání ovlivňuje všechny ceny pro nákup i prodej. Ceny u obchodníka se automaticky přizpůsobí této úrovni.
-
 Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouvání ti budou k dispozici speciální dialogové volby."
 		}
 
@@ -1947,8 +1869,8 @@ Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouván
 			"StoryState"	"30"
 			"Size"		"Large"
 			"Text"		"Hlad může vyvolat záchvat běsu stejně jako strach nebo vztek vyvolaný těžkými fyzickými zraněními.
-
-Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve."
+Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve.
+Feed often and maintain your Humanity to prevent frenzy."
 		}
 
 		Tip
@@ -2005,7 +1927,6 @@ Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který 
 			"StoryState"	"30"
 			"Size"		"Large"
 			"Text"		"Stisknutím směrových kláves při útoku na blízko aktivuješ různé druhy úderů. Každá směrová klávesa se váže k jinému typu útoku.
-
 Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnováhy. Naopak pokud budeš útočit pořád stejně, protivník začne tvé údery očekávat a bude se mu lépe dařit je odrážet."
 		}
 
@@ -2027,7 +1948,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"30"
 			"Size"		"Large"
 			"Text"		"Vampíři jsou mimořádně odolní vůči palným zbraním. Při boji s nimi a s dalšími nadpřirozenými využívej raději sečné zbraně a své vampírské disciplíny."
@@ -2035,7 +1956,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"30"
 			"Size"		"Small"
 			"Text"		"Čas od času se vracej do archu své postavy (implicitně klávesa C) a vylepšuj ji rozdělováním bodů zkušenosti, které máš z vyřešených úkolů."
@@ -2043,7 +1964,7 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 
 		Tip
 		{
-			"Type"		"Game"
+			"Type"		"Game"	// changed by wesp
 			"StoryState"	"30"
 			"Size"		"Small"
 			"Text"		"Balíčky s krví pomohou doplnit zásobu krve a urychlí hojení ran. I když se hůře shánějí a nejsou tak vydatné jako čerstvá krev, mohou tě zachránit, když jiná potrava není k dispozici."
@@ -2211,7 +2132,6 @@ Pokud budeš střídat typy útoků na blízko, protivník bude vyveden z rovnov
 			"StoryState"	"35"
 			"Size"		"Large"
 			"Text"		"U palných zbraní můžeš přepínat mezi různými režimy (implicitně klávesa TAB). Některé pušky s hledím mají k dispozici několik úrovní přiblížení, které lze zpřístupnit stejnou klávesou.
-
 Ne všechny palné zbraně mají více režimů střelby."
 		}
 
@@ -2227,7 +2147,6 @@ Ne všechny palné zbraně mají více režimů střelby."
 	// HelpTips for StoryState 40
 /////////////////////////
 	//World Tips
-
 
 		Tip
 		{
@@ -2370,7 +2289,6 @@ Ne všechny palné zbraně mají více režimů střelby."
 			"StoryState"	"40"
 			"Size"		"Large"
 			"Text"		"U palných zbraní můžeš přepínat mezi různými režimy (implicitně klávesa TAB). Některé pušky s hledím mají k dispozici několik úrovní přiblížení, které lze zpřístupnit stejnou klávesou.
-
 Ne všechny palné zbraně mají více režimů střelby."
 		}
 
@@ -2386,7 +2304,8 @@ Ne všechny palné zbraně mají více režimů střelby."
 	// HelpTips for StoryState 45
 /////////////////////////
 	//World Tips
-			Tip	// added by wesp
+
+		Tip	// added by wesp
 		{
 			"Type"		"World"
 			"StoryState"	"45"
@@ -2446,7 +2365,6 @@ Ne všechny palné zbraně mají více režimů střelby."
 			"Text"		"Vampíři se všeobecně bojí vlkodlaků jako brutálních a schopných zabijáků. Nejeden vampír byl svědkem toho, jak jediný rozzuřený vlkodlak roztrhal na kusy celou koterii našinců. Vlkodlaci jsou samotářští, xenofobní a našince k smrti nenávidí. Přesný důvod této averze není znám, ale faktem je, že vampír chycený vlkodlakem prakticky nemá šanci na přežití."
 		}
 
-
 		Tip
 		{
 			"Type"		"World"
@@ -2472,21 +2390,20 @@ Ne všechny palné zbraně mají více režimů střelby."
 			"Text"		"Naprosto zfanatizovaní vampíři Sabbatu kvůli své sektě klidně skočí do ohně, na své nepřátele se vrhají v celých houfech a trhají je na kusy jako smečka vzteklých vlků."
 		}
 
-		//Game Tips
 /////////////////////////
 	// HelpTips for StoryState 50
 /////////////////////////
 	//World Tips
 
-			Tip	// added by wesp
+		Tip	// added by wesp
 		{
 			"Type"		"World"
-			"StoryState"	"45"
+			"StoryState"	"50"
 			"Size"		"Large"
 			"Text"		"Klan Lasombra:
 			Lasombra pevně věří v nadřazenost silných, podřazenost slabých, a udržuje své prastaré tradice, kdy využívá Sabbat ke svým účelům. Díky své náchylnosti k ovládání temnoty členové Lasombry nevrhají stíny. Jejich bezohledná zvěrstva potvrzují myšlenku, že je snašží žít se svými skutky, když nemusíte čelit svému obrazu v zrcadle."
 		}
-		
+
 		Tip
 		{
 			"Type"		"World"
@@ -2537,7 +2454,6 @@ Ne všechny palné zbraně mají více režimů střelby."
 			"Size"		"Large"
 			"Text"		"Vampíři se všeobecně bojí vlkodlaků jako brutálních a schopných zabijáků. Nejeden vampír byl svědkem toho, jak jediný rozzuřený vlkodlak roztrhal na kusy celou koterii našinců. Vlkodlaci jsou samotářští, xenofobní a našince k smrti nenávidí. Přesný důvod této averze není znám, ale faktem je, že vampír chycený vlkodlakem prakticky nemá šanci na přežití."
 		}
-
 
 		Tip
 		{
@@ -2610,7 +2526,6 @@ Ne všechny palné zbraně mají více režimů střelby."
 			"Text"		"Krvesmilstvo, nekrofilie, prospěchářství, kulty předků a další mravní zločiny, to vše se objevuje v rodině Giovanniů. Již před svým uchvácením má většina Giovannů velmi dobré povědomí o rozmarech vampírské existence."
 		}
 
-
 /////////////////////////
 	// HelpTips for StoryState 60
 /////////////////////////
@@ -2644,7 +2559,7 @@ Ne všechny palné zbraně mají více režimů střelby."
 		Tip
 		{
 			"Type"		"World"
-			"StoryState"	"60"
+			"StoryState"	"60"	// changed by wesp
 			"Size"		"Small"
 			"Text"		"Většina Giovanniů pochází z jediné benátské rodiny a většinu svého života strávili ve službách jinému členu rodiny jako ghúlové."
 		}
@@ -2661,7 +2576,6 @@ Ne všechny palné zbraně mají více režimů střelby."
 	// HelpTips for StoryState 65
 /////////////////////////
 	//World Tips
-
 
 		Tip
 		{
@@ -2730,8 +2644,6 @@ Ne všechny palné zbraně mají více režimů střelby."
 			"Text"		"Pokrevní smečky Sabbatu si mezi sebou zajišťují loajalitu tím, že každý člen pravidelně pije koktejl krve všech ostatních členů. Toto tajemné pouto činí z těchto smeček nejzákeřnější uskupení vampírů, jaké existuje."
 		}
 
-
-
 ////////////////
 	// Special Tip for when you've lost all 5 masquerade points
 ////////////////
@@ -2740,9 +2652,7 @@ Ne všechny palné zbraně mají více režimů střelby."
 			"Type"		"World"
 			"StoryState"	"666"
 			"Size"		"Large"
-
 			"Text"		"Stal(a) se z tebe nechvalně známý/(á) porušitel(ka) Maškarády ohrožující všechny našince a nyní se budeš za své prohřešky zodpovídat."
 		}
-
 	}
 }
