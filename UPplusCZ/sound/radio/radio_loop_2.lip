@@ -1,38 +1,50 @@
-VERSION 1.2
+ VERSION 1.2
 PLAINTEXT
 {
 Radio Loop 2
 }
 WORDS
 {
-WORD talk-a 000 022
+WORD talk-a 000 021
 {
 }
-WORD talk-b 022 070
+WORD talk-b 022 069
 {
 }
-WORD talk-c 070 105
+WORD talk-c 070 104
 {
 }
 WORD talk-d 105 135
 {
 }
-WORD comm-a 135 165
+WORD comm-a 135 159
 {
 }
-WORD comm-b 165 197
+WORD comm-a 160 165
 {
 }
-WORD comm-c 197 251
+WORD comm-b 165 186
+{
+}
+WORD comm-b 187 196
+{
+}
+WORD comm-c 196 226
+{
+}
+WORD comm-c 227 249
 {
 }
 WORD comm-d 251 308
 {
 }
-WORD comm-e 308 358
+WORD comm-e 308 326
 {
 }
-WORD comm-f 358 394
+WORD comm-e 326 358
+{
+}
+WORD comm-f 359 392
 {
 }
 }
@@ -43,81 +55,130 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 352 "
-Stýskalo se vám? Podle toho, jak mi tu ten panel svítí, to vypadá, že beze mě nemůžete být. Připadám si v LA velmi žádaná.
-Tolik volajících a tak málo času. Pokud se na vás dnes nedostane, nenechte se tím zdeptat;
-Jsem tady každičké ráno. Takže dál vytáčejte ta kouzelná čísla a třeba se vám jednou poštěstí jako tomuto posluchači.
-" 0 22
+PHRASE char 345 "
+Stýskalo se vám?
+Podle toho, jak mi tu ten panel svítí, to vypadá, že beze mě nemůžete být.
+Připadám si v LA velmi žádaná.
+Tolik volajících a tak málo času.
+Pokud se na vás dnes nedostane, nenechte se tím zdeptat...
+Jsem tady každičké ráno.
+Takže dál vytáčejte ta kouzelná čísla a třeba se vám jednou poštěstí jako tomuto posluchači.
+" 0 21
 
-PHRASE char 674 "
+PHRASE char 615 "
 Jak se jmenuješ, noční sovo?
-» Ahoj, Deb. Já jsem Greg.
-» Ahoj, Gregu. To je ale pozdě, co?
-» Víš, Deb, dělám noční směnu v elektrárně, nikdo tu není, a tvůj pěkný hlas je to jediný, co mi pomáhá to přečkat.
+» Ahoj, Deb, já jsem Greg.
+» Ahoj, Gregu, to je ale pozdě, co?
+» Víš, Deb, dělám noční směnu v elektrárně, nikdo tu není...
+a tvůj pěkný hlas je to jediný, co mi pomáhá to přečkat.
 » Díky, Gregu.
-» Říkal jsem si, jestli jsi tak pěkná jako tvůj hlas. To bys byla nejkrásnější ženská ve městě.
+» Říkal jsem si, jestli jsi tak pěkná jako tvůj hlas.
+To bys byla nejkrásnější ženská ve městě.
 » Ty jsi mi ale gentleman.
-» Hodně na tebe myslím, Deb... Jak jsem říkal, jsem tu sám a je mi smutno. Někdy si nemůžu pomoct, zvlášť když tě slyším... jako bys tu byla se mnou, obkročmo přes...
-» Gregu, tomu se říká příliš mnoho informací.
-" 22 70
+» Hodně na tebe myslím, Deb...
+Jak jsem říkal, jsem tu sám a je mi smutno.
+Někdy si nemůžu pomoct, zvlášť když tě slyším...
+Jako bys tu byla se mnou, obkročmo přes...
+» Gregu, tomu se říká příliš mnoho informací...                                  
+" 22 69
 
-PHRASE char 443 "
+PHRASE char 385 "
 Posluchači, právě si krátíš dlouhou chvíli v Noci s Deb.
 » Dobrý večer, Deb.
 » Ano, to se rozumí samo sebou už z názvu pořadu.
-» [chuckle] 
-Nebojíš se někdy, Deb, že svět najednou skončí?
+...
+» Nebojíš se někdy, Deb...
+že svět najednou skončí?
 » To mě nenapadlo od doby, co se Brad Pitt oženil.
-» [chuckle] 
-Víš vůbec, jak bezvýznamná jsi? Jakmile začnou požírat svět, bude z tebe jen krvavý flek na jejich pláštích.
-" 70 105
+...
+» Víš vůbec, jak bezvýznamná jsi?
+Jakmile začnou požírat svět...
+bude z tebe jen krvavý flek na jejich pláštích.                   
+" 70 104
 
-PHRASE char 444 "
+PHRASE char 387 "
 » Vsadím se, že tohle zkoušíš na všechny holky.
-» Na nočním nebi žhne rudá hvězda. Krev smrtelníků a krev věků, všechna bude pozřena. Už přicházejí. Konec se rychle blíží.
-» Tak dobře! Ať se vám daří v příštích volbách, pane senátore!
+» Na nočním nebi žhne rudá hvězda. 
+Krev smrtelníků a krev věků...
+všechna bude pozřena. 
+Už přicházejí!
+Konec se rychle blíží.
+» Tak dobře! 
+Ať se vám daří v příštích volbách, pane senátore!
 Omluvte mě všichni, ale musím si na pár minut odskočit.
-Posílám vám trochu hudby, aby vás... nabudila... jestli mi rozumíte.
+Posílám vám trochu hudby, aby vás nabudila, jestli mi rozumíte.             
 " 105 135
 
-PHRASE char 555 "
+PHRASE char 416 "
 (Reklama 1)
-» Phil už je tu. Musím běžet. Výborná snídaně, zlato.
-» Měj se hezky, miláčku. Jsem ráda, že ti ty mufiny chutnaly.
-» Hej, co to támhle leží? To není můj margarín, to je máslo!
+» Phil už je tu.
+Musím běžet.
+Výborná snídaně, zlato.
+» Měj se hezky, miláčku.
+Jsem ráda, že ti ty mufiny chutnaly.
+» Hej, co to támhle leží?
+To není můj margarín, to je máslo!
 » To je...
-» Ty mrcho! Víš, že si musím hlídat cholesterol!
-» J- já myslela, že to bude příjemná změna! Ani jsi nic nepoznal!
-» Ty nechceš rozvod! Chceš mě zabít! Jsem rád, že jsem se vyspal s tvou sestrou!
-» Myslela jsem, že to je margarínové máslo druhé jakosti: žluklá pachuť margarínu se všemi nasycenými tuky z másla.
-" 135 165
+» Ty mrcho!
+Víš, že si musím hlídat cholesterol!
+» J- já myslela, že to bude příjemná změna!
+Ani jsi nic nepoznal!
+» Ty nechceš rozvod!
+Chceš mě zabít!
+Jsem rád, že jsem se vyspal s tvou sestrou!
+" 135 159
 
-PHRASE char 708 "
+PHRASE char 98 "
+» Margarínové máslo druhé jakosti: žluklá pachuť margarínu se všemi nasycenými tuky z másla.
+" 160 165
+
+PHRASE char 372 "
 (Reklama 2)
 » Bille, ty celej záříš!
-» Konečně jsem tě poslechl a měls pravdu! Jsem si mnohem sebejistější.
-» Jseš borec. No není to skvělý?
-» Nemohl jsem tomu věřit. Šli jsme na večeři a pak jsme na to skočili. Šel jsem si to vzít na záchod. A přišlo to okamžitě! I hladina vody v míse šla nahoru!
+» Konečně jsem tě poslechl a měls pravdu!
+Jsem si mnohem sebejistější.
+» Jseš borec.
+No není to skvělý?
+» Nemohl jsem tomu věřit.
+Šli jsme na večeři a pak jsme na to skočili.
+Šel jsem si to vzít na záchod.
+A přišlo to okamžitě!
+I hladina vody v míse šla nahoru!
 » Vivisitrek: když už obyčejné prášky na erekci nestačí.
-» Běžné vedlejší účinky zahrnují mdloby, brnění v končetinách, dočasnou slepotu, mrtvolnou bledost, zhoršené vnímání času, prudkou bolest močového měchýře, emocionální incest, silnou inkontinenci, velikášství, a zvýšené riziko mrtvice.
-" 165 197
+" 165 186
 
-PHRASE char 927 "
+PHRASE char 241 "
+» Běžné vedlejší účinky zahrnují mdloby, brnění v končetinách, dočasnou slepotu, mrtvolnou bledost, zhoršené vnímání času, prudkou bolest močového měchýře, emocionální incest, silnou inkontinenci, velikášství, a zvýšené riziko mrtvice.
+" 187 196
+
+PHRASE char 491 "
 (Reklama 3)
 » Dědo, vezmeš mě do Vesmírného Burgeru?
-» Vesmírný Burger? Když mi bylo co tobě, vesmír byl víceméně záhadný. Nevěděli jsme, co tam nahoře je. Dokonce jsem si myslel, že mě z Marsu sledovali mimozemské děti. Dělal jsem pro ně cedule s nápisy «Ahoj, Marťánci!» nebo «Svezte mě ve své raketě!» Samosebou jsem byl mladý a naivní, když jsem čekal, že budou umět anglicky. Každý věděl, že Marťané se dorozumívají telepaticky skrze vesmírné operátory na měsíční základně!
+» Vesmírný Burger?
+Když mi bylo co tobě, vesmír byl víceméně záhadný.
+Nevěděli jsme, co tam nahoře je.
+Dokonce jsem si myslel, že mě z Marsu sledovali mimozemské děti.
+Dělal jsem pro ně cedule s nápisy «Ahoj, Marťánci» nebo «Svezte mě ve své raketě».
+Samosebou jsem byl mladý a naivní, když jsem čekal, že budou umět anglicky.
+Každý věděl, že Marťané se dorozumívají telepaticky skrze vesmírné operátory na měsíční základně!
+" 196 226
+
+PHRASE char 374 "
 » Billy, co jsem ti říkal o mluvení s dědou?
 » Ale já chci jít do Vesmírného Burgeru!
-» Vesmírný Burger! To zní jako úkol pro velitele Mámu! Hlaš se u vesmírné dodávky.
+» Vesmírný Burger!
+To zní jako úkol pro velitele Mámu!
+Hlaš se u vesmírné dodávky.
 » Páni!
 » Vysadíme dědu doma po cestě.
-» Marťani samozřejmě nejsou vidět vesmírnými sondami. Každý ví, že žijí v neviditelných dómech!
+» Marťani samozřejmě nejsou vidět vesmírnými sondami.
+Každý ví, že žijí v neviditelných dómech!
 » Vesmírný Burger: tohle vesmírný jídlo není pro starý.
-" 197 251
+" 227 249
 
-PHRASE char 1249 "
+PHRASE char 1227 "
 (Reklama 4)
-Minulý rok si demokratický kandidát Michael Redmonds koupil sportovní víceúčelový vůz. O tři měsíce později se v jeho okrsku staly dvě nezávislé nehody, kde viník ujel v podobném vozidle.
+Minulý rok si demokratický kandidát Michael Redmonds koupil víceúčelový sportovní vůz. O tři měsíce později se v jeho okrsku staly dvě nezávislé nehody, kde viník ujel v podobném vozidle.
 Může za to demokratický kandidát Michael Redmonds? Můžete si dovolit, pokud by tomu tak bylo? A mohou vaše děti?
 Volte republikánského senátora Roberta Thorna, kandidáta, který nikdy nikoho vozidlem nezabil.
 Demokratický kandidát Michael Redmonds nikdy veřejně nevyjádřil svůj postoj k dětské pornografii.
@@ -126,36 +187,45 @@ Volte republikánského senátora Roberta Thorna, kandidáta, který se zavazuje
 Demokratický kandidát Michael Redmonds nedávno zažaloval senátora Roberta Thorna za to, že Redmondse nazval vraždícím dětským pornografem.
 Ale Redmonds se v minulosti vyjádřil, že je proti zatěžování soudů lehkovážnými spory.
 Není snad takový postoj pokrytecký? Chtěli byste pokrytce za svého nového kongresmana? Chtěli byste, aby se z vašich dětí stali pokrytci?
-Volte republikánského senátora Roberta Thorna, kandidáta, který nebyl obviněn jako vraždící dětský pornograf.
+Volte republikánského senátora Roberta Thorna, kandidáta, který nebyl obviněn jako vraždící dětský pornograf. 
 " 251 308
 
-PHRASE char 1128 "
-(Reklama 5)
-» Potíže s penězi? Potřebujete rychle hotovost? Co třeba někoho přepadnout?
+PHRASE char 404 "
+» Potíže s penězi?
+Potřebujete rychle hotovost?
+Co třeba někoho přepadnout?
 » Tyto otázky si právě pokládají různí kriminálníci.
 » Věděli jste, že vláda vyžaduje, abyste na koupenou zbraň čekali 10 dní?
 » Za tu dobu by nějaký zločinec zvládnul zabít vaši rodinu padesátkrát.
 » Jak se tedy spořádaný občan jako vy dostane k odstrašujícímu prostředku během hodiny?
-» Navštivte Lennyho Střílnu! Máme pro vás starožitné zbraně, od mušket po granáty z první světové války.
+» Navštivte Lennyho Střílnu!
+" 308 326
+
+PHRASE char 581 "
+Máme pro vás starožitné zbraně, od mušket po granáty z první světové války.
 » Současní lupiči jsou možná zdatnější než dřív, ale to neznamená, že ustojí kuli z pistole, ze které se střílelo v občanské válce.
-» A pokud nemůžete spát při pomyšlení, že vám před domem můžou číhat sexuální násilníci, máme pro vás německou odstřelovačku posvěcenou od císaře pána. S ní bez problému sundáte jednoho po druhém z pohodlí vaší střechy.
+» A pokud nemůžete spát při pomyšlení, že vám před domem můžou číhat sexuální násilníci, máme pro vás německou odstřelovačku posvěcenou od císaře pána.
+S ní bez problému sundáte jednoho po druhém z pohodlí vaší střechy.
 » Kupte si tento měsíc zbraň a zdarma získáte nábojový pás potištěný ústavou.
 » Lennyho Střílna: už dnes braňte své zítřky zbraněmi včerejška.
-" 308 358
+" 326 358
 
-PHRASE char 525 "
+PHRASE char 465 "
 (Reklama 6)
 » Fíha, koukni na tohle?
 » Co je to?
-» "Epidemie kobylek postihla malé indické město."
+» «Epidemie kobylek postihla malé indické město».
 » Páni, nemám páru, jak to tam musí vypadat.
-» A co tohle: "Občanská válka stále zuří mezi etnickými frakcemi ve východní Evropě."
+» A co tohle: «Občanská válka stále zuří mezi etnickými frakcemi ve východní Evropě».
 » Jo, o tom jsem slyšel.
 » A v Zimbabwe se místo sanitek používají dvoukoláky.
-» Hrůza. Ještěže žijeme v USA.
-» To rozhodně. Hej, barmane, ještě dvě americké piva?
+» Hrůza...
+ještěže žijeme v USA.
+» To rozhodně!
+Hej, barmane!
+Ještě dvě americké piva?
 » USA: vítejte ve Spojených Státech Alkoholických.
-" 358 394
+" 359 392
 }
 }
 OPTIONS

@@ -1,14 +1,14 @@
-VERSION 1.2
+ VERSION 1.2
 PLAINTEXT
 {
 Radio Loop 5
 }
 WORDS
 {
-WORD talk-a 000 029
+WORD talk-a 000 028
 {
 }
-WORD talk-b 029 064
+WORD talk-b 029 063
 {
 }
 WORD talk-c 064 093
@@ -17,10 +17,10 @@ WORD talk-c 064 093
 WORD talk-d 093 127
 {
 }
-WORD talk-e 127 160
+WORD talk-e 127 161
 {
 }
-WORD talk-f 160 185
+WORD talk-f 161 185
 {
 }
 WORD talk-g 185 215
@@ -44,7 +44,7 @@ WORD talk-k 295 324
 WORD talk-l 324 355
 {
 }
-WORD talk-m 355 389
+WORD talk-m 355 390
 {
 }
 WORD song-a 390 395
@@ -73,44 +73,45 @@ Jako by se svět rozpadal pod nohama?
 Co kdybysme si o tom dnes povídali?
 A kdyby to nešlo, můžeme se spolehnout...
 na vaše obvyklé úchylárny.
-" 0 29
+" 0 28
 
-PHRASE char 461 "
+PHRASE char 466 "
 Linko pět, jsi živě v Noci s Deb.
 Pověz mi, míří společnost do pekel nebo ne?
 » Myslím, že ano, Deb.
-A proč si to myslíš?
+» A proč si to myslíš?
 » Za prvé, před měsícem mě vyhodili z práce...
 a naše vedení si za to vyplatilo bonus.
 » To mě mrzí.
 » A nedávno jsem vykouknul z okna...
 tady v Santa Monice...
 Bývalo to tak pěkné město...
-Viděl jsem, jak někdo vystřílel místní jídelnu, kde jsem snídal mnoho let...
+Viděl jsem, jak někdo vystřílel místní jídelnu...
+kde jsem snídal mnoho let...
 Věřila bys tomu?
 Dnes už je každému všechno lhostejné.
-" 29 64
+" 29 63
 
-PHRASE char 449 "
+PHRASE char 455 "
 » Rozumím.
 » A kluk mého souseda, panečku...
 cpal do sebe speed, už když nastoupil na střední.
 A krade rodičům.
 » To je hanba.
-Ano, víš, pamatuji časy...
+» Ano, víš, pamatuji časy...
 kdy se takové věci neděly.
 Víš proč?
 » Proč tedy?
-No protože tehdy mohl muž zmlátit ženu a děti...
+» No protože tehdy mohl muž zmlátit ženu a děti...
 když nechtěli poslouchat!
 Ani nemuseli být vlastní...
 Mohli jsme těm frackům prostě jednu vlepit!
-Ha, staré dobré časy.
+» Ha, staré dobré časy.
 Zajdi si do herny, dědo...
 a zavzpomínej ještě na něco.
 " 64 93
 
-PHRASE char 552 "
+PHRASE char 554 "
 Chcete se někdo podělit o něco, co nekončí obviněním z napadení?
 » Jo, ahoj.
 » Páni, to je rarita, ženský názor, který není můj...
@@ -119,7 +120,7 @@ Tak ven s tím, sestro.
 skoro ve všem.
 Za posledních pár let se věci fakt zhoršily.
 » Mm-hm.
-Jo, jakože...
+» Jo, jakože...
 Nedovedu si představit, že bych do tohodle světa přivedla dítě.
 » Rozumím.
 » Teda pokud by to nebylo dítě Ashe Riverse.
@@ -129,24 +130,23 @@ Pane bože!
 » Jo, ale jakou pravděpodobnost tomu dáváš?
 " 93 127
 
-PHRASE char 502 "
+PHRASE char 501 "
 » To nevím.
 Ale do jeho klubu chodím skoro každý den.
 » Dobře, ale vraťme se k tématu.
 » A jednou jsem dělala servírku...
 na jednom předávání cen...
 A chystala jsem mu drink a on mi řekl...
-«Díky, krásko.»
+«Díky, krásko».
 A v ten moment tam jako určitě něco bylo...
 chápeš?
 » Jasně, drahá, ale dnešní téma není Ash Rivers.
 » Jo, no...
 To je vlastně docela dobře, protože ostatní ženy...
-by se od něj měly...
-držet dál!
-Rozumíš mi?
+by se od něj...
+měly držet dál, rozumíš mi?
 » Jsem ráda, že můžu poskytnout platformu pro pošuky obou pohlaví.
-" 127 160
+" 127 161
 
 PHRASE char 413 "
 Zkusme se držet tématu, co říkáte?
@@ -160,7 +160,7 @@ a pak jsem ten kostým sundala.
 » Ta holka v klubu mě odtáhla na záchod a něco se mnou udělala!
 » Když já chodila do klubů, říkali jsme tomu laskavost.
 Posluchači, vydrž moment, na druhé lince je Frankenstein.
-" 160 185
+" 161 185
 
 PHRASE char 431 "
 Frankensteine...
@@ -193,7 +193,7 @@ je v chaosu a i dál bude v chaosu.
 » Nahota?
 " 216 232
 
-PHRASE char 385 "
+PHRASE char 322 "
 » Nikoliv její nadbytek, ale nedostatek, oblečení je pokrytecké.
 Lidé za ním schovávají své skutečné já.
 Oblečení také podněcuje k třídnímu boji...
@@ -212,14 +212,14 @@ Zamysli se.
 Kdyby uvaděč v biografu neměl kalhoty,...
 utekla bys odtamtud jedna dvě!
 Ale v novém světě bys akorát řekla...
-«Kukuřici a limonádu, prosím.»
+«Kukuřici a limonádu, prosím».
 » Ne, spíš by mě přešla všechna chuť.
 " 250 272
 
-PHRASE char 406 "
+PHRASE char 405 "
 » Není snad obezita jeden z největších problémů, co máme?
 Další výhoda nahoty.
-A co všechen tyátr kolem toho, když si někdo usmyslí,...
+A co všechen tyátr kolem toho, když si někdo usmyslí...
 že půjde po ulici, jak ho příroda stvořila?
 Zatčení za nemravné chování?
 Ale v nahém světě by to bylo normální.
@@ -227,7 +227,7 @@ Lidé by se se zájmem ptali, před kolika lidmi jste se dnes odhalili?
 » Nakolik jsem na své holky pyšná, myslím, že ukazovat je budu jen privátně.
 " 272 295
 
-PHRASE char 549 "
+PHRASE char 546 "
 Další.
 » Deb, tady končí sranda, tentokrát jsem narazil na něco...
 co je větší než cokoliv, co si můžeš představit.
@@ -235,11 +235,11 @@ Hrozba pro existenci celého lidstva.
 » Čau, Gomezi!
 To se pozná mizerná noc, když už jsem se těšila na tvůj telefonát.
 » Deb, na tohle není svět vůbec připraven.
-Tohle je největší bomba v historii lidstva.
+Tohle je největší bomba v historii lidstva!
 Ta největší, Deb!
 Jak jsem se to dověděl ti nemůžu říct, ale i tak tady teď riskuju život.
 Jsi připravená to slyšet?
-» No... jasně.
+» No jasně.
 Občané Los Angeles, jsou mezi vámi vampíři.
 » To snad ne, už zase vampíři...
 " 295 324
@@ -263,7 +263,7 @@ Chce ho použít proti jinému společenství vampírů...
 kteří se tady ve městě chtějí uchytit.
 " 324 355
 
-PHRASE char 654 "
+PHRASE char 653 "
 A to není všechno!
 V tom sarkofágu by mohl být ještě starší vampír.
 Prastarý arcivampír!
@@ -274,7 +274,7 @@ Nemrtví jsou všude kolem nás.
 Musíme povstat a postavit se těm zlovolným vampírským vládcům...
 dokud není pozdě!
 » Tak jste to slyšeli.
-Sežeňte si, kříže, česnek a nákrčníky.
+Sežeňte si kříže, česnek a nákrčníky.
 Panečku.
 Deb sice není nemrtvá, ale je k smrti unavená a slunce už brzo vyjde.
 Půjdu už domů a dám si svůj těžce vydělaný klídek a pohodu.
@@ -282,9 +282,9 @@ Ale nebojte...
 Budu zpátky na stejné stanici zítra večer.
 Tak se mějte, fandové...
 a ať vás vampíři nekoušou celou noc.
-" 355 389
+" 355 390
 
-PHRASE char 9 "(Music)" 390 395
+PHRASE char 9 "(Hudba)" 390 395
 }
 }
 OPTIONS

@@ -1,62 +1,77 @@
-VERSION 1.2
+ VERSION 1.2
 PLAINTEXT
 {
 Radio Loop 3
 }
 WORDS
 {
-WORD talk-a 000 022
+WORD talk-a 000 024
 {
 }
-WORD talk-b 022 049
+WORD talk-b 024 050
 {
 }
-WORD talk-c 049 074
+WORD talk-c 050 073
 {
 }
-WORD talk-d 074 098
+WORD talk-d 075 087
 {
 }
-WORD talk-e 098 129
+WORD talk-d 087 096
 {
 }
-WORD talk-f 129 152
+WORD talk-e 096 116
 {
 }
-WORD talk-g 152 176
+WORD talk-e 116 128
 {
 }
-WORD talk-h 176 201
+WORD talk-f 128 153
 {
 }
-WORD talk-i 201 223
+WORD talk-g 153 176
 {
 }
-WORD talk-j 223 235
+WORD talk-h 176 195
 {
 }
-WORD talk-j 235 251
+WORD talk-h 195 206
+{
+}
+WORD talk-i 206 224
+{
+}
+WORD talk-j 224 238
+{
+}
+WORD talk-j 238 251
 {
 }
 WORD talk-k 251 273
 {
 }
-WORD comm-a 273 295
+WORD comm-a 273 298
 {
 }
-WORD comm-a 295 318
+WORD comm-a 298 318
 {
 }
-WORD comm-b 318 363
+WORD comm-a 318 330
 {
 }
-WORD comm-c 363 390
+WORD comm-b 330 355
 {
 }
-WORD comm-c 390 427
+WORD comm-b 355 363
 {
 }
-WORD comm-d 427 445
+WORD comm-c 363 384
+{
+}
+WORD comm-c 384 428
+{
+}
+WORD comm-d 428 445
 {
 }
 }
@@ -74,106 +89,119 @@ Vemte si do postele rádio, proto tady jsem.
 Kromě toho mi můžete někdy zavolat.
 Předvolba 323, KL5-KTRK.
 Zdá se, že někdo tu čeká ve frontě už docela dlouho, aby si promluvil s mou maličkostí.
-" 0 22
+" 0 23
 
-PHRASE char 435 "
+PHRASE char 436 "
 Ahoj posluchači, pročpak nespíš ty?
-»Ehm, kvůli hmyzu.
-»Hmyzu...
+» Ehm, kvůli hmyzu.
+» Hmyzu...
 jakože máš potíže s hmyzem?
 Nebo tě snad hluční cvrčci nenechají usnout?
 Nebo máš o hmyzu noční můry?
 Trochu mi s tím pomoz.
-»Ne, ne, ne.
-Copak nevíš, že když usneš, můžou ti vlézt do pusy nebo do uší nebo třeba...
+» Ne, ne, ne, copak nevíš?
+Když usneš, můžou ti vlézt do pusy nebo do uší nebo třeba...
 do nosu.
 Tomu-- tomu se nedá zabránit, když spíš.
 Protože-- co bys s tím mohla dělat?
-»Máme na lince nějaké vědce, kteří nás poslouchají?
-" 22 49
+» Máme na lince nějaké vědce, kteří nás poslouchají?
+" 23 50
 
-PHRASE char 414 "
-»Ehm...
-něco jsem četl, už nevím ani kde, ale veděla jsi, že průměrný člověk sní ve spánku víc než kilo různého hmyzu za rok?
-Většina té váhy se skládá ze švábů, mravenců a pavouků.
-Jenom když si představím, že jakmile zavřu oči, nějaká tlustá velká stonožka mi vleze do pusy a potom až do krku...
-To-- to prostě nejde!
+PHRASE char 438 "
+» Ehm, něco jsem četl,...
+už nevím ani kde...
+ale veděla jsi, že průměrný člověk sní ve spánku víc než kilo různého hmyzu za rok?
+Většina té váhy se skládá ze švábů,...
+mravenců...
+a pavouků.
+Jenom když si představím, že jakmile zavřu oči...
+nějaká tlustá velká stonožka mi vleze do pusy a potom až do krku...
+...
+To...
+to prostě nejde!
 Já v noci nikdy nespím!
-»Na druhou stranu, v některých zemích se hmyz normálně jí.
-" 49 74
+» Na druhou stranu, v některých zemích se hmyz normálně jí.
+" 50 74
 
-PHRASE char 424 "
-»Jo, tak v takových zemích nejspíše potřebují Ježíše.
-»Takže v noci nespíš, ale předpokládám správně, že někdy spíš?
-»Já-- já spím v práci.
-»A co přesně tě živí?
-»Jsem učitel na střední škole.
-»To by vysvětlovalo, proč můj synovec investoval dvacku, kterou jsem mu poslala k narozeninám, do kouzelných fazolí.
+PHRASE char 207 "
+» Jo, tak v takových zemích nejspíše potřebují Ježíše.
+» Takže v noci nespíš, ale předpokládám správně, že někdy spíš?
+» Já-- já spím v práci.
+» A co přesně tě živí?
+» Jsem učitel na střední škole.
+" 75 87
+
+PHRASE char 188 "
+» To by vysvětlovalo, proč můj synovec investoval dvacku, kterou jsem mu poslala k narozeninám, do kouzelných fazolí.
 Je dobré vědět, že budoucnost naší země je v dobrých rukou, že?
+" 87 96
+
+PHRASE char 289 "
 Páni, podívejme se, koho tu máme dál.
-" 74 98
-
-PHRASE char 501 "
 Posluchači, čím se živíš ty?
-»Já jsem Roger.
-»Dobře.
-A čím se živíš, Rogere?
-»Já jsem spisovatel, Deb.
-»A napsal jsi nějaký film, který bych mohla znát?
-»No vlastně jsem ještě nedopsal žádný scénář.
-»Aha.
-A co jiného jsi tedy napsal?
-»Zatím mám nějaké rozpracované věci, ale v hlavě se mi honí zatraceně dobré nápady na zápletky.
-»Takže pokud jsi vlastně nic nenapsal, jak jsi můžeš říkat spisovatel?
+» Já jsem Roger.
+» Dobře a čím se živíš, Rogere?
+» Já jsem spisovatel, Deb.
+» A napsal jsi nějaký film, který bych mohla znát?
+» No vlastně jsem ještě nedopsal žádný scénář.
+» Aha, a co jiného jsi tedy napsal?
+" 96 116
+
+PHRASE char 260 "
+» Zatím mám nějaké rozpracované věci, ale v hlavě se mi honí zatraceně dobré nápady na zápletky.
+» Takže pokud jsi vlastně nic nenapsal, jak jsi můžeš říkat spisovatel?
 Protože já jsem si jednou spravila záchod, ale to ze mě nedělá instalatérku, že ne?
-" 98 129
+" 116 128
 
-PHRASE char 385 "
-»No, víš...
-»Je v tomto městě vůbec někdo, kdo si neříká spisovatel nebo herec nebo režisér?
-Nemyslíš, že děláš medvědí službu těm, kdo tuto práci doopravdy dělají, když se považuješ za někoho, kým nejsi nebo kým jsi ani nebyl vyškolen?
-»Ehm, no já myslím, že dost dobře poznám, co je dobře napsané a co ne.
-»To by znamenalo, že jsi recenzent, ne?
+PHRASE char 392 "
+» No, víš...
+» Je v tomto městě vůbec někdo, kdo si neříká spisovatel nebo herec nebo režisér?
+Nemyslíš, že děláš medvědí službu těm, kdo tuto práci doopravdy dělají...
+když se považuješ za někoho, kým nejsi nebo kým jsi ani nebyl vyškolen?
+» Ehm, no já myslím, že dost dobře poznám, co je dobře napsané a co ne.
+» To by znamenalo, že jsi recenzent, ne?
 Zeptáme se někoho dalšího.
-" 129 152
+" 128 153
 
-PHRASE char 395 "
+PHRASE char 400 "
 Linko dvě, přidáš se k nám do trojky?
-»Jasně, Deb.
-»A řekneš nám prosím, čím se živíš?
-»Jsem osobní asistent producenta u studia Parasite.
-»Dokonalé.
+» Jasně, Deb.
+» A řekneš nám prosím, čím se živíš?
+» Jsem osobní asistent producenta u studia Parasite.
+» Dokonalé.
 Četl jsi už hodně scénářů?
-»Zbytečná otázka.
-»Tak to je velká šance pro našeho spisovatele na lince jedna, aby se pochlubil.
+» Zbytečná otázka.
+» Tak to je velká šance pro našeho spisovatele na lince jedna, aby se pochlubil.
 Jdeš do toho, linko dvě?
-Předveď se, chlape.
-»No tak...
-dobře.
+» Předveď se, chlape.
+» No tak dobře.
 Takže, ta story je o jednom chlápkovi--
-" 152 176
+" 153 176
 
-PHRASE char 401 "
-»Neříkej.
-»Fajn, fajn, tak ten chlápek...
-je něco jako...
+PHRASE char 317 "
+» Neříkej.
+» Fajn, fajn, tak ten chlápek je něco jako...
 agent FBI, ale vlastně nepracuje tak úplně pro tu hlavní FBI.
-A taky...
-má jednu novou parťačku, co je hrozně hezká a taky dělá práci agentky na výbornou.
+A taky má jednu novou parťačku, co je hrozně hezká a taky dělá práci agentky na výbornou.
 A oni teď proště dělají na jednom bizarním případu, kdě někdo zabíjí lidi hodně divnýma způsobama.
-»Aha.
-»A pak se jako něco stane a ta naše agentka je unesena tím zabijákem.
-" 176 201
+" 176 195
 
-PHRASE char 409 "
-»Něco se stane...
-»Jo, totiž, ještě to nemám úplně domyšlený, ale náš agent si jako všimne, že ten zabiják jako kdyby věděl všechno, co on dělá, že je jako vždycky o krok před ním.
+PHRASE char 122 "
+» Aaaha.
+» A pak se jako něco stane a ta naše agentka je unesena tím zabijákem.
+» Něco se stane...
+» Jo, totiž...
+" 195 206
+
+PHRASE char 380 "
+ještě to nemám úplně domyšlený, ale náš agent si jako všimne...
+že ten zabiják jako kdyby věděl všechno, co on dělá...
+že je jako vždycky o krok před ním.
 A pak je tam jedna...
 jako fakt divná honička a pak, vlastně, se jako dozvíme, že ten chlap má rozpolcenou osobnost.
 A pak vlastně, on sám zjistí, že on je vlastně ten zabiják!
-A že...
-on vlastně unesl svou parťačku!
-" 201 223
+A že on vlastně unesl svou parťačku!
+" 206 224
 
 PHRASE char 192 "
 » Linko dvě, co si o tom myslíš?
@@ -186,10 +214,11 @@ Zajímá tě můj profesionální názor?
 » A odkud jseš?
 » Ehm, z Wisconsinu.
 » Fajn.
-" 223 235
+" 224 236
 
-PHRASE char 286 "
-Tak si prosím tě sbal saky paky a odstěhuj se zpět do Wisconsinu.
+PHRASE char 290 "
+Tak si prosím tě sbal saky paky...
+a odstěhuj se zpět do Wisconsinu.
 » To bylo kapku bezcitné, dvojko.
 » Takový je Hollywood, puso.
 » Možná je to pro tebe moc dobrý.
@@ -197,7 +226,7 @@ Tak si prosím tě sbal saky paky a odstěhuj se zpět do Wisconsinu.
 » Nechte toho oba dva. Máte něco na závěr?
 » Wisconsin.
 » Taky dělám i na jiných věcech.
-" 235 251
+" 236 251
 
 PHRASE char 375 "
 Myslím, že mám dost dobré nápady na počítačové hry.
@@ -208,28 +237,32 @@ Dáme si teď reklamní pauzičku, ale to neznamená, že byste na mě měli př
 Nikam nechoďte, kluci.
 " 251 273
 
-PHRASE char 354 "
+PHRASE char 364 "
 (Reklama 1)
 » Nestává se vám, že vám překáží váš penis?
 » Už jsem vynosil nákup, zlato.
 Ještě musím zavřít kufr.
+...
 » Ještě jeden hřebík a ta budka bude jako nová!
+...
 » Je mi líto, pane.
 Tato kabinka je jen pro ženy.
 » Nemusíte si to nechat líbit.
 Zdravím vás, jsem doktor Fred Tuck.
 Nenechte svůj penis, aby znehodnocoval kvalitu vašeho života.
-" 273 295
+" 273 298
 
-PHRASE char 377 "
-Za dobu své praxe jsem provedl přes 300 změn pohlaví a žádný z pacientů nikdy nežádal své nářadíčko zpět.
-Navštivte Tuckovu Pohlavní Burzu v následujících 30 dnech a dostanete předběžnou kalkulaci zdarma.
+PHRASE char 387 "
+Za dobu své praxe jsem provedl přes 300 změn pohlaví...
+a žádný z pacientů nikdy nežádal své nářadíčko zpět.
+Navštivte Tuckovu Pohlavní Burzu v následujících 30 dnech...
+a dostanete předběžnou kalkulaci zdarma.
 Nenechte si duševní pohodu narušovat překážkou v rozkroku.
-Tuckova Pohlavní Burza: nedaleko od Beverly Drive.
+» Tuckova Pohlavní Burza: nedaleko od Beverly Drive.
 Hledejte ceduli se Zubkou, naší chirurgickou pilkou.
-" 295 318
+" 298 318
 
-PHRASE char 632 "
+PHRASE char 185 "
 (Reklama 2)
 » Vadí vám pomalý přístup k internetu?
 » Mami! 
@@ -237,11 +270,18 @@ Internet už je zase pomalý.
 » Nejsem tvá matka.
 Jsem bytost, která se z ní vyvinula.
 » Štve vás nevyžádaná pošta?
-» Další email od bývalého spolubydlícího Roberta Ptáka.
+" 318 330
+
+PHRASE char 276 "
+» Další email od bývalého spolubydlícího...
+Roberta Ptáka...
 Proboha!
 » Nemůžete se kvůli problémům s počítačem přihlásit?
 » Chyba 432: velikost alokační paměťové tabulky pro přístup k síti přes vzdálený server překročena.
 Bude spuštěno formátování pevného disku...
+" 330 355
+
+PHRASE char 185 "
 » COŽE?
 » Chcete něco, co nevyžaduje login...
 nepřijímá spam...
@@ -249,43 +289,37 @@ obsahuje srozumitelné věty...
 a nemá žádné technické problémy?
 Přečtěte si knihu.
 Knihy: prapůvodní internet.
-" 318 363
+" 355 363
 
-PHRASE char 255 "
+PHRASE char 263 "
 (Reklama 3)
 » Teroristé se chystají zničit největší americkou přehradu...
 podruhé.
-A jakmile to bouchne, Hoovera to zaskočí s gaťaty u kolen!
-A přitom jen tento policejní odpadlík a manikérka jeho exmanželky stojí mezi zkázou a nečekanou láskou.
-" 363 390
+» A jakmile to bouchne, Hoovera to zaskočí s gaťaty u kolen!
+» A přitom jen tento policejní odpadlík...
+a manikérka jeho exmanželky stojí mezi zkázou a nečekanou láskou.
+" 363 384
 
-PHRASE char 507 "
-Zapíšu si tě jako mortuus adlatus.
-Toto léto je v sázce všechno,...
-drama vrcholí,...
-potíže volají,...
-štvanice se rozjíždí,...
-hra začíná,...
-žetony jsou na stole,...
-riziko je velké,...
-šance jsou nevalné,...
-nebezpečí je závratné,...
-odměna je nicotná,...
-přátelství je na cestě,...
-pravidla skončí v prachu,...
-křivdy budou napraveny...
-a žádný kámen nezůstane neotočen...
+PHRASE char 483 "
+» Zapíšu si tě jako mortuus adlatus.
+» Toto léto je v sázce všechno,...
+drama vrcholí, potíže volají,...
+štvanice se rozjíždí, hra začíná,...
+žetony jsou na stole, riziko je velké,...
+šance jsou nevalné, nebezpečí je závratné, odměna je nicotná,...
+přátelství je na cestě, pravidla skončí v prachu,...
+křivdy budou napraveny a žádný kámen nezůstane neotočen...
 Čekejte obrat naruby a hlavou dolů.
 Hoover 2: hydroelektrická řežba.
 Nejlepší přehradní film v tomto roce.
-" 390 427
+" 384 428
 
 PHRASE char 284 "
 (Reklama 4)
 Když už se štvu s převozem pašovanýho zboží na boardu, nemůžu si dovolit být nafouknutej.
 Proto do sebe každý ráno hodím Pound Ground, extrémně pozvolný sportovní projímavý nápoj,...
 protože když machrujete s trojitou otočkou, nechcete, aby vás cokoliv zpomalilo.
-" 427 445
+" 428 445
 }
 }
 OPTIONS

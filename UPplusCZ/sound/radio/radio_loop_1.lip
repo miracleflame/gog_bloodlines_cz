@@ -23,19 +23,25 @@ WORD talk-e 103 137
 WORD talk-f 137 169
 {
 }
-WORD comm-a 169 227
+WORD comm-a 169 183
 {
 }
-WORD comm-b 227 282
+WORD comm-a 183 227
+{
+}
+WORD comm-b 227 281
 {
 }
 WORD comm-c 282 313
 {
 }
-WORD comm-d 313 370
+WORD comm-d 313 371
 {
 }
-WORD comm-e 370 426
+WORD comm-e 371 391
+{
+}
+WORD comm-e 391 426
 {
 }
 }
@@ -46,85 +52,161 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 425 "
-Ahoj LA, že už jste měli být dávno pod peřinou? Doufám, že jste se hodili do něčeho pohodlného stejně jako já.
-Pokud jste ve městě noví nebo poprvé na této stanici, posloucháte Noc s Deb... jedinou holkou, která s vámi stráví celou noc a s ránem zmizí, to můžu zaručit.
+PHRASE char 395 "
+Ahoj LA, že už jste měli být dávno pod peřinou?
+Doufám, že jste se hodili do něčeho pohodlného stejně jako já.
+Pokud jste ve městě noví nebo poprvé na této stanici, posloucháte Noc s Deb...
+jedinou holkou, která s vámi stráví celou noc a s ránem zmizí, to můžu zaručit.
 Vida, kontrolky už nám tu začaly blikat, jsem já to ale oblíbená.
 Tak pojďme na to, eniky, beniky, kdo bude ten...
 " 0 25
 
-PHRASE char 554 "
-Šťastlivec, dnes jsi první v Noci s Deb. S kým mám tu čest mluvit?
-» Čau Deb, tady je... ehm... Vigo.
-» Vigo... A Vigo, proč jsi tak pozdě vzhůru?
-» Ehm... mám noční směnu tady v, ehm... jachtovém klubu.
-» Aha... a kolik lodí tam máš, Vigo?
-» Dvě, vlastně tři, ehm, jedna je na opravě.
-» Sama jsem se jachtaření trochu věnovala... jaký typ jachet máte?
-» Ehm... tu značku bys asi neznala... Já... ehm, koupil jsem je v Itálii.
-» Á, l'Italia bella, parlate Italiano?
-» Ehm... ... ...ano.
+PHRASE char 556 "
+Šťastlivec!
+Dnes jsi první v Noci s Deb.
+S kým mám tu čest mluvit?
+...
+» Čau Deb, tady je... 
+ehm...
+Vigo.
+» Vigo...
+A Vigo...
+proč jsi tak pozdě vzhůru?
+» Ehm...
+mám noční směnu tady v, ehm...
+jachtovém klubu.
+» Aha...
+a kolik lodí tam máš, Vigo?
+» Dvě. 
+Vlastně tři.
+Jedna je, ehm...
+na opravě.
+» Sama jsem se jachtaření trochu věnovala,
+...jaký typ jachet máte?
+» Ehm...
+tu značku bys asi neznala.
+Já...
+ehm...
+koupil jsem je v Itálii.
+» Á, l'Italia bella...
+Parlate Italiano? 
+» Ehm...
+...
+Ano.
 » Arrivederci, Vigo.
 " 25 68
 
-PHRASE char 153 "
-Druhý posluchač... jsi v Noci s Deb, buď něžný.
+PHRASE char 146 "
+Druhý posluchač...
+jsi v Noci s Deb... 
+...
+Buď něžný. 
 » Čau, Deb.
-» Ahoj, posluchači.
+» Ahoj, posluchači. 
 » Čau, Deb.
 » Pouštíme dnes reprízu?
 » Deb?
 " 68 78
 
-PHRASE char 519 "
+PHRASE char 472 "
 » Třetí posluchač, kvůli čemu nespíš ty?
-» Deb, poslouchej mě, Deb. Už se zase paktují a lidi to musí vědět. Musí to vědět, protože nemají páru a ve zprávách nic z toho nebude, protože jim ta média patří!
+» Deb, poslouchej mě, Deb.
+Už se zase paktují a lidi to musí vědět.
+Musí to vědět, protože nemají páru...
+a ve zprávách nic z toho nebude, protože jim ta média patří!
 » Čau Gomezi, o čem je nejnovější spiknutí?
-» Spiknutí? Tohle je víc než spiknutí, chápeš? To se nedá popsat slovy, jak ďábelský a tajný tenhle plán je, rozumíš? Lidé to potřebují slyšet, musí znát pravý stav věcí!
+» Spiknutí?
+Tohle je víc než spiknutí, chápeš?
+To se nedá popsat slovy,...
+jak ďábelský a tajný tenhle plán je, rozumíš?
+Lidé to potřebují slyšet, musí znát pravý stav věcí!
 » Všichni jsme tu jedno ucho.
 " 78 103
 
-PHRASE char 713 "
-» Fajn, všichni víme, že Američani postavili na Měsíci základnu už koncem sedmdesátých let, to není tajemství. Ale většina lidí neví, že tam dělají vykopávky. Ne kvůli surovinám, ale kvůli artefaktům.
+PHRASE char 649 "
+» Fajn, všichni víme, že Američani postavili na Měsíci základnu už koncem sedmdesátých let...
+to není tajemství.
+Ale většina lidí neví, že tam dělají vykopávky.
+Ne kvůli surovinám, ale kvůli artefaktům.
 » Rozumím.
-» Není žádná náhoda, že Číňani odstartovali vesmírný program. A víš proč? Řeknu ti proč. Je to proto, že Číňani se snaží překazit Američanům šanci najít prastarou vesmírnou sondu, kterou vyslali obyvatelé ze souhvězdí Kentaura. A proč? Protože tihle emzáci dávají své technologie Číňanům, aby to nandali Andromeďanům - neboli Šedákům - za to, že dali své technologie Američanům v padesátých letech.
+» Není žádná náhoda, že Číňani odstartovali vesmírný program.
+A víš proč?
+Řeknu ti proč.
+Je to proto, že Číňani se snaží překazit Američanům šanci najít prastarou vesmírnou sondu,...
+kterou vyslali obyvatelé ze souhvězdí Kentaura.
+A proč?
+Protože tihle emzáci dávají své technologie Číňanům,...
+aby to nandali Andromeďanům - neboli Šedákům...
+za to, že dali své technologie Američanům v padesátých letech.
 » Úžasné.
 " 103 137
 
-PHRASE char 659 "
-» Americká vláda dává čím dál víc peněz na vesmírný program. Nechápeš, co se děje? Nemůžu uvěřit, že jsem jediný, kdo si to poskládal dohromady! Jsem snad jediný člověk, který chápe, co se děje? Protože Andromeďani a ti druzí se chystají vést galaktickou válku mezi sebou skrze nás, Deb. A občané Ameriky, občané Země, vy všichni, to nesmíte dopustit! Opakuje se scénář mezi Mu a Atlantidou!
+PHRASE char 615 "
+» Americká vláda dává čím dál víc peněz na vesmírný program.
+Nechápeš, co se děje?
+Nemůžu uvěřit, že jsem jediný, kdo si to poskládal dohromady!
+Jsem snad jediný člověk, který chápe, co se děje?
+Protože Andromeďani a ti druzí se chystají vést galaktickou válku...
+mezi sebou skrze nás, Deb.
+A občané Ameriky, občané Země,...
+vy všichni, to nesmíte dopustit! 
+Opakuje se scénář mezi Mu a Atlantidou!
 » Díky, Gomezi, a tím máme pokrytou zpravodajskou část programu.
-Ale i moje maličkost musí platit účty, takže si dáme pár reklam. Ale nikam nechoďte, teprve se zahřívám, nebo vlastně... rozpaluju.
+Ale i moje maličkost musí platit účty, takže si dáme pár reklam...
+Ale nikam nechoďte, teprve se zahřívám,...
+nebo vlastně rozpaluju.
 " 137 169
 
-PHRASE char 972 "
+PHRASE char 277 "
 (Reklama 1)
-Podělaný Kuře nedávno vyzvalo několik náhodných občanů, aby porovnali chuť Podělanýho Kuřete s jinými předními kuřecími výrobky. Poslechněme si, jaké byly jejich reakce.
-» Madam, zúčastníte se malé ochutnávky? Zkuste tuto známou značku kuřete.
-» Můj bóže! To je týden stará ryba?
-» A teď zkuste toto!
-» Ó, ó! Toto je (PÍP) dobré kuře! Co je to?
-» Pane, dáte si?
-» Ano. No ale fujtajbl, na rovinu, tohle jste měl v (PÍP)?
-» Tumáte, ochutnejte toto.
-» Hmmm, hej, to je (PÍP) vynikající kuře! Co je to?
-» To je Podělaný Kuře.
-» To je kočka, že jo? Dáváte mi kočičí maso?
-» Zkuste toto.
-» Do (PÍP)! (PÍP), to je dobré. Co je to do (PÍP) za (PÍP)?
-» Devět z deseti dotazovaných preferovalo Podělaný Kuře před konkurencí. Proč?
-Protože to je (PÍP) dobrý kuře! Chci říct Podělaný Kuře.
-Podělaný Kuře! Tak dobré, že to odpřísáhnete nadávkou.
-" 169 227
+Podělaný Kuře nedávno vyzvalo několik náhodných občanů,...
+aby porovnali chuť Podělanýho Kuřete s jinými předními kuřecími výrobky...
+Poslechněme si, jaké byly jejich reakce.
+» Madam, zúčastníte se malé ochutnávky?
+Tady, zkuste tuto známou značku kuřete.
+" 169 183
 
-PHRASE char 1026 "
+PHRASE char 632 "
+» Uh, můj bóže! 
+To je týden stará ryba?
+» A teď zkuste toto!
+» Ó, ó!
+Toto je (PÍP) dobré kuře!
+Co je to?
+» Pane, dáte si?
+» Ano. 
+No ale fujtajbl...
+na rovinu, tohle jste měl v (PÍP)?
+» Tumáte, ochutnejte toto.
+» Hmmm...
+hej to je (PÍP) vynikající kuře!
+Co je to?
+» To je Podělaný Kuře.
+» To je kočka, že jo?
+Dáváte mi kočičí maso?
+» Zkuste toto.
+» Do (PÍP), (PÍP), to je dobré!
+Co je to do (PÍP) za (PÍP)?
+» Devět z deseti dotazovaných preferovalo Podělaný Kuře před konkurencí.
+Proč?
+» Protože to je (PÍP) dobrý kuře!
+Chci říct Podělaný Kuře.
+Podělaný Kuře! 
+Tak dobré, že to odpřísáhnete nadávkou.
+" 183 227
+
+PHRASE char 931 "
 (Reklama 2)
-Zamilovali jste si ten film s mluvícím nemluvnětem. A s mluvícím prasátkem. A dokonce i s mluvícím autem, víte, o kterém mluvím.
+Zamilovali jste si ten film s mluvícím nemluvnětem a s mluvícím prasátkem.
+A dokonce i s mluvícím autem, víte, o kterém mluvím.
 A teď se připravte na zatím nejvtipnější a nejupovídanější neživý objekt!
-Toto je Steve Cash, newyorský bankéř a čerstvý vdovec, kterému štěstí nepřeje.
-» a deset je sto. Zde jsou vaše peníze, madam, madam?
-» Víte, mám problém se štítnou žlázou. A dost! Chci vybrat všechny své milióny z této banky.
-» V hotovosti!
+Toto je Steve Cash,...
+newyorský bankéř a čerstvý vdovec, kterému štěstí nepřeje.
+» a deset je sto, zde jsou vaše peníze, madam...
+madam?
+» Víte, mám problém se štítnou žlázou.
+A dost, chci vybrat všechny své milióny z této banky...
+V HOTOVOSTI!
 » A toto bankomat s duší jeho zesnulé manželky.
 » Na tomto bankomatu je mi něco povědomého.
 » MILUJI TĚ.
@@ -132,24 +214,37 @@ Toto je Steve Cash, newyorský bankéř a čerstvý vdovec, kterému štěstí n
 » Společne se učí vytěžit maximum z této zvláštní situace.
 » TA HOLKA Z ÚČTÁRNY MĚ DNES POUŽILA.
 » Opravdu?
-» NEBYLA JAKO OSTATNÍ. KDYŽ MAČKALA MÉ KNOFLÍKY, BYLA VELMI NĚŽNÁ.
+» NEBYLA JAKO OSTATNÍ.
+KDYŽ MAČKALA MÉ KNOFLÍKY, BYLA VELMI NĚŽNÁ.
 » Ach miláčku, jestli nepřestaneš, budu tu muset složit kauci.
-» Jak převést Cashe. Každou středu v 8:30 v kině BMC.
-" 227 282
+...
+» Jak převést Cashe, každou středu v 8:30 v kině BMC.
+" 227 281
 
-PHRASE char 662 "
+PHRASE char 616 "
 (Reklama 3)
-» Řekněte sbohem žlutým zubům a skvrnám na špinavém nádobí.
-» Neuvěřitelné, pohleď na ten lesk!
+» Řekněte sbohem žlutým zubům...
+a skvrnám na špinavém nádobí.
+» Neuvěřitelné.
+» Pohleď na ten lesk.
 » Tvého úsměvu, nebo těch umytých talířů?
-» S pomocí prastarých egyptských tajemství jsme vyvinuli přípravek na nádobí tak účinný, že nejenže odstraní všechny zbytky jídla z nádobí, ale rovněž vybělí vaše zuby.
-Patentované částice s postupným uvolňováním odstraní připáleniny i mastnotu a zůstanout na talíři, aby se dostaly do jídla a následně vyčistily Vaše zuby do běla.
-Desetron, čístící prostředek budoucnosti, pro čistější nádobí a bělejší zuby!
+...
+» S pomocí prastarých egyptských tajemství...
+jsme vyvinuli přípravek na nádobí tak účinný...
+že nejenže odstraní všechny zbytky jídla z nádobí...
+ale rovněž vybělí vaše zuby...
+...
+Patentované částice s postupným uvolňováním...
+odstraní připáleniny i mastnotu a zůstanout na talíři...
+aby se dostaly do jídla a následně vyčistily Vaše zuby do běla.
+...
+Desetron, čístící prostředek budoucnosti,...
+pro čistější nádobí a bělejší zuby!
 " 282 313
 
-PHRASE char 1335 "
+PHRASE char 1227 "
 (Reklama 4)
-Minulý rok si demokratický kandidát Michael Redmonds koupil sportovní víceúčelový vůz. O tři měsíce později se v jeho okrsku staly dvě nezávislé nehody, kde viník ujel v podobném vozidle.
+Minulý rok si demokratický kandidát Michael Redmonds koupil víceúčelový sportovní vůz. O tři měsíce později se v jeho okrsku staly dvě nezávislé nehody, kde viník ujel v podobném vozidle.
 Může za to demokratický kandidát Michael Redmonds? Můžete si dovolit, pokud by tomu tak bylo? A mohou vaše děti?
 Volte republikánského senátora Roberta Thorna, kandidáta, který nikdy nikoho vozidlem nezabil.
 Demokratický kandidát Michael Redmonds nikdy veřejně nevyjádřil svůj postoj k dětské pornografii.
@@ -158,27 +253,41 @@ Volte republikánského senátora Roberta Thorna, kandidáta, který se zavazuje
 Demokratický kandidát Michael Redmonds nedávno zažaloval senátora Roberta Thorna za to, že Redmondse nazval vraždícím dětským pornografem.
 Ale Redmonds se v minulosti vyjádřil, že je proti zatěžování soudů lehkovážnými spory.
 Není snad takový postoj pokrytecký? Chtěli byste pokrytce za svého nového kongresmana? Chtěli byste, aby se z vašich dětí stali pokrytci?
-Volte republikánského senátora Roberta Thorna, kandidáta, který nebyl obviněn jako vraždící dětský pornograf.
-" 313 370
+Volte republikánského senátora Roberta Thorna, kandidáta, který nebyl obviněn jako vraždící dětský pornograf. 
+" 313 371
 
-PHRASE char 841 "
+PHRASE char 258 "
 (Reklama 5)
-Ve světě, kde lidi žijí... a umírají...
+Ve světě...
+kde lidi žijí...
+a umírají.
 » Myslíš, že tam můžeš jít sám a vyřídit to?
+...
 » Když nebude zbytí...
-» Brzy se střetne se svým největším nepřítelem...
-» Všechny je zabij, všechny!
+» Brzy se střetne...
+se svým největším nepřítelem...
+» Všechny je zabij!
+Všechny!
 » A s dívkou...
-» Ahoj! 
-» Čau.
-» A se zábavným kumpánem, který nepřežije do třetího dějství.
+» Ahoj!
+» Čau... 
+" 371 391
+
+PHRASE char 532 "
+» A se zábavným kumpánem...
+který nepřežije do třetího dějství.
 » Svou životní pojistku jsem zrušil ve špatný měsíc.
 » Ne, to neříkej, ty to zvládneš.
-» Účinkují také ten chlap z jiného docela známého filmu a ta nicka ze seriálu, který si občas zapnete.
-Ve filmu se dvěma úchvatnými počítačem generovanými bojovými scénami a s reklamní kampaní, která vás na tento film doslova dotáhne.
-Jděte na něj, protože je to film a všichni vaši přátelé jdou také.
+» Účinkují také ten chlap z jiného docela známého filmu...
+a ta nicka ze seriálu, který si občas zapnete.
+Ve filmu se dvěma úchvatnými počítačem generovanými bojovými scénami...
+a s reklamní kampaní,...
+která vás na tento film doslova dotáhne...
+...
+Jděte na něj, protože je to film...
+ a všichni vaši přátelé jdou také...
 V kinech v pátek a za tři měsíce na DVD.
-" 370 426
+" 391 426
 }
 }
 OPTIONS
