@@ -1,3 +1,9 @@
+'''
+This set of functions will automatically use contents in directories 'UPbasicCZ', 'UPplus' and 'UPplusCZ'
+to process and convert them in a way usable within the game with correctly displayed diacritics.
+Resulting 'temp' directory will contain 'basic' and 'plus' sub-directories for the installer compiler to compile.
+'''
+
 import os
 import shutil
 import re
