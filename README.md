@@ -15,7 +15,7 @@ Instrukce pro testování:
 
 2022
 
-  * Po "finálnom vydaní čštiny pre UP 10.0 na ktorom, bol zakotvený GOG release hry, prešlo zopár rokov a GOG vydalo release založený na UP 11.1, čím sa tento projekt znovu otvoril a od základu prekopáva...
+  * Po "finálnom" vydaní češtiny pre UP 10.0 na ktorom, bol zakotvený GOG release hry, prešlo zopár rokov a GOG vydalo release založený na UP 11.1, čím sa tento projekt znovu otvoril a od základu prekopáva... Môj nový converter.py skript nahrádza všetky predošlé skripty a nástroje, aby vykonal rovnaký výsledok rýchlejšie a pohodlnejšie.
 
 9.9.2017
 
