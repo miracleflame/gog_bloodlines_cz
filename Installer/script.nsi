@@ -15,10 +15,10 @@
 !define MUI_WELCOMEFINISHPAGE_BITMAP "wizard.bmp"
 
 ; The name of the installer
-Name "Čeština pro hru Vampire the Masquerade: Bloodlines Unofficial Patch 10.2"
+Name "Čeština pro hru Vampire the Masquerade: Bloodlines Unofficial Patch 11.1"
 
 ; The file to write
-OutFile "Cestina_VTMBup10.2beta.exe"
+OutFile "Cestina_VTMBup11.1beta.exe"
 
 ; The default installation directory
 InstallDir "(instalace hry nenalezena, cestu zvolte ručně)"
@@ -60,7 +60,7 @@ RequestExecutionLevel admin
 
 
 ; The stuff to install
-Section "VTMB UP 10.2 BASIC" basic
+Section "VTMB UP 11.1 BASIC" basic
 
   SectionIn RO
   
@@ -68,8 +68,8 @@ Section "VTMB UP 10.2 BASIC" basic
   SetOutPath "$INSTDIR"
   
   ; Put file there
-  File /r "basic\bin"
-  File /r "basic\Unofficial_patch"
+  File /r "..\temp\basic\bin"
+  File /r "..\temp\basic\Unofficial_patch"
 
  StrCpy $FONT_DIR $FONTS
  
@@ -89,19 +89,19 @@ Section "VTMB UP 10.2 BASIC" basic
  
  SendMessage ${HWND_BROADCAST} ${WM_FONTCHANGE} 0 0 /TIMEOUT=5000
 
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Copperplate_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Dementation2_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_DomesticManners_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Domination_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Dominican_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Intimidation_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Malkavian_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Persuasion_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Precolator_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Seduction_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Tahoma_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_TimesNewRoman_IS.TTF'
-  !insertmacro InstallTTF '..\CZ_fonty\VTMB_Trebuchet_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Copperplate_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Dementation2_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_DomesticManners_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Domination_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Dominican_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Intimidation_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Malkavian_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Persuasion_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Precolator_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Seduction_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Tahoma_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_TimesNewRoman_IS.TTF'
+  !insertmacro InstallTTF '.\czfonts\VTMB_Trebuchet_IS.TTF'
  
   SendMessage ${HWND_BROADCAST} ${WM_FONTCHANGE} 0 0 /TIMEOUT=5000
  
@@ -110,13 +110,13 @@ SectionEnd
 
 
 ; Optional section (can be disabled by the user)
-Section "Rozšíření UP 10.2 PLUS " plus
+Section "Rozšíření UP 11.1 PLUS " plus
 
   ; Set output path to the installation directory.
   SetOutPath $INSTDIR
   
   ; Put file there
-  File /r "plus\Unofficial_patch"
+  File /r "..\temp\plus\Unofficial_patch"
   
 SectionEnd
 
@@ -125,6 +125,6 @@ SectionEnd
 
   ;Assign language strings to sections
   !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
-    !insertmacro MUI_DESCRIPTION_TEXT ${basic} "Překlad je určen pro verzi hry s Neoficiálním Patchem 10.2 BASIC, která je dostupná na GOG.com. Počeštěné jsou i s diakritikou všechny textury, dialogy, ovládací prvky a popisky."
-	!insertmacro MUI_DESCRIPTION_TEXT ${plus} "Rozšíření PLUS pro Neof. Patch 10.2 v češtine. Obsahuje např. historie pro vytváření postav nebo titulky pro vysílání rádia a hlasy v hlavě. Nevyžaduje samostatnou instalaci anglické verze UP Plus!"
+    !insertmacro MUI_DESCRIPTION_TEXT ${basic} "Překlad je určen pro verzi hry s Neoficiálním Patchem 11.1 BASIC, která je dostupná na GOG.com. Počeštěné jsou i s diakritikou všechny textury, dialogy, ovládací prvky a popisky."
+	!insertmacro MUI_DESCRIPTION_TEXT ${plus} "Rozšíření PLUS pro Neof. Patch 11.1 v češtine. Obsahuje např. historie pro vytváření postav nebo titulky pro vysílání rádia a hlasy v hlavě. Nevyžaduje samostatnou instalaci anglické verze UP Plus!"
   !insertmacro MUI_FUNCTION_DESCRIPTION_END
