@@ -7,11 +7,15 @@ Aktualizace češtiny z www.bloodlines.cz pro verzi hry "Vampire: The Masquerade
  
 Instrukce pro testování:
 
-  * Výchozí instalace hry je "1.2 UP 9.8 basic (gog-8)" : https://www.gog.com/game/vampire_the_masquerade_bloodlines
+  * Výchozí instalace hry je "1.2 UP 11.1 basic (gog-8)" : https://www.gog.com/game/vampire_the_masquerade_bloodlines
   * Instalátor češtiny se zkompiluje spuštěním "Instalator/compile.cmd", avšak je zapotřebí dodržet body uvedené v souboru "Instalator/notes.txt"
   * Aby fungovalo sdílení a přepisování uložených pozic, hra by měla být nastavena, aby běžela s oprávněním administrátora systému
   * Hodí se zazálohovat adresář ..\VtMB\Unofficial_Patch
   * Nalezené chyby prosím nahlašte zde: https://github.com/soulcharmer/gog_bloodlines_cz/issues
+
+2022
+
+  * Po "finálnom vydaní čštiny pre UP 10.0 na ktorom, bol zakotvený GOG release hry, prešlo zopár rokov a GOG vydalo release založený na UP 11.1, čím sa tento projekt znovu otvoril a od základu prekopáva...
 
 9.9.2017
 
