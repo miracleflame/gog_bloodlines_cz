@@ -42,7 +42,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 22 "I can not find them!" 0.124 1.240
+PHRASE char 16 "Nevím, kde je!" 0.124 1.240
 }
 }
 OPTIONS

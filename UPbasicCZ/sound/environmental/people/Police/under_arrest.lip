@@ -31,7 +31,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 23 "You are under arrest!" 0.000 4.592
+PHRASE char 15 "Jste zatčeni!" 0.000 4.592
 }
 }
 OPTIONS

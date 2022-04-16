@@ -36,7 +36,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 20 "I am talking here." 0.047 1.124
+PHRASE char 24 "Zrovna s někým mluvím." 0.047 1.124
 }
 }
 OPTIONS

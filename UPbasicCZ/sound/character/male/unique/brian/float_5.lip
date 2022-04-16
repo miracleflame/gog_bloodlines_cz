@@ -47,7 +47,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 32 "Dammit, I wanna hurt somebody." 0.032 1.325
+PHRASE char 24 "Chce to nějakou bitku." 0.032 1.325
 }
 }
 OPTIONS

@@ -69,7 +69,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 50 "Are you positive you haven't lost my invitation?" 0.096 2.262
+PHRASE char 41 "Víš jistě, žes neztratila mou pozvánku?" 0.096 2.262
 }
 }
 OPTIONS

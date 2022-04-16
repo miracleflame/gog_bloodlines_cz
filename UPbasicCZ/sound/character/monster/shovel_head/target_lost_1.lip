@@ -29,7 +29,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 16 "Ugh, lost 'em." 0.048 1.459
+PHRASE char 10 "Je pryč." 0.048 1.459
 }
 }
 OPTIONS

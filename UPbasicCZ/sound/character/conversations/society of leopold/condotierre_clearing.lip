@@ -454,7 +454,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 399 "«Greetings commander». «Greetings soldier. Anything to report? The gladius dei has told us to keep a sharp eye! He thinks we may have some visitors this evening». «Of course, sir. My duty as always is to protect the brotherhood! All seems quiet for now». «Good, good». «Did he mention... ah, what kind of visitors, sir»? «The only kind that matters soldier». «Yes sir, of course, sir». «Carry on»!" 0.000 25.168
+PHRASE char 372 "»Buďte zdráv, veliteli." "»Buďte zdráv, vojáku." "»Něco k hlášení? Meč boží nám vzkázal, abychom byli pozorní! Domnívá se, že dnes se můžou objevit nezvaní hosté." "»Zajisté, pane. Má stráž má za cíl ochránit bratrstvo! Prozatím je všude klid." "»Dobrá, dobrá." "»Zmínil také... jací hosté?" "»Jediní, na kterých záleží, vojáku." "»Ano, pane, jistě, pane." "»Pokračujte!" 0.000 25.168
 }
 }
 OPTIONS

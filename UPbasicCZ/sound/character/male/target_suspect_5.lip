@@ -38,7 +38,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 24 "Hey, is someone there?" 0.000 0.992
+PHRASE char 20 "Hej, je tam někdo?" 0.000 0.992
 }
 }
 OPTIONS

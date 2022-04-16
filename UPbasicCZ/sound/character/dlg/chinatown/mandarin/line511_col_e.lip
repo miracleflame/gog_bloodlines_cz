@@ -135,7 +135,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE unicode 113 "Ty zdi jsou z půlmetrového železobetonu - žádný jiný východ tu není, věř mi, sám jsem to navrhoval." 0.000 8.080
+PHRASE char 101 "Ty zdi jsou z půlmetrového železobetonu - žádný jiný východ tu není, věř mi, sám jsem to navrhoval." 0.000 8.080
 }
 }
 OPTIONS

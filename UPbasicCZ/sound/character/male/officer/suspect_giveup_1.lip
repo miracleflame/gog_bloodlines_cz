@@ -30,7 +30,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 15 "Suspect lost." 0.032 0.912
+PHRASE char 19 "Podezřelý zmizel." 0.032 0.912
 }
 }
 OPTIONS

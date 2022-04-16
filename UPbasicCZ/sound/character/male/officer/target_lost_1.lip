@@ -51,7 +51,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 32 "Drop your weapon and come out!" 0.064 2.112
+PHRASE char 31 "Odhoďte zbraně a vyjděte ven!" 0.064 2.112
 }
 }
 OPTIONS

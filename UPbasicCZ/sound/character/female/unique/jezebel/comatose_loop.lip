@@ -41,7 +41,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 32 "Ah- oh... ple- please, stop..." 0.224 1.936
+PHRASE char 25 "...prosím, přestaňte..." 0.224 1.936
 }
 }
 OPTIONS

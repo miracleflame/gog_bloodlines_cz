@@ -42,7 +42,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 24 "Looks like I lost 'em." 0.000 0.880
+PHRASE char 21 "Zdá se, že je pryč." 0.000 0.880
 }
 }
 OPTIONS

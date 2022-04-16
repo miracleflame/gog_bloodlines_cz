@@ -48,7 +48,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 32 "You're not allowed to be here!" 0.048 1.024
+PHRASE char 23 "Tady nemáte co dělat!" 0.048 1.024
 }
 }
 OPTIONS

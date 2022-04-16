@@ -43,7 +43,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 43 "Didn't I tell you to get away from there?" 0.100 0.400
+PHRASE char 33 "Neříkal jsem, že máte jít pryč?" 0.100 0.400
 }
 }
 OPTIONS

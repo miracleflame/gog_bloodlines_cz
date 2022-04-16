@@ -25,7 +25,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 13 "Don't move!" 0.030 0.412
+PHRASE char 12 "Ani hnout!" 0.030 0.412
 }
 }
 OPTIONS

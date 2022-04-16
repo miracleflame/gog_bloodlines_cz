@@ -24,7 +24,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 10 "Go away." 0.045 0.479
+PHRASE char 11 "Běž pryč." 0.045 0.479
 }
 }
 OPTIONS

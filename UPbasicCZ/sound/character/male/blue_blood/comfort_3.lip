@@ -32,7 +32,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 20 "What's the matter?" 0.062 0.746
+PHRASE char 13 "Co se děje?" 0.062 0.746
 }
 }
 OPTIONS

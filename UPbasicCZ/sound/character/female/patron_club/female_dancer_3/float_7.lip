@@ -36,7 +36,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 19 "What do you want?" 0.080 0.768
+PHRASE char 11 "Co chceš?" 0.080 0.768
 }
 }
 OPTIONS

@@ -35,7 +35,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 20 "Need some company?" 0.032 1.168
+PHRASE char 30 "Nehledáš trochu společnosti?" 0.032 1.168
 }
 }
 OPTIONS

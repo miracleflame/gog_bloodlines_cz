@@ -29,7 +29,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 16 "Aw, he's gone." 0.048 1.264
+PHRASE char 10 "Je pryč." 0.048 1.264
 }
 }
 OPTIONS

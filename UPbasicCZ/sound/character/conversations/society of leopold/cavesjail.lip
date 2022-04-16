@@ -477,7 +477,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 405 "«Shhh, did you hear something»? «Perhaps, shall I go and investigate it»? «No, if someone is out there let him come to us. There is only one way in here». «You're mistaken, there's another way, we must be cautious». «Yes, I suppose, but I don't know the man who can hold his breath for that long». «It is not man we need to worry about». «Ah yes, I see your point, brother. We shall be cautious indeed»." 1.040 24.032
+PHRASE char 364 "»Šššš, slyšeli jste to?" "»Zřejmě ano, mám to jít zkontrolovat?" "»Ne, jestli tam někdo je, ať přijde k nám, vede sem jen jedna cesta." "»To je omyl, je tu další cesta, musíme být opatrní." "»To ano, ale neznám člověka, který by dokázal zadržet dech na tak dlouho." "»Není to člověk, koho bychom se měli obávat." "»Už rozumím, bratře. Opravdu musíme být opatrní." 1.040 24.032
 }
 }
 OPTIONS

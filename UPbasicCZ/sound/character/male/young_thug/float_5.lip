@@ -52,7 +52,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 34 "I don't wanna talk to you. Move!" 0.032 0.944
+PHRASE char 30 "Nechci s tebou mluvit. Zmiz!" 0.032 0.944
 }
 }
 OPTIONS

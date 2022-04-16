@@ -32,7 +32,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 20 "I heard something." 0.000 0.656
+PHRASE char 22 "Něco jsem zaslechla." 0.000 0.656
 }
 }
 OPTIONS

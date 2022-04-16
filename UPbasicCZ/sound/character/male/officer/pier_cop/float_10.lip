@@ -45,7 +45,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 29 "This is closed crime scene." 0.047 1.234
+PHRASE char 40 "Toto je místo činu s omezeným vstupem." 0.047 1.234
 }
 }
 OPTIONS

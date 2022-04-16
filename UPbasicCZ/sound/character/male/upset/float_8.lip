@@ -53,7 +53,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 30 "Stop it and get out of here!" 0.048 1.104
+PHRASE char 26 "Nechte toho a vypadněte." 0.048 1.104
 }
 }
 OPTIONS

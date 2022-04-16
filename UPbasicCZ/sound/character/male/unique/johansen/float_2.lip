@@ -109,7 +109,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 75 "You have no right to keep me here like this! I demand that you let me go!" 0.127 5.692
+PHRASE char 50 "Nemáte právo mě tady držet! Požaduji propuštění!" 0.127 5.692
 }
 }
 OPTIONS

@@ -32,7 +32,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 16 "Excuse me? No." 0.412 1.569
+PHRASE char 15 "Promiňte? Ne." 0.412 1.569
 }
 }
 OPTIONS

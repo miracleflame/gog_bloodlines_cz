@@ -28,7 +28,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 16 "What happened?" 0.000 0.544
+PHRASE char 14 "Co se stalo?" 0.000 0.544
 }
 }
 OPTIONS

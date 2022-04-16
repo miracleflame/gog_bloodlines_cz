@@ -20,7 +20,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 8 "Hello." 0.092 0.539
+PHRASE char 7 "Ahoj." 0.092 0.539
 }
 }
 OPTIONS

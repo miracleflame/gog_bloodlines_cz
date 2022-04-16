@@ -59,7 +59,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 39 "Oh, sorry, I-I'm afraid I can't help." 0.125 2.254
+PHRASE char 34 "Promiňte, ale nemohu Vám pomoci." 0.125 2.254
 }
 }
 OPTIONS

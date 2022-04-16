@@ -48,7 +48,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 33 "Nurse, I'll be in the bathroom." 0.032 1.930
+PHRASE char 25 "Sestro, budu v kuřárně." 0.032 1.930
 }
 }
 OPTIONS

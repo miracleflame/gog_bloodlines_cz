@@ -20,7 +20,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 9 "Freeze!" 0.032 0.368
+PHRASE char 12 "Ani hnout!" 0.032 0.368
 }
 }
 OPTIONS

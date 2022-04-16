@@ -55,7 +55,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 32 "Nemůžu vás tam teď pustit." 0.048 1.216
+PHRASE char 28 "Nemůžu vás tam teď pustit." 0.048 1.216
 }
 }
 OPTIONS

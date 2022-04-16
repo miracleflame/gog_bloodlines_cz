@@ -65,7 +65,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 46 "If you think you might die, raise your hand." 0.032 3.520
+PHRASE char 42 "Pokud se cítíte na umření, přihlaste se." 0.032 3.520
 }
 }
 OPTIONS

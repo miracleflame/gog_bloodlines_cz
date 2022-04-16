@@ -20,7 +20,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE unicode 14 "" 0.048 0.448
+PHRASE char 10 "Pomoc..." 0.048 0.448
 }
 }
 OPTIONS

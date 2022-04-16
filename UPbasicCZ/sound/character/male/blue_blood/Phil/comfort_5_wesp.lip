@@ -46,7 +46,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 29 "You don't look well at all." 0.048 1.128
+PHRASE char 25 "Vůbec nevypadáte dobře." 0.048 1.128
 }
 }
 OPTIONS

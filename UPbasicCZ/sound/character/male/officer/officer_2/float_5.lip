@@ -33,7 +33,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 18 "Uhh, call it in." 0.080 1.600
+PHRASE char 24 "Zavolejte na centrálu." 0.080 1.600
 }
 }
 OPTIONS

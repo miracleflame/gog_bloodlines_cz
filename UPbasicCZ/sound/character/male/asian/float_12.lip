@@ -39,7 +39,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 24 "No speak English, huh." 0.031 1.021
+PHRASE char 20 "Nemluvit anglicky." 0.031 1.021
 }
 }
 OPTIONS

@@ -108,7 +108,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE unicode 160 "fdas" 0.320 6.128
+PHRASE char 80 "Hey, what are we doing here? I thought your friend was taking care of orphans?" 0.320 6.128
 }
 }
 OPTIONS

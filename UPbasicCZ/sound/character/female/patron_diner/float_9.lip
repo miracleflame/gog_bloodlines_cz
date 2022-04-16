@@ -35,7 +35,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 21 "Uhh, I'm busy here." 0.048 1.023
+PHRASE char 14 "Nemám čas..." 0.048 1.023
 }
 }
 OPTIONS

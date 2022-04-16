@@ -20,7 +20,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 9 "Stop!!!" 0.080 0.432
+PHRASE char 7 "Stůj!" 0.080 0.432
 }
 }
 OPTIONS

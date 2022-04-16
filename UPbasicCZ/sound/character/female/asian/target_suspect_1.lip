@@ -32,7 +32,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 16 "What was that?" 0.063 0.571
+PHRASE char 13 "Co to bylo?" 0.063 0.571
 }
 }
 OPTIONS

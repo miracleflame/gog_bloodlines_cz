@@ -28,7 +28,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 15 "Are you okay?" 0.064 0.464
+PHRASE char 17 "Jste v pořádku?" 0.064 0.464
 }
 }
 OPTIONS

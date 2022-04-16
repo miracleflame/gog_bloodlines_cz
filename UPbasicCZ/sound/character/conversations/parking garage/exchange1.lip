@@ -356,7 +356,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 298 "«And as soon as they drop the money»? «I bend over, pick it up, duck low and you open fire. What if they want to see what's in the case»? «If they do, drop it by accident and duck. Same thing: we'll start shooting. We've got the real case right here». «Right, I'm ready». «We've got you covered»!" 0.960 15.344
+PHRASE char 270 "»A až hodí na zem prachy?" "»Sehnu se pro ně, přikrčím se a vy začnete pálit. A když budou chtít vidět, co je v kufru?" "»V tom případě to pusť na zem jakoby omylem a jdi k zemi. Stejnej scénář: začneme pálit. Pravý kufr máme tady." "»Okej, můžeme." "»Kryjeme ti záda." 0.960 15.344
 }
 }
 OPTIONS

@@ -41,7 +41,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 28 "We're getting no response." 0.031 0.972
+PHRASE char 15 "Žádná reakce." 0.031 0.972
 }
 }
 OPTIONS

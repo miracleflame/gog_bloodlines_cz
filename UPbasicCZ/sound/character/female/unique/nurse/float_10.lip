@@ -63,7 +63,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 42 "Anyone here have a fatal injury? Anyone?" 0.096 3.392
+PHRASE char 27 "Je tu někdo vážně zraněn?" 0.096 3.392
 }
 }
 OPTIONS

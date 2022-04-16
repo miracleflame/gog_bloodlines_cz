@@ -35,7 +35,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 22 "Hey, hey, you, stop!" 0.063 1.186
+PHRASE char 20 "Hej, hej ty, stůj!" 0.063 1.186
 }
 }
 OPTIONS

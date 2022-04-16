@@ -33,7 +33,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 20 "Hey, are you okay?" 0.080 0.960
+PHRASE char 21 "Hej, jsi v pořádku?" 0.080 0.960
 }
 }
 OPTIONS

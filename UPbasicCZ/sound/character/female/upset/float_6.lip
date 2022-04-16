@@ -38,7 +38,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 24 "You don't belong here." 0.032 0.944
+PHRASE char 21 "Sem nemáte přístup." 0.032 0.944
 }
 }
 OPTIONS

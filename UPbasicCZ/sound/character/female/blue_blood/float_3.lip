@@ -27,7 +27,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 12 "Excuse me." 0.032 0.750
+PHRASE char 15 "Omluvte mě..." 0.032 0.750
 }
 }
 OPTIONS

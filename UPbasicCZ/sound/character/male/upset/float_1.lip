@@ -36,7 +36,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 21 "You better move on." 0.032 0.720
+PHRASE char 19 "Radši se ztraťte." 0.032 0.720
 }
 }
 OPTIONS

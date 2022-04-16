@@ -33,7 +33,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 16 "I do not know!" 0.111 0.966
+PHRASE char 11 "Já nevím!" 0.111 0.966
 }
 }
 OPTIONS

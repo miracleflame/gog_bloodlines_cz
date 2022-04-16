@@ -52,7 +52,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 33 "I'll let you go this time, man." 0.048 1.264
+PHRASE char 30 "Pro tentokrát tě nechám jít." 0.048 1.264
 }
 }
 OPTIONS

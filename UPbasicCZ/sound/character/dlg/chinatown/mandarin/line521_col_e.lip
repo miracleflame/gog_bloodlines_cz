@@ -160,7 +160,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 124 "Subjekt nechce vstoupit do další místnosti. Možná je to díky teoretickému šestému smyslu a nebo se prostě bojí." 0.032 7.920
+PHRASE char 113 "Subjekt nechce vstoupit do další místnosti. Možná je to díky teoretickému šestému smyslu a nebo se prostě bojí." 0.032 7.920
 }
 }
 OPTIONS

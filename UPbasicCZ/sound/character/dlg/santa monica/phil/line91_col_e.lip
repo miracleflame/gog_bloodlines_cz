@@ -64,7 +64,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE unicode 58 "" 0.000 2.375
+PHRASE char 31 "Je to '1969', víc toho nevím." 0.000 2.375
 }
 }
 OPTIONS

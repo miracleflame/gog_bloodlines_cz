@@ -32,7 +32,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 18 "Sorry, I'm busy." 0.096 0.848
+PHRASE char 22 "Promiňte, nemám čas." 0.096 0.848
 }
 }
 OPTIONS

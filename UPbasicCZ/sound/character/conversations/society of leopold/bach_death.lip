@@ -51,7 +51,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 32 "Your time of judgment is here!" 4.240 8.560
+PHRASE char 25 "Nastal tvůj soudný den!" 4.240 8.560
 }
 }
 OPTIONS

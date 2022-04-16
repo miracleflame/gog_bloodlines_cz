@@ -74,7 +74,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 50 "Try the corpse in the oven with peppers and fur." 0.000 4.608
+PHRASE char 45 "Zkus mrtvolu v troubě s paprikou a srstí..." 0.000 4.608
 }
 }
 OPTIONS

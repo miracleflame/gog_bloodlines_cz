@@ -47,7 +47,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 31 "You want a jaywalking ticket?" 0.032 1.216
+PHRASE char 41 "Chcete pokutu za nedovolené přecházení?" 0.032 1.216
 }
 }
 OPTIONS
