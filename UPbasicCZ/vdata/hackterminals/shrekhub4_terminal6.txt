@@ -17,7 +17,7 @@ TerminalDefinition
 		"name"			"mitnick!"	//(128 characters)
 		"description"		"co víc si přát"
 		"difficulty"		"0"
-		"dependency"		"G.Shubs_Act == 4"	
+		"dependency"		"G.Shubs_Act == 4"
 
 		Function
 		{
@@ -28,9 +28,9 @@ TerminalDefinition
 Díky. A dej na sebe bacha.
 
 >m1tn1ck<"
-			"runscript"	""
+			"runscript"		"G.Shubfour_Virus = 0"	// added by wesp
 			"trigger"	"0"
 			
 		}
 	}
-}
+}

@@ -22,7 +22,7 @@ TerminalDefinition
 		"name"			"Kamery1"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		"pterodactyl"				// password required to run commands in this menu (16 characters)
 		"description"		"Kamerový okruh 1"	// This is printed each time the user enters this menu (128 characters)
-    "difficulty"		"6"
+		"difficulty"		"6"
 
 		Function
 		{

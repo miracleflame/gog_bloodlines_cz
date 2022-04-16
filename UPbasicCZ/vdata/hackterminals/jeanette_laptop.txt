@@ -29,7 +29,7 @@ TerminalDefinition
 			"name"		"Mikey"
 			"description"	"Mikey"
 			"runtext"	"Mikey
-(310) 555-5337, mikey@yahooligan.vtm - *****"
+(310) 555-5337, mikey@yahooligan.vtm - *****"	// changed by wesp
 		}
 
 		Function
@@ -37,7 +37,7 @@ TerminalDefinition
 			"name"		"Bertík"
 			"description"	"Bertík"
 			"runtext"	"Bertík
-btung@shreknet.vtm - **"
+bertram@schrecknet.vtm - **"	// changed by wesp
 		}
 
 		Function
@@ -53,7 +53,7 @@ btung@shreknet.vtm - **"
 			"name"		"Jeff"
 			"description"	"Jeff"
 			"runtext"	"Jeff
-(310) 555-9006 - ****"
+(310) 555-9006 - ****"	// changed by wesp
 		}
 
 		Function
@@ -61,7 +61,7 @@ btung@shreknet.vtm - **"
 			"name"		"Sara"
 			"description"	"Sara"
 			"runtext"	"Sara
-(310) 555-2216 - ****"
+(310) 555-2216 - ****"	// changed by wesp
 		}
 
 		Function
@@ -69,7 +69,7 @@ btung@shreknet.vtm - **"
 			"name"		"Jack"
 			"description"	"Jack"
 			"runtext"	"Jack
-(310) 555-8181 - *****"
+(310) 555-8181 - *****"	// changed by wesp
 		}
 
 		Function	// added by wesp
@@ -77,7 +77,7 @@ btung@shreknet.vtm - **"
 			"name"		"Kachňátko"
 			"description"	"Kachňátko"
 			"runtext"	"Mé nové koťátko! - ***"
-			"dependency"	"G.Jeanette_Boink > 0"
+			"dependency"	"G.Jeanette_Boink > 0 and G.Patch_Plus == 1"
 		}		
 
 	}
@@ -110,7 +110,6 @@ btung@shreknet.vtm - **"
 		"subject"	"Santa Monika je MOJE město!!"
 		"sender"	"Tereza Voermanová"	
 		"body"		"Ty jedna hnusná malá čubko! Jak se opovažuješ strkat nos do mých záležitostí ve městě a ještě k tomu s tím nechutným Nosferatu?"
-
 	}
 
 	Email
@@ -125,7 +124,7 @@ btung@shreknet.vtm - **"
 	{
 		"subject"	"re: Santa Monika je MOJE město!!"
 		"sender"	"Tereza Voermanová"	
-			"body"		"Jak jsi mohla?  A teď i moje galerie? Myslím, že ti ukážu něco moc pěkného, Žaneto... slunce!"
+		"body"		"Jak jsi mohla?  A teď i moje galerie? Myslím, že ti ukážu něco moc pěkného, Žaneto... slunce!"
 		"dependency"	"G.Jeanette_Quest > 0 or G.Jeanette_Refuse > 0"	// changed by wesp
 	}
 }

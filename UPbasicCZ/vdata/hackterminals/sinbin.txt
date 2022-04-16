@@ -22,7 +22,7 @@ TerminalDefinition
 		"name"			"Inventar"
 		"description"		"Nové tituly, podle distributora"
 
-		Function
+		Function	// changed by wesp
 		{
 			"name"		"HravyKralik"
 			"runtext"	"Erotické video od Hravého králíka pro páry
@@ -34,7 +34,7 @@ TerminalDefinition
 					"
 		}
 
-		Function
+		Function	// changed by wesp
 		{
 			"name"		"Beastmastur"
 			"runtext"	"Produkce Beastmastur - Nejlepší pro košilaté dovádění
@@ -46,7 +46,7 @@ TerminalDefinition
 					"
 		}
 
-		Function
+		Function	// changed by wesp
 		{
 			"name"		"J Pron"
 			"runtext"	"J Pron! Nejžhavější dovozové filmy
@@ -60,7 +60,7 @@ TerminalDefinition
 					"
 		}
 
-		Function
+		Function	// changed by wesp
 		{
 			"dependency"	"G.Story_State > 49"
 			"name"		"Manbot"
@@ -74,7 +74,6 @@ TerminalDefinition
 		}
 
 	}
-
 
 	SubDir
 	{
@@ -103,7 +102,6 @@ TerminalDefinition
 		}
 
 	}
-
 
 	SubDir
 	{
@@ -149,7 +147,7 @@ TerminalDefinition
 		"name"			"Zurnal"
 		"password"		"hrisnik"
 		"description"		"Včerejší obrat"
-		"dependency"		"G.Velvet_Quest < 2"
+		"dependency"		"G.Velvet_Quest < 2"	// changed by wesp
 
 		Function
 		{
@@ -173,7 +171,6 @@ TerminalDefinition
 					"
 		}
 
-
 		Function
 		{
 			"name"		"Traci"
@@ -195,7 +192,7 @@ TerminalDefinition
 		"name"			"Zurnal"
 		"password"		"hrisnik"
 		"description"		"Včerejší obrat"
-		"dependency"		"G.Velvet_Quest > 1 and G.Patch_Plus == 0"	// changed by wesp
+		"dependency"		"G.Velvet_Quest > 1"	// changed by wesp
 
 		Function
 		{
@@ -209,16 +206,15 @@ TerminalDefinition
 		{
 			"name"		"Jennifer"
 			"runtext"	"Obrat - Jen ;-)
-					-cr  $100
-					-cr  $250
-					-cr  $250
-					-cr  $150
-					-cr  $250
-					-cr  $2500 (oslava bakalářů)
-					-cr  $150
+					-CR  $100
+					-CR  $250
+					-CR  $250
+					-CR  $150
+					-CR  $250
+					-CR  $2500 (oslava bakalářů)
+					-CR  $150
 					"
 		}
-
 
 		Function
 		{
@@ -233,104 +229,7 @@ TerminalDefinition
 		}
 
 	}
-	SubDir
-	{
-		"name"			"Zurnal"
-		"password"		"hrisnik"
-		"description"		"Včerejší obrat"
-		"dependency"		"G.Velvet_Quest > 1 and G.PP == 1 and G.Sin_Innocent == 0"	// changed by wesp
 
-		Function
-		{
-			"name"		"Stydlivka"
-			"runtext"	"Obrat - Stydlivka
-					-PS  $80
-					"
-		}
-
-		Function
-		{
-			"name"		"Jennifer"
-			"runtext"	"Obrat - Jen ;-)
-					-cr  $100
-					-cr  $250
-					-cr  $250
-					-cr  $150
-					-cr  $250
-					-cr  $2500 (oslava bakalářů)
-					-cr  $150
-					"
-		}
-
-
-		Function
-		{
-			"name"		"Kerri"
-			"runtext"	"Obrat - Kerri
-					-PS  $240
-					-CR  $350
-					-CR  $250
-					-CR  $500 
-					-CR  $250
-					"
-		}
-
-		Function
-		{
-			"name"		"Vrazda!!!"
-			"runtext"	"Někdo zabil Chastity! Co to je za úchyla? Ostatní jsou v pořádku, ale obě chcou odejít. Mám kámoše, co se v tichosti zbaví těla. Stějně nikdo neví, kdo ta prudérní děvka z falešným jménem vlastně byla!" // changed by wesp
-		}
-	}
-
-	SubDir
-	{
-		"name"			"Zurnal"
-		"password"		"hrisnik"
-		"description"		"Včerejší obrat"
-		"dependency"		"G.Velvet_Quest > 1 and G.PP == 1 and G.Sin_Innocent == 1"	// changed by wesp
-
-		Function
-		{
-			"name"		"Stydlivka"
-			"runtext"	"Obrat - Stydlivka
-					-PS  $80
-					"
-		}
-
-		Function
-		{
-			"name"		"Jennifer"
-			"runtext"	"Obrat - Jen ;-)
-					-cr  $100
-					-cr  $250
-					-cr  $250
-					-cr  $150
-					-cr  $250
-					-cr  $2500 (oslava bakalářů)
-					-cr  $150
-					"
-		}
-
-
-		Function
-		{
-			"name"		"Kerri"
-			"runtext"	"Obrat - Kerri
-					-PS  $240
-					-CR  $350
-					-CR  $250
-					-CR  $500 
-					-CR  $250
-					"
-		}
-
-		Function
-		{
-			"name"		"Vrazda!!!"
-			"runtext"	"Dole v peepshow došlo k masakru a několik lidí zařvalo. Nevím, jestli se mi to podaří před fízlama ututlat, ale udělám, co půjde!" // changed by wesp
-		}
-
-	}
 	SubDir
 	{
 		"name"			"soukromé"
@@ -356,7 +255,6 @@ A nebo děvky, ale to je snad jasný."
 			"runtext"	"John konečně přestal hrát a začal natáčet. Jak se dalo čekat, zůstal u farmařiny. Číslo na něj je prej 1(888)555-0101.
 
 Ten chlápek potřebuje pomoc."
-
 		}
 	}
 }

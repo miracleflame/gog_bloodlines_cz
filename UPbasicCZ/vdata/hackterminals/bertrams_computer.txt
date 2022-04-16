@@ -45,6 +45,7 @@ TerminalDefinition
 		"subject"	"Chci tě vidět"
 		"sender"	"Zaneta"		
 		"body"		"Nudím se. Nemůžeš mě přijít zabavit? Jsem v klubu.... XOXOXO"
+		"dependency"	"G.Patch_Plus == 1"
 	}
 
 	Email

@@ -21,15 +21,15 @@ TerminalDefinition
 		Function	// added by wesp
 		{
 			"name"		"kontrola"
-			"description"	"aktivace kamery"	
+			"description"	"aktivace kamery"
 			"runtext"	"Zvorals to"
-			"dependency"	"G.Tawni_Spotted == 1"
+			"dependency"	"G.Tawni_Spotted == 1 and G.PP == 1"
 		}
 
 		Function
 		{
 			"name"		"kontrola"
-			"description"	"aktivace kamery"	
+			"description"	"aktivace kamery"
 			"runtext"	"Kamery nenalezeny"
 			"dependency"	"G.Imalia_Cam == 0 and G.Tawni_Spotted == 0"
 		}
@@ -37,7 +37,7 @@ TerminalDefinition
 		Function
 		{
 			"name"		"kontrola"
-			"description"	"aktivace kamery"	
+			"description"	"aktivace kamery"
 			"runtext"	"Aktivována jedna kamera"
 			"dependency"	"G.Imalia_Cam == 1 and G.Tawni_Spotted == 0"
 		}
@@ -45,7 +45,7 @@ TerminalDefinition
 		Function
 		{
 			"name"		"kontrola"
-			"description"	"aktivace kamery"	
+			"description"	"aktivace kamery"
 			"runtext"	"Aktivovány dvě kamery"
 			"dependency"	"G.Imalia_Cam == 2 and G.Tawni_Spotted == 0"
 		}
@@ -53,7 +53,7 @@ TerminalDefinition
 		Function
 		{
 			"name"		"kontrola"
-			"description"	"aktivace kamery"	
+			"description"	"aktivace kamery"
 			"dependency"	"G.Imalia_Cam == 3 and G.Tawni_Spotted == 0"
 			"trigger"	"1"
 			"runscript"	""
@@ -61,7 +61,6 @@ TerminalDefinition
 Dobrá práce! Nemůžu se dočkat, až uvidím tu malou hnusnou Tawni v akci! Sledujeme tě odsud. Potichu se ztrať a vrať se.
 
 --Imalia"
-
 		}
-	}	
-}
+	}
+}

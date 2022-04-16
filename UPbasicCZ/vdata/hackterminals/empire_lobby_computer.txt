@@ -29,6 +29,7 @@
 			"name"		"Královna"
 			"description"	"Obsazen"
 			"runtext"	"Apartmán Královna (2. podlaží) je OBSAZEN. Host: Anders Johansen. Rezervován do: NA NEURČITO"
+		"dependency"	"G.Patch_Plus == 1"		// added by wesp
 		}
 
 		Function
@@ -54,6 +55,7 @@
 			"runscript"	"cardPrinterEnablePlus()"
 			"dependency"		"G.Jumbles_Removed == 0 or G.PP == 0"	// added by wesp
 		}
+
 		Function	// added by wesp
 		{
 			"name"		"Brooklyn"
@@ -69,6 +71,7 @@
 			"runtext"	"Apartmán Buffalo (6. podlaží) je OBSAZEN.  Host: Boris Chekov.  Rezervován do: NA NEURČITO"
 			"dependency"		"G.Venus_Boris < 2 or G.PP == 0"	// added by wesp
 		}
+
 		Function	// added by wesp
 		{
 			"name"		"Buffalo"
@@ -76,7 +79,6 @@
 			"runtext"	"Apartmán Buffalo (šešté podlaží) je UZAVŘEN kvůli kriminálnímu vyšetřování."
 			"dependency"		"G.Venus_Boris == 2 and G.PP == 1"
 		}
-
 
 	}
 
@@ -86,7 +88,7 @@
 		"password"		"mocasila"
 		"description"		"Transakční historie"
 		
-		Function
+		Function	// changed by wesp
 		{
 			"name"		"Chekhov, B"
 			"description"	"Objednávky"
@@ -99,6 +101,7 @@ Stejk s humrem: 80 $"
 			"name"		"Johansen, A"
 			"description"	"Objednávky"
 			"runtext"	"Žádné"
+			"dependency"	"G.Patch_Plus == 1"		// added by wesp
 		}
 		
 		Function

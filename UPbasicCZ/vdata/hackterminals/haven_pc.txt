@@ -406,7 +406,7 @@ VV"
 		"subject"	"Nepravé kolíky"
 		"sender"	"gary@schrecknet.vtm"
 		"body"		"Hej šéfe, mám pro tebe poslední prácičku. Co kdybys mi poslal jednu divnou tzimisckou hroudu masa a třeba tě ta sebelítost přejde. Vsadím se, že jsi nějakou našel, když si to tam čistil. Jenom ji nech ve své schránce a já za odměnu pověsím u tebe plakát rozkošné dívky, které se zaručeně nebudeš koukat do očí!"
-		"dependency"	"G.Gary_Cross == 1 and G.Ball_Taken == 1 and G.PP == 1"
+		"dependency"	"G.Gary_Cross == 1 and G.Gary_Blind == 0 and G.PP == 1"
 		"runscript"	"garySetQuestEight()"
 	}
 

@@ -57,5 +57,5 @@ keypad_strings
 	{
 		"TextID"		"Kamikazinet"
 		"TitleText"		"Kamikazi Zen omezený přístup"
-	}	
+	}
 }

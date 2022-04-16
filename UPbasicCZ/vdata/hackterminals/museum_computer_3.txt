@@ -5,7 +5,7 @@ TerminalDefinition
 
 	"email_password"	"ihatemyjob"		// the user must type this to access email from this terminal
 	"email_username"	"Pam King"		// printed at the top of the email window, not used for log in. 
-        "difficulty"		"1"
+	"difficulty"		"1"
 
 	LogonScreen	// displayed when the user first logs on
 	{
@@ -33,6 +33,7 @@ TerminalDefinition
 		"subject"	"změna kódu"
 		"sender"	"C. Marshall"
 		"body"		"Ve snaze udržet bezpečnostní úroveň na výši jsem změnil kód do úseku B2 na 2358, s okamžitou platností.  Také vás vybízím, abyste si změnili svá hesla k poště, pokud jste tak v uplynulých třech měsících neučinili."
+		"runscript"	"doorCode()"
 	}
 
 

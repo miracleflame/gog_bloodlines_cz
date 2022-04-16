@@ -19,7 +19,7 @@ TerminalDefinition
 		"name"			"paprsky"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		"platypus"				// password required to run commands in this menu (16 characters)
 		"description"		"Bezpečnostní paprsky"	// This is printed each time the user enters this menu (128 characters)
-                "difficulty"		"4"
+		"difficulty"		"4"
 
 		Function
 		{
@@ -43,7 +43,7 @@ TerminalDefinition
 		"name"			"alarm"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		"wombat"				// password required to run commands in this menu (16 characters)
 		"description"		"Poplašná siréna"	// This is printed each time the user enters this menu (128 characters)
-                "difficulty"		"4"
+		"difficulty"		"4"
 
 		Function
 		{

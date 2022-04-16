@@ -1,13 +1,14 @@
 TerminalDefinition
 {
 	"screen saver"		"Kamikazi Zen"					// Bounces around on the screen when the terminal is not being used. 
-	"brackets"		""						// these surround the command prompt (2 characters)
+	"brackets"		""						// these surround the command prompt (2 characters), changed by wesp
 
 
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
 		"line0"		"Kamikazi Zen: síťový provoz"
+
 	}
 	
 	SubDir
@@ -30,7 +31,7 @@ Paráda... ale radši sebou hoď a zmiz odtamtud, zelenáči. tik-tak... Potřeb
 		}
 	}
 
-		SubDir
+	SubDir
 	{
 		"name"			"Trezor"	//(128 characters)
 		"password"		"nippelhcs"
@@ -53,5 +54,4 @@ Paráda... ale radši sebou hoď a zmiz odtamtud, zelenáči. tik-tak... Potřeb
 			"trigger"	"1"
 		}
 	}
-
-	
+}

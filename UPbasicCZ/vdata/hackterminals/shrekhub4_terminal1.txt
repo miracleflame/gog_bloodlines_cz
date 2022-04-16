@@ -22,7 +22,7 @@ TerminalDefinition
 			"name"		"chuligan"
 			"description"	"virus"
 			"runtext"	"virus spuštěn: systém se vypíná"
-			"dependency"	"G.Shubs_Botch == 0"
+			"dependency"	"G.Shubfour_Virus == 0"	// changed by wesp
 			"runscript"	"G.Shubfour_Virus = 1"
 			"trigger"	"0"
 
@@ -42,7 +42,7 @@ TerminalDefinition
 			"name"		"nadílka"
 			"description"	"odměna"
 			"runtext" "Poblíž jsem ti nechal jednu vychytávku jako odměnu za všechnu pomoc. >m1tn1ck<"
-			"dependency"	"G.Shubfour_Virus == 1 and G.Patch_Plus == 1"
+			"dependency"	"G.Shubfour_Virus == 1 and G.Shubs_Act < 4 and G.PP == 1"
 
 		}
 	}

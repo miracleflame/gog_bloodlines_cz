@@ -2,10 +2,6 @@ TerminalDefinition
 {
 	"screen saver"		"Divadlo Nocturne"		// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""						// these surround the command prompt (2 characters)
-	"email_password"	"nos"		// the user must type this to access email from this terminal
-	"email_username"	"Cyrano"		// printed at the top of the email window, not used for log in. 
-	"difficulty"		"3"
-
 
 	LogonScreen	// displayed when the user first logs on
 	{
@@ -14,16 +10,7 @@ TerminalDefinition
 		"line1"		"Chceme znát drama"
 
 	}
-	Email		// added by wesp
-	{
-		"subject"	"Reflektor!"
-		"sender"	"sksp@company.vtm"
-		"body"		"Ten rozbitej reflektor nechanej na zabradlí je tvoje práce? Někdo se tam o něj přerazí! Dej ho okamžitě zpátky do dílny, nebudu to za tebe dělat sám.
-SkSp"
-		"dependency"	"G.Patch_Plus == 1"
-	}
 
-	
 	SubDir
 	{
 		"name"			"Kamera"	//(128 characters)
@@ -66,10 +53,11 @@ SkSp"
 		Function
 		{
 			"name"		"schrecknet"
-			"description"	"aktivace uzlu"	
-			"dependency"	"G.Shubs_Botch == 0 and G.Shubtwo_Camera == 2"	
+			"description"	"aktivace uzlu"
+			//changed by dan_upright 29/11/04
+			"dependency"	"G.Shubs_Botch == 0 and G.Shubtwo_Camera == 2"
+			//changes end
 			"runtext"	"uzel schrecknet aktivován: 
-
 
 jseš hotovej agent 007. Kontroluj si poštu, ozvu se.
 
@@ -79,8 +67,8 @@ jseš hotovej agent 007. Kontroluj si poštu, ozvu se.
 
 		Function
 		{
-			"name"		"schrecknet"			
-			"description"	"soket 1"	
+			"name"		"schrecknet"
+			"description"	"soket 1"
 			//changed by dan_upright 29/11/04
 			"dependency"	"G.Shubs_Botch == 1 and G.Shubtwo_Camera == 2"
 			//changes end

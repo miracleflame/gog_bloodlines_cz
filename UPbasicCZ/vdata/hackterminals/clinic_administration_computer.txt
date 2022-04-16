@@ -66,7 +66,6 @@ TerminalDefinition
 			"runtext"	"Thornton, K
 			Je proti němu vedeno několik disciplinárních řízení za zbytečné gynekologické výkony.  Hrozí propuštění."
 		}
-
 	}
 
 	Email
@@ -74,7 +73,7 @@ TerminalDefinition
 		"subject"	"Laskavost"				
 		"sender"	"Fred Dingo"
 		"body"		"Čau, Danny.  Udělej pro mě něco.  Zajdi prosím nahoru do Sledovaných látek a dones nějaké morfium.  Já teď fakt nemám čas. Dík.  FPes"
-		"dependency"	"G.Werewolf_Quest ==  0"
+		"dependency"	"G.Werewolf_Quest == 0 or G.PP == 1"	// changed by wesp
 	}
 		
 	Email
@@ -82,14 +81,14 @@ TerminalDefinition
 		"subject"	"Re: tva mama"
 		"sender"	"Fred Dingo"		
 		"body"		"Ne, to nechci pro sebe, blbečku :)  Nevěděl jsem, že jim nahoře došel.  Možná něco najdeš u Malcolma.  Mimochodem, tvá máma nosí vojenské kanady. FPes"
-		"dependency"	"G.Werewolf_Quest ==  0"
+		"dependency"	"G.Werewolf_Quest == 0 or G.PP == 1"	// changed by wesp
 	}
 	Email
 	{
 		"subject"	"Re: amnézie"
 		"sender"	"Fred Dingo"		
 		"body"		"Kua, ty jseš ale hnusnej! Ale musím myslet na to, že mám zaklepat. Nechtěl bych ho chytit při 'vyšetření pánve'.  A hele, řekni svý mámě, ať mi přestane volat.  FPes"
-		"dependency"	"G.Werewolf_Quest ==  0"
+		"dependency"	"G.Werewolf_Quest == 0 or G.PP == 1"	// changed by wesp
 	}
 
 	Email

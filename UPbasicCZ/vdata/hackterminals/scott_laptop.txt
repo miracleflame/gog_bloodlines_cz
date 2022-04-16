@@ -7,8 +7,6 @@ TerminalDefinition	// added by wesp
 	{
 		// Any number of lines are acceptable
 		"line0"		"Tajná knihovna LA"  
-		"line1"		""
-		"line2"		""
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -26,14 +24,14 @@ TerminalDefinition	// added by wesp
 		{
 			"name"		"1"			// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"První poznámka"		// this is a description of this function  (128 characters)
-			"runtext" "Beckett chtěl, ať nastuduju jakýsi starověký sarkofág ve veřejné knihovně. Když jsem tam jednou v noci četl, všiml jsem si jiného vampíra, co vypadal, že je z Lasombry. Naštěstí jsem se nedávno naučil Mizení, to se bude hodit. Zajímá mě, co pohledává v LA a jestli se to týká té naší rakve, takže ho budu pár dní sledovat."
+			"runtext"	"Beckett asked me to do research about an ancient sarcophagus for him in the public library. Rather boring stuff, but then I noticed another Kindred sneaking around. Who seemed to step from shadow to shadow like through a door! Is it a Lasombra? But what is he doing here in LA? Is it about Beckett's sarcophagus? I'll better follow him around the next few nights, just to be on the safe side."
 		}
 		
 		Function
 		{
 			"name"		"2"			// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Druhá poznámka"		// this is a description of this function  (128 characters)
-			"runtext"	"Dnes šel ten z Lasombry do starého domu v centru s červeným symbolem. Po chvíli jsem šel za ním, ale byl tam jen jeden černoch, co se mě ptal, jestli jsem byl osvícen. Odešel jsem a po nějaké době se opět objevil ten princův agent. Brzy poté ten černoch v panice vyběhnul a schoval se v kanálech, kde jsem ho ztratil."
+			"runtext"	"The Kindred from the library went into that abandoned house downtown tonight, the one with the sprayed red symbol nearby. I followed him and was met by a bouncer who asked if I'd been enlightened. I wasn't, so he didn't let me in. I had to comply. Later the new agent of the prince entered it, soon after the bouncer ran out in panic and into the sewers! I followed him all the way to Santa Monica where he then visited the smoke shop to relax."
 		}
 
 		Function
@@ -47,14 +45,14 @@ TerminalDefinition	// added by wesp
 		{
 			"name"		"4"			// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Čtvrtá poznámka"		// this is a description of this function  (128 characters)
-			"runtext"	"Mám podezření, že ten Lasombra se snaží rekrutovat vampíry nebo ghúly, aby doplnil stavy tupých Sabbatů na odstřel. Řekl bych, že toho kaitifa nepřesvědčil, u toho černocha těžko říct. Nemá to nic společného s tím sarkofágem, ale nechce se mi líbít, že se pokaždé vrací do té knihovny. Nejsem žádný bijec, takže rovnou všechno řeknu Beckettovi."
+			"runtext"	"I do not know what this Lasombra is up to. Possibly recruiting for the Sabbat? I'm pretty sure that he failed with the junkyard guy, but I really don't know about the bouncer. This doesn't affect the sarcophagus thing, but I still got a very bad feeling with him always returning to the library. I will contact Beckett and ask for help!"
 		}
 
 		Function
 		{
 			"name"		"5"			// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Pátá poznámka"		// this is a description of this function  (128 characters)
-			"runtext"	"Dal jsem si s Beckettem sraz v santamonickém obchodě s kuřivem, kam jsem sledoval toho černocha, který se zdá být pravidelným zákazníkem. Odposlechl jsem, že se chce s někým sejít na konci santamonického mola - to by měl být ten z Lasombry. Doufám, že vyrazí z toho obchodu, aby nás s Beckettem za tím chlápkem jednoduše dovedl!"
+			"runtext"	"I arranged a meeting with Beckett in the Santa Monica smoke shop as that bouncer is a regular there. We should find out what he knows, Beckett can be very convincing. Afterwards I'll show Beckett the old emergency hatch in the sewers that I use to enter the library unseen. We will search for the Lasombra's lair there ourselves!"
 			"runscript"	"G.Library_Coffee = 2; librarySetQuest()"
 		}
 	}

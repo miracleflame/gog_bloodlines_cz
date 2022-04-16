@@ -1,6 +1,7 @@
 TerminalDefinition
 {
-	"screen saver"		"Pokud tohle čtete, nejste mrtví."		// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Pokud tohle čtete,
+				   nejste mrtví."		// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt (2 characters)
 
 	LogonScreen	// displayed when the user first logs on
@@ -52,6 +53,7 @@ Poznámka: v těle bylo jen zhruba půl litru krve.  Podezření na násilný zl
 			"description"	"Box 5B -- 18.10.04"
 			"runtext"	"Box 5B -- 18.10.04
 Oběť byla surově ubita k smrti.  Podle jeho stavu jsem ho chtěl zamknout rovnou do chladírny."
+Note: Subject's body contained only one pint of blood. Foul play suspected."	//changed by wesp
 		}
 
 		Function
