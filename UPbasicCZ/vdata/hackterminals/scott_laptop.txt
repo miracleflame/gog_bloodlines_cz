@@ -38,7 +38,7 @@ TerminalDefinition	// added by wesp
 		{
 			"name"		"3"			// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Třetí poznámka"		// this is a description of this function  (128 characters)
-			"runtext"	"V Santa Monice jsem sledoval, jak ten Lasombra jde na staré vrakoviště, asi se pobavit s kaitifem, co tam bydlí. Než jsem se na něco zmohl, dorazil ten nový princův agent a ten Lasombra se z ničeho nic teleportoval rovnou za mě! Doufám, že mě nezpozoroval. Pak si vzal taxík zpátky do veřejné knihovny."
+			"runtext"	"Tonight, I followed the Kindred himself to Santa Monica where he entered the junkyard, probably to meet with that weird guy working there. I was still watching the place when, again, the agent of the prince arrived. Suddenly the Kindred stepped out of a shadow nearby! I hope I wasn't spotted. He took a cab back to the library."
 		}
 
 		Function
