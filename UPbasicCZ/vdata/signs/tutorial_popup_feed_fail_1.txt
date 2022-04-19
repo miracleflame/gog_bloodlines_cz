@@ -21,7 +21,7 @@ Zkus se napít znovu a tentokrát přestaň dřív, než vysaješ své oběti v�
 		"Wide"		"375"
 		"Tall"		"375"
 		"TextRGBA"		"[245, 245, 245, 200]"
-		"BackgroundRGBA"		"[0, 0, 0, 100]"
+		"BackgroundRGBA"		"[0, 0, 0, 0]"
 	}
 
 	TextBlock
@@ -32,7 +32,7 @@ Zkus se napít znovu a tentokrát přestaň dřív, než vysaješ své oběti v�
 		"Wide"		"215"
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
-		"BackgroundRGBA"		"[0, 0, 0, 100]"
+		"BackgroundRGBA"		"[0, 0, 0, 0]"
 		"Font"		"Trebuchet"
 	}
 }

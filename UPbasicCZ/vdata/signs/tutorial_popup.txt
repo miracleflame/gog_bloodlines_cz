@@ -12,18 +12,17 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"                       Varování!
-
-Zdá se, že jeden důležitý pythonovský skript se na vašem systému nezkompiloval správně!
-Zřejmě hrajete v prostředí Linux Wine bez skriptu 'loader-linux'.
-Ukončete prosím hru a najděte tento skript v hlavním adresáři hry. Pak skript upravte, aby fungoval správně!"
+		"Text"		"                       Warning!
+It seems as if an important Python script has not been compiled correctly on your system!
+You are probably playing inside a Linux Wine environment without running from loader.exe.
+Find it as VtM Bloodlines Game Mod Loader in the user programs section of the start menu!"
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
 		"Wide"		"375"
 		"Tall"		"375"
 		"TextRGBA"		"[245, 245, 245, 200]"
-		"BackgroundRGBA"		"[0, 0, 0, 100]"
+		"BackgroundRGBA"		"[0, 0, 0, 0]"
 	}
 
 	TextBlock
@@ -34,7 +33,7 @@ Ukončete prosím hru a najděte tento skript v hlavním adresáři hry. Pak skr
 		"Wide"		"215"
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
-		"BackgroundRGBA"		"[0, 0, 0, 100]"
+		"BackgroundRGBA"		"[0, 0, 0, 0]"
 		"Font"		"Trebuchet"
 	}
 }

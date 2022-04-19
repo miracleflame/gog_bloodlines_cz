@@ -18,7 +18,10 @@ SignData	// added by wesp
 
 	TextBlock
 	{
-		"Text"		"Ahoj Beckette, nemohl jsem na tebe počkat, podezřelý vyrazil brzo. Koukni se do mýho laptopu v opuštěném obchodě s kávou. Nechal jsem odemčený hlavní vchod a heslo je jméno našeho klanu. -Scott"
+		"Text"		"
+Beckett,  couldn't  wait  any  longer.  The  guy  left  early.  He  intends  to  meet  someone  at  the  end  of  the  pier.  Hope  to  see  you  there.  
+
+-Scott"
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"33"
 		"YPos"		"33"

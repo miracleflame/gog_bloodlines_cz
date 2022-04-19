@@ -34,7 +34,7 @@ Na chvíli zvýší hodnoty všech tvých atributů kondice. To se hodí v mnoha
 		"Wide"		"375"
 		"Tall"		"253"
 		"TextRGBA"		"[245, 245, 245, 200]"
-		"BackgroundRGBA"		"[0, 0, 0, 100]"
+		"BackgroundRGBA"		"[0, 0, 0, 0]"
 	}
 
 	TextBlock
@@ -45,7 +45,7 @@ Na chvíli zvýší hodnoty všech tvých atributů kondice. To se hodí v mnoha
 		"Wide"		"215"
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
-		"BackgroundRGBA"		"[0, 0, 0, 100]"
+		"BackgroundRGBA"		"[0, 0, 0, 0]"
 		"Font"		"Trebuchet"
 	}
 }
