@@ -31,7 +31,7 @@ WeaponData
 			Včera hořelo v Griffithově parku. Nevím proč, ale bojím se nejhoršího. Obdržel jsem dopis od Jeho Svátosti, ve kterém varoval, že se bojí příchodu apokalypsy, a že má mise je nyní důležitější než kdy předtím. Beru jeho slova velmi vážně a budu bojovat za stranu dobra, dokud toho budu schopen.
 			
 			Včera jsem unesl Johansena z hotelového pokoje sem do kláštera. Jsem přesvědčen o tom, že se ho LaCroix pokusí najít, protože on jediný ví, jak ten sarkofág otevřít. Varoval jsem bratry, že se blíží útok na klášter - všichni jsou připraveni zahynout za Jeho slávu, stejně jako já. Nechť Svatý Otec posvětí tyto poslední dny a nechť Satanovo potomstvo navěky hoří v pekelném ohni zatracení. Amen.
-			
+	
 
 
 	"bucket"		"1"
@@ -41,7 +41,7 @@ WeaponData
 	"is_wieldable"		"0"
 	"weight"		"1"
 	"item_flags"		"1"
-	"item_type"		"powerup"
+	"item_type"		"generic"	// changed by wesp
 	"item_worth"		"-1"
 	"is_visible_in_hud"		"1"
 

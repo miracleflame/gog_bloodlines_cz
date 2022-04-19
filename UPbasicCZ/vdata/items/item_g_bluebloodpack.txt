@@ -6,7 +6,7 @@ WeaponData
 	"description"			"Krev z těch nejvybranějších lidských exemplářů.  Konzumace doplní zásobu životní síly."
 	"item_worth"			"110"
 
-	"viewmodel"				"models/w_null.mdl"
+	"viewmodel"				""		// changed by wesp
 	"playermodel"			"models/items/bloodpack/ground/bloodpack.mdl"
 	"infomodel"			"models/items/bloodpack/info/info_bloodpack.mdl"
 	"wieldmodel_f"			"models/w_null.mdl"

@@ -52,13 +52,13 @@ WeaponData
 	{
 		"ammoprintname"		"Munice .44 Magnum"
 		"ammodescription"	"Zásobník s několika náboji ráže .44 Magnum."
-		"ammo_worth"		"12"	// changed by wesp
+		"ammo_worth"		"15"
 		"ammoinfomodel"		"models/weapons/ammo/thirtyeight/i_thirtyeight_ammo.mdl" // basic
 
 		"Type"			"AnacondaRound"
 		"Size"			"6"
 		"Default_Size"		"6"	// changed by wesp
-		"Dropped_Ammo"		"6"	// changed by wesp
+		"Dropped_Ammo"		"2"
 		"ReloadTime"		"3.5"
 		
 		SoundData
@@ -110,7 +110,7 @@ WeaponData
 
 		"CrosshairMinSize"		"7"		// smallest crosshair size for this activation [0-99]
 		"CrosshairFireSize"		"40"		// MAXIMUM size (Firearms 1) of the crosshair when the gun is fired [0-99] scales to Min as player's firearms increases
-		"CrosshairFireSizeMin"		"20"		// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99], changed by wesp
+		"CrosshairFireSizeMin"		"40"		// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
 		"CrosshairWalkSizeMin"	"7"	//"20"		// min size of the crosshair when the player is walking [0-99]
 		"CrosshairWalkSizeMax"	"7"	//"40"		// max size of the crosshair when the player is walking [0-99]
 		"CrosshairRunSizeMin"	"20" //"35"			// min size of the crosshair when the player is running [0-99]
@@ -255,7 +255,7 @@ WeaponData
 
 		"CrosshairMinSize"		"10"		// smallest crosshair size for this activation [0-99]
 		"CrosshairFireSize"		"40"		// MAXIMUM size (Firearms 1) of the crosshair when the gun is fired [0-99] scales to Min as player's firearms increases
-		"CrosshairFireSizeMin"		"20"		// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99], changed by wesp
+		"CrosshairFireSizeMin"		"40"		// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
 		"CrosshairWalkSizeMin"	"10"	//"20"		// min size of the crosshair when the player is walking [0-99]
 		"CrosshairWalkSizeMax"	"10"	//"40"		// max size of the crosshair when the player is walking [0-99]
 		"CrosshairRunSizeMin"	"20" //"35"			// min size of the crosshair when the player is running [0-99]

@@ -1,8 +1,8 @@
-// Knife
+// Combat Knife, changed by wesp
 
 WeaponData
 {
-	"printname"		"Nůž"
+	"printname"		"Bojový nůž"
 	"description"		"Některé nože nikdo za celou dobu jejich existence nepoužije k žádnému zlému činu.  Tohle není jeden z nich."
 //	"viewmodel"		"models/weapons/knife/view/v_knife.mdl"
 //"viewmodel"	""

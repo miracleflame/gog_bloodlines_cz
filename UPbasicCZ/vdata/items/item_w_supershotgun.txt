@@ -53,7 +53,7 @@ WeaponData
 	Magazine
 	{
 		"ammoprintname"		"Patrony do brokovnice"
-		"ammodescription"	"Krabička patron pro Jaegerspas XV."
+		"ammodescription"	"Krabička 12 patron pro Jaegerspas XV."
 		"ammo_worth"		"12"//"18"
 		"ammoinfomodel"		"models/weapons/ammo/supershotgun/i_supershotgun_ammo.mdl"
 

@@ -4,7 +4,7 @@ WeaponData
 {
 	"printname"		"Požární sekera"
 	"description"		"Skutečně nástroj pro šílence. Kdo jiný by bojoval s ohněm nabroušeným ostřím?"
-	"item_worth"		"80"	//changed by wesp
+	"item_worth"		"180"
 
 	"viewmodel"		"models/weapons/w_null.mdl"
 	"playermodel"		"models/weapons/fire_axe/ground/g_fire_axe.mdl"
