@@ -1,7 +1,7 @@
 {	1	}{	[furious]Ty šmejde jeden! Nedá... nedá se tady dýchat!	}{	[furious]Ty svině jedna! Nedá... nedá se tady dýchat!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	Jo, proto tě teď pustím ven.	}{	Jo, proto tě teď pustím ven.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Osvobodím tě od ztracených dětí...	}
 {	3	}{	Tak to bys měla být ráda, že tě tam nedržím.	}{	Tak to bys měla být ráda, že tě tam nedržím.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	[annoyed, noticing the pc for the first time]Co? Nejseš na Tonga nějak vysokej?	}{	[annoyed, noticing the pc for the first time]Co? A kdo jseš ty? Nepatříš s Tongům!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	[annoyed, noticing the pc for the first time]Co? Nejseš na Tonga nějak vysokej?	}{	[annoyed, noticing the pc for the first time]Co? A kdo jseš ty? Nepatříš s Tongům!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	Cože?	}{	No nepatřím?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nejsem bezzubý Tong...	}
 {	21	}{	Vysokej... Jako opak k malej. Bože. Vy gangsteři jste všichni stejní. Tupí, tupí a tupí.	}{	A co jsem teď asi řekla? Možná nejseš Tong, ale vypadá to, že jseš stejně blbá jako oni.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	Gangsteři? Nejsem gangster. Jseš Kiki?	}{	Jseš Kiki?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jseš malá lasička velkého Wong Ho?	}

@@ -94,7 +94,7 @@
 {	235	}{	Jo. Zlí démoni zaslouží skosit. Úplně souhlasím, he he...	}{	Jo. Zlí démoni zaslouží skosit. Úplně souhlasím, he he...	}{	0	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Jo. Zlí démoni zaslouží skosit. Úplně souhlasím, he he...	}
 {	241	}{	Nani?	}{	Nani?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	242	}{	Co víš o Kuei-jinech?	}{	Co víš o Kuei-jinech?	}{	251	}{	G.Yukie_Kuei == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ti tvorové v chrámu. Promluv o nich.	}
-{	243	}{	Můžeš mi říct něco bližšího o tom hengeyokaiovi?	}{	Můžeš mi říct něco bližšího o tom hengeyokaiovi?	}{	261	}{	G.Yukie_Fish == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ten pach je silný. Proč?	}
+{	243	}{	Můžeš mi říct něco bližšího o tom hengeyokaiovi?	}{	Můžeš mi říct něco bližšího o tom hengeyokaiovi?	}{	261	}{	G.Yukie_Fish == 0 and G.Yukie_Quest < 2	}{	}{	}{	}{	}{	}{	}{	}{	Ten pach je silný. Proč?	}
 {	244	}{	To je moc pěkný meč. Za kolik ho prodáš?	}{	To je moc pěkný meč. Za kolik ho prodáš?	}{	271	}{	G.Yukie_Sword == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vyměním tyto zelené mužíčky za tvůj meč.	}
 {	248	}{	Ale nic.	}{	Ale nic.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už jsem někde jinde.	}
 {	251	}{	Jsou to přízrační lidé... Duchové v mrtvých osobách. Nemám je ráda. Nemám ráda démony, omluv mě.	}{	Jsou to přízrační lidé... Duchové v mrtvých osobách. Nemám je ráda. Nemám ráda démony, omluv mě.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Yukie_Kuei = 1	}{	}{	}{	}{	}{	}{	}{	}
@@ -119,7 +119,7 @@
 {	301	}{	Doko desu ka? Kde?	}{	Doko desu ka? Kde?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	302	}{	Je v rybí tržnici. A neví o tobě.	}{	Je v rybí tržnici. A neví o tobě.	}{	311	}{	G.Zyg_Yukie == 1 and G.Zyg_Human == 0	}{	}{	}{	}{	}{	}{	}{	}{	Rybí trh. Neví, že je loven.	}
 {	303	}{	Mám se s ním setkat v rybí tržnici. Můžeme ho tam přepadnout.	}{	Mám se s ním setkat v rybí tržnici. Můžeme ho tam přepadnout.	}{	321	}{	G.Zyg_Meet == 1 and G.Zyg_Human == 0	}{	}{	}{	}{	}{	}{	}{	}{	Schovává svůj pach na rybím trhu. Budeme ninjové a přepadneme ho.	}
-{	304	}{	Je mi líto, ale zabil jsem ho u Rudého draka.	}{	Je mi líto, ale zabila jsem ho u Rudého draka.	}{	391	}{	G.Zyg_Human == 1	}{	pc.SetQuest("Yukie",7)	}{	}{	}{	}{	}{	}{	}{	Vypadal jako muž a pak ho má ruka zabila...	}
+{	304	}{	Je mi líto, ale veřím, že jsem ho zabil u Rudého draka.	A tough guy with yellow eyes? }{	Je mi líto, ale veřím, že jsme ho zabila u Rudého draka. A tough guy with yellow eyes?	}{	391	}{	G.Zyg_Human == 1	}{	G.Yukie_Quest = 2; pc.SetQuest("Yukie",7); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Vypadal jako muž a pak ho má ruka zabila...	}
 {	305	}{	Pořád ho hledám, promiň.	}{	Pořád ho hledám, promiň.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Někde, kde nevím kde... Musím odcházet.	}
 {	311	}{	To má být lest, démone? Jak najdeš hengeyokaie?	}{	To má být lest, démone? Jak najdeš hengeyokaie?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	312	}{	Bože, no tak půjdu s tebou. Stejně vypadáš, že budeš potřebovat pomoc.	}{	Bože, no tak půjdu s tebou. Stejně vypadáš, že budeš potřebovat pomoc.	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	To není vtip. Bohužel. Zde, vezmi mě s sebou.	}
@@ -157,10 +157,10 @@
 {	402	}{	Má úcta.	}{	Má úcta.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Já trpím navždy.	}
 {	411	}{	Dozo...	}{	Dozo...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	412	}{	Jo, jdu první.	}{	Jo, jdu první.	}{	0	}{	G.Zyg_Human == 0	}{	}{	}{	}{	}{	}{	}{	}{	Pojďme rybařit.	}
-{	413	}{	Je mi líto, ale zabil jsem ho u Rudého draka..	}{	Je mi líto, ale zabila jsem ho u Rudého draka..	}{	391	}{	G.Zyg_Human == 1	}{	pc.SetQuest("Yukie",7)	}{	}{	}{	}{	}{	}{	}{	Vypadal jako muž a pak byl mrtev.	}
+{	413	}{	Je mi líto, ale veřím, že jsem ho zabil u Rudého draka. A tough guy with yellow eyes?	}{	Je mi líto, ale veřím, že jsem ho zabila u Rudého draka. A tough guy with yellow eyes?	}{	391	}{	G.Zyg_Human == 1	}{	G.Yukie_Quest = 2; pc.SetQuest("Yukie",7); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Vypadal jako muž a pak byl mrtev.	}
 {	421	}{	Namu...	}{	Namu...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Yukie_Follow = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	422	}{	Co? Jo, dál už půjdu sám. Díky za pomoc.	}{	Co? Jo, dál už půjdu sama. Díky za pomoc.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nerozuměno. Budu pokračovat bez tebe.	}
-{	423 }{ Počkej! Ming se určitě schovává hluboko pod chrámem. Nemohla bys otevřít nějaký magický portál in front of it, který by mě tam dostal? }{ Počkej! Ming se určitě schovává hluboko pod chrámem. Nemohla bys otevřít nějaký magický portál in front of it, který by mě tam dostal? }{ 471 }{ Persuasion 10 }{ }{ }{ }{ }{ }{ }{ }{ Ještě ne. Můžeš zprovoznit čáry máry dveře vedoucí do jejího doupěte pod velkým domem? }
+{	423 	}{ 	Počkej! Ming se určitě schovává hluboko pod chrámem. Nemohla bys otevřít nějaký magický portál in front of it, který by mě tam dostal? }{ Počkej! Ming se určitě schovává hluboko pod chrámem. Nemohla bys otevřít nějaký magický portál in front of it, který by mě tam dostal? }{ 471 }{ Persuasion 10 }{ }{ }{ }{ }{ }{ }{ }{ Ještě ne. Můžeš zprovoznit čáry máry dveře vedoucí do jejího doupěte pod velkým domem? }
 {	431	}{	Ty se chovat, démone?	}{	Ty se chovat, démone?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Yukie_Found = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	432	}{	Kde se tu bereš?	}{	Kde se tu bereš?	}{	441	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ještě stále nejsi v Japonsku.	}
 {	433	}{	Poteče tady spousta krve, měla bys zmizet.	}{	Poteče tady spousta krve, měla bys zmizet.	}{	451	}{	}{	}{	}{	}{	}{	}{	}{	}{	Na zdech bude krev. Ovšem ne pro tebe.	}
@@ -172,12 +172,14 @@
 {	452	}{	Jestli chceš, tak pojď se mnou.	}{	Jestli chceš, tak pojď se mnou.	}{	0	}{	}{	G.Yukie_Follow = 1	}{	}{	}{	}{	}{	}{	}{	Jak je libo. Opakuj mé pohyby.	}
 {	453	}{	To ne, ještě bys přišla k úrazu. Sbohem.	}{	To ne, ještě bys přišla k úrazu. Sbohem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Moc pěkné, ale ode mě se raději drž dále.	}
 {	461	}{	Hai.. Můj meč stále plný hněvu. Ikimasho - pojďme zabíjet přízračné lidi.	}{	Hai.. Můj meč stále plný hněvu. Ikimasho - pojďme zabíjet přízračné lidi.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	462	}{	Jestli chceš, tak pojď se mnou.	}{	Jestli chceš, tak pojď se mnou.	}{	0	}{	}{	G.Yukie_Follow = 1	}{	}{	}{	}{	}{	}{	}{	Jak je libo. Opakuj mé pohyby.	}
+{	462	}{	Jestli chceš, tak pojď se mnou.	}{	Jestli chceš, tak pojď se mnou.	}{	491	}{	}{	G.Yukie_Follow = 1	}{	}{	}{	}{	}{	}{	}{	Jak je libo. Opakuj mé pohyby.	}
 {	463	}{	Rozmyslel jsem si to. Zůstaň tady.	}{	Rozmyslela jsem si to. Zůstaň tady.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Má mysl se pořád mění. Ty zůstaň se svým mečem hněvu a já půjdu.	}
 {	471	}{	Ya Ta!	}{	Ya Ta!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	472 }{ Bezva, jsem zvědav, co dokážeš. }{ Bezva, jsem zvědavá, co dokážeš. }{ 0 }{ }{ G.Yukie_Shortcut = 1 }{ }{ }{ }{ }{ }{ }{ Tvá magie mě nemálo zajímá. }
+{	472 	}{ 	Bezva, jsem zvědav, co dokážeš. }{ Bezva, jsem zvědavá, co dokážeš. }{ 481 }{ }{ G.Yukie_Shortcut = 1 }{ }{ }{ }{ }{ }{ }{ Tvá magie mě nemálo zajímá. }
 {	481	}{	Haa! [Battle Yell]	}{	Haa! [Battle Yell]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	482	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	491	}{	Yaa! [Battle Yell]	}{	Yaa! [Battle Yell]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	492	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	501	}{	[Hurt sound#1]	}{	[Hurt sound#1]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	511	}{	[Hurt Sound#2]	}{	[Hurt Sound#2]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	521	}{	[Dying sound]	}{	[Dying sound]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

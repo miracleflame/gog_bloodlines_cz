@@ -1,5 +1,5 @@
 {	1	}{	[heavy, heavy accent]Nahoru nikdo nesmí.	}{	[heavy, heavy accent]Nahoru nikdo nesmí.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	2	}{	Ricky mi to odkýval.	}{	Ricky mi to odkýval.	}{	11	}{	G.Johnny_Permission == 1	}{		}{	}{	}{	}{	}{	}{	}{	Povolení uděleno. Přeji pěkný den.	}
+{	2	}{	The guy with the ponytail and glasses at the table mi to odkýval.	}{	The guy with the ponytail and glasses at the table mi to odkýval.	}{	11	}{	G.Johnny_Permission == 1	}{		}{	}{	}{	}{	}{	}{	}{	Povolení uděleno. Přeji pěkný den.	}
 {	3	}{	Uhni.	}{	Uhni.	}{	1	}{	G.Johnny_Permission == 0	}{		}{	}{	}{	}{	}{	}{	}{	Ale mé já je tam zapomenuto.	}
 {	4	}{	To si myslíš ty. V takovýchle situacích obvykle sahám k násilí.	}{	To si myslíš ty. V takovýchle situacích obvykle sahám k násilí.	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Nádhera, mé já tě právě chtělo požádat o TANEC!	}
 {	5	}{	Blbá odpověď, kámo. Myslím, že toho budeš litovat.	}{	Blbá odpověď, kámo. Myslím, že toho budeš litovat.	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Až se budou ptát, kdo tě zabil, řekneš, že nikdo. To jsem já.	}

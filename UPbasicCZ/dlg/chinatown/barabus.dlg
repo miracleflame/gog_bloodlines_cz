@@ -1,13 +1,15 @@
 {	1	}{	[In a prison, desperate to get out]PUSŤ MĚ VEN!	}{	[In a prison, desperate to get out]PUSŤ MĚ VEN!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Počkej...	}{	Počkej...	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vyčkej a uvidíš...	}
+{	2	}{	(Auto-Link)	}{	(Auto-Link)	}{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	PUSŤ MĚ VEN!	}{	PUSŤ MĚ VEN!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	Calm down, I'm not one of them.	}{	Calm down, I'm not one of them.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Behave, I am your kind of monster.	}
 {	11	}{	[Has been beaten, tortured, experimented on over the few days and is not in the best of spirits]Tebe taky dostali? Nemám žádnou omluvu. Nosferatu, co se nechá chytit bandou lidí... Parádní ostuda.	}{	[Has been beaten, tortured, experimented on over the few days and is not in the best of spirits]Tebe taky dostali? Nemám žádnou omluvu. Nosferatu, co se nechá chytit bandou lidí... Parádní ostuda.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	pc.SetQuest("Barabus",2); pc.SetQuest("Mandarin",4)	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	Ty budeš Barabus, co? Gary mě poslal, abych tě dostal ven. Tak mizíme.	}{	Ty budeš Barabus, co? Gary mě poslal, abych tě dostala ven. Tak mizíme.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ty jsi Garyho čínské oko?	}
 {	13	}{	V klidu, jsme v tom nejmíň dva. Radši si dáme odchod.	}{	V klidu, jsme v tom nejmíň dva. Radši si dáme odchod.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Lítost nechej na budoucnost. Dnes máme na menu útěk.	}
 {	14	}{	Jo, fakt bezva výkon, kvůli tobě jsem prolezl celou čtvrť.	}{	Jo, fakt bezva výkon, kvůli tobě jsem prolezla celou čtvrť.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé ruce musely rozebrat celé město, aby našly jednu krysu!	}
 {	15	}{	Já se osvobodil. A ty?	}{	Já se osvobodila. A ty?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nahoře je po mně díra ve zdi. Proč tam není po tobě?	}
 {	21	}{	Moment... Ještě nemůžeme odejít. Mají tu servery. Musíme je nabořit a zničit jejich výzkum. Měl by být v sálovým počítači na tomhle patře.	}{	Moment... Ještě nemůžeme odejít. Mají tu servery. Musíme je nabořit a zničit jejich výzkum. Měl by být v sálovým počítači na tomhle patře.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Nech to na mě. Dostanu se do jakýhokoliv počítače.	}{	Nech to na mě. Dostanu se do jakýhokoliv počítače.	}{	41	}{ pc.CalcFeat("Hacking") > 5	}{	}{	}{	}{	}{	}{	}{	}{	Ve mně i v počítačích jsou chyby, takže si dobře rozumíme...	}
-{	23	}{	Nabořit? Div, že umím datlovat...	}{	Nabořit? Div, že umím datlovat...	}{	51	}{ pc.CalcFeat("Hacking") < 6	}{	}{	}{	}{	}{	}{	}{	}{	Počítače mi nerozumí, ani když na ně řvu celé hodiny...	}
+{	22	}{	Nech to na mě. Dostanu se do jakýhokoliv počítače.	}{	Nech to na mě. Dostanu se do jakýhokoliv počítače.	}{	41	}{ pc.CalcFeat("Hacking") > 5 }{	}{	}{	}{	}{	}{	}{	}{	Ve mně i v počítačích jsou chyby, takže si dobře rozumíme...	}
+{	23	}{	Nabořit? Div, že umím datlovat...	}{	Nabořit? Div, že umím datlovat...	}{	51	}{ pc.CalcFeat("Hacking") < 6 }{	}{	}{	}{	}{	}{	}{	}{	Počítače mi nerozumí, ani když na ně řvu celé hodiny...	}
 {	31	}{	Za svou chybu jsem zaplatil! Ty pokusy... mučení... ten hlas... Nic nevíš. Nic... nevíš.	}{	Za svou chybu jsem zaplatil! Ty pokusy... mučení... ten hlas... Nic nevíš. Nic... nevíš.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	32	}{	No tak jo, padáme odsud.	}{	No tak jo, padáme odsud.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Budeme se hádat nebo prchat?	}
 {	33	}{	Ubohost... Ale kšeft je kšeft. Gary tě chce zpátky, tak mazej domů.	}{	Ubohost... Ale kšeft je kšeft. Gary tě chce zpátky, tak mazej domů.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsi můj poklad na této misi, proto tě i tak zachráním.	}
@@ -24,7 +26,7 @@
 {	63	}{	Okamžitě Garymu zavolej. Potřebuju informace a tys byl jeho cena.	}{	Okamžitě Garymu zavolej. Potřebuju informace a tys byl jeho cena.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pamatuj, vyměním tebe za informace. Nedrž své osvobození v tajnosti.	}
 {	64	}{	Co ty dveře?	}{	Co ty dveře?	}{	77	}{	G.Barrabus_Hacker == 1	}{	}{	}{	}{	}{	}{	}{	}{	Kdo vypustí psy?	}
 {	71	}{	Jasně. A... díky.	}{	Jasně. A... díky.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Story_State = 55; G.Barrabus_Exit = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	My pleasure.	}{	My pleasure.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Thank to me too.	}
 {	75	}{	Díky.	}{	Díky.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	76	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	77	}{	Heslo je jeřáb.	}{	Heslo je jeřáb.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -56,4 +58,5 @@
 {	112	}{	(Starting Condition)	}{	}{	75	}{	G.Barrabus_Exit == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	113	}{	(Starting Condition)	}{	}{	61	}{	G.Files_Deleted == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	114	}{	(Starting Condition)	}{	}{	88	}{	G.Barrabus_Hacker == 1 or G.Barrabus_Defender == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	(Starting Condition)	}{	}{	11	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	116	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

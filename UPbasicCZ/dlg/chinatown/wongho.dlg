@@ -27,10 +27,10 @@
 {	61	}{	Ano... Hrozně rád bych vám pomohl, jak by to jen bylo možné, ale jak vidíte... má dcera. Nic jiného pro mě nemá smysl, dokud nebude Kiki v bezpečí. Nechci být vůči vám nebo Ming-Xiao neuctivý, ale nemohu vám pomoci, dokud se tato věc nevyřeší.	}{	Ano... Hrozně rád bych vám pomohl, jak by to jen bylo možné, ale jak vidíte... má dcera. Nic jiného pro mě nemá smysl, dokud nebude Kiki v bezpečí. Nechci být vůči vám nebo Ming-Xiao neuctivý, ale nemohu vám pomoci, dokud se tato věc nevyřeší.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	62	}{	Rozumím. Víte, kam ji Tongové odnesli?	}{	Rozumím. Víte, kam ji Tongové odnesli?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kam odnesli váš poklad, víte to?	}
 {	63	}{	Dochází mi trpělivost. Víte aspoň, kde je?	}{	Dochází mi trpělivost. Víte aspoň, kde je?	}{	71	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	Ne. Tongové mají příliš...[phone rings] moment. Prosím, omluvte mě na okamžik.	}{	Ne. Tongové mají příliš...[phone rings] moment. Prosím, omluvte mě na okamžik.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	Ne. Tongové mají příliš...[phone rings] moment. Prosím, omluvte mě na okamžik.	}{	Ne. Tongové mají příliš...[phone rings] moment. Prosím, omluvte mě na okamžik.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	SetCellUnhide()	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	(Auto-Link)	}{	(Auto-Link)	}{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	76	}{	Halo. Zhao! Ano! Jak to... ano jistě, rozumím. Děkuji ti, příteli. Tvůj dluh je již splacen na tisíckrát. Ano, samozřejmě. Sbohem.	}{	Halo. Zhao! Ano! Jak to... ano jistě, rozumím. Děkuji ti, příteli. Tvůj dluh je již splacen na tisíckrát. Ano, samozřejmě. Sbohem.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	To nevypadalo na Tongy.	}{	To nevypadalo na Tongy.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Na této lince nebyly ztracené děti, tak kdo?	}
+{	77	}{	To nevypadalo na Tongy.	}{	To nevypadalo na Tongy.	}{	81	}{	}{	SetCellHide()	}{	}{	}{	}{	}{	}{	}{	Na této lince nebyly ztracené děti, tak kdo?	}
 {	81	}{	To byl... někdo, kdo u mě měl starý dluh. Nyní ho splatil. Už vím, kde Tongové drží mou dceru.	}{	To byl... někdo, kdo u mě měl starý dluh. Nyní ho splatil. Už vím, kde Tongové drží mou dceru.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	82	}{	Tak mluvte. A radši taky zavolejte koronera...	}{	Tak mluvte. A radši taky zavolejte koronera...	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Možná mohu pomoci při hledání vašeho pokladu...	}
 {	83	}{	To je fajn. A teď bych potřeboval pomoci s něčím jiným...	}{	To je fajn. A teď bych potřebovala pomoci s něčím jiným...	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hledám své vlastní odpovědi...	}
@@ -53,11 +53,11 @@
 {	131	}{	Díky. Budu čekat, dokud se nevrátíte. Jednejte rychle. Tongové nebudou čekat, že někdo zaútočí tak brzy. Mnoho štěstí.	}{	Díky. Budu čekat, dokud se nevrátíte. Jednejte rychle. Tongové nebudou čekat, že někdo zaútočí tak brzy. Mnoho štěstí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	132	}{	Nashle.	}{	Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jejich místě.	}
 {	141	}{	Dokud nebude Kiki v bezpečí, nemohu se zabývat ničím jiným. Pokud si to rozmyslíte, budu zde čekat na pokyny od Tongů. Sbohem.	}{	Dokud nebude Kiki v bezpečí, nemohu se zabývat ničím jiným. Pokud si to rozmyslíte, budu zde čekat na pokyny od Tongů. Sbohem.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	142	}{	See ya.	}{	See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll be back.	}
 {	151	}{	Zdravím. Podařilo se vám najít Kiki? Je v bezpečí?	}{	Zdravím. Podařilo se vám najít Kiki? Je v bezpečí?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	152	}{	Ne, ale...	}{	Ne, ale...	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ne, ale...	}
 {	161	}{	Ať vám pomáhají sami bohové, aby se má dcera mohla vrátit domů.	}{	Ať vám pomáhají sami bohové, aby se má dcera mohla vrátit domů.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	162	}{	See ya.	}{	See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll be back.	}
 {	171	}{	Vítejte zpět! Jsem vaším dlužníkem. Vrátil jste mi můj největší poklad. Kiki mi řekla, že jste ji zachránil. Jste skutečně odvážný a ctihodný muž. Děkuji.	}{	Vítejte zpět! Jsem vaším dlužníkem. Vrátila jste mi můj největší poklad. Kiki mi řekla, že jste ji zachránila. Jste skutečně odvážná a ctihodná žena. Děkuji.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	pc.SetQuest("Kiki",3)	}{	}{	}{	}{	}{	}{	}{	}
 {	172	}{	Rádo se stalo. Už alespoň víte, proč ji Tongové unesli?	}{	Rádo se stalo. Už alespoň víte, proč ji Tongové unesli?	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	Proč vám ztracené děti sebraly poklad?	}
 {	173	}{	To nic nebylo. Můžete teď pomoci vy mně?	}{	To nic nebylo. Můžete teď pomoci vy mně?	}{	251	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -67,7 +67,7 @@
 {	191	}{	Už dlouho se snažím vyčistit čínskou čtvrť. Byla to obtížná práce, ale komunita se semkla a postupně jsme si vybojovali ulice zpět z rukou kriminálníků, jako jsou Tongové. Obchod začal kvést, rodiny se vraceli do svých domovů...	}{	Už dlouho se snažím vyčistit čínskou čtvrť. Byla to obtížná práce, ale komunita se semkla a postupně jsme si vybojovali ulice zpět z rukou kriminálníků, jako jsou Tongové. Obchod začal kvést, rodiny se vraceli do svých domovů...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	192	}{	A co potom? Tongové vypadají, že mají navrch.	}{	A co potom? Tongové vypadají, že mají navrch.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zrtacené děti jsou mocné...	}
 {	193	}{	Vypadá to, že to čištění nedopadlo úplně nejlíp.	}{	Vypadá to, že to čištění nedopadlo úplně nejlíp.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zdá se, že brouci nalezli zpět do košíku...	}
-{	201	}{	Ano. Domníval jsem se, že Tongové už jsou prakticky pryč. Ale pak se něco stalo. Začalo jich přibývat a najednou měli spousty peněz na nákup zbraní. A s tím přišly drogy a násilí. A teď je to skoro horší než dříve.	}{	Ano. Domníval jsem se, že Tongové už jsou prakticky pryč. Ale pak se něco stalo. Začalo jich přibývat a najednou měli spousty peněz na nákup zbraní. A s tím přišly drogy a násilí. A teď je to skoro horší než dříve.	}{	#	}{	}{	Whisper("Moaning")	}{	}{	}{	}{	}{	}{	}{	}
+{	201	}{	Ano. Domníval jsem se, že Tongové už jsou prakticky pryč. Ale pak se něco stalo. Začalo jich přibývat a najednou měli spousty peněz na nákup zbraní. A s tím přišly drogy a násilí. A teď je to skoro horší než dříve.	}{	Ano. Domníval jsem se, že Tongové už jsou prakticky pryč. Ale pak se něco stalo. Začalo jich přibývat a najednou měli spousty peněz na nákup zbraní. A s tím přišly drogy a násilí. A teď je to skoro horší než dříve.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	Někdo tahá za nitky...	}{	Někdo tahá za nitky...	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kdo je ta ruka, co tahá za nitky?	}
 {	203	}{	Kdo je tajně financuje?	}{	Kdo je tajně financuje?	}{	211	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	204	}{	To mě mrzí. Můžete mi teď pomoci s mým problémem?	}{	To mě mrzí. Můžete mi teď pomoci s mým problémem?	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ponořme se do mého dilematu...	}
@@ -83,7 +83,7 @@
 {	232	}{	Ming-Xiao s tím jistě nemá co dělat. Jak mi tedy můžete pomoci?	}{	Ming-Xiao s tím jistě nemá co dělat. Jak mi tedy můžete pomoci?	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	Královna zrcadel by vás nikdy nesvedla na zcestí...	}
 {	233	}{	Zajímavé. Někteří si stojí za tím, že žádné náhody nejsou, Wong Ho.	}{	Zajímavé. Někteří si stojí za tím, že žádné náhody nejsou, Wong Ho.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Já raději věřím hlasům ve své hlavě...	}
 {	234	}{	Proberte se. Hraje si s vámi jako s pěšákem v šachu.	}{	Proberte se. Hraje si s vámi jako s pěšákem v šachu.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše slepota je stejně zlá jako moje potrhlost...	}
-{	241	}{	Ne! Už o tom nechci nic slyšet! Ming-Xiao mi byla spolehlivou poradkyní už od svého příjezdu. Naprosto jí důvěřuji.	}{	Ne! Už o tom nechci nic slyšet! Ming-Xiao mi byla spolehlivou poradkyní už od svého příjezdu. Naprosto jí důvěřuji.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	241	}{	Ne! Už o tom nechci nic slyšet! Ming-Xiao mi byla spolehlivou poradkyní už od svého příjezdu. Naprosto jí důvěřuji.	}{	Ne! Už o tom nechci nic slyšet! Ming-Xiao mi byla spolehlivou poradkyní už od svého příjezdu. Naprosto jí důvěřuji.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	242	}{	Fajn, fajn, ovšem potřebuji od vás jistou informaci...	}{	Fajn, fajn, ovšem potřebuji od vás jistou informaci...	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ponořme se nyní do mého dilematu...	}
 {	243	}{	Klidně strkejte hlavu do písku, když chcete. A nyní k mému problému...	}{	Klidně strkejte hlavu do písku, když chcete. A nyní k mému problému...	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vidím vaši hlavu na nefritovém tácu. A nyní se zavrtejme do mého problému...	}
 {	251	}{	Samozřejmě. S čím vám mohu pomoci?	}{	Samozřejmě. S čím vám mohu pomoci?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -169,7 +169,7 @@
 {	442	}{	Určitě něco takového. Ještě bych se zeptal na něco z čínské čtvrti...	}{	Určitě něco takového. Ještě bych se zeptala na něco z čínské čtvrti...	}{	401	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nakreslete mi obrázek čínské čtvrti...	}
 {	443	}{	Mám jiný dotaz...	}{	Mám jiný dotaz...	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji něco vybrat z vašeho mozku...	}
 {	444	}{	Jo, ona je prostě anděl... Nashle, Wong Ho.	}{	Jo, ona je prostě anděl... Nashle, Wong Ho.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
-{	451	}{	Něco takového nechci slyšet! Ming-Xiao pro naše lidi udělala mnoho a já nedovolím, abyste takto zpochybňoval její charakter!	}{	Něco takového nechci slyšet! Ming-Xiao pro naše lidi udělala mnoho a já nedovolím, abyste takto zpochybňovala její charakter!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	451	}{	Něco takového nechci slyšet! Ming-Xiao pro naše lidi udělala mnoho a já nedovolím, abyste takto zpochybňoval její charakter!	}{	Něco takového nechci slyšet! Ming-Xiao pro naše lidi udělala mnoho a já nedovolím, abyste takto zpochybňovala její charakter!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	452	}{	Dobře, dobře. Ještě bych se zeptal na něco z čínské čtvrti...	}{	Dobře, dobře. Ještě bych se zeptala na něco z čínské čtvrti...	}{	401	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nakreslete mi obrázek čínské čtvrti...	}
 {	453	}{	Mám jiný dotaz...	}{	Mám jiný dotaz...	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Potřebuji něco vybrat z vašeho mozku...	}
 {	454	}{	Sundejte si ty klapky z očí... Odcházím.	}{	Sundejte si ty klapky z očí... Odcházím.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -193,7 +193,7 @@
 {	493	}{	Vážně? Máte ponětí, kdo to je?	}{	Vážně? Máte ponětí, kdo to je?	}{	511	}{	G.WongHo_Secret == 0	}{	}{	}{	}{	}{	}{	}{	}{	Víte, kdo je ta stříbrná osoba?	}
 {	501	}{	[sheepishly]A-ano. Právě ten.	}{	[sheepishly]A-ano. Právě ten.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	502	}{	To nám to houstne. Máte ponětí, kdo to je?	}{	To nám to houstne. Máte ponětí, kdo to je?	}{	511	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sledujte jeho cestu...	}
-{	511	}{	Ne. Nepoznal jsem jej. Proč se ptáte?	}{	Ne. Nepoznal jsem jej. Proč se ptáte?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mandarin_Knows = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	511	}{	Ne. Nepoznal jsem jej. Proč se ptáte?	}{	Ne. Nepoznal jsem jej. Proč se ptáte?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	512	}{	Jen tak. Ještě mám jiný dotaz...	}{	Jen tak. Ještě mám jiný dotaz...	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Neptám. Potřebuji něco vybrat z vašeho mozku.	}
 {	513	}{	To on možná financuje Tongy...	}{	To on možná financuje Tongy...	}{	521	}{	}{	}{	}{	}{	}{	}{	}{	}{	On je možná otec ztracených dětí...	}
 {	514	}{	Nechci o tom mluvit. Nashle.	}{	Nechci o tom mluvit. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jiném místě.	}
@@ -231,7 +231,7 @@
 {	585	}{	Věřte mi, Wong Ho, a nedělejte to. Měl byste odjet z města.	}{	Věřte mi, Wong Ho, a nedělejte to. Měl byste odjet z města.	}{	611	}{	Persuasion 7 & G.Patch_Plus == 1	}{	FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Nemluvte s královnou zrcadel a odvezte svůj poklad do daleka!	}
 {	586	}{	Ne! To nesmíte! Tím byste si podepsal ortel smrti!	}{	Ne! To nesmíte! Tím byste si podepsal ortel smrti!	}{	601	}{	G.Mandarin_Knows == 1 and pc.CalcFeat("Persuasion") < 7	}{	}{	}{	}{	}{	}{	}{	}{	Pokud jí předáte ta slova, ona vám předá smrt...	}
 {	587	}{	Dělejte, jak myslíte, varoval jsem vás.	}{	Dělejte, jak myslíte, varovala jsem vás.	}{	601	}{	G.Mandarin_Knows == 1	}{	}{	}{	}{	}{	}{	}{	}{	Na to zapomeň, šéfe... Je to čínská čtvrť.	}
-{	591	}{	[outraged]Cože? Jak je to možné? Ming-Xiao by se na něčem takovém nikdy neúčastnila! Nevěřím vám...	}{	[outraged]Cože? Jak je to možné? Ming-Xiao by se na něčem takovém nikdy neúčastnila! Nevěřím vám...	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	591	}{	[outraged]Cože? Jak je to možné? Ming-Xiao by se na něčem takovém nikdy neúčastnila! Nevěřím vám...	}{	[outraged]Cože? Jak je to možné? Ming-Xiao by se na něčem takovém nikdy neúčastnila! Nevěřím vám...	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	Whisper("Deluded")	}{	}{	}{	}{	}{	}{	}{	}
 {	592	}{	Radši věřte, byl jste další na řadě...	}{	Radši věřte, byl jste další na řadě...	}{	581	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vaše duše též měla být sklizena...	}
 {	601	}{	Je mi líto, ale tuto konfrontaci jí dlužím. Jistě se jedná o nedorozumění. Ještě jednou vám děkuji za vaši pomoc. Sbohem.	}{	Je mi líto, ale tuto konfrontaci jí dlužím. Jistě se jedná o nedorozumění. Ještě jednou vám děkuji za vaši pomoc. Sbohem.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	602	}{	Rozmyslete si to. Nashle.	}{	Rozmyslete si to. Nashle.	}{	0	}{	}{	G.WongHo_Dead = 1; G.WongHo_End = 1	}{	}{	}{	}{	}{	}{	}{	Zavřené oči se často mění na mrtvé oči. Sbohem.	}

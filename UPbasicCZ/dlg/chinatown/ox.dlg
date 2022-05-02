@@ -1,7 +1,7 @@
 {	1	}{	[Blows smoke]V mém obchodě si každý něco najde...	}{	[Blows smoke]V mém obchodě si každý něco najde...	}{	#	}{	}{	G.Ox_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	Vážně?	}{	Vážně?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Věru?	}
 {	3	}{	To teda pochybuju, že máš něco pro mě, staříku.	}{	To teda pochybuju, že máš něco pro mě, staříku.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemyslím, že váš slogan platí i na mě.	}
-{	11	}{	Každý dostane, co zaslouží...	}{	Každý dostane, co zaslouží...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	Každý dostane, co zaslouží...	}{	Každý dostane, co zaslouží...	}{	#	}{	}{	Whisper("Ambiguous")	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	A to má znamenat co?	}{	A to má znamenat co?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemám z toho ani trochu chytrosti.	}
 {	13	}{	Klíčenku s mapou Kalifornie nebo lacinýho plastovýho Buddhu?	}{	Klíčenku s mapou Kalifornie nebo lacinýho plastovýho Buddhu?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Takové věci mi neříkejte!	}
 {	21	}{	Hi hi...	}{	Hi hi...	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}

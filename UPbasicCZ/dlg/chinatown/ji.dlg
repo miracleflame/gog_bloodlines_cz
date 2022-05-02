@@ -168,7 +168,7 @@
 {	422	}{	To je fuk. Nashle.	}{	To je fuk. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Levná desetiletka. Jsem na jiném místě.	}
 {	423	}{	Máte vůbec ponětí, co dneska všechno stojí? No to je jedno. Nazdar.	}{	Máte vůbec ponětí, co dneska všechno stojí? No to je jedno. Nazdar.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	431	}{	Vy! Proradný žoldák! Chcete z Lu a Ji vymámit peníze! Zmizte! Nakopnu do zadku!	}{	Vy! Proradný žoldák! Chcete z Lu a Ji vymámit peníze! Zmizte! Nakopnu do zadku!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	432	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	432	}{	Whatever.	}{	Whatever.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	No ass kicking today.	}
 {	441	}{	V úterý uvidíte oranžovou kočku. To je moc zlé! Volejte doktora!	}{	V úterý uvidíte oranžovou kočku. To je moc zlé! Volejte doktora!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	442	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	451	}{	Tady vaše šťastné čísla, PIŠTE SI, NEBUDU OPAKOVAT! Tak tady, 11, 17, 25, 93, 11, a... 62.	}{	Tady vaše šťastné čísla, PIŠTE SI, NEBUDU OPAKOVAT! Tak tady, 11, 17, 25, 93, 11, a... 62.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}

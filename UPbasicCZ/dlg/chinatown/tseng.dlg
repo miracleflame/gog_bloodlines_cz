@@ -22,16 +22,16 @@
 {	51	}{	Prosím, počkejte!	}{	Prosím, počkejte!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	G.Tseng_Guns = 1; tsengsShowGuns()	}{	}{	}{	}{	}{	}{	}{	}
 {	52	}{	(Auto-Link)	}{	(Auto-Link)	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	61	}{	Tady mám léky na mnoho problémů! Žádné kreditky.	}{	Tady mám léky na mnoho problémů! Žádné kreditky.	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Bezva. Tak ukažte, co máte...	}{	Bezva. Tak ukažte, co máte...	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
-{	63	}{	Ve městě je spousta úchylů. Něco by se hodilo.	}{	Ve městě je spousta úchylů. Něco by se hodilo.	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Zbraně nikdy neřeší problémy. Vezmu tucet.	}
+{	62	}{	Bezva. Tak ukažte, co máte...	}{	Bezva. Tak ukažte, co máte...	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0); preBarter("Tseng")	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	63	}{	Ve městě je spousta úchylů. Něco by se hodilo.	}{	Ve městě je spousta úchylů. Něco by se hodilo.	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0); preBarter("Tseng")	}{	}{	}{	}{	}{	}{	}{	Zbraně nikdy neřeší problémy. Vezmu tucet.	}
 {	64	}{	Snad později. Chci se na něco zeptat.	}{	Snad později. Chci se na něco zeptat.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nejprve nakoupím odpovědi.	}
 {	65	}{	Musím sehnat nějaký háky a pak dojdu. Mějte se, Tsengu.	}{	Musím sehnat nějaký háky a pak dojdu. Mějte se, Tsengu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Když nakoupím nové zbraně, ty staré budou závidět. Jsem na jiném místě.	}
 {	71	}{	Číňané vynalezli střelný prach! Ano, o zbraních vím!	}{	Číňané vynalezli střelný prach! Ano, o zbraních vím!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	A máte nějaké?	}{	A máte nějaké?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	73	}{	Tak proč je přede mnou schováváte?	}{	Tak proč je přede mnou schováváte?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	81	}{	[Affirmative grunt]...!	}{	[Affirmative grunt]...!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	To je jedno, radši se podívám na ty zbraně.	}{	To je jedno, radši se podívám na ty zbraně.	}{	0	}{	G.Guns_Tseng == 1 and G.Tseng_Guns == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
-{	83	}{	To je jedno, radši se podívám na ty zbraně.	}{	To je jedno, radši se podívám na ty zbraně.	}{	0	}{	G.Guns_Tseng == 0 and G.Tseng_Guns == 1	}{	tsengsShowGuns(); npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	82	}{	To je jedno, radši se podívám na ty zbraně.	}{	To je jedno, radši se podívám na ty zbraně.	}{	0	}{	G.Guns_Tseng == 1 and G.Tseng_Guns == 1	}{	npc.StartBarter(G.Story_State, 0); preBarter("Tseng")	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	83	}{	To je jedno, radši se podívám na ty zbraně.	}{	To je jedno, radši se podívám na ty zbraně.	}{	0	}{	G.Guns_Tseng == 0 and G.Tseng_Guns == 1	}{	tsengsShowGuns(); npc.StartBarter(G.Story_State, 0); preBarter("Tseng")	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
 {	84	}{	Znáte se s Wong Ho?	}{	Znáte se s Wong Ho?	}{	91	}{	G.Tseng_Wong < 2 and G.Ming_Wongho == 1	}{	}{	}{	}{	}{	}{	}{	}{	Rudý Drak má v sobě Wong Ho. Víte to?	}
 {	85	}{	Hledám nězvěstnou osobu, jmenuje se Barabus. Víte něco?	}{	Hledám nězvěstnou osobu, jmenuje se Barabus. Víte něco?	}{	111	}{	G.Tseng_Barabus == 0 and G.Story_State < 55	}{	}{	}{	}{	}{	}{	}{	}{	Víte o Barabusovi, přiznejte se!	}
 {	86	}{	Říká vám něco slovo 'hengeyokai'?	}{	Říká vám něco slovo 'hengeyokai'?	}{	121	}{	G.Yukie_Quest == 1 and G.Tseng_Henge == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hengeyokai! Řekl jste to někdy?	}
@@ -53,10 +53,10 @@
 {	131	}{	Vítejte zpět!	}{	Vítejte zpět!	}{	#	}{	npc.SetDisposition("BehindBack", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	132	}{	Vy jste byl v armádě?	}{	Vy jste byl v armádě?	}{	31	}{	G.Tseng_Guns == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	133	}{	Potřebuju lék na Tongy.	}{	Potřebuju lék na Tongy.	}{	41	}{	G.Tseng_Guns == 0 and G.Tong_Known == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	134	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	0	}{	G.Guns_Tseng == 1 and G.Tseng_Guns == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	}
-{	135	}{	Ukažte zásoby.	}{	Ukažte zásoby.	}{	0	}{	G.Guns_Tseng == 1 and G.Tseng_Guns == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
-{	136	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	0	}{	G.Guns_Tseng == 0 and G.Tseng_Guns == 1	}{	tsengsShowGuns(); npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	}
-{	137	}{	Ukažte zásoby.	}{	Ukažte zásoby.	}{	0	}{	G.Guns_Tseng == 0 and G.Tseng_Guns == 1	}{	tsengsShowGuns(); npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	134	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	0	}{	G.Guns_Tseng == 1 and G.Tseng_Guns == 1	}{	npc.StartBarter(G.Story_State, 0); preBarter("Tseng")	}{	}{	}{	}{	}{	}{	}{	}
+{	135	}{	Ukažte zásoby.	}{	Ukažte zásoby.	}{	0	}{	G.Guns_Tseng == 1 and G.Tseng_Guns == 1	}{	npc.StartBarter(G.Story_State, 0); preBarter("Tseng")	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
+{	136	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	Potřebuju lék. Zřejmě něco těžké ráže.	}{	0	}{	G.Guns_Tseng == 0 and G.Tseng_Guns == 1	}{	tsengsShowGuns(); npc.StartBarter(G.Story_State, 0); preBarter("Tseng")	}{	}{	}{	}{	}{	}{	}{	}
+{	137	}{	Ukažte zásoby.	}{	Ukažte zásoby.	}{	0	}{	G.Guns_Tseng == 0 and G.Tseng_Guns == 1	}{	tsengsShowGuns(); npc.StartBarter(G.Story_State, 0); preBarter("Tseng")	}{	}{	}{	}{	}{	}{	}{	Dávejte...	}
 {	138	}{	Mám dotaz.	}{	Mám dotaz.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chci nakoupit další opdověď.	}
 {	139	}{	Dneska nic nepotřebuju. Mějte se.	}{	Dneska nic nepotřebuju. Mějte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Když nakoupím nové zbraně, ty staré budou závidět. Jsem na jiném místě.	}
 {	141	}{	[Softer, concerned]Vy jste z imigračního?	}{	[Softer, concerned]Vy jste z imigračního?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
