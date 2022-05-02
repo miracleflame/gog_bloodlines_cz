@@ -1114,7 +1114,7 @@ DisciplineTgt
 
 			Mapping
 			{
-				"HitTable"	"Hit_Invulnerable"
+				"HitTable"	"Hit_Supernatural_NoEffect"
 			}
 		}
 

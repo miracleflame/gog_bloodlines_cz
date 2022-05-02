@@ -26,17 +26,13 @@ QuestTable
 //
 //			"Event"		This is script data, such as a flag assignment or a function call, that will be passed to 
 //					the script interpreter. by default, there is no event script. 
-//			
 //		}
-//
-//
 //	}
 
 	Quest
 	{
 		"Title"		"Kiki"	// 
 		"DisplayName"	"Unesena"		// 
-
 
 		CompletionState
 		{
@@ -280,7 +276,7 @@ QuestTable
                 CompletionState
 		{
 			"ID"		"4" // 	kill ox
-			"Description"	"Zabil(a) jsi pana Oxe, takže jakékoliv dohody s ním jsou tímto anulovány."
+			"Description"	"You have made Mr. Ox vanish, takže jakékoliv dohody s ním jsou tímto anulovány."
 			"Type"		"failure"
 		}
 
@@ -303,7 +299,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"2" // 	place talisman
-			"Description"	"Podařilo se ti umístit talisman neštěstí."
+			"Description"	"Podařilo se ti umístit talisman neštěstí. Now report back to Mr. Ox."
 			"Type"		"incomplete"
                         "AwardXP"	"Ox01"
 		}
@@ -311,7 +307,7 @@ QuestTable
                 CompletionState
 		{
 			"ID"		"3" // 	Shu 31, 41, Shu killed
-			"Description"	"Vyřídil(a) sis to s Shuem, protože tě chytil, jak schováváš do skříňky talisman od pana Oxe."
+			"Description"	"Vyřídil(a) sis to s Shuem, protože tě chytil, jak schováváš do skříňky talisman od pana Oxe. You should return to him now."
 			"Type"		"incomplete"
                         "AwardXP"	"Ox02"
 		}
@@ -336,7 +332,7 @@ QuestTable
     CompletionState
 		{
 			"ID"		"6" // 	kill ox
-			"Description"	"Zabil(a) jsi pana Oxe, takže jakékoliv dohody s ním jsou tímto anulovány."
+			"Description"	"You have made Mr. Ox vanish, takže jakékoliv dohody s ním jsou tímto anulovány."
 			"Type"		"failure"
 		}
 

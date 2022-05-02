@@ -354,7 +354,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"			"1" // sent in email
-			"Description"	"LaCroix ti poslal e-mail, ve kterém chtěl, aby ses vloupal(a) do místní kliniky a získal(a) tam ampulku vlkodlačí krve v zájmu zachování Maškarády."
+			"Description"	"LaCroix ti poslal e-mail, ve kterém chtěl, aby ses vloupal(a) do místní kliniky a získal(a) tam zvorek vlkodlačí krve v zájmu zachování Maškarády."
 			"Type"			"incomplete"
 		}
 
@@ -487,7 +487,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"			"2" // Seeing crime scene
-			"Description"	"Viděl(a) jsi místo činu na promenádě, ale o vrahovi nebylo možné zjistit nic, kromě toho, že vražda byla provedena zákeřně a brutálně, jako od divokého zvířete."
+			"Description"	"Viděl(a) jsi krvavé místo činu na promenádě, ale o vrahovi nebylo možné zjistit nic, kromě toho, že vražda byla provedena zákeřně a brutálně, jako od divokého zvířete."
 			"Type"			"incomplete"
                 }
 
@@ -548,6 +548,13 @@ QuestTable
 			"Description"	"Nechal(a) jsi seriového vraha jít, takže jeho další řádění může beze všeho pokračovat. Skutečně moudré rozhodnutí."
 			"Type"			"failure"
                 }
+
+		CompletionState
+		{
+			"ID"		"11" // Killer
+			"Description"	"You went to the pier to look for the murder mentioned in the newspaper, but there was nothing visible anymore. Better keep your eyes open though."
+			"Type"		"incomplete"
+		}
 	}
 
 	Quest
@@ -756,7 +763,7 @@ QuestTable
 			"ID"			"3" // Therese 521
 			"Description"	"Předal(a) jsi přívěsek z hotelu Ocean House Tereze, přesně jak chtěla."
 			"Type"			"success"
-			"AwardXP"	"Haunted04"
+			"AwardXP"	"Haunted02"
 		}
 
 		CompletionState
@@ -764,6 +771,7 @@ QuestTable
 			"ID"			"4" //  Jeanette 191
 			"Description"	"Tereza nebyla k dispozici, tak jsi předal(a) přívěsek z hotelu Ocean House Žanetě, což asi nebyl nejlepší nápad. Měl(a) bys zajít za Terezou, až se vrátí."
 			"Type"			"incomplete"
+			"AwardXP"	"Haunted03" // added by wesp
 		}
 
 		CompletionState
@@ -1109,7 +1117,7 @@ Přijď tam, kde tajemné slunce září."
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"Odmítl(a) jsi dát týpkovi s mdlou krvi, o co žádal."
+			"Description"	"Nedal(a) jsi týpkovi s mdlou krvi, o co žádal."
 			"Type"		"failure"
 		}
 
@@ -1174,9 +1182,64 @@ Přijď tam, kde tajemné slunce září."
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"Skoncuj s princem pro Ming-Xiao."
+			"Description"	"Skoncuj to s princem pro Ming-Xiao."
 			"Type"		"incomplete"
 		}
 
+		CompletionState
+		{
+			"ID"		"4"
+			"Description"	"Ming-Xiao will deal with LaCroix and the sarcophagus."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"5"
+			"Description"	"The Sabbat will deal with LaCroix and the sarcophagus."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"6"
+			"Description"	"LaCroix and you will open the sarcophagus together."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"7"
+			"Description"	"You gave the key to LaCroix. Let him open his precious sarcophagus if he must, you will stay with the Anarchs."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"8"
+			"Description"	"The Regent will deal with LaCroix and the sarcophagus."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"9"
+			"Description"	"You gave the key to LaCroix. Let him open his precious sarcophagus if he must, you will find your own unlife."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"10"
+			"Description"	"You kept the key to open the sarcophagus yourself."
+			"Type"		"success"
+		}
+
+		CompletionState
+		{
+			"ID"		"11"
+			"Description"	"Congratulations, you found the easter egg ending."
+			"Type"		"success"
+		}
 	}
 }

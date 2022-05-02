@@ -186,7 +186,7 @@ Society04 | Máš od profesora tajné informace o sarkofágu | 201
 >
 Tape01 | Máš stopu ke snuff filmu | 201
 Tape02 | Máš snuff film | 201
-Tape03 | Ukázal(a) jsi kazetu Izákovi | 201
+Tape03 | Dal(a) jsi kazetu Izákovi | 201
 
 >
 > 609 King's Way
@@ -251,7 +251,7 @@ Ming02 | Máš klíč od sarkofágu | 1001
 Dead01 | Nalezl(a) jsi místo setkání | 101
 Dead02 | Mluvil(a) jsi s poslem | 101
 Dead03 | Máš pásku | 101
-Dead04 | Ukázal(a) jsi pásku Izákovi | 101
+Dead04 | Dal(a) jsi pásku Izákovi | 101
 
 >
 > Gargoyle Quest

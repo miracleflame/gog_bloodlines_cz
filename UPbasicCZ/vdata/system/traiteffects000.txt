@@ -26,7 +26,7 @@ TraitEffectsData
 //					"Value"	-- Ignore the base value.  Use this instead.
 //					"Cost"	-- Use this cost structure instead of the default.
 //					"BloodCost"	-- Modify the BloodCost to activate this (discipline) by a given value (+/-).
-//					"Po#kození"	-- Modify the Po#kození from this (discipline) by a given %.
+//					"Po#kození"	-- Modify the Poškození from this (discipline) by a given %.
 //					"Trvání"	-- Modify the Trvání of this (discipline) by a given %.
 //	}
 //
@@ -1531,7 +1531,7 @@ TraitEffectsData
 			{
 				"Trait"	"Fortitude"
 //				"Modifier"	"BloodCost 2"
-				"Modifier"	"Trvání 200"
+				"Modifier"	"Trvání 200%"
 			}
 
 			TraitEffect
@@ -1655,7 +1655,11 @@ TraitEffectsData
 				"Trait"	"Dodge"
 				"Modifier"	"Max 3"
 			}
-
+			TraitEffect
+			{
+				"Trait"	"item_w_tzimisce2_head"
+				"Modifier"	"+1"
+			}
 		}
 
 		TraitEffectGroup

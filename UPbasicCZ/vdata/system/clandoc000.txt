@@ -19,7 +19,7 @@ ClanDataTables
 		General
 		{
 			"Clan"			"None"
-			"M_Body"		"models/character/npc/average_vampire_hunter/average_vampire_hunter.mdl"
+			"M_Body"		"models/character/npc/unique/society_of_leopold/average_vampire_hunter/average_vampire_hunter.mdl"	// changed by wesp
 			"Gender"		"Muž, Žena"
 			"Kindred"		"0"
 			"Supernatural"	"0"
@@ -261,9 +261,9 @@ Výhody: +1 bod do činnosti Beze zbraně."
 			"F_Body3"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
 			"F_Body4"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
 			"F_Body5"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
-			"M_Hands"		"models/hands/male/brujah/v_brujah_male_hands.mdl"	// changed by wesp
+//			"M_Hands"		"models/hands/male/brujah/v_brujah_male_hands.mdl"
 //			"F_Hands"		"models/hands/female/brujah/v_brujah_fem_hands.mdl"
-//			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"	// changed by wesp
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
 			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
 			"Gender"		"Male, Female"
 //			"History"		"None, Megalomaniac, All-Star Athlete, Black-Hearted, Avid RPG Fan, Academic, Ex-cop, Perv, Deaf"
@@ -382,7 +382,7 @@ Výhody: +5 bodů do Síly, Důvtipu a Vytrvalosti během záchvatu běsu."
 			"F_Body4"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
 			"F_Body5"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
 //			"M_Hands"		"models/hands/male/gangrel/v_gangrel_male_hands.mdl"
-//			"F_Hands"		"models/hands/female/gangrel/v_gangrel_fem_hands.mdl"
+//			"F_Hands"		"models/hands/female/gangrel/v_gangrel_female_hands.mdl"
 			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
 			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
 			"Gender"		"Male, Female"
@@ -738,9 +738,9 @@ Výhody: Každý zisk lidskosti je násoben dvěma. Levnější cena při zvyšo
 			"F_Body4"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
 			"F_Body5"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
 //			"M_Hands"		"models/hands/male/toreador/v_toreador_male_hands.mdl"
-			"F_Hands"		"models/hands/female/toreador/v_toreador_fem_hands.mdl"	// changed by wesp
+//			"F_Hands"		"models/hands/female/toreador/v_toreador_fem_hands.mdl"
 			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
-//			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"	// changed by wesp
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
 			"Gender"		"Male, Female"
 //			"History"		"None, Megalomaniac, Well Educated, Starving Artist, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
 			"ClanEffect"		"Clan (Toreador)"
@@ -857,9 +857,9 @@ Výhody: Divotvorství."
 			"F_Body4"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
 			"F_Body5"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
 //			"M_Hands"		"models/hands/male/tremere/v_tremere_male_hands.mdl"
-			"F_Hands"		"models/hands/female/tremere/v_tremere_fem_hands.mdl"	// changed by wesp
+//			"F_Hands"		"models/hands/female/tremere/v_tremere_fem_hands.mdl"
 			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
-//			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"	// changed by wesp
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
 			"Gender"		"Male, Female"
 //			"History"		"None, Megalomaniac, Well Educated, Affinity for Magic, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
 			"ClanEffect"		"Clan (Tremere)"
@@ -976,9 +976,9 @@ Výhody: Snažší přijetí v Kamarille. Schopnost využívat Dominanci v rozho
 			"F_Body4"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
 			"F_Body5"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
 //			"M_Hands"		"models/hands/male/ventrue/v_ventrue_male_hands.mdl"
-			"F_Hands"		"models/hands/female/ventrue/v_ventrue_fem_hands.mdl"	// changed by wesp
+//			"F_Hands"		"models/hands/female/ventrue/v_ventrue_fem_hands.mdl"
 			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
-//			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"	// changed by wesp
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
 			"Gender"		"Male, Female"
 //			"History"		"None, Megalomaniac, Well Educated, Black-Hearted, Avid RPG Fan, Generalissimo, Ex-cop, Perv, Pot Head, Deaf"
 			"ClanEffect"		"Clan (Ventrue)"
@@ -1395,9 +1395,9 @@ Advantage: Gains +1 to Unarmed."	// changed by wesp
 			"F_Body3"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
 			"F_Body4"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
 			"F_Body5"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
-			"M_Hands"		"models/hands/male/brujah/v_brujah_male_hands.mdl"	// changed by wesp
+//			"M_Hands"		"models/hands/male/brujah/v_brujah_male_hands.mdl"
 //			"F_Hands"		"models/hands/female/brujah/v_brujah_fem_hands.mdl"
-			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"	// changed by wesp
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
 			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
 			"Gender"		"Male, Female"
 //			"History"		"None, Megalomaniac, All-Star Athlete, Black-Hearted, Avid RPG Fan, Academic, Ex-cop, Perv, Deaf"
@@ -2544,9 +2544,9 @@ Advantage: All Humanity gains are doubled. Cheaper experience cost to raise Huma
 			"F_Body4"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
 			"F_Body5"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
 //			"M_Hands"		"models/hands/male/toreador/v_toreador_male_hands.mdl"
-			"F_Hands"		"models/hands/female/toreador/v_toreador_fem_hands.mdl"	// changed by wesp
+//			"F_Hands"		"models/hands/female/toreador/v_toreador_fem_hands.mdl"
 			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
-			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"	// changed by wesp
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
 			"Gender"		"Male, Female"
 //			"History"		"None, Megalomaniac, Well Educated, Starving Artist, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
 			"ClanEffect"		"Clan (Toreador)"
@@ -2663,9 +2663,9 @@ Advantage: Thaumaturgy."
 			"F_Body4"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
 			"F_Body5"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
 //			"M_Hands"		"models/hands/male/tremere/v_tremere_male_hands.mdl"
-			"F_Hands"		"models/hands/female/tremere/v_tremere_fem_hands.mdl"	// changed by wesp
+//			"F_Hands"		"models/hands/female/tremere/v_tremere_fem_hands.mdl"
 			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
-//			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"	// changed by wesp
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
 			"Gender"		"Male, Female"
 //			"History"		"None, Megalomaniac, Well Educated, Affinity for Magic, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
 			"ClanEffect"		"Clan (Tremere)"
@@ -2782,9 +2782,9 @@ Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog.
 			"F_Body4"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
 			"F_Body5"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
 //			"M_Hands"		"models/hands/male/ventrue/v_ventrue_male_hands.mdl"
-			"F_Hands"		"models/hands/female/ventrue/v_ventrue_fem_hands.mdl"	// changed by wesp
+//			"F_Hands"		"models/hands/female/ventrue/v_ventrue_fem_hands.mdl"
 			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
-//			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"	// changed by wesp
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
 			"Gender"		"Male, Female"
 //			"History"		"None, Megalomaniac, Well Educated, Black-Hearted, Avid RPG Fan, Generalissimo, Ex-cop, Perv, Pot Head, Deaf"
 			"ClanEffect"		"Clan (Ventrue)"

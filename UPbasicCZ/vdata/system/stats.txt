@@ -1261,9 +1261,9 @@ StatData
 				"Gfx_Hud"		"hud/Disciplines/Animalism_Sel"
 				"InfoModel"		"models/weapons/disciplines/Animalism/info/i_Animalism.mdl"
 
-				"Snd_ActivateUI"	"Disciplines/Animalism/Activate.wav"
-				"Snd_MaintainUI"	"Disciplines/Animalism/Maintain.wav"
-				"Snd_DeactivateUI"	"Disciplines/Animalism/Deactivate.wav"
+// wesp				"Snd_ActivateUI"	"Disciplines/Animalism/Activate.wav"
+// wesp				"Snd_MaintainUI"	"Disciplines/Animalism/Maintain.wav"
+// wesp				"Snd_DeactivateUI"	"Disciplines/Animalism/Deactivate.wav"
 
 				"Is_Instant"	"0"
 				"Is_Aggressive"	"1"
@@ -1315,7 +1315,7 @@ StatData
 			{
 				"Name"		"Předzvěst"
 				"InternalName"	"Auspex"
-				"HelpText"	"Zvýší mentální schopnosti tvé postavy, takže vidí auru bytostí v okolí. Předzvěst se aktivuje na všech úrovních za jednu dávku krve."
+				"HelpText"	"Zvýší mentální schopnosti tvé postavy, takže vidí auru bytostí v okolí as well as see better in darkness. Předzvěst se aktivuje na všech úrovních za jednu dávku krve."
 
 				"HelpTextH1"	"Úroveň 1:"
 				"HelpTextH2"	"Úroveň 2:"
@@ -1801,7 +1801,7 @@ StatData
 			{
 				"Name"		"Mizení"
 				"InternalName"	"Obfuscate"
-				"HelpText"	"Vampírská neviditelnost. Aktivovat Mizení lze jen tehdy, když tě nikdo nevidí. Pokud se přestaneš hýbat, časomíra aktivace se zastaví. Každá vyšší úroveň Mizení má všechny vlastností nižších úrovní. Mizením nelze porušit Maškarádu."
+				"HelpText"	"Vampírská neviditelnost. Aktivovat Mizení lze jen tehdy, když tě nikdo nevidí. Pokud se přestaneš hýbat, časomíra aktivace se zastaví. Každá vyšší úroveň Mizení má všechny vlastností nižších úrovní. Mizením nelze porušit Maškarádu. During frenzy level limits are ignored."
 				"HelpTextH1"	"Úroveň 1: Skrýš"
 				"HelpTextH2"	"Úroveň 2: Částečná neviditelnost"
 				"HelpTextH3"	"Úroveň 3: Tajný zabiják"
@@ -2141,9 +2141,9 @@ StatData
 
 			Stat
 			{
-				"Name"		"Holy Sight"	// changed by wesp
+				"Name"		"Divine Vision"
 				"InternalName"	"Divine_Vision"
-				"HelpText"	"Holy Sight enables the crusader to see Auras of friends and foes, even hidden ones. Friends' auras will appear blue, and enemies' will be red. All levels of Holy Sight cost one faith per activation."	// changed by wesp
+				"HelpText"	"Divine Vision enables the crusader to see better in darkness and to perceive the auras of living & undead. Living's auras will appear white, and undead's will be red. All levels of Divine Vision cost one faith per activation."	// changed by wesp
 				"HelpTextH1"	"Level 1:"
 				"HelpTextH2"	"Level 2:"
 				"HelpTextH3"	"Level 3:"
@@ -2154,7 +2154,6 @@ StatData
 				"HelpTextL3"	"Reveals the auras of all living & undead within a large distance. Lasts 28 seconds per activation."	// added by wesp
 				"HelpTextL4"	"Reveals the auras of all living & undead within a great distance. Lasts 32 seconds per activation."	// added by wesp
 				"HelpTextL5"	"Reveals the auras of all living & undead within a tremendous distance. Lasts 36 seconds per activation."	// added by wesp
-
 
 				"ShownInFeedback"	"1"
 
@@ -2178,19 +2177,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Divine Light"	// changed by wesp
+				"Name"		"Holy Light"
 				"InternalName"	"Holy_Light"
-				"HelpText"	"Evoking Divine Light brings the glory of God down on the undead heathens, thereby blinding them temporarily for easy killing. All levels of Divine Light cost one faith per activation."	// changed by wesp
+				"HelpText"	"Evoking Holy Light brings the glory of God down on the undead heathens, thereby blinding them temporarily for easy killing."	// changed by wesp
 				"HelpTextH1"	"Level 1:"
 				"HelpTextH2"	"Level 2:"
 				"HelpTextH3"	"Level 3:"
 				"HelpTextH4"	"Level 4:"
 				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Lasts 2 seconds per activation."	// added by wesp
-				"HelpTextL2"	"Lasts 4 seconds per activation."	// added by wesp
-				"HelpTextL3"	"Lasts 6 seconds per activation."	// added by wesp
-				"HelpTextL4"	"Lasts 8 seconds per activation."	// added by wesp
-				"HelpTextL5"	"Lasts 10 seconds per activation."	// added by wesp
+				"HelpTextL1"	"Costs 1 faith per activation. Lasts 4 seconds per activation."	// added by wesp
+				"HelpTextL2"	"Costs 2 faith per activation. Lasts 6 seconds per activation."	// added by wesp
+				"HelpTextL3"	"Costs 3 faith per activation. Lasts 8 seconds per activation."	// added by wesp
+				"HelpTextL4"	"Costs 4 faith per activation. Lasts 10 seconds per activation."	// added by wesp
+				"HelpTextL5"	"Costs 5 faith per activation. Lasts 12 seconds per activation."	// added by wesp
 
 				"ShownInFeedback"	"1"
 
@@ -3212,6 +3211,7 @@ StatData
 				"IncPredependency"	"BloodPool > 0"
 				"IncPredependency"	"Health < Max_Health"
 				"IncPredependency"	"ObfuscateCanInc == 1"
+				"IncPredependency"	"Active_Protean < 5" // added by wesp
 
 				Action
 				{
@@ -3663,6 +3663,7 @@ StatData
 
 				"IncPredependency"	"BloodPool > 0"
 				"IncPredependency"	"Health < Max_Health"
+				"IncPredependency"	"Active_Obfuscate < 1" // added by wesp
 
 // Not Implemented Yet
 //				// OR:
@@ -3958,7 +3959,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Holy Sight"	// changed by wesp
+				"Name"		"Divine Vision"
 				"InternalName"	"Active_Divine_Vision"
 				"Min"			"0"
 				"Max"			"Divine_Vision"
@@ -4029,7 +4030,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Divine Light"	// changed by wesp
+				"Name"		"Holy Light"
 				"InternalName"	"Active_Holy_Light"
 				"Min"			"0"
 				"Max"			"Holy_Light"

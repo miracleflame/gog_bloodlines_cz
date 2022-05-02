@@ -1,7 +1,5 @@
 LoadingTips
 {
-
-
 //
 //
 //	[Loading Tips]
@@ -10,9 +8,6 @@ LoadingTips
 //		LOCALIZATION:	Localize/Translate the "Text" Fields ***ONLY***!!!
 //
 //
-
-
-
 //
 //
 //
@@ -35,8 +30,6 @@ LoadingTips
 //	}
 //
 
-
-
 /////////////////////////
 /////////////////////////
 //before starting a new game(into character creation): G.Story_State = -6
@@ -56,7 +49,6 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"-6"
 			"Size"		"Small"
-
 			"Text"		"Ve světě temnoty tahají nesmrtelná monstra za nitky osudu lidstva. Je to svět plný násilí a zoufalství, ale útěk z něj je na denním pořádku, což je možná až příliš často..."
 		}
 
@@ -99,7 +91,6 @@ LoadingTips
 		Princ Lacroix pro tebe vyčlenil jeden z bezpečných bytů patřících Kamarille. V něm najdeš některé důležité věci, jako počítač a svou e-mailovou schránku. Tento byt je tvá základna."
 		}
 
-
 		// StoryState -1, before SM proper
 		Tip
 		{
@@ -109,8 +100,6 @@ LoadingTips
 			"Text"		"Porušením Maškarády, které způsobíš odhalením nebo prozrazením existence nadpřirozených jevů před smrtelníky, se vystavuješ riziku přepadení ze strany lovců vampírů a rovněž proti sobě obrátíš i ostatní našince. Každé porušení se ti započítá. Pokud se dopustíš pátého porušení v řadě, hra pro tebe skončí."
 		}
 
-
-
 		// StoryState 2, before first Elyisum
 		Tip
 		{
@@ -119,7 +108,6 @@ LoadingTips
 			"Size"		"Small"
 			"Text"		"Elyzeum:  Vstupuješ do Elyzea. Elyzeum je doména mocného vampíra. Zde nemůžeš útočit ani používat vampírské disciplíny. Někdy se budeš moci v Elyzeu z někoho napít, ale pokud ho vysátím zabiješ, přijdeš o část své lidskosti."
 		}
-
 
 		// StoryState 3, before first Combat
 		Tip
@@ -245,6 +233,14 @@ LoadingTips
 			Zatímco vampíři jiných klanů stále vypadají jako lidé a mohou se pohybovat ve společnosti, Nosferatu jsou díky prokleté krvi ohyzdní a znetvoření. Jako takoví se ocitli na periférii společnosti Kainitů, kteří je považují za nechutné a jednají s nimi, jen když musí."
 		}
 
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Body zkušenosti získáváš za plnění úkolů a to i v jejich průběhu za vyřešení jednotlivých cílů. Body navíc lze získat za nalezení skryté cesty k cíli nebo za vyřešení úkolu nekonvenčním způsobem."
+		}
+
 //		//Game tips
 
 		Tip
@@ -252,16 +248,6 @@ LoadingTips
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
-			"Text"		"Body zkušenosti získáváš za plnění úkolů a to i v jejich průběhu za vyřešení jednotlivých cílů. Body navíc lze získat za nalezení skryté cesty k cíli nebo za vyřešení úkolu nekonvenčním způsobem."
-		}
-
-		Tip
-		{
-			"Type"		"Game"
-			"StoryState"	"0"
-			"Size"		"Small"
-
 			"Text"		"Pokud nevíš, kam máš jít nebo s kým promluvit, pročti si svůj žurnál úkolů (implicitně klávesa L)."
 		}
 
@@ -270,7 +256,6 @@ LoadingTips
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Každý našinec, který chce zapadnout do společnosti smrtelníků, musí dodržovat její zákony. Zločiny jako je ublížení na zdraví, loupež nebo vražda jsou tvrdě stíhany policejními složkami."
 		}
 
@@ -279,7 +264,6 @@ LoadingTips
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"K ochraně před kulkami přispívá úroveň činností Obrana a Údery. Navíc polovina zranění od kulek se vstřebává automaticky."
 		}
 
@@ -288,7 +272,6 @@ LoadingTips
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Klávesou Sání krve (implicitně F) se zakousneš do krku své oběti. Pokud s ní právě bojuješ, bude mít šanci se bránit. Jinak se tvůj pokus zdaří vždy.
 
 Vysoká úroveň činnosti boje Beze zbraně sníží úspěšnost obrany protivníků proti vysátí krve přímo v boji."
@@ -299,7 +282,6 @@ Vysoká úroveň činnosti boje Beze zbraně sníží úspěšnost obrany protiv
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Pokud je tvá úroveň Přesvědčování dostatečně dobrá, můžou se v rozhovorech objevit nové volby zobrazené modře. Výběrem těchto voleb povedeš rozhovor asertivně směrem ke svým cílům."
 		}
 
@@ -308,7 +290,6 @@ Vysoká úroveň činnosti boje Beze zbraně sníží úspěšnost obrany protiv
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"V rozhovorech můžeš využívat Svádění, pokud je tvá úroveň v této činnosti dostatečně dobrá. Díky němu můžeš od lidí získat to, co chceš, a dokonce se z nich napít na veřejnosti bez rizika porušení Maškarády.
                         
 Použití Svádění v rozhovorech je zobrazeno fialově."                        
@@ -319,7 +300,6 @@ Použití Svádění v rozhovorech je zobrazeno fialově."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Pokud je tvá úroveň Donucování dostatečně dobrá, můžou se v rozhovorech objevit nové volby zobrazené zeleně. Někteří lidé se nechají zastrašit snadněji než jiní."
 		}
 
@@ -328,7 +308,6 @@ Použití Svádění v rozhovorech je zobrazeno fialově."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Tvá úroveň boje Na blízko přímo ovlivňuje, kolik zranění způsobíš kontaktními zbraněmi. Rovněž se od ni odvíjí, jak snadno dokáže protivník zablokovat, vykrýt nebo přerušit tvůj útok kontaktní zbraní."
 		}
 
@@ -337,7 +316,6 @@ Použití Svádění v rozhovorech je zobrazeno fialově."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Tvá úroveň boje Na dálku přímo ovlivňuje, kolik zranění způsobíš střelnými zbraněmi. Také určuje, jak snadno se vampíři a jiné nadpřirozené bytosti budou schopni bránit tvé střelbě."
 		}
 
@@ -346,7 +324,6 @@ Použití Svádění v rozhovorech je zobrazeno fialově."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Large"
-
 			"Text"		"Pokud se chceš plížit, musíš být v podřepu (implicitně klávesa Ctrl), schovávat se ve tmě a sledovat ukazatel světla. Čím vyšší úroveň Plížení, tím hůř tě nepřátelé zahlédnou nebo zaslechnou.
 
 Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
@@ -357,7 +334,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Kdykoliv na tebe někdo zaútočí, automaticky se aplikuje tvá Obrana. Jako vampír se touto činností můžeš bránit útokům beze zbraně, kontaktní zbraní a kulkám."
 		}
 
@@ -366,7 +342,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Ke tvé obraně v boji přispívá mnoho faktorů. Pokud budeš za body zkušenosti zvyšovat Důvtip, Vytrvalost a Uhýbání, utrpíš v boji menší zranění. Oblečení a neprůstřelné vesty rovněž snižují zranění."
 		}
 
@@ -375,7 +350,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Zabíjením nevinných lidí ztrácíš svou lidskost. Nízká úroveň lidskosti zvyšuje riziko záchvatů běsu. Kromě toho, pokud budeš upadat ke své zvířecí nátuře, projeví se to i na tvých dialogových volbách."
 		}
 
@@ -384,7 +358,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Lidé jsou pro vampíry hlavním zdrojem potravy. Ale malé množství krve lze zíkat i z krys. Dají se využít i krevní balíčky, pokud nějaké najdeš."
 		}
 
@@ -393,7 +366,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Tělo vampírů časem zahojí všechna zranění. Pití krve proces hojení urychlí."
 		}
 
@@ -402,7 +374,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"V bezpečných oblastech jsou mapy na autobusových zastávkách. Využívej je, pokud začneš bloudit."
 		}
 
@@ -411,7 +382,6 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Pokud se Bestie zmocní kontroly, dojde k záchvatu běsu. Vampír v běsu je jako zdivočelý stroj na zabíjení, který chce za každou cenu přežít.
 
 V běsu získáš neuvěřitelnou ničivou sílu, ale nemůžeš se po dobu záchvatu nijak ovládat."
@@ -421,7 +391,6 @@ V běsu získáš neuvěřitelnou ničivou sílu, ale nemůžeš se po dobu zác
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"Pokud tě začne pronásledovat policie, schovej se. Když tě nebudou schopni najít, nakonec pátrání odvolají.
 
 Při odvolání pátrání se o tom na obrazovce objeví zpráva.
@@ -433,7 +402,6 @@ Při odvolání pátrání se o tom na obrazovce objeví zpráva.
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-
 			"Text"		"V kanálech může vampír najít bezpečí a soukromí, pokud potřebuje."
 		}
 
@@ -509,7 +477,8 @@ Než si ale takovou knihu budeš moci přečíst, musíš dosáhnout požadovan�
 			"CharTemplate"	"Player_Brujah"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
                         
-Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
+Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -531,7 +500,8 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"CharTemplate"	"Player_Malkavian"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
                         
-Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
+Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -542,7 +512,8 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"CharTemplate"	"Player_Toreador"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
                         
-Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
+Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -564,7 +535,8 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"CharTemplate"	"Player_Ventrue"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
                         
-Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
+Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
+To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
 		}
 
 		Tip
@@ -577,7 +549,6 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 
 Jakmile se nějaká nová oblast zpřístupní, objeví se na této mapě."
 		}
-
 
 /////////////////////////
 	// HelpTips for StoryState 10

@@ -307,7 +307,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"3" // Igor 41, changed by wesp
-			"Description"	"Podařilo se ti přesvědčit Igora, aby si pro peníze od Venuše přišel příští měsíc."
+			"Description"	"Podařilo se ti přesvědčit Rusy, aby si pro peníze od Venuše přišli příští měsíc."
 			"Type"		"incomplete"
 			"AwardXP"	"Confession01"
 		}
@@ -315,7 +315,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"4" // kill Igor, changed by wesp
-			"Description"	"Zabil(a) jsi Igora, čímž je Venušin problém s penězma vyřešen."
+			"Description"	"Zabil(a) jsi Rusy, čímž je Venušin problém s penězma vyřešen."
 			"Type"		"incomplete"
 			"AwardXP"	"Confession01"
 		}
@@ -518,7 +518,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"3" // Milligan 71,91, 111, 151 / killing Milligan, changed by wesp
-			"Description"	"Problém s Milliganem jsi pro Pishu vyřesil(a)."
+			"Description"	"Problém s Milliganem jsi pro Pishu vyřesil(a). Go back to the abandoned hospital and tell her."
 			"Type"		"incomplete"
 			"AwardXP"	"Necro01"
 		}
@@ -1080,6 +1080,13 @@ QuestTable
 			"Description"	"Ash zemřel v Leopoldově společnosti."
 			"Type"		"failure"
 		}
+
+		CompletionState	// added by wesp
+		{
+			"ID"		"4"
+			"Description"	"You found Ash captured and tortured at the Society of Leopold. Why don't you help him this time?"
+			"Type"		"incomplete"
+		}
 	}
 
 	Quest	// added by wesp
@@ -1097,20 +1104,20 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"2"
-			"Description"	"Dorazil(a) jsi do obchodu s kuřivem, ale Beckettův přítel tam nebyl. Avšak objevil(a) jsi odkaz, který tě nasměroval do opuštěného obchodu s kávou poblíž."
+			"Description"	"Dorazil(a) jsi do obchodu s kuřivem, ale Beckettův přítel tam nebyl. Avšak objevil(a) jsi odkaz, suggesting that something is going down at the end of the Santa Monica Pier."
 			"Type"		"incomplete"
 		}
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"V obchodě s kávou byl počítač Beckettova přitele a zdá se, že ten následoval rekruta Sabbatů na konec mola v Santa Monice."
+			"Description"	"At the end of the Santa Monica pier you found signs of a bloody fight and a hastily scrawled paper telling you to investigate the \"shop on the move\" in Santa Monica. And a password is supposed to be the \"city of the coffin\"
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"4"
-			"Description"	"Na konci mola v Santa Monice nikdo nebyl, jenom spousta krve a zpráva, že můžeš vniknout do městské knihovny přes kanalizaci. Nejvyšší čas to udělat."
+			"Description"	"You searched the Santa Monica Coffee Shop and found Scott's laptop. His journal noted, že můžeš vniknout do městské knihovny přes kanalizaci. Nejvyšší čas to udělat."
 			"Type"		"incomplete"
 		}
 
