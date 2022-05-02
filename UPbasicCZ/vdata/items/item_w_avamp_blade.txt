@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"		"Bojový nůž"
-	"description"		"Některé nože nikdo za celou dobu jejich existence nepoužije k žádnému zlému činu.  Tohle není jeden z nich."
+	"description"		"Některé nože jsou na krájení jídla. Jiné nože jsou na krájení lidí. Tento patří do té druhé skupiny."
 //	"viewmodel"		"models/weapons/knife/view/v_knife.mdl"
 //"viewmodel"	""
 "viewmodel"	"models/weapons/w_null.mdl"
