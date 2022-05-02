@@ -354,7 +354,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"			"1" // sent in email
-			"Description"	"LaCroix ti poslal e-mail, ve kterém chtěl, aby ses vloupal(a) do místní kliniky a získal(a) tam zvorek vlkodlačí krve v zájmu zachování Maškarády."
+			"Description"	"LaCroix ti poslal e-mail, ve kterém chtěl, aby ses vloupal(a) do místní kliniky a získal(a) tam vzorek vlkodlačí krve v zájmu zachování Maškarády."
 			"Type"			"incomplete"
 		}
 
