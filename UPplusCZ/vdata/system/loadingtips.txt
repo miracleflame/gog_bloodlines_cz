@@ -344,7 +344,7 @@ Pokud nejsi v podřepu, žádné výhody z Plížení nezískáš."
 			"Type"		"Game"
 			"StoryState"	"0"
 			"Size"		"Small"
-			"Text"		"Lidé jsou pro vampíry hlavním zdrojem potravy. Ale malé množství krve lze zíkat i z krys. Dají se využít i krevní balíčky, pokud nějaké najdeš."
+			"Text"		"Lidé jsou pro vampíry hlavním zdrojem potravy. Ale malé množství krve lze získat i z krys. Dají se využít i krevní balíčky, pokud nějaké najdeš."
 		}
 
 		Tip
