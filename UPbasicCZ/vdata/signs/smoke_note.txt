@@ -19,7 +19,7 @@ SignData	// added by wesp
 	TextBlock
 	{
 		"Text"		"
-Beckett,  couldn't  wait  any  longer.  The  guy  left  early.  He  intends  to  meet  someone  at  the  end  of  the  pier.  Hope  to  see  you  there.  
+Beckette, už jsem nemohl dýl čekat. Ten týpek odešel brzo. Chce se s někým potkat na konci promenády. Doufám, že se tam uvidíme.  
 
 -Scott"
 		"Font"		"Vamp_Handwriting1"

@@ -19,7 +19,7 @@ SignData	// added by wesp
 	TextBlock
 	{
 		"Text"		"
-Beckett,  the  meeting  here  seems  to  be  a  trap!  In  case  I  don't  make  it,  check  the  shop  on  the  move  in  Santa  Monica.  I  left  the  door  unlocked,  my  password  is  the  city  of  the  coffin.  
+Beckette, tahleta schůzka vypadá na nějakou past! Kdybych to nedal, zajdi do obchodu, co se stěhuje ze Santa Moniky. Nechal jsem otevřený dveře a heslo je město sarkofágu.  
 
 -Scott"
 		"Font"		"Vamp_Handwriting1"

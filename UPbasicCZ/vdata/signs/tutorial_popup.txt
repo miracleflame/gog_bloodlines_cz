@@ -12,10 +12,10 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"                       Warning!
-It seems as if an important Python script has not been compiled correctly on your system!
-You are probably playing inside a Linux Wine environment without running from loader.exe.
-Find it as VtM Bloodlines Game Mod Loader in the user programs section of the start menu!"
+		"Text"		"                       Varování!
+Zdá se, že se na tomto systému nepodařilo zkompilovat jeden důležitý skript v Pythonu!
+Zřejmě hraješ v prostředí Linux Wine bez spustění loader.exe.
+Najdeš ho pojmenovaný jako VtM Bloodlines Game Mod Loader mezi uživatelskými programy v úvodním menu."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
