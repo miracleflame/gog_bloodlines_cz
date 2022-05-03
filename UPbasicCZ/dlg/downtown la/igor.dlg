@@ -18,7 +18,8 @@
 {	31	}{	Urvu jim hnáty!	}{	Urvu jim hnáty!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
 {	41	}{	Jo. Řekni svini, že se vrátíme za měsíc.	}{	Jo. Řekni svini, že se vrátíme za měsíc	}{	#	}{	}{	G.Igor_Dominated = 1; pc.SetQuest("Confession",3)	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	I will.	}{	I will.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Only if we remember it.	}
+
 {	51	}{	Chcípneš.	}{	Chcípneš.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	52	}{	Už zase?	}{	Už zase?	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Už se stalo, díky za povšimnutí.	}
 {	53	}{	Na to nesázej.	}{	Na to nesázej.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Začala sezóna na medvědy.	}

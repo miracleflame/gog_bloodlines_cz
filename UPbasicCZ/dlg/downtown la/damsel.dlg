@@ -139,8 +139,8 @@
 {	311	}{	Co?	}{	Co?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	312	}{	Mám dotaz.	}{	Mám dotaz.	}{	531	}{	G.Damsel_Like < -3	}{	}{	}{	}{	}{	}{	}{	}{	Zajímá mě něco z tvé hlavy.	}
 {	313	}{	Co víš o regentovi? Viní vás za ty roznašeče moru.	}{	Co víš o regentovi? Viní vás za ty roznašeče moru.	}{	511	}{	G.Regent_Pestilence >= 1 and G.Damsel_Regent == 0	}{	}{	}{	}{	}{	}{	}{	}{	Znáš se s temným pánem? Říká, že vy děti šíříte nemoc.	}
-{	314	}{	Pověz mi něco o Ninesovi.	}{	Pověz mi něco o Ninesovi.	}{	321	}{	G.Story_State < 25 and G.Damsel_Nines == 0	}{	}{	}{	}{	}{	}{	}{	}{	Číslo jako jméno.	}
-{	315	}{	Pověz mi něco o Ninesovi.	}{	Pověz mi něco o Ninesovi.	}{	351	}{	G.Story_State >= 25 and G.Damsel_Nines < 2	}{	}{	}{	}{	}{	}{	}{	}{	Číslo jako jméno.	}
+{	314	}{	Pověz mi něco o Ninesovi.	}{	Pověz mi něco o Ninesovi.	}{	321	}{	G.Story_State < 20 and G.Damsel_Nines == 0	}{	}{	}{	}{	}{	}{	}{	}{	Číslo jako jméno.	}
+{	315	}{	Pověz mi něco o Ninesovi.	}{	Pověz mi něco o Ninesovi.	}{	351	}{	G.Story_State >= 20 and G.Damsel_Nines < 2	}{	}{	}{	}{	}{	}{	}{	}{	Číslo jako jméno.	}
 {	316	}{	Co si myslíš o LaCroixovi?	}{	Co si myslíš o LaCroixovi?	}{	371	}{	G.Damsel_Prince == 0	}{	}{	}{	}{	}{	}{	}{	}{	Šašek ve slonovinové věži.	}
 {	317	}{	Řekni mi něco o Jackovi.	}{	Řekni mi něco o Jackovi.	}{	391	}{	G.Damsel_Jack == 0	}{	}{	}{	}{	}{	}{	}{	}{	Čertík z krabičky se neustále kření.	}
 {	318	}{	Řekni mi něco o Anarších.	}{	Řekni mi něco o Anarších.	}{	411	}{	G.Damsel_Anarchs == 0	}{	}{	}{	}{	}{	}{	}{	}{	Děti Kamarilly.	}
@@ -303,9 +303,10 @@
 {	724	}{	I don't know.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	725	}{	Can't help you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	726	}{	Cool.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	727	}{	By the way-	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	727	}{	By the way...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	728	}{	Here.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	729	}{	Fascist!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	729	}{	Fascist!	}{	Fascist!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	730	}{	Uh, I'm going.	}{	Uh, I'm going.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am already gone.	}
 {	741	}{	Kamíku? Co tady sakra chceš?	}{	Kamíku? Co tady sakra chceš?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	742	}{	Už jsem se rozmyslel, že se k vám chci přidat.	}{	Už jsem se rozmyslela, že se k vám chci přidat.	}{	791	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nenávidím rodiče a chci od nich pryč.	}
 {	743	}{	Vychladni, Damsel. Jsem na tvé straně.	}{	Vychladni, Damsel. Jsem na tvé straně.	}{	791	}{	}{	}{	}{	}{	}{	}{	}{	}{	Konečně padlo rozhodnutí. PSYCHOPATKO! Teď jsem Anarch.	}
@@ -319,7 +320,7 @@
 {	772	}{	Ponesu to v přátelském tónu.	}{	Ponesu to v přátelském tónu.	}{	801	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tos právě řekla.	}
 {	773	}{	Svým způsobem jsi vážně okouzlující, Damsel.	}{	Svým způsobem jsi vážně okouzlující, Damsel.	}{	801	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mít doma tvou figurku s tvou podobou, děly by se tajné věci.	}
 {	774	}{	Když to říkáš...	}{	Když to říkáš...	}{	801	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jak to, že ještě nejsem uvnitř?	}
-{	775	}{	Když myslíš, ale zabil jsem vlkodlaka.	}{	Když myslíš, ale zabila jsem vlkodlaka.	}{	811	}{	IsDead("Werewolf" or G.Werewolf_Dead == 1)	}{	}{	}{	}{	}{	}{	}{	}{	He he. Petardo, já teď zabíjím vlky - něco jako sto Damselek.	}
+{	775	}{	Když myslíš, ale zabil jsem vlkodlaka.	}{	Když myslíš, ale zabila jsem vlkodlaka.	}{	811	}{	IsDead("Werewolf")	}{	}{	}{	}{	}{	}{	}{	}{	He he. Petardo, já teď zabíjím vlky - něco jako sto Damselek.	}
 {	781	}{	Jo, jo, jo. Hlavně ať zas nezačne s tím všivým vlkodlakem. Čekala jsem, že mu postačí, když mi o něm povykládá dvakrát...	}{	Jo, jo, jo. Hlavně ať zas nezačne s tím všivým vlkodlakem. Čekala jsem, že mu postačí, když mi o něm povykládá dvakrát...	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	782	}{	Pokusím se o tom nemluvit.	}{	Pokusím se o tom nemluvit.	}{	801	}{	}{	}{	}{	}{	}{	}{	}{	}{	Já též nesnáším reprízy.	}
 {	783	}{	Fakt? Víš, taky jsem jednoho zlikvidoval.	}{	Fakt? Víš, taky jsem jednoho zlikvidovala.	}{	811	}{	IsDead("Werewolf" or G.Werewolf_Dead == 1)	}{	}{	}{	}{	}{	}{	}{	}{	Povím ti příběh. Bylo nebylo, a pak ten vlkodlak chcípnul mou rukou...	}
@@ -379,7 +380,7 @@
 {	904	}{	(Starting Condition)	}{	}{	751	}{	G.Player_Anarch == 1 and G.Story_State == 115	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	905	}{	(Starting Condition)	}{	}{	711	}{	G.Prince_Truce == 1 and G.Player_Anarch == 0 and G.Griffith_Open == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	906	}{	(Starting Condition)	}{	}{	601	}{	G.Player_Anarch == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	907	}{	(Starting Condition)	}{	}{	551	}{	G.Damsel_Hate == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	907	}{	(Starting Condition)	}{	}{	729	}{	G.Damsel_Hate == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	908	}{	(Starting Condition)	}{	}{	541	}{	G.Damsel_Like < -5	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	909	}{	(Starting Condition)	}{	}{	881	}{	G.Damsel_Like < -2 and G.Damsel_Like >= -5	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	910	}{	(Starting Condition)	}{	}{	831	}{	G.Damsel_Like >= 3	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -18,7 +18,7 @@
 {	52	}{	Tví kumpáni na tebe čekají v suterénu té nemocnice. Celé to byl vtip... Baf :-).	}{	Tví kumpáni na tebe čekají v suterénu té nemocnice. Celé to byl vtip... Baf :-).	}{	71	}{	Humanity 6 & G.Pisha_Desire == 1	}{	FindPlayer().HumanityAdd( -1 )	}{	}{	}{	}{	}{	}{	}{	Tví přátelé jsou v břiše nemocnice, muško. Luxusní žertík na tvůj účet.	}
 {	53	}{	Your crew na tebe čekají v suterénu té nemocnice. Celé to byl vtip... Baf :-).	}{	Your crew na tebe čekají v suterénu té nemocnice. Celé to byl vtip... Baf :-).	}{	71	}{	Humanity -6 & G.Pisha_Desire == 1	}{	}{	}{	}{	}{	}{	}{	}{	Tví přátelé jsou v břiše nemocnice, muško. Luxusní žertík na tvůj účet.	}
 {	54	}{	Tví přátelé jsou mrtví.	}{	Tví přátelé jsou mrtví.	}{	81	}{	G.Pisha_Desire == 1	}{	}{	}{	}{	}{	}{	}{	}{	Černá vdova požrala všechny mušky. Do mrtva.	}
-{	55	}{	Utíkej! A nikdy se sem do města nevracej.	}{	Utíkej! A nikdy se sem do města nevracej.	}{	0	}{	G.Pisha_Desire == 1	}{	G.Mill_Loose = 1; FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Pospěš a odleť navždy z tohoto města!	}
+{	55	}{	Utíkej! A nikdy se sem do města nevracej.	}{	Utíkej! A nikdy se sem do města nevracej.	}{	0	}{	G.Pisha_Desire == 1	}{	G.Mill_Loose = 1	}{	}{	}{	}{	}{	}{	}{	Pospěš a odleť navždy z tohoto města!	}
 {	56	}{	Volá tě tvůj měsíc... utíkej k němu až do konce svých dnů.	}{	Volá tě tvůj měsíc... utíkej k němu až do konce svých dnů.	}{	151	}{	Dementation 3 & G.Pisha_Desire == 1	}{	G.Mill_Dementated = 1	}{	}{	}{	}{	}{	}{	}{	Volá tě tvůj měsíc... utíkej k němu až do konce svých dnů.	}
 {	57	}{	Fajn, tak si tady buď a nesrozumitelně si mumlej. Ještě se vrátím.	}{	Fajn, tak si tady buď a nesrozumitelně si mumlej. Ještě se vrátím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Černá vdova na mě čeká. Neutíkej, malá muško, přijdu za tebou.	}
 {	58	}{	Děcko...	}{	Děcko...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Bulíš jako bulánek...	}
@@ -28,23 +28,21 @@
 {	64	}{	Dnes se nic nestalo. Nic jsi neviděl. Na všechno zapomeneš.	}{	Dnes se nic nestalo. Nic jsi neviděl. Na všechno zapomeneš.	}{	91	}{	Dominate 3	}{	G.Mill_Dominated = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	65	}{	Naval řidičák. A jestli o tom někomu řekneš, dopadneš stejně.	}{	Naval řidičák. A jestli o tom někomu řekneš, dopadneš stejně.	}{	101	}{	Intimidate 6	}{	G.Mill_Intimidate = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	66	}{	Ano, jsou mrtví. Jsou místa, kam by lidi neměli nikdy lézt. Tohle bylo jedno takové.	}{	Ano, jsou mrtví. Jsou místa, kam by lidi neměli nikdy lézt. Tohle bylo jedno takové.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	Zmiz odsud! Utíkej, seč ti budou nohy stačit. Než si to rozmyslím.	}{	Zmiz odsud! Utíkej, seč ti budou nohy stačit. Než si to rozmyslím.	}{	0	}{	}{	G.Mill_Loose = 1; FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	}
+{	67	}{	Zmiz odsud! Utíkej, seč ti budou nohy stačit. Než si to rozmyslím.	}{	Zmiz odsud! Utíkej, seč ti budou nohy stačit. Než si to rozmyslím.	}{	0	}{	}{	G.Mill_Loose = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	71	}{	V-vážně? Vtip? Ha... HA, HA... Vtip, výborně. Fakt dobrej. To mě dostali. A HA HA. Však já je za to zmydlím do kulata.	}{	V-vážně? Vtip? Ha... HA, HA... Vtip, výborně. Fakt dobrej. To mě dostali. A HA HA. Však já je za to zmydlím do kulata.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Mill_Persuaded = 1; pc.SetQuest("Necromantic",3); FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	Jo, to udělej.	}{	Jo, to udělej.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nalož jim i za mě.	}
 {	81	}{	Mrtví? Ale... jak to... Kdo jste?	}{	Mrtví? Ale... jak to... Kdo jste?	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	82	}{	Dej mi svůj řidičák a nechám tě jít.	}{	Dej mi svůj řidičák a nechám tě jít.	}{	101	}{	Intimidate 6	}{	G.Mill_Intimidate = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	83	}{	Nic jsi tady neviděl. Nic se nestalo. Všechno to zapomeneš.	}{	Nic jsi tady neviděl. Nic se nestalo. Všechno to zapomeneš.	}{	91	}{	Dominate 3	}{	G.Mill_Dominated = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	Utíkej! A už se do města nikdy nevracej.	}{	Utíkej! A už se do města nikdy nevracej.	}{	0	}{	}{	G.Mill_Loose = 1; FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Pospěš a odleť navždy z tohoto města!	}
+{	84	}{	Utíkej! A už se do města nikdy nevracej.	}{	Utíkej! A už se do města nikdy nevracej.	}{	0	}{	}{	G.Mill_Loose = 1	}{	}{	}{	}{	}{	}{	}{	Pospěš a odleť navždy z tohoto města!	}
 {	85	}{	To poslední, co kdy uvidíš.	}{	To poslední, co kdy uvidíš.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	Tvůj poslední obraz...	}
 {	86	}{	Já jsem tvůj vrah.	}{	Přišla jsem tě zabít.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	Ruka smrti.	}
 {	91	}{	Nevím, co tady dělám. Musím jít.	}{	Nevím, co tady dělám. Musím jít.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	Sedni do svého auta a odjeď.	}{	Sedni do svého auta a odjeď.	}{	0	}{	G.Patch_Plus == 0	}{	FindPlayer().ChangeMasqueradeLevel( -1 ); pc.SetQuest("Necromantic",3)	}{	}{	}{	}{	}{	}{	}{	}
-{	93	}{	Sedni do svého auta a odjeď.	}{	Sedni do svého auta a odjeď.	}{	0	}{	G.Patch_Plus == 1	}{	FindPlayer().ChangeMasqueradeLevel( -1 ); FindPlayer().HumanityAdd( 1 ); pc.SetQuest("Necromantic",3)	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Sedni do svého auta a odjeď.	}{	Sedni do svého auta a odjeď.	}{	0	}{		}{	FindPlayer().ChangeMasqueradeLevel( -1 ); pc.SetQuest("Necromantic",3)	}{	}{	}{	}{	}{	}{	}{	}
 {	101	}{	Cože? Proč--	}{	Cože? Proč--	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	102	}{	Řidičák nebo život.	}{	Řidičák nebo život.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	111	}{	Tu máte!	}{	Tu máte!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Jestli se o tomhle před nikým zmíníš... Vím, kde bydlíš, tak ani slovo.	}{	Jestli se o tomhle před nikým zmíníš... Vím, kde bydlíš, tak ani slovo.	}{	0	}{	G.Patch_Plus == 0	}{	FindPlayer().ChangeMasqueradeLevel( -1 ); pc.SetQuest("Necromantic",3)	}{	}{	}{	}{	}{	}{	}{	}
-{	113	}{	Jestli se o tomhle před nikým zmíníš... Vím, kde bydlíš, tak ani slovo.	}{	Jestli se o tomhle před nikým zmíníš... Vím, kde bydlíš, tak ani slovo.	}{	0	}{	G.Patch_Plus == 1	}{	FindPlayer().ChangeMasqueradeLevel( -1 ); FindPlayer().HumanityAdd( 1 ); pc.SetQuest("Necromantic",3); pc.GiveItem("item_w_claws_ghoul")	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Jestli se o tomhle před nikým zmíníš... Vím, kde bydlíš, tak ani slovo.	}{	Jestli se o tomhle před nikým zmíníš... Vím, kde bydlíš, tak ani slovo.	}{	0	}{	}{	FindPlayer().ChangeMasqueradeLevel( -1 ); pc.SetQuest("Necromantic",3)	}{	}{	}{	}{	}{	}{	}{	}
 {	121	}{	[Screams in terror]Áááá...	}{	[Screams in terror]Áááá...	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{	Uklidni se, co se tu děje?	}{	Uklidni se, co se tu děje?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	123	}{	Seber se, chlape!	}{	Seber se, chlape!	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

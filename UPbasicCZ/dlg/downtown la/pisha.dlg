@@ -105,7 +105,7 @@
 {	234	}{	Nějak moc se zajímáš o smrt...	}{	Nějak moc se zajímáš o smrt...	}{	311	}{	G.Pisha_Death == 0	}{	}{	}{	}{	}{	}{	}{	}{	Snaží se vdova chytit smrt do své pavučiny?	}
 {	235	}{	Ale vampír, co žere maso... Je to fakt nechutný.	}{	Ale vampír, co žere maso... Je to fakt nechutný.	}{	321	}{	G.Pisha_Flesh == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vdova, co se chová jako kudlanka. To mě odpuzuje.	}
 {	236	}{	Jde o ty věci, které hledáš.	}{	Jde o ty věci, které hledáš.	}{	241	}{	G.Pisha_Desire == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jedná se o ceny, co sháníš.	}
-{	237	}{	Mám pro tebe svačinku.	}{	Mám pro tebe svačinku.	}{	321	}{	G.Patch_Plus == 1 and pc.HasItem("item_w_severed_arm")	}{	pc.RemoveItem("item_w_severed_arm"); pc.MoneyAdd(10)	}{	}{	}{	}{	}{	}{	}{	Mám pro tebe prokletě dobré ne-kuře!	}
+{	237	}{	Mám pro tebe svačinku zdarma.	}{	Mám pro tebe svačinku zdarma.	}{	321	}{	G.Patch_Plus == 1 and pc.HasItem("item_w_severed_arm")	}{	pc.RemoveItem("item_w_severed_arm"); pc.MoneyAdd(10)	}{	}{	}{	}{	}{	}{	}{	Mám pro tebe prokletě dobré ne-kuře zdarma!	}
 {	238	}{	Ale nic. Nashle.	}{	Ale nic. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit tvou pavučinu. Jsem pryč.	}
 {	239	}{	Můžeš se vrátit ke žraní masa a dloubání do smrti. Zatím.	}{	Můžeš se vrátit ke žraní masa a dloubání do smrti. Zatím.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nyní nechám vdovu dokončit svou hroznou hostinu.	}
 {	241	}{	[Emotionless, not annoyed]Ano?	}{	[Emotionless, not annoyed]Ano?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

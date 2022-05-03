@@ -27,7 +27,7 @@
 {	30	}{	Jakej diplom? Co to sakra vykládáš?	}{	Jakej diplom? Co to sakra vykládáš?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tvá slova mě matou.	}
 {	31	}{	[alarmed]Hej- ty nejseš od Jacobsona!	}{	[alarmed]Hej- ty nejseš od Jacobsona!	}{	#	}{	}{	G.Dirtycop_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Fajn, pokud jde o mě, klidně si zase odpádluj ke břehu. Když budeš mít kliku, nechá tě po tomhle Jacobson psát leda tak nekrology.	}{	Fajn, pokud jde o mě, klidně si zase odpádluj ke břehu. Když budeš mít kliku, nechá tě po tomhle Jacobson psát leda tak nekrology.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Dirtycop_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Fajn, pokud jde o mě, klidně si zase odpádluj ke břehu. Když budeš mít kliku, nechá tě po tomhle Jacobson psát leda tak nekrology.	}{	Fajn, pokud jde o mě, klidně si zase odpádluj ke břehu. Když budeš mít kliku, nechá tě po tomhle Jacobson psát leda tak nekrology.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Dirtycop_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	Jak je libo.	}{	Jak je libo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Směji se.	}
 {	51	}{	No to je ale překvapení. Mělo mně dojít, že jseš flundra. Tipuju, že si tě Jacobson nenajal kvůli vzdělání.	}{	No to je ale překvapení. Mělo mně dojít, že jseš flundra. Tipuju, že si tě Jacobson nenajal kvůli vzdělání.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	52	}{	Prostě přejdi k věci.	}{	Prostě přejdi k věci.	}{	71	}{	Persuasion 3	}{	}{	}{	}{	}{	}{	}{	}{	Hloupý policajte. Dej mi potřebnou informaci.	}
@@ -37,11 +37,11 @@
 {	63	}{	Když máme formality konečně za sebou, co pro nás teda máš?	}{	Když máme formality konečně za sebou, co pro nás teda máš?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	64	}{	Fajn. Už budu hodnej... Už pro ten článek.	}{	Fajn. Už budu hodná... Už pro ten článek.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	65	}{	Policajt jseš, jen když se to hodí, že jo?	}{	Policajt jseš, jen když se to hodí, že jo?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	V jádru jseš nakonec koblihožrout.	}
-{	71	}{	Tak hele, mám tu pro tebe kopii první zprávy. A můžu tě dostat do kajut, ale pak už si budeš muset dávat zatracenej pozor. Jak tě chytí, tak tě neznám. A žádný fotky s bleskem, chytráku.	}{	Tak hele, mám tu pro tebe kopii první zprávy. A můžu tě dostat do kajut, ale pak už si budeš muset dávat zatracenej pozor. Jak tě chytí, tak tě neznám. A žádný fotky s bleskem, fešando.	}{	#	}{	}{	pc.GiveItem("item_g_edane_report"); G.Dane_Report = 1; daneQuest()	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	Tak hele, mám tu pro tebe kopii první zprávy. A můžu tě dostat do kajut, ale pak už si budeš muset dávat zatracenej pozor. Jak tě chytí, tak tě neznám. A žádný fotky s bleskem, chytráku.	}{	Tak hele, mám tu pro tebe kopii první zprávy. A můžu tě dostat do kajut, ale pak už si budeš muset dávat zatracenej pozor. Jak tě chytí, tak tě neznám. A žádný fotky s bleskem, fešando.	}{	#	}{	}{	pc.GiveItem("item_g_edane_report"); G.Dane_Report = 1; daneQuest(); SetCellUnhide()	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	Tak kam mám jít?	}{	Tak kam mám jít?	}{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kam tedy vede má cesta?	}
 {	73	}{	OK.	}{	OK.	}{	76	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	76	}{	Momentík. [aside, into radio]Heinz Marshovi, Heinz Marshovi... [pause]Marshi, potřebujou tě na můstku, přepínám... [to the player]Tak a bezpečnostní místnost bude volná.	}{	Momentík. [aside, into radio]Heinz Marshovi, Heinz Marshovi... [pause]Marshi, potřebujou tě na můstku, přepínám... [to the player]Tak a bezpečnostní místnost bude volná.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	Jasný.	}{	Jasný.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jasnost není můj šálek černého čaje...	}
+{	77	}{	Jasný.	}{	Jasný.	}{	81	}{	}{	SetCellHide()	}{	}{	}{	}{	}{	}{	}{	Jasnost není můj šálek černého čaje...	}
 {	81	}{	Slez tady ze schodů a drž se u země. Pak počkej, až odvolám stráž z ochozu A. Jakmile bude pryč, tak pohni prdelí. A hlavně ať tě nevidí. Dám ti pár minut, ale ne že se tam zasekneš. Dovnitř a ven, jasný?	}{	Slez tady ze schodů a drž se u země. Pak počkej, až odvolám stráž z ochozu A. Jakmile bude pryč, tak pohni prdelí. A hlavně ať tě nevidí. Dám ti pár minut, ale ne že se tam zasekneš. Dovnitř a ven, jasný?	}{	#	}{	}{	G.Dirtycop_Radio = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	82	}{	Jasný.	}{	Jasný.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Když se zaseknu, tak se odseknu...	}
 {	91	}{	Tak mazej. A Jacobsonovi vyřiď, že za tuhle fušku beru dvojnásobek.	}{	Tak mazej. A Jacobsonovi vyřiď, že za tuhle fušku beru dvojnásobek.	}{	#	}{	}{	G.Dirtycop_Ending = 1	}{	}{	}{	}{	}{	}{	}{	}
@@ -55,7 +55,7 @@
 {	99	}{	I'm tellin you, scram. This is your last warning.	}{	I'm tellin you, scram. This is your last warning.	}{	#	}{	}{	G.Dirtycop_Pissed = 3	}{	}{	}{	}{	}{	}{	}{	}
 {	100	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	101	}{	[shouting]Shit! There's some kind of fucking monster!	}{	[shouting]Shit! There's some kind of fucking monster!	}{	#	}{	}{	G.Dirtycop_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	(Auto-Link)	}{	(Auto-Link)	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	103	}{	Help! Officer under attack!	}{	Help! Officer under attack!	}{	#	}{	}{	G.Dirtycop_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	104	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	105	}{	You waitin' for your cheauffer to pull around the dinghy?	}{	You waitin' for your cheauffer to pull around the dinghy?	}{	#	}{	}{	G.Dirtycop_Ending = 5	}{	}{	}{	}{	}{	}{	}{	}
@@ -64,6 +64,8 @@
 {	108	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	111	}{	Nezapomeň se držet ve tmě. Jestli tě někdo zahlídne, je to tvůj průser. Do bezpečnostní místnosti se jde po schodech, tam najdeš počítač. Heslo je 'majak'. Bez mezer. Je ti to jasný?	}{	Nezapomeň se držet ve tmě. Jestli tě někdo zahlídne, je to tvůj průser. Do bezpečnostní místnosti se jde po schodech, tam najdeš počítač. Heslo je 'majak'. Bez mezer. Je ti to jasný?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	112	}{	Jo. Všechno jasný.	}{	Jo. Všechno jasný.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Poplavu k té krásné bóji.	}
+{	121	}{	What the hell was that thing?!?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	141	}{	(Starting Condition)	}{	}{	101	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	142	}{	(Starting Condition)	}{	}{	93	}{	G.Dirtycop_Ending == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	143	}{	(Starting Condition)	}{	}{	95	}{	G.Dirtycop_Ending == 2	}{	}{	}{	}{	}{	}{	}{	}{	}

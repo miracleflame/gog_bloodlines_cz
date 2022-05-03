@@ -56,7 +56,6 @@
 {	111	}{	Čekala jsem, že se chytíš. Takže hotel Empire a řekni jim, že jsem na mizině. [Quickly]Umíš rychle běhat, že jo? No to je jedno, hlavně nerozpoutej pouliční bitku. Ti týpci mají konexe. Ale teď už se musí rockové kněžce vyzpovídat další. Měj se, zlato.	}{	Čekala jsem, že se chytíš. Takže hotel Empire a řekni jim, že jsem na mizině. [Quickly]Umíš rychle běhat, že jo? No to je jedno, hlavně nerozpoutej pouliční bitku. Ti týpci mají konexe. Ale teď už se musí rockové kněžce vyzpovídat další. Měj se, zlato.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Venus_Quest = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	112	}{	Za pár minut jsem zpátky.	}{	Za pár minut jsem zpátky.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jako vítr se vrátím.	}
 {	113	}{	Doufám, že někdo zkusí něco, čeho bude litovat.	}{	Doufám, že někdo zkusí něco, čeho bude litovat.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sotva udržím tvůj vzkaz v ústech.	}
-{	114	}{	Jo a zbav se prosím tě toho otravnýho turniketu.	}{	Jo a zbav se prosím tě toho otravnýho turniketu.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	Budu pryč stejně jako ten hloupý větrák ve dveřích.	}
 {	121	}{	[Pretending to not hear above the music]Cože?	}{	[Pretending to not hear above the music]Cože?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{	Tak jsem to vyřídil.	}{	Tak jsem to vyřídila.	}{	131	}{	G.Igor_Talk == 1	}{	}{	}{	}{	}{	}{	}{	}{	Tvůj vzkaz byl doručen, bohyně...	}
 {	124	}{	Ta práce... Cože to mám udělat?	}{	Ta práce... Cože to mám udělat?	}{	71	}{	G.Venus_Job == 1	}{	}{	}{	}{	}{	}{	}{	}{	Jaký žes pro mě měla úkol, bohyně?	}
@@ -95,7 +94,6 @@
 {	201	}{	Je v hotelu Empire. Vždycky se mu tam poflakuje několik buranských mlátičů, co soutěží, kdo udělá drsnější úšklebek. Nemá zrovna pevný nervy a nejspíš už zase několik hodin nasává. Tady máš klíč do podstřešního patra.	}{	Je v hotelu Empire. Vždycky se mu tam poflakuje několik buranských mlátičů, co soutěží, kdo udělá drsnější úšklebek. Nemá zrovna pevný nervy a nejspíš už zase několik hodin nasává. Tady máš klíč do podstřešního patra.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Venus_Quest = 3; pc.GiveItem("item_k_empire_mafia_key"); pc.SetQuest("Venus",1)	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	Až se vrátím, nebude mezi živými.	}{	Až se vrátím, nebude mezi živými.	}{	0	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ano. Carova vláda brzy skončí.	}
 {	203	}{	Brzo si promluvíme o tom klubu...	}{	Brzo si promluvíme o tom klubu...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vrátím se zaujmout tu post rockového velitele.	}
-{	204	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	Budu pryč jako ten váš stupidní větrák ve dvěřých.	}
 {	211	}{	Boris?	}{	Boris?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	212	}{	Mrtvej.	}{	Mrtvej.	}{	241	}{	IsDead("Boris")	}{	G.Venus_Boris = 2	}{	}{	}{	}{	}{	}{	}{	Car padnul.	}
 {	213	}{	Ten dluh je vyřešen. A nyní jsme partneři.	}{	Ten dluh je vyřešen. A nyní jsme partneři.	}{	251	}{	G.Boris_Debt == 1	}{	G.Pay_Base = G.Story_State; G.Venus_Money = 1; pc.SetQuest("Venus",4); pc.RemoveItem("item_k_empire_mafia_key")	}{	}{	}{	}{	}{	}{	}{	Již nebude obtěžovat tvůj chrám. Ale já ano.	}
@@ -111,7 +109,6 @@
 {	251	}{	A teď nám musím nějaký prachy vydělat. Tvůj výdělek ti budu nechávat bokem. Tak si ho nezapomeň co pár dní přijít shrábnout.	}{	A teď nám musím nějaký prachy vydělat. Tvůj výdělek ti budu nechávat bokem. Tak si ho nezapomeň co pár dní přijít shrábnout.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	252	}{	Neboj se, ještě se uvidíme. Měj se, Venuše.	}{	Neboj se, ještě se uvidíme. Měj se, Venuše.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Budu se vracet spolu s hvězdami, bohyně.	}
 {	253	}{	Vlastně bych měl nějaký návrhy ke klubu...	}{	Vlastně bych měla nějaký návrhy ke klubu...	}{	261	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ovoce mých horečnatých snů by výborně vymalovalo okolní zdi.	}
-{	254	}{	Jo. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	Jo. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	Budu pryč jako ten váš stupidní větrák ve dvěřých.	}
 {	261	}{	To bych si ráda poslechla, ale teď musím najít novýho dýdžeje. Ten náš furt točí tu hopsací elektroniku z osmdesátých - příšerně ojetá pakárna. Ale stejně, díky moc.	}{	To bych si ráda poslechla, ale teď musím najít novýho dýdžeje. Ten náš furt točí tu hopsací elektroniku z osmdesátých - příšerně ojetá pakárna. Ale stejně, díky moc.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	262	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	271	}{	No to je dost, že jdeš. Hotovo?	}{	No to je dost, že jdeš. Hotovo?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -127,7 +124,6 @@
 {	304	}{	(Auto-Link)	}{	(Auto-Link)	}{	331	}{	(G.Pay_Base + 5 < G.Story_State)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	311	}{	Mám tu pro tebe tvůj podíl.	}{	Mám tu pro tebe tvůj podíl.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd((G.Story_State - G.Pay_Base) * 25)	}{	}{	}{	}{	}{	}{	}{	}
 {	312	}{	Díky, Venuše. Jen tak dál.	}{	Díky, Venuše. Jen tak dál.	}{	0	}{	}{	G.Pay_Base = G.Story_State	}{	}{	}{	}{	}{	}{	}{	Kéž poutníci stále proudí do tvého chrámu, bohyně.	}
-{	313	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1; G.Pay_Base = G.Story_State	}{	}{	}{	}{	}{	}{	}{	Budu pryč jako ten váš stupidní větrák ve dvěřých.	}
 {	321	}{	Zastav se zase za pár dní. Bude tu na tebe čekat další balík.	}{	Zastav se zase za pár dní. Bude tu na tebe čekat další balík.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	322	}{	Fajn.	}{	Fajn.	}{	341	}{	G.Scream == 0	}{	G.Scream = 1	}{	}{	}{	}{	}{	}{	}{	Rozuměno.	}
 {	323	}{	Fajn.	}{	Fajn.	}{	351	}{	G.Scream == 1	}{	G.Scream = 2	}{	}{	}{	}{	}{	}{	}{	Rozuměno.	}
@@ -135,7 +131,6 @@
 {	325	}{	Fajn.	}{	Fajn.	}{	371	}{	G.Scream == 3	}{	G.Scream = 0	}{	}{	}{	}{	}{	}{	}{	Rozuměno.	}
 {	331	}{	Nějak se neukazuješ. Kupí se ti tady peníze. Tumáš, to by mělo stačit na zajímavej večer.	}{	Nějak se neukazuješ. Kupí se ti tady peníze. Tumáš, to by mělo stačit na zajímavej večer.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd((G.Story_State - G.Pay_Base) * 25)	}{	}{	}{	}{	}{	}{	}{	}
 {	332	}{	Dík. Jen tak dál.	}{	Dík. Jen tak dál.	}{	0	}{	}{	G.Pay_Base = G.Story_State	}{	}{	}{	}{	}{	}{	}{	Tvé požehnání s chutí přijímám, bohyně.	}
-{	333	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	Dík. A zbav se toho otravnýho turnikétu, až budeš moct.	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1; G.Pay_Base = G.Story_State	}{	}{	}{	}{	}{	}{	}{	Budu pryč jako ten váš stupidní větrák ve dvěřých.	}
 {	341	}{	[Screaming to crowd]Vidím tu málo hřešení.	}{	[Screaming to crowd]Vidím tu málo hřešení.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	342	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	351	}{	[Screaming to crowd]1...2...3 a jedem, lidi!	}{	[Screaming to crowd]1...2...3 a jedem, lidi!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

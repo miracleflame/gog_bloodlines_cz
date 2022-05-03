@@ -69,7 +69,7 @@
 {	192	}{	Já nic necitím. Mám schůzku s LaCroixem.	}{	Já nic necitím. Mám schůzku s LaCroixem.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Můj nos o ničem neví. Vyšli mě za LaCroixem.	}
 {	193	}{	Toho si nevšímejte. Jdu za LaCroixem.	}{	Toho si nevšímejte. Jdu za LaCroixem.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vyjměte to ze své hlavy. Už mám být nahoře.	}
 {	201	}{	Jistě, hned vám otevřu... [Sniffs air, to self]Bože, ale dal bych si jeden ten dvojitej Vesmírnej burger... S cibulí a sýrem a se slaninou a taky s gvakamolou[guac-a-mole]...	}{	Jistě, hned vám otevřu... [Sniffs air, to self]Bože, ale dal bych si jeden ten dvojitej Vesmírnej burger... S cibulí a sýrem a se slaninou a taky s gvakamolou[guac-a-mole]...	}{	#	}{	}{	G.Chunk_Open = 3	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	Dík.	}{	Dík.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jedu nahoru.	}
 {	211	}{	[Yawns]Pardon. Nějak mi začaly padat klapky. Potřeboval bych tu nějaké hlídací zvíře, aby mě upozornilo, že někdo jde. Třeba toho šimpanze z Opičího detektiva. Ta opička toho pachatele vždycky dopadne.	}{	[Yawns]Pardon. Nějak mi začaly padat klapky. Potřeboval bych tu nějaké hlídací zvíře, aby mě upozornilo, že někdo jde. Třeba toho šimpanze z Opičího detektiva. Ta opička toho pachatele vždycky dopadne.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	212	}{	LaCroix mě očekává.	}{	LaCroix mě očekává.	}{	221	}{	G.Chunk_Seduce == 0	}{	}{	}{	}{	}{	}{	}{	}{	LaCroix si neklidně mumlá mé jméno.	}
 {	213	}{	Prostě otevřete ten blbej výtah.	}{	Prostě otevřete ten blbej výtah.	}{	221	}{	G.Chunk_Seduce == 0	}{	}{	}{	}{	}{	}{	}{	}{	Vyšlete mě do nebe, jak rychle to jen půjde.	}
@@ -107,7 +107,8 @@
 {	293	}{	LaCroix by mě měl čekat.	}{	LaCroix by mě měl čekat.	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Musím letět do nebe.	}
 {	301	}{	Asi můžete nahoru. Nevím o tom, že by vás čekal, ale to by nemělo vadit.	}{	Asi můžete nahoru. Nevím o tom, že by vás čekal, ale to by nemělo vadit.	}{	#	}{	}{	G.Chunk_Open = 5	}{	}{	}{	}{	}{	}{	}{	}
 {	302	}{	Díky.	}{	Díky.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemělo.	}
-{	303	}{	Ehm...	}{	Ehm...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nikdo nečeká Malkavianskou inkvizici.	}
+{	303	}{	Ehm...	}{	Ehm...	}{	0	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	...	}
+{	304	}{	Ehm...	}{	Ehm...	}{	0	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Nikdo nečeká Malkavianskou inkvizici.	}
 {	311	}{	Mám takovou radost, že se ti nic nestalo, rohlíčku. Já byl... zdravotně indisponován a když jsem se dověděl o tom útoku, bál jsem se, že... Ovšem teď už je tvůj bezpečák zase zpátky, aby tě chránil, takže se ničeho neboj.	}{	Mám takovou radost, že se ti nic nestalo, rohlíčku. Já byl... zdravotně indisponován a když jsem se dověděl o tom útoku, bál jsem se, že... Ovšem teď už je tvůj bezpečák zase zpátky, aby tě chránil, takže se ničeho neboj.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	312	}{	Potřebuji mluvit s LaCroixem, bezpečáku.	}{	Potřebuji mluvit s LaCroixem, bezpečáku.	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Čeká se na mě, bezpečáku.	}
 {	313	}{	Umím se o sebe postarat. A LaCroix mě očekává.	}{	Umím se o sebe postarat. A LaCroix mě očekává.	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ta starost byla nepotřebná. Čeká se na mě.	}
@@ -216,37 +217,38 @@
 {	612	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	621	}{	Dej ty pracky pryč!	}{	Dej ty pracky pryč!	}{	#	}{	}{	G.Chunk_Reset = 0	}{	}{	}{	}{	}{	}{	}{	}
 {	622	}{	Omlouvám se.	}{	Omlouvám se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Uups.	}
-{	653	}{	(Starting Condition)	}{	}{	621	}{	G.Chunk_Reset == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	654	}{	(Starting Condition)	}{	}{	461	}{	G.Chunk_Spooked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	655	}{	(Starting Condition)	}{	}{	431	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	656	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 125 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	657	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 125	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	658	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 120 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	659	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 120	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	660	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 115 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	661	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 115	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	662	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 6	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	663	}{	(Starting Condition)	}{	}{	411	}{	G.Story_State == 110	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	664	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 105 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	665	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 105	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	666	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 100 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	667	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 100	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	668	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 5	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	669	}{	(Starting Condition)	}{	}{	311	}{	G.Story_State == 80 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	670	}{	(Starting Condition)	}{	}{	281	}{	G.Story_State == 80	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	671	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 60	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	672	}{	(Starting Condition)	}{	}{	471	}{	G.Story_State >= 35 and G.Story_State < 70 and G.Chunk_Sorry == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	673	}{	(Starting Condition)	}{	}{	241	}{	G.Story_State >= 35 and G.Story_State < 70	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	674	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 30 and G.Chunk_Open == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	675	}{	(Starting Condition)	}{	}{	211	}{	G.Story_State == 30	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	676	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	677	}{	(Starting Condition)	}{	}{	191	}{	G.Story_State == 20	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	678	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 15 and G.Chunk_Open == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	679	}{	(Starting Condition)	}{	}{	181	}{	G.Story_State == 15 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	680	}{	(Starting Condition)	}{	}{	151	}{	G.Story_State == 15	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	681	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	682	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 10 and G.Chunk_Open == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	683	}{	(Starting Condition)	}{	}{	21	}{	G.Story_State == 10 and G.Chunk_Feed == 1 and not IsDead("Chunk")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	684	}{	(Starting Condition)	}{	}{	1	}{	G.Story_State == 10 and G.Chunk_Befriend > 1 and not IsDead("Chunk")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	685	}{	(Starting Condition)	}{	}{	11	}{	G.Story_State == 10 and G.Chunk_Befriend == 0 and not IsDead("Chunk")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	686	}{	(Starting Condition)	}{	}{	31	}{	G.Story_State == 10 and IsDead("Chunk")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	650	}{	(Starting Condition)	}{	}{	421	}{	G.Chunk_Skip == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	651	}{	(Starting Condition)	}{	}{	621	}{	G.Chunk_Reset == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	652	}{	(Starting Condition)	}{	}{	461	}{	G.Chunk_Spooked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	653	}{	(Starting Condition)	}{	}{	431	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	654	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 125 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	655	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 125	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	656	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 120 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	657	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 120	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	658	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 115 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	659	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 115	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	660	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 6	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	661	}{	(Starting Condition)	}{	}{	411	}{	G.Story_State == 110	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	662	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 105 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	663	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 105	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	664	}{	(Starting Condition)	}{	}{	371	}{	G.Story_State == 100 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	665	}{	(Starting Condition)	}{	}{	361	}{	G.Story_State == 100	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	666	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	667	}{	(Starting Condition)	}{	}{	311	}{	G.Story_State == 80 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	668	}{	(Starting Condition)	}{	}{	281	}{	G.Story_State == 80	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	669	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 60	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	670	}{	(Starting Condition)	}{	}{	471	}{	G.Story_State >= 35 and G.Story_State < 70 and G.Chunk_Sorry == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	671	}{	(Starting Condition)	}{	}{	241	}{	G.Story_State >= 35 and G.Story_State < 70	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	672	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 30 and G.Chunk_Open == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	673	}{	(Starting Condition)	}{	}{	211	}{	G.Story_State == 30	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	674	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	675	}{	(Starting Condition)	}{	}{	191	}{	G.Story_State == 20	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	676	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 15 and G.Chunk_Open == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	677	}{	(Starting Condition)	}{	}{	181	}{	G.Story_State == 15 and G.Chunk_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	678	}{	(Starting Condition)	}{	}{	151	}{	G.Story_State == 15	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	679	}{	(Starting Condition)	}{	}{	141	}{	G.Chunk_Open == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	680	}{	(Starting Condition)	}{	}{	141	}{	G.Story_State == 10 and G.Chunk_Open == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	681	}{	(Starting Condition)	}{	}{	21	}{	G.Story_State == 10 and G.Chunk_Feed == 1 and not IsDead("Chunk")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	682	}{	(Starting Condition)	}{	}{	1	}{	G.Story_State == 10 and G.Chunk_Befriend > 1 and not IsDead("Chunk")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	683	}{	(Starting Condition)	}{	}{	11	}{	G.Story_State == 10 and G.Chunk_Befriend == 0 and not IsDead("Chunk")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	684	}{	(Starting Condition)	}{	}{	31	}{	G.Story_State == 10 and IsDead("Chunk")	}{	}{	}{	}{	}{	}{	}{	}{	}
