@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Náhradní klíč"
-	"description"	" "
+	"printname"	"Náhradní klíč od zastavárenské ubytovny"
+	"description"	"Něčí náhradní klíč."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

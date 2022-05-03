@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Klíč od kotelny"
-	"description"	" "
+	"printname"	"Klíč od kotelny hotelu Ocean House"
+	"description"	"Klíč se štítkem KOTELNA."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

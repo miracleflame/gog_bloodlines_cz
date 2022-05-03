@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Klíče od muzea"	// changed by wesp
-	"description"	"Tohle jsou klíče od předních vrat muzea přírodní historie."	// changed by wesp
+	"printname"	"Klíče od hlavního vstupu do muzea"	// changed by wesp
+	"description"	"Tohle jsou klíče od hlavní brány do muzea."	// changed by wesp
 
 	"bucket"		"1"
 	"bucket_position"	"2"

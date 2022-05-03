@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Klíč od Ashovy cely"
-	"description"	"Klíč k zamčené cele."
+	"printname"	"Klíč Leopoldovy společnosti"
+	"description"	"Klíč od cely."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

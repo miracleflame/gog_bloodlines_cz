@@ -10,7 +10,7 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Klíč od Barabusovy cely"
+	"printname"	"Klíč Syndikátu Fu"
 	"description"	"Klíč od zamčené cely."
 
 	"bucket"		"1"
