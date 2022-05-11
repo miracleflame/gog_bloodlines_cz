@@ -461,7 +461,7 @@ Pokud se ti nepodaří vypáčit zámek, aktivuj Hlas krve. Dočasný nárůst O
 			"CharTemplate"	"Player_Brujah"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
 Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
-To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
+Pokud nechceš způsobit potíže při příjezdu do nové oblasti přes mapu, ujisti se, že tlačítko myši, které používáš pro výběr cíle, není namapováno na útok nebo před výběrem místa na mapě přepni svou zbraň na pěsti."	// changed by wesp
 		}
 
 		Tip
@@ -472,7 +472,7 @@ To avoid trouble when arriving select the target location on the map with a mous
 			"CharTemplate"	"Player_Gangrel"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
 Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
-To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
+Pokud nechceš způsobit potíže při příjezdu do nové oblasti přes mapu, ujisti se, že tlačítko myši, které používáš pro výběr cíle, není namapováno na útok nebo před výběrem místa na mapě přepni svou zbraň na pěsti."	// changed by wesp
 		}
 
 		Tip
@@ -494,7 +494,7 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"CharTemplate"	"Player_Toreador"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
  Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
-To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
+Pokud nechceš způsobit potíže při příjezdu do nové oblasti přes mapu, ujisti se, že tlačítko myši, které používáš pro výběr cíle, není namapováno na útok nebo před výběrem místa na mapě přepni svou zbraň na pěsti."	// changed by wesp
 		}
 
 		Tip
@@ -516,7 +516,7 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"CharTemplate"	"Player_Ventrue"
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
 Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
-To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
+Pokud nechceš způsobit potíže při příjezdu do nové oblasti přes mapu, ujisti se, že tlačítko myši, které používáš pro výběr cíle, není namapováno na útok nebo před výběrem místa na mapě přepni svou zbraň na pěsti."	// changed by wesp
 		}
 
 		Tip
@@ -713,7 +713,7 @@ Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouván
 			"Size"		"Large"
 			"Text"		"Hlad může vyvolat záchvat běsu stejně jako strach nebo vztek vyvolaný těžkými fyzickými zraněními.
 Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve.
-Feed often and maintain your Humanity to prevent frenzy."
+Záchvatům běsu se můžeš vyhnout, pokud budeš pravidelně doplňovat svou zásobu krve a udržovat svou Lidskost."
 		}
 
 		Tip
@@ -1296,7 +1296,7 @@ Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouván
 			"Size"		"Large"
 			"Text"		"Hlad může vyvolat záchvat běsu stejně jako strach nebo vztek vyvolaný těžkými fyzickými zraněními.
 Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve.
-Feed often and maintain your Humanity to prevent frenzy."
+Záchvatům běsu se můžeš vyhnout, pokud budeš pravidelně doplňovat svou zásobu krve a udržovat svou Lidskost."
 		}
 
 		Tip
@@ -1579,7 +1579,7 @@ Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouván
 			"Size"		"Large"
 			"Text"		"Hlad může vyvolat záchvat běsu stejně jako strach nebo vztek vyvolaný těžkými fyzickými zraněními.
 Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve.
-Feed often and maintain your Humanity to prevent frenzy."
+Záchvatům běsu se můžeš vyhnout, pokud budeš pravidelně doplňovat svou zásobu krve a udržovat svou Lidskost."
 		}
 
 		Tip
@@ -1870,7 +1870,7 @@ Pokud se aktuální hovor vede o penězích, při dostatečné úrovni Smlouván
 			"Size"		"Large"
 			"Text"		"Hlad může vyvolat záchvat běsu stejně jako strach nebo vztek vyvolaný těžkými fyzickými zraněními.
 Nebezpečí běsu se přímo vztahuje k úrovni tvé Lidskosti. Vampír, který se dále chová jako člověk, se běsu téměř nemusí bát; zbabělý nemrtvý zabiják mu bude propadat častěji. Riziko záchvatu se zvyšuje při malé zásobě krve.
-Feed often and maintain your Humanity to prevent frenzy."
+Záchvatům běsu se můžeš vyhnout, pokud budeš pravidelně doplňovat svou zásobu krve a udržovat svou Lidskost."
 		}
 
 		Tip

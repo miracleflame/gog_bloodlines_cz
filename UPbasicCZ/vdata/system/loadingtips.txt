@@ -478,7 +478,7 @@ Než si ale takovou knihu budeš moci přečíst, musíš dosáhnout požadovan�
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
                         
 Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
-To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
+Pokud nechceš způsobit potíže při příjezdu do nové oblasti přes mapu, ujisti se, že tlačítko myši, které používáš pro výběr cíle, není namapováno na útok nebo před výběrem místa na mapě přepni svou zbraň na pěsti."	// changed by wesp
 		}
 
 		Tip
@@ -501,7 +501,7 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
                         
 Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
-To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
+Pokud nechceš způsobit potíže při příjezdu do nové oblasti přes mapu, ujisti se, že tlačítko myši, které používáš pro výběr cíle, není namapováno na útok nebo před výběrem místa na mapě přepni svou zbraň na pěsti."	// changed by wesp
 		}
 
 		Tip
@@ -513,7 +513,7 @@ To avoid trouble when arriving select the target location on the map with a mous
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
                         
 Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
-To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
+Pokud nechceš způsobit potíže při příjezdu do nové oblasti přes mapu, ujisti se, že tlačítko myši, které používáš pro výběr cíle, není namapováno na útok nebo před výběrem místa na mapě přepni svou zbraň na pěsti."	// changed by wesp
 		}
 
 		Tip
@@ -536,7 +536,7 @@ Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku."
 			"Text"		"Mezi městy a do jiných vzdálených míst cestuj taxíkem.
                         
 Jakmile se nějaká nová oblast zpřístupní, objeví se na mapě taxíku.
-To avoid trouble when arriving select the target location on the map with a mouse button that is not used to trigger an attack or choose fists as your weapon before you travel."	// changed by wesp
+Pokud nechceš způsobit potíže při příjezdu do nové oblasti přes mapu, ujisti se, že tlačítko myši, které používáš pro výběr cíle, není namapováno na útok nebo před výběrem místa na mapě přepni svou zbraň na pěsti."	// changed by wesp
 		}
 
 		Tip
