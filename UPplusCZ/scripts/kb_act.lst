@@ -28,7 +28,7 @@
 "slot1"			"Schopnosti"
 "vm_discipline"		"Použít vampírskou schopnost"
 "vdiscipline_endall"	"Ukončit aktivní schopnosti"
-"toggleuiside"		"Toggle Discipline/Weapon"		// added by wesp
+"toggleuiside"		"Přepínač disciplín a zbraní"		// added by wesp
 "invprev"			"Výběr předchozí schopnosti/zbraně"
 "invnext"			"Výběr následující schopnosti/zbraně"
 "+use"			"Použít"
