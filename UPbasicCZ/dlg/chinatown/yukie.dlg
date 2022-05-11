@@ -119,7 +119,7 @@
 {	301	}{	Doko desu ka? Kde?	}{	Doko desu ka? Kde?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	302	}{	Je v rybí tržnici. A neví o tobě.	}{	Je v rybí tržnici. A neví o tobě.	}{	311	}{	G.Zyg_Yukie == 1 and G.Zyg_Human == 0	}{	}{	}{	}{	}{	}{	}{	}{	Rybí trh. Neví, že je loven.	}
 {	303	}{	Mám se s ním setkat v rybí tržnici. Můžeme ho tam přepadnout.	}{	Mám se s ním setkat v rybí tržnici. Můžeme ho tam přepadnout.	}{	321	}{	G.Zyg_Meet == 1 and G.Zyg_Human == 0	}{	}{	}{	}{	}{	}{	}{	}{	Schovává svůj pach na rybím trhu. Budeme ninjové a přepadneme ho.	}
-{	304	}{	Je mi líto, ale veřím, že jsem ho zabil u Rudého draka.	A tough guy with yellow eyes? }{	Je mi líto, ale veřím, že jsme ho zabila u Rudého draka. A tough guy with yellow eyes?	}{	391	}{	G.Zyg_Human == 1	}{	G.Yukie_Quest = 2; pc.SetQuest("Yukie",7); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Vypadal jako muž a pak ho má ruka zabila...	}
+{	304	}{	Je mi líto, ale myslím, že jsem ho zabil u Rudého draka. Ranař se žlutýma očima? }{	Je mi líto, ale myslím, že jsem ho zabila u Rudého draka. Ranař se žlutýma očima?	}{	391	}{	G.Zyg_Human == 1	}{	G.Yukie_Quest = 2; pc.SetQuest("Yukie",7); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Vypadal jako muž a pak ho má ruka zabila...	}
 {	305	}{	Pořád ho hledám, promiň.	}{	Pořád ho hledám, promiň.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Někde, kde nevím kde... Musím odcházet.	}
 {	311	}{	To má být lest, démone? Jak najdeš hengeyokaie?	}{	To má být lest, démone? Jak najdeš hengeyokaie?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	312	}{	Bože, no tak půjdu s tebou. Stejně vypadáš, že budeš potřebovat pomoc.	}{	Bože, no tak půjdu s tebou. Stejně vypadáš, že budeš potřebovat pomoc.	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	To není vtip. Bohužel. Zde, vezmi mě s sebou.	}
@@ -157,7 +157,7 @@
 {	402	}{	Má úcta.	}{	Má úcta.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Já trpím navždy.	}
 {	411	}{	Dozo...	}{	Dozo...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	412	}{	Jo, jdu první.	}{	Jo, jdu první.	}{	0	}{	G.Zyg_Human == 0	}{	}{	}{	}{	}{	}{	}{	}{	Pojďme rybařit.	}
-{	413	}{	Je mi líto, ale veřím, že jsem ho zabil u Rudého draka. A tough guy with yellow eyes?	}{	Je mi líto, ale veřím, že jsem ho zabila u Rudého draka. A tough guy with yellow eyes?	}{	391	}{	G.Zyg_Human == 1	}{	G.Yukie_Quest = 2; pc.SetQuest("Yukie",7); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Vypadal jako muž a pak byl mrtev.	}
+{	413	}{	Je mi líto, ale myslím, že jsem ho zabil u Rudého draka. Ranař se žlutýma očima?	}{	Je mi líto, ale myslím, že jsem ho zabila u Rudého draka. Ranař se žlutýma očima?	}{	391	}{	G.Zyg_Human == 1	}{	G.Yukie_Quest = 2; pc.SetQuest("Yukie",7); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Vypadal jako muž a pak byl mrtev.	}
 {	421	}{	Namu...	}{	Namu...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Yukie_Follow = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	422	}{	Co? Jo, dál už půjdu sám. Díky za pomoc.	}{	Co? Jo, dál už půjdu sama. Díky za pomoc.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nerozuměno. Budu pokračovat bez tebe.	}
 {	423 	}{ 	Počkej! Ming se určitě schovává hluboko pod chrámem. Nemohla bys otevřít nějaký magický portál in front of it, který by mě tam dostal? }{ Počkej! Ming se určitě schovává hluboko pod chrámem. Nemohla bys otevřít nějaký magický portál in front of it, který by mě tam dostal? }{ 471 }{ Persuasion 10 }{ }{ }{ }{ }{ }{ }{ }{ Ještě ne. Můžeš zprovoznit čáry máry dveře vedoucí do jejího doupěte pod velkým domem? }

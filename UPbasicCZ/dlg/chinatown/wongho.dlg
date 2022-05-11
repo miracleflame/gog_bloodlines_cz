@@ -53,11 +53,11 @@
 {	131	}{	Díky. Budu čekat, dokud se nevrátíte. Jednejte rychle. Tongové nebudou čekat, že někdo zaútočí tak brzy. Mnoho štěstí.	}{	Díky. Budu čekat, dokud se nevrátíte. Jednejte rychle. Tongové nebudou čekat, že někdo zaútočí tak brzy. Mnoho štěstí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	132	}{	Nashle.	}{	Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem na jejich místě.	}
 {	141	}{	Dokud nebude Kiki v bezpečí, nemohu se zabývat ničím jiným. Pokud si to rozmyslíte, budu zde čekat na pokyny od Tongů. Sbohem.	}{	Dokud nebude Kiki v bezpečí, nemohu se zabývat ničím jiným. Pokud si to rozmyslíte, budu zde čekat na pokyny od Tongů. Sbohem.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	See ya.	}{	See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll be back.	}
+{	142	}{	Nashle.	}{	Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zřejmě se vrátím.	}
 {	151	}{	Zdravím. Podařilo se vám najít Kiki? Je v bezpečí?	}{	Zdravím. Podařilo se vám najít Kiki? Je v bezpečí?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	152	}{	Ne, ale...	}{	Ne, ale...	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ne, ale...	}
 {	161	}{	Ať vám pomáhají sami bohové, aby se má dcera mohla vrátit domů.	}{	Ať vám pomáhají sami bohové, aby se má dcera mohla vrátit domů.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	See ya.	}{	See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll be back.	}
+{	162	}{	Nashle.	}{	Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zřejmě se vrátím.	}
 {	171	}{	Vítejte zpět! Jsem vaším dlužníkem. Vrátil jste mi můj největší poklad. Kiki mi řekla, že jste ji zachránil. Jste skutečně odvážný a ctihodný muž. Děkuji.	}{	Vítejte zpět! Jsem vaším dlužníkem. Vrátila jste mi můj největší poklad. Kiki mi řekla, že jste ji zachránila. Jste skutečně odvážná a ctihodná žena. Děkuji.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	pc.SetQuest("Kiki",3)	}{	}{	}{	}{	}{	}{	}{	}
 {	172	}{	Rádo se stalo. Už alespoň víte, proč ji Tongové unesli?	}{	Rádo se stalo. Už alespoň víte, proč ji Tongové unesli?	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	Proč vám ztracené děti sebraly poklad?	}
 {	173	}{	To nic nebylo. Můžete teď pomoci vy mně?	}{	To nic nebylo. Můžete teď pomoci vy mně?	}{	251	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}

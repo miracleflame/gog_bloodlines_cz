@@ -152,7 +152,7 @@
 {	326	}{	Máte recht. Za těch 40 procent přinesu jeho klíč.	}{	Máte recht. Za těch 40 procent přinesu jeho klíč.	}{	0	}{	G.Lu_Ji == 1 and G.Ji_Lu != 6	}{	G.Lu_Ji = 2	}{	}{	}{	}{	}{	}{	}{	Seženu váš klíč a ukořistím svých 40 procent vaší rezervy. Sbohem.	}
 {	327	}{	Máte recht. Za těch 60 procent přinesu jeho klíč.	}{	Máte recht. Za těch 60 procent přinesu jeho klíč.	}{	0	}{	G.Lu_Ji == 2 and G.Ji_Lu != 6	}{	G.Lu_Ji = 3	}{	}{	}{	}{	}{	}{	}{	Seženu váš klíč a ukořistím svých 60 procent vaší rezervy. Sbohem.	}
 {	328	}{	Máte recht. Za těch 80 procent přinesu jeho klíč.	}{	Máte recht. Za těch 80 procent přinesu jeho klíč.	}{	0	}{	G.Lu_Ji == 3 and G.Ji_Lu != 6	}{	G.Lu_Ji = 4	}{	}{	}{	}{	}{	}{	}{	Seženu váš klíč a ukořistím svých 80 procent vaší rezervy. Sbohem.	}
-{	329	}{	Now that you both offer me the same percent, one of you has to die.	}{	Now that you both offer me the same percent, one of you has to die.	}{	391	}{	G.Lu_Ji > 3 and G.Ji_Lu != 6	}{	}{	}{	}{	}{	}{	}{	}{	I'll net the same from your nest egg now, so one of you has to go.	}
+{	329	}{	Teď když mi oba nabízíte stejnou slevu, jeden z vás musí jít.	}{	Teď když mi oba nabízíte stejnou slevu, jeden z vás musí jít.	}{	391	}{	G.Lu_Ji > 3 and G.Ji_Lu != 6	}{	}{	}{	}{	}{	}{	}{	}{	I'll net the same from your nest egg now, so one of you has to go.	}
 {	331	}{	Možná. Lu Fang neví. Jak můžu zase věřit? Tak dlouho chce Lu Fanga zabít. Teď jiný? Ne... Lu Fang nemyslí.	}{	Možná. Lu Fang neví. Jak můžu zase věřit? Tak dlouho chce Lu Fanga zabít. Teď jiný? Ne... Lu Fang nemyslí.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	332	}{	Taky ho chcete zabít, takže jste si kvit.	}{	Taky ho chcete zabít, takže jste si kvit.	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vize těch jatek vás zaslepila oba...	}
 {	333	}{	Zabíjení není řešení.	}{	Zabíjení není řešení.	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sejděte ze stezky pomsty.	}
@@ -171,7 +171,7 @@
 {	382	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Ji_Lu >= 6	}{	pc.SetQuest("Hitman",8); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	383	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Ji_Lu < 6	}{	pc.SetQuest("Hitman",10)	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	391	}{	Pfft. Lu Fang starý, ale stejně vás nakope. Uvidíme se na ulici, bledule!	}{	Pfft. Lu Fang starý, ale stejně vás nakope. Uvidíme se na ulici, bledule!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Lu_Kickass = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	392	}{	Whatever.	}{	Whatever.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	No ass kicking today.	}
+{	392	}{	Jak myslíš.	}{	Jak myslíš.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dnes tedy žádná bitka.	}
 {	401	}{	To je správné rozhodnutí. Pro vás, Lu Fanga, čínskou čtvrť. Děti mohou hrát na ulici a nemusí bát! Ji Wen Jaův ubohý příběh došel k padnoucímu konci. Nyní dáte klíč?	}{	To je správné rozhodnutí. Pro vás, Lu Fanga, čínskou čtvrť. Děti mohou hrát na ulici a nemusí bát! Ji Wen Jaův ubohý příběh došel k padnoucímu konci. Nyní dáte klíč?	}{	#	}{	}{	G.Lu_Done = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	402	}{	Jejda, někde zůstal ležet, hned jsem zpátky.	}{	Jejda, někde zůstal ležet, hned jsem zpátky.	}{	0	}{	not pc.HasItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	}{	Mé kapsy jsou podivně prázdné... Musím hledat.	}
 {	403	}{	Tu máte.	}{	Tu máte.	}{	431	}{	pc.HasItem("item_k_hitman_ji_key")	}{	pc.RemoveItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	Zde máte, starý vlku.	}
@@ -198,7 +198,7 @@
 {	471	}{	[singing drunkenly]Zase spolu a je to dobrej pocit. Zase spolu a Lu Fang rozumí...	}{	[singing drunkenly]Zase spolu a je to dobrej pocit. Zase spolu a Lu Fang rozumí...	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	472	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	481	}{	Dobrý večer. Hmm... Lu Fang mrzí, že vy přijít o obchod, jak zabít starého muže. Ale to obchod, pochápáte.	}{	Dobrý večer. Hmm... Lu Fang mrzí, že vy přijít o obchod, jak zabít starého muže. Ale to obchod, pochápáte.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	482	}{	No problem.	}{	No problem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	We don't worry.	}
+{	482	}{	Není problém.	}{	Není problém.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemáme problém.	}
 {	491	}{	[dumbfounded]Lu Fang není nejvíc opitý v baru. Ale vy, vy máte praštěnej kukuč! Lu Fang pozná přaštěný, když uvidí. Tak na vás, střelenej chlapíku![takes a drink]	}{	[dumbfounded]Lu Fang není nejvíc opitý v baru. Ale vy, vy máte praštěnej kukuč! Lu Fang pozná přaštěný, když uvidí. Tak na vás, střelená děvčico![takes a drink]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	492	}{	Starý vlk máchá svá zranění v ohnivé vodě...	}{	Starý vlk máchá svá zranění v ohnivé vodě...	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	501	}{	[drunken, chinese accent]Hej, ošklivče. Něco vám povím, pojďte blíž, ať je slyšet- [gags a little on the smell]ne, tak blízko ne. Páchnete tak zle, jak vypadáte. Ale ještě něco povím. Ty děcka. Děcka neví nic.	}{	[drunken, chinese accent]Hej, ošklivko. Něco vám povím, pojďte blíž, ať je slyšet- [gags a little on the smell]ne, tak blízko ne. Páchnete tak zle, jak vypadáte. Ale ještě něco povím. Ty děcka. Děcka neví nic.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
