@@ -53,7 +53,7 @@ WeaponData
 	Magazine
 	{
 		"ammoprintname"			"Dalekonosná munice"
-		"ammodescription"		"Náboje ráže .308, nejčastěji určené k odstřelování."
+		"ammodescription"		"Náboje .308 Winchester Match King pro přesné odstřelování z pušek Remington."
 		"ammo_worth"			"4"	// changed by Wesp
 		"ammoinfomodel"			"models/weapons/ammo/rem_700/i_rem_700_amma.mdl"	// changed by Wesp
 

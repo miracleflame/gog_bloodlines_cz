@@ -52,8 +52,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"			"Dalekonosná munice"
-		"ammodescription"		"Náboje ráže .308, nejčastěji určené k odstřelování."
+		"ammoprintname"			"Ultra dalekonosná munice"
+		"ammodescription"		"Speciální náboje ráže .308, nejčastěji určené k odstřelování."
 		"ammo_worth"			"4"	// changed by Wesp
 		"ammoinfomodel"			"models/weapons/ammo/rem_700/i_rem_700_amma.mdl"	// changed by Wesp
 
