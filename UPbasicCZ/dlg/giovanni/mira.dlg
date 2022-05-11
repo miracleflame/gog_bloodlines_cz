@@ -1,6 +1,6 @@
 {	1	}{	Klidně by to mohl být maškarní ples... všichni se usmívají a dělají, že tohle není podívaná v režii našeho patriarchy. Fajn. Ale tohle je soutěž a já ji přišla vyhrát.	}{	Klidně by to mohl být maškarní ples... všichni se usmívají a dělají, že tohle není podívaná v režii našeho patriarchy. Fajn. Ale tohle je soutěž a já ji přišla vyhrát.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	O čem to mluvíte?	}{	O čem to mluvíte?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemohu dostihnout váš proud myšlenek.	}
-{	3	}{	Řekněte mi, co víte o tom sarkofágu.	}{	Řekněte mi, co víte o tom sarkofágu.	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechci váš příběh, ale ten o sarkofágu.	}
+{	3	}{	Řekněte mi, co víte o tom sarkofágu.	}{	Řekněte mi, co víte o tom sarkofágu.	}{	161	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Nechci váš příběh, ale ten o sarkofágu.	}
 {	4	}{	Já jsem Viktor. Rád vás poznávám.	}{	Já jsem Maria. Ráda vás poznávám.	}{	11	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Také patřím do rodiny. Já jsem... mmm mnn ehm... A vy?	}
 {	5	}{	Ať vyhraje nejlepší. Nashle.	}{	Ať vyhraje nejlepší. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Trofej bude má!	}
 {	11	}{	Hmm... Mira. Mira Giovanni.	}{	Hmm... Mira. Mira Giovanni.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Introduce = 1	}{	}{	}{	}{	}{	}{	}{	}
@@ -64,7 +64,7 @@
 {	164	}{	Zapomeňte na to. Pardon.	}{	Zapomeňte na to. Pardon.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nevíte, tak odcházím.	}
 {	165	}{	Zlaté časy. Bavte se.	}{	Zlaté časy. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Bez ovoce, půjdu utrhnout z jiného stromu.	}
 {	171	}{	Když o té soutěži ani nevíte, tak se nemusíte starat o její vyhrání.	}{	Když o té soutěži ani nevíte, tak se nemusíte starat o její vyhrání.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	Řekněte mi, co víte o tom sarkofágu.	}{	Řekněte mi, co víte o tom sarkofágu.	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechci váš příběh, ale ten o sarkofágu.	}
+{	172	}{	Řekněte mi, co víte o tom sarkofágu.	}{	Řekněte mi, co víte o tom sarkofágu.	}{	161	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Nechci váš příběh, ale ten o sarkofágu.	}
 {	173	}{	Já jsem Viktor. Rád vás poznávám.	}{	Já jsem Maria. Ráda vás poznávám.	}{	11	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Také patřím do rodiny. Já jsem... mmm mnn ehm... A vy?	}
 {	174	}{	To si myslíte vy. Tak musím vyhrát soutěž. Omluvte mě.	}{	To si myslíte vy. Tak musím vyhrát soutěž. Omluvte mě.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Trofej bude má!	}
 {	175	}{	Jasně. Bavte se.	}{	Jasně. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Bez ovoce, půjdu utrhnout z jiného stromu.	}
@@ -98,7 +98,7 @@
 {	251	}{	Znovu vás zdravím...	}{	Znovu vás zdravím...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	252	}{	Zapomněl jsem se představit. Já jsem Viktor.	}{	Zapomněla jsem se představit. Já jsem Maria.	}{	11	}{	G.Mira_Introduce == 0	}{	}{	}{	}{	}{	}{	}{	}{	Také patřím do rodiny. Já jsem... mmm mnn ehm... A vy?	}
 {	253	}{	Doneslo se mi něco o vaší rodině, co by vás mohlo zajímat.	}{	Doneslo se mi něco o vaší rodině, co by vás mohlo zajímat.	}{	271	}{	G.Mira_Gossip == 1	}{	}{	}{	}{	}{	}{	}{	}{	Možná mám na prodej kosti ze skříně.	}
-{	254	}{	Řekněte mi, co víte o tom sarkofágu.	}{	Řekněte mi, co víte o tom sarkofágu.	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechci váš příběh, ale ten o sarkofágu.	}
+{	254	}{	Řekněte mi, co víte o tom sarkofágu.	}{	Řekněte mi, co víte o tom sarkofágu.	}{	161	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Nechci váš příběh, ale ten o sarkofágu.	}
 {	255	}{	Omluvte mě. S někým jsem si vás spletl.	}{	Omluvte mě. S někým jsem si vás spletla.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ano, děkuji. Sbohem.	}
 {	256	}{	Já také. Bavte se.	}{	Já také. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Já také. Bavte se.	}
 {	261	}{	Běžte pryč...	}{	Běžte pryč...	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}

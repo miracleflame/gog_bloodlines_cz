@@ -11,7 +11,7 @@
 {	22	}{	Pokračujte.	}{	Pokračujte.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nakrmte mě víc...	}
 {	23	}{	Tak proč do ní neinvestujete?	}{	Tak proč do ní neinvestujete?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tak uložte svou sázku.	}
 {	24	}{	To mě nezajímá.	}{	To mě nezajímá.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Čím více vím, tím je obraz horší...	}
-{	25	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte o sarkofágu nebo nemluvte.	}
+{	25	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	61	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte o sarkofágu nebo nemluvte.	}
 {	31	}{	Je to biotechnologická firma, pracují na procesech pěstování náhradních orgánů - je to skutečně fascinující technologie. Vsadím se, že za několik let si k nim bude každý chodit pro součástky. Spočítal jsem, že investice kolem 50 000 dolarů se během pěti let může zhodnotit až třikrát.	}{	Je to biotechnologická firma, pracují na procesech pěstování náhradních orgánů - je to skutečně fascinující technologie. Vsadím se, že za několik let si k nim bude každý chodit pro součástky. Spočítal jsem, že investice kolem 50 000 dolarů se během pěti let může zhodnotit až třikrát.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	32	}{	To by se mi líbilo, ale nemám s sebou svou šekovou knížku.	}{	To by se mi líbilo, ale nemám s sebou svou šekovou knížku.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemám těch pět, ale mám spoustu nul.	}
 {	33	}{	To mě neláká. Vypadá to riskantně.	}{	To mě neláká. Vypadá to riskantně.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nevím, kde za pět let budu! Ani teď nevím, kde jsem...	}
@@ -19,10 +19,10 @@
 {	41	}{	Znám se s někým, kdo je uvnitř. A tomu se říká zasvěcenecký obchod. Mohl bych kvůli tomu přijít o místo.	}{	Znám se s někým, kdo je uvnitř. A tomu se říká zasvěcenecký obchod. Mohl bych kvůli tomu přijít o místo.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	Aha, tak pokračujte.	}{	Aha, tak pokračujte.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemusíte končit!	}
 {	43	}{	To mě nezajímá.	}{	To mě nezajímá.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Čím více vím, tím je obraz horší...	}
-{	44	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte o sarkofágu nebo nemluvte.	}
+{	44	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	61	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte o sarkofágu nebo nemluvte.	}
 {	51	}{	Určitě? Pokud byste změnil názor, dejte mi vědět. Věřte mi, vážně je to ve vašem zájmu zúčastnit se. Popřemýšlejte o tom.	}{	Určitě? Pokud byste změnila názor, dejte mi vědět. Věřte mi, vážně je to ve vašem zájmu zúčastnit se. Popřemýšlejte o tom.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	Sarkofág? To jsem možná slyšel. Není to nějaká firma s nanotechnologiemi?	}{	Sarkofág? To jsem možná slyšel. Není to nějaká firma s nanotechnologiemi?	}{	#	}{	}{	G.Adam_Sarcophagus = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	I will.	}{	I will.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll discuss it with myself.	}
+{	61	}{	Sarkofág? To jsem možná slyšel. Není to nějaká firma s nanotechnologiemi?	}{	Sarkofág? To jsem možná slyšel. Není to nějaká firma s nanotechnologiemi?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	62	}{	No to je jedno. Řekněte mi víc o té společnosti.	}{	No to je jedno. Řekněte mi víc o té společnosti.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nakrmte mě více vidinou velkých peněz...	}
 {	63	}{	Nehrajte si na chytráka. Vyklopte, kde je a já vám na opláktu neublížím.	}{	Nehrajte si na chytráka. Vyklopte, kde je a já vám na opláktu neublížím.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Možná, že centra bolesti ve vašem mozku umí lépe donášet.	}
 {	64	}{	Tím se netrapte. Bavte se.	}{	Tím se netrapte. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Není vám znám... Půjdu lovit jinam.	}
@@ -39,7 +39,7 @@
 {	94	}{	Ne a už o tom nechci slyšet ani slovo.	}{	Ne a už o tom nechci slyšet ani slovo.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nemusím dělat nic, co řeknete.	}
 {	101	}{	Dobrá, v pořádku. Kdyžtak mi dejte vědět.	}{	Dobrá, v pořádku. Kdyžtak mi dejte vědět.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	102	}{	Omluvte mě.	}{	Omluvte mě.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Kde je ta punčová boule, chci si hodit.	}
-{	103	}{	Než půjdu, řekněte mi, kde tady najdu sarkofág.	}{	Než půjdu, řekněte mi, kde tady najdu sarkofág.	}{	61	}{	G.Adam_Sarcophagus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte o sarkofágu nebo nemluvte.	}
+{	103	}{	Než půjdu, řekněte mi, kde tady najdu sarkofág.	}{	Než půjdu, řekněte mi, kde tady najdu sarkofág.	}{	61	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte o sarkofágu nebo nemluvte.	}
 {	111	}{	Já jenom... Obchody se poslední dobou nehýbou tak rychle, ale znáte to, jak to v ekonomice chodí. Jednou jsi dole, jednou nahoře. A tohle je ten kůň, na kterého vsadit. Za to ručím.	}{	Já jenom... Obchody se poslední dobou nehýbou tak rychle, ale znáte to, jak to v ekonomice chodí. Jednou jsi dole, jednou nahoře. A tohle je ten kůň, na kterého vsadit. Za to ručím.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	112	}{	Zníte docela zoufale.	}{	Zníte docela zoufale.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Váš kůň je nemocný a žokej dodělává.	}
 {	113	}{	Moc se vám nevede, že mám pravdu?	}{	Moc se vám nevede, že mám pravdu?	}{	141	}{	Persuasion 8	}{	}{	}{	}{	}{	}{	}{	}{	Vaše studna vyschla. Hádám správně?	}
@@ -77,7 +77,7 @@
 {	201	}{	Popřemýšlel jste o té příležitosti?	}{	Popřemýšlela jste o té příležitosti?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	O co že to šlo?	}{	O co že to šlo?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	O příležitosti?	}
 {	203	}{	Mluvil jsem s vašimi příbuznými.	}{	Mluvila jsem s vašimi příbuznými.	}{	211	}{	G.Adam_Gossip == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mám na sobě špínu vašich příbuzných.	}
-{	204	}{	Můžete mi říct, co víte o sarkofágu?	}{	Můžete mi říct, co víte o sarkofágu?	}{	61	}{	G.Adam_Sarcophagus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte o sarkofágu nebo nemluvte.	}
+{	204	}{	Můžete mi říct, co víte o sarkofágu?	}{	Můžete mi říct, co víte o sarkofágu?	}{	61	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte o sarkofágu nebo nemluvte.	}
 {	205	}{	Stále nemám zájem. Omluvte mě.	}{	Stále nemám zájem. Omluvte mě.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Raději budu, když mé myšlenky budou jinde. Už odcházejí...	}
 {	211	}{	A doneslo se vám něco... zajímavého?	}{	A doneslo se vám něco... zajímavého?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	212	}{	Fajn, Christopher není skutečný Giovanni. Jeho matka měla známost.	}{	Fajn, Christopher není skutečný Giovanni. Jeho matka měla známost.	}{	171	}{	G.Chris_Secret == 1 and G.Chris_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Christopherova krev není od Giovanni. Jeho matka je běhna.	}
@@ -85,6 +85,8 @@
 {	214	}{	Uvidíme, co zjistím. Dám vědět.	}{	Uvidíme, co zjistím. Dám vědět.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nalezu do zdejších hlav a navrátím se.	}
 {	221	}{	Ví, že jsem na mizině. To je konec... Můžu se jít rovnou oběsit.	}{	Ví, že jsem na mizině. To je konec... Můžu se jít rovnou oběsit.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	222	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	225	}{	I'm ruined....	}{	I'm ruined....	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	226	}{	What do you say?	}{	What do you say?	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	I know.	}
 {	231	}{	Ještě jednou díky za informace.	}{	Ještě jednou díky za informace.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	232	}{	Nepodělejte to, Adame. Hodně štěstí.	}{	Nepodělejte to, Adame. Hodně štěstí.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Smontujte svou rozbitou vůli.	}
 {	233	}{	Hlavně nezapomeňte, kdo vám pomohl.	}{	Hlavně nezapomeňte, kdo vám pomohl.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Umím obracet hlasy nejlépe na světe. Pamatujte.	}
@@ -96,7 +98,7 @@
 {	246	}{	Huh?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	247	}{	I have no idea.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	248	}{	Uh. . .sure.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	262	}{	(Starting Condition)	}{	}{	221	}{	G.Adam_Secret == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	262	}{	(Starting Condition)	}{	}{	225	}{	G.Adam_Secret == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	263	}{	(Starting Condition)	}{	}{	231	}{	G.Adam_Win == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	264	}{	(Starting Condition)	}{	}{	71	}{	G.Adam_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	265	}{	(Starting Condition)	}{	}{	201	}{	G.Adam_Investment == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

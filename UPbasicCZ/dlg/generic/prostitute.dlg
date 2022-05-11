@@ -46,7 +46,7 @@ mému{	1	}{	Čau, kotě. Hledáš společnost?	}{	Čau, kotě. Hledáš společn
 {	105	}{	Že by ten dobrej?	}{	Že by ten dobrej?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	111	}{	Nevím, proč bych ti měla věřit... no dobře. Ale vážně se naštvu, jestli se ukáže, že jsi psychopatický zabiják. Jdeme.	}{	Nevím, proč bych ti měla věřit... no dobře. Ale vážně se naštvu, jestli se ukáže, že jsi psychopatická vrahyně. Jdeme.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.SetQuest("Loser",2)	}{	}{	}{	}{	}{	}{	}{	}
 {	120	}{	Pojď za mnou.	}{	Pojď za mnou.	}{	0	}{	}{	G.Whore_Follower = 1; G.Romero_Whore = 2; makeFollower()	}{	}{	}{	}{	}{	}{	}{	Kráčej v mých stopách...	}
-{	121	}{	To je sladký... [suddenly turns angry] A ty ho chceš zkazit tím, že mu zaplatíš děvku? Taková drzost!	}{	To je sladký... [suddenly turns angry] A ty ho chceš zkazit tím, že mu zaplatíš děvku? Taková drzost!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	To je sladký... [suddenly turns angry] A ty ho chceš zkazit tím, že mu zaplatíš děvku? Taková drzost!	}{	To je sladký... [suddenly turns angry] A ty ho chceš zkazit tím, že mu zaplatíš děvku? Taková drzost!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{	Dělám si srandu, pracuje na hřbitově.	}{	Dělám si srandu, pracuje na hřbitově.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	123	}{	Hej, klídek. To ty jseš špinavá coura, ne já.	}{	Hej, klídek. To ty jseš špinavá coura, ne já.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	131	}{	To teda nejsem. Jsem profesionálka a své práce si náležitě vážím.	}{	To teda nejsem. Jsem profesionálka a své práce si náležitě vážím.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -1,7 +1,7 @@
 { 1 }{ Čau! Jak se vede? }{ Čau! Jak se vede? }{ # }{ npc.SetDisposition("Neutral", 1) }{ }{ }{ }{ }{ }{ }{ }{ }
-{ 2 }{ Tipuju, že pokuřování ti tak úplně nestačí, fešáku. }{ Tipuju, že pokuřování ti tak úplně nestačí, fešáku. }{ 11 }{ Seduction 5 & not IsMale(pc) }{ }{ }{ }{ }{ }{ }{ }{ Potřebuješ více než šlukovat, krasavče. }
-{ 3 }{ Nechceš pokouřit něco kromě toho cigára? }{ Nechceš pokouřit něco kromě toho cigára? }{ 11 }{ Seduction 5 & IsMale(pc) }{ }{ }{ }{ }{ }{ }{ }{ Nechceš vyleštit moji fajfku? }
-{ 4 }{ Nezajímalo by tě něco kromě kouření? }{ Nezajímalo by tě něco kromě kouření? }{ 21 }{ Seduction -5 }{ }{ }{ }{ }{ }{ }{ }{ Máte chuť na něco jiného než foukání kouře? }
+{ 2 }{ Tipuju, že pokuřování ti tak úplně nestačí, fešáku. }{ Tipuju, že pokuřování ti tak úplně nestačí, fešáku. }{ 11 }{ Seduction 3 & not IsMale(pc) }{ }{ }{ }{ }{ }{ }{ }{ Potřebuješ více než šlukovat, krasavče. }
+{ 3 }{ Nechceš pokouřit něco kromě toho cigára? }{ Nechceš pokouřit něco kromě toho cigára? }{ 11 }{ Seduction 3 & IsMale(pc) }{ }{ }{ }{ }{ }{ }{ }{ Nechceš vyleštit moji fajfku? }
+{ 4 }{ Nezajímalo by tě něco kromě kouření? }{ Nezajímalo by tě něco kromě kouření? }{ 21 }{ Seduction -3 }{ }{ }{ }{ }{ }{ }{ }{ Máte chuť na něco jiného než foukání kouře? }
 { 5 }{ Pardon, nechtěl jsem obtěžovat. }{ Pardon, nechtěla jsem obtěžovat. }{ 0 }{ }{ }{ }{ }{ }{ }{ }{ }{ Už se mi nechce narušovat vaši nudu. }
 { 11 }{ Rozhodně. }{ Rozhodně. }{ # }{ npc.SetDisposition("Flirt", 1) }{ G.Doll6_Seduce = 1 }{ }{ }{ }{ }{ }{ }{ }
 { 12 }{ Doufám, že příchuť tabáku nebude moc silná. Pojď sem! }{ Doufám, že příchuť tabáku nebude moc silná. Pojď sem! }{ 0 }{ }{ G.Seductive_Feed = 1; pc.SeductiveFeed(npc) }{ }{ }{ }{ }{ }{ }{ Vysaju tě jako doutník! }

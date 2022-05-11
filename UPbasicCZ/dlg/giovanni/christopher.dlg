@@ -4,20 +4,20 @@
 {	4	}{	Zajímaly by vás rodinné drby?	}{	Zajímaly by vás rodinné drby?	}{	161	}{	G.Chris_Gossip == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mé já prý mělo problémy, ale pak si pohovořilo se členy vaší rodiny...	}
 {	5	}{	Dobrý večer. Jak se jmenujete?	}{	Dobrý večer. Jak se jmenujete?	}{	51	}{	Seduction 7 & (G.Chris_Seduce == 0 and not IsMale(pc))	}{	}{	}{	}{	}{	}{	}{	}{	Ahoj! Potřebuji jméno a to vaše chci více než jiné.	}
 {	6	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	11	}{	Humanity 5 & G.Chris_Outdo == 0	}{	}{	}{	}{	}{	}{	}{	}{	Stahují se nad vás mračna. Pročpak?	}
-{	7	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	G.Chris_Sarcophagus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
+{	7	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
 {	11	}{	Rodinné sešlosti... Na kolika z nich se ještě musíme předvést, než nás začnou brát vážně? A... otevřeně.	}{	Rodinné sešlosti... Na kolika z nich se ještě musíme předvést, než nás začnou brát vážně? A... otevřeně.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	O čem to mluvíte?	}{	O čem to mluvíte?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ano, otevřeně. Jistě. To je zřejmé. O co se jedná?	}
 {	13	}{	Jo! Přesně tak...	}{	Jo! Přesně tak...	}{	141	}{	Persuasion 6	}{	}{	}{	}{	}{	}{	}{	}{	Pálí mě to jako tisíc sluncí.	}
-{	14	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
+{	14	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
 {	15	}{	Výborný večírek, že?	}{	Výborný večírek, že?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tohle je ale párty...	}
 {	21	}{	Co? ... Jistě.	}{	Co? ... Jistě.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	Co máte za problém?	}{	Co máte za problém?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co ve vás bublá?	}
-{	23	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	G.Chris_Sarcophagus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
+{	23	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
 {	24	}{	Mají to tady pěkný.	}{	Mají to tady pěkný.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mé já doteď nevědělo, co znamená slovo okázalý, ale tento dům vysvětluje sám...	}
 {	25	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	11	}{	Humanity 5 & G.Chris_Outdo == 0	}{	}{	}{	}{	}{	}{	}{	}{	Stahují se nad vás mračna. Pročpak?	}
 {	26	}{	Bavte se.	}{	Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pa.	}
 {	31	}{	Znáte strýce Bruna.	}{	Znáte strýce Bruna.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
+{	32	}{	Ehm. Víte, kde je ten sarkofág?	}{	Ehm. Víte, kde je ten sarkofág?	}{	91	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Nechci rušit vaši špatnou náladu, potřebuji jen sarkofág.	}
 {	33	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Stahují se nad vás mračna. Pročpak?	}
 {	34	}{	Viděl jste teď nějaký dobrý film?	}{	Viděl jste teď nějaký dobrý film?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jo on. Drsnej chlapík. Je to ten na krabici s pizzou?	}
 {	35	}{	Je něco v nepořádku?	}{	Je něco v nepořádku?	}{	11	}{	Humanity 5 & G.Chris_Outdo == 0	}{	}{	}{	}{	}{	}{	}{	}{	Stahují se nad vás mračna. Pročpak?	}
@@ -42,7 +42,7 @@
 {	93	}{	Jejda, myslel jsem toalety...	}{	Jejda, myslela jsem toalety...	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pokaždé si popletu sarkofág s toaletou.	}
 {	94	}{	To je jedno. Bavte se.	}{	To je jedno. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co? Kdo, já? Ale já tady nejsem.	}
 {	101	}{	Ven odsud a pak druhé dveře vlevo.	}{	Ven odsud a pak druhé dveře vlevo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Thanks.	}{	Thanks.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll find it.	}
 {	111	}{	Jestli to není nějaký slang nebo heslo, na které už jsem moc starý, tak nevím, o čem to kruci mluvíte. Běžte otravovat někoho jiného. Na tohle nemám náladu.	}{	Jestli to není nějaký slang nebo heslo, na které už jsem moc starý, tak nevím, o čem to kruci mluvíte. Běžte otravovat někoho jiného. Na tohle nemám náladu.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Chris_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	112	}{	Ptám se naposledy. Kde je sarkofág?	}{	Ptám se naposledy. Kde je sarkofág?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nenuťte mě hledat přímo ve vás.	}
 {	113	}{	Řekněte, kde je sarkofág.	}{	Řekněte, kde je sarkofág.	}{	121	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -107,7 +107,9 @@
 {	262	}{	Hodně štěstí.	}{	Hodně štěstí.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ať se dílo podaří...	}
 {	263	}{	Pamatujte, kde máte přátele, Chrisi.	}{	Pamatujte, kde máte přátele, Chrisi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nezapomeňte, upomínám lidi i po zlém.	}
 {	271	}{	Řekl jsem vám to mezi čtyřma očima! Ale nebojte, jestli půjdu ke dnu, stáhnu vás s sebou! Merdoso!	}{	Řekl jsem vám to mezi čtyřma očima! Ale nebojte, jestli půjdu ke dnu, stáhnu vás s sebou! Merdoso!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	272	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	272	}{	Oh, really?	}{	Oh, really?	}{	273	}{	}{	}{	}{	}{	}{	}{	}{	}{	This will not happen.	}
+{	273	}{	Get out of here! You're lucky I don't hit you!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	274	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	281	}{	Adam a Mira budou totálně nahraní, až se to všechno donese Brunovi. Nezapomenu na to, a rozhodně se zasadím o vaše přijetí, až budu mít nějaký vliv.	}{	Adam a Mira budou totálně nahraní, až se to všechno donese Brunovi. Nezapomenu na to, a rozhodně se zasadím o vaše přijetí, až budu mít nějaký vliv.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	282	}{	Hodně štěstí.	}{	Hodně štěstí.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ať se dílo podaří...	}
 {	283	}{	Pamatujte, kde máte přátele, Chrisi.	}{	Pamatujte, kde máte přátele, Chrisi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nezapomeňte, upomínám lidi i po zlém.	}
