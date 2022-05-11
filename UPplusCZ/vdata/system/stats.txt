@@ -1575,7 +1575,7 @@ StatData
 				"HelpTextH5"	"Úroveň 5: Blázinec"
 				"HelpTextL1"	"Aktivace: 1 dávka. Oběť na krátko propadne záchvatu nekontrolovatelného smíchu nebo pláče po dobu 15 sekund."
 				"HelpTextL2"	"Aktivace: 2 dávky. Všichni v tvém okolí jsou zasaženi mírnými halucinacemi. Dostanou postih dvou bodů do střelných a kontaktních zbraní, do Zápasu, obrany proti zranění a obrany proti vysátí krve v boji po dobu 20 sekund."
-				"HelpTextL3"	"Aktivace: 2 dávky. The victim is shown his greatest waking Nightmares, eventually causing a heart attack. Na nadpřirozené bytosti mívá Vidina smrti slabší účinek."
+				"HelpTextL3"	"Aktivace: 2 dávky. Vyvolá u oběti její nejhorší noční můry, které ve finále způsobí zástavu srdce. Na nadpřirozené bytosti mívá Vidina smrti slabší účinek."
 				"HelpTextL4"	"Aktivace: 3 dávky. Oběť zešílí, náhodně na někoho zaútočí po dobu 30 sekund a potom padne mrtva k zemi. Na nadpřirozené bytosti mívá Nepříčetnost slabší účinek."
 				"HelpTextL5"	"Aktivace: 4 dávky. Cíl a každý v jeho blízkosti propadne náhodně jednomu z účinků Dementace."
 				"ShownInFeedback"	"1"
