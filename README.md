@@ -1,14 +1,14 @@
 # gog_bloodlines_cz
 
-Czech translation for the GOG version of "Vampire: The Masquerade – Bloodlines"
+Czech translation for the GOG version of "Vampire: The Masquerade – Bloodlines" bundled with Unofficial Patch 11.1
 ---
 
-Aktualizace češtiny z www.bloodlines.cz pro verzi hry "Vampire: The Masquerade – Bloodlines" vydané na www.GOG.com a obsahující neoficiální patch verze 9.8 Basic.
+Aktualizace češtiny pro verzi hry "Vampire: The Masquerade – Bloodlines" vydané na www.GOG.com a obsahující neoficiální patch verze 11.1 Basic. Tento překlad obsahuje i možnosť instalace neoficiálního patche verze 11.1 Plus.
  
 Instrukce pro testování:
 
   * Výchozí instalace hry je "1.2 UP 11.1 basic (gog-8)" : https://www.gog.com/game/vampire_the_masquerade_bloodlines
-  * Instalátor češtiny se zkompiluje spuštěním "Instalator/compile.cmd", avšak je zapotřebí dodržet body uvedené v souboru "Instalator/notes.txt"
+  * Instalátor češtiny se zkompiluje spuštěním "Instalator/compile.cmd", avšak je zapotřebí dodržet body uvedené v souboru "Installer/readme.txt"
   * Aby fungovalo sdílení a přepisování uložených pozic, hra by měla být nastavena, aby běžela s oprávněním administrátora systému
   * Hodí se zazálohovat adresář ..\VtMB\Unofficial_Patch
   * Nalezené chyby prosím nahlašte zde: https://github.com/soulcharmer/gog_bloodlines_cz/issues
