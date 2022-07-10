@@ -53,7 +53,7 @@ Poznámka: v těle bylo jen zhruba půl litru krve.  Podezření na násilný zl
 			"description"	"Box 5B -- 18.10.04"
 			"runtext"	"Box 5B -- 18.10.04
 Oběť byla surově ubita k smrti.  Podle jeho stavu jsem ho chtěl zamknout rovnou do chladírny."
-Note: Subject's body contained only one pint of blood. Foul play suspected."	//changed by wesp
+Poznámka: v těle oběti bylo jen necelého půl litru krve. Podezření na násilný trestný čin."	//changed by wesp
 		}
 
 		Function
