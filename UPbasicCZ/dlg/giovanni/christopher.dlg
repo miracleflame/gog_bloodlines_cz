@@ -42,7 +42,7 @@
 {	93	}{	Jejda, myslel jsem toalety...	}{	Jejda, myslela jsem toalety...	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pokaždé si popletu sarkofág s toaletou.	}
 {	94	}{	To je jedno. Bavte se.	}{	To je jedno. Bavte se.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Co? Kdo, já? Ale já tady nejsem.	}
 {	101	}{	Ven odsud a pak druhé dveře vlevo.	}{	Ven odsud a pak druhé dveře vlevo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	Thanks.	}{	Thanks.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll find it.	}
+{	102	}{	Díky.	}{	Díky.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Najdu to.	}
 {	111	}{	Jestli to není nějaký slang nebo heslo, na které už jsem moc starý, tak nevím, o čem to kruci mluvíte. Běžte otravovat někoho jiného. Na tohle nemám náladu.	}{	Jestli to není nějaký slang nebo heslo, na které už jsem moc starý, tak nevím, o čem to kruci mluvíte. Běžte otravovat někoho jiného. Na tohle nemám náladu.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Chris_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	112	}{	Ptám se naposledy. Kde je sarkofág?	}{	Ptám se naposledy. Kde je sarkofág?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nenuťte mě hledat přímo ve vás.	}
 {	113	}{	Řekněte, kde je sarkofág.	}{	Řekněte, kde je sarkofág.	}{	121	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -107,8 +107,8 @@
 {	262	}{	Hodně štěstí.	}{	Hodně štěstí.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ať se dílo podaří...	}
 {	263	}{	Pamatujte, kde máte přátele, Chrisi.	}{	Pamatujte, kde máte přátele, Chrisi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nezapomeňte, upomínám lidi i po zlém.	}
 {	271	}{	Řekl jsem vám to mezi čtyřma očima! Ale nebojte, jestli půjdu ke dnu, stáhnu vás s sebou! Merdoso!	}{	Řekl jsem vám to mezi čtyřma očima! Ale nebojte, jestli půjdu ke dnu, stáhnu vás s sebou! Merdoso!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	272	}{	Oh, really?	}{	Oh, really?	}{	273	}{	}{	}{	}{	}{	}{	}{	}{	}{	This will not happen.	}
-{	273	}{	Get out of here! You're lucky I don't hit you!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	272	}{	Vážně?	}{	Vážně?	}{	273	}{	}{	}{	}{	}{	}{	}{	}{	}{	To se nestane.	}
+{	273	}{	Zmizte odsud! Máte štěstí, že vás neztluču!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	274	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	281	}{	Adam a Mira budou totálně nahraní, až se to všechno donese Brunovi. Nezapomenu na to, a rozhodně se zasadím o vaše přijetí, až budu mít nějaký vliv.	}{	Adam a Mira budou totálně nahraní, až se to všechno donese Brunovi. Nezapomenu na to, a rozhodně se zasadím o vaše přijetí, až budu mít nějaký vliv.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	282	}{	Hodně štěstí.	}{	Hodně štěstí.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ať se dílo podaří...	}

@@ -21,7 +21,7 @@
 {	43	}{	To mě nezajímá.	}{	To mě nezajímá.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Čím více vím, tím je obraz horší...	}
 {	44	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	To je jedno. Řekněte mi, kde je sarkofág.	}{	61	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Mluvte o sarkofágu nebo nemluvte.	}
 {	51	}{	Určitě? Pokud byste změnil názor, dejte mi vědět. Věřte mi, vážně je to ve vašem zájmu zúčastnit se. Popřemýšlejte o tom.	}{	Určitě? Pokud byste změnila názor, dejte mi vědět. Věřte mi, vážně je to ve vašem zájmu zúčastnit se. Popřemýšlejte o tom.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	I will.	}{	I will.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll discuss it with myself.	}
+{	52	}{	Dobře.	}{	Dobře.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Promluvím si se sebou.	}
 {	61	}{	Sarkofág? To jsem možná slyšel. Není to nějaká firma s nanotechnologiemi?	}{	Sarkofág? To jsem možná slyšel. Není to nějaká firma s nanotechnologiemi?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	62	}{	No to je jedno. Řekněte mi víc o té společnosti.	}{	No to je jedno. Řekněte mi víc o té společnosti.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nakrmte mě více vidinou velkých peněz...	}
 {	63	}{	Nehrajte si na chytráka. Vyklopte, kde je a já vám na opláktu neublížím.	}{	Nehrajte si na chytráka. Vyklopte, kde je a já vám na opláktu neublížím.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Možná, že centra bolesti ve vašem mozku umí lépe donášet.	}
@@ -85,8 +85,8 @@
 {	214	}{	Uvidíme, co zjistím. Dám vědět.	}{	Uvidíme, co zjistím. Dám vědět.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nalezu do zdejších hlav a navrátím se.	}
 {	221	}{	Ví, že jsem na mizině. To je konec... Můžu se jít rovnou oběsit.	}{	Ví, že jsem na mizině. To je konec... Můžu se jít rovnou oběsit.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	222	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	225	}{	I'm ruined....	}{	I'm ruined....	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	226	}{	What do you say?	}{	What do you say?	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	I know.	}
+{	225	}{	Jsem v koncích...	}{	Jsem v koncích...	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	226	}{	Cože?	}{	Cože?	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	My víme.	}
 {	231	}{	Ještě jednou díky za informace.	}{	Ještě jednou díky za informace.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	232	}{	Nepodělejte to, Adame. Hodně štěstí.	}{	Nepodělejte to, Adame. Hodně štěstí.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Smontujte svou rozbitou vůli.	}
 {	233	}{	Hlavně nezapomeňte, kdo vám pomohl.	}{	Hlavně nezapomeňte, kdo vám pomohl.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Umím obracet hlasy nejlépe na světe. Pamatujte.	}

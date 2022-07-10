@@ -3,7 +3,7 @@
 {	4	}{	Tady je dneska večírek?	}{	Tady je dneska večírek?	}{	31	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Mohu se přidat z veselí?	}
 {	5	}{	Nic. Dobrou noc.	}{	Nic. Dobrou noc.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nevím, musím se někoho zeptat.	}
 {	11	}{	Co? [Gasps, starts shrieking]	}{	Co? [Gasps, starts shrieking]	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	What?	}{	What?	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Cože?	}{	Cože?	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	21	}{	Giovanni? Jo, jo, to je ono tady... Ještě jsem vás neviděla... Vy jste... rodina... člen rodiny?	}{	Giovanni? Jo, jo, to je ono tady... Ještě jsem vás neviděla... Vy jste... rodina... člen rodiny?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	To jsem.	}{	To jsem.	}{	61	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	Z masa a krve.	}
 {	23	}{	Ne, ale stejně se chci zúčastnit, vypadá to na pekelnou párty.	}{	Ne, ale stejně se chci zúčastnit, vypadá to na pekelnou párty.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Něčí rodiny... Jdem pařit.	}
@@ -33,13 +33,13 @@
 {	83	}{	Přeji pěkný večer.	}{	Přeji pěkný večer.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	91	}{	Kam ta blbá pozvánka odešla? Já ji zapomněla.	}{	Kam ta blbá pozvánka odešla? Já ji zapomněla.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	92	}{	(Auto-Link)	}{	(Auto-Link)	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	Shut up, you. I didn't even wanna come.	}{	Shut up, you. I didn't even wanna come.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	Buďte zticha. Ani jsem nechtěla přijít.	}{	Buďte zticha. Ani jsem nechtěla přijít.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	102	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 
 {	111	}{	Blah, blah, blah. I'm not embarrasing anybody no-how.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	121	}{	[Shrieks in fear]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	gio1_victorMariaFlee()	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Where's 'e invitation. Aw, screw it, let's go home.	}{	Where's 'e invitation. Aw, screw it, let's go home.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	Kde mám tu pozvánku... To je fuk, jde se domů.	}{	Kde mám tu pozvánku... To je fuk, jde se domů.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	132	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	141	}{	Huh?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	171	}{	Maria... Maria Rosselini.	}{	Maria... Maria Rosselini.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Maria_Know = 1	}{	}{	}{	}{	}{	}{	}{	}

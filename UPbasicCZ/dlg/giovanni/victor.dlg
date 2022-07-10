@@ -4,7 +4,7 @@
 {	4	}{	Tady je dnes večírek?	}{	Tady je dnes večírek?	}{	31	}{	Humanity -5 & G.Maria_Sick == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mohu se přidat k veselí?	}
 {	5	}{	O nic. Dobrou noc.	}{	O nic. Dobrou noc.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nevím, o co jde. Musím se někoho zeptat.	}
 {	11	}{	Co to k čertu. Ááá! Běžte ode mě! Pomoc!	}{	Co to k čertu. Ááá! Běžte ode mě! Pomoc!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Not again.	}{	Not again.	}{	0	}{	}{	gio1_victorMariaFlee()	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	To snad ne.	}{	To snad ne.	}{	0	}{	}{	gio1_victorMariaFlee()	}{	}{	}{	}{	}{	}{	}{	}
 {	21	}{	Ano. Jste... z rodiny?	}{	Ano. Jste... z rodiny?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	To jsem.	}{	To jsem.	}{	61	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	Z masa a krve...	}
 {	23	}{	Ne. Ale i tak bych se rád zúčastnil.	}{	Ne. Ale i tak bych se ráda zúčastnila.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Z něčí rodiny.	}
@@ -35,7 +35,7 @@
 {	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	101	}{	Now is not the time to bring this up, dear.  We're just going to go inside and act like there's absolutely nothing wrong.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	111	}{	For all they know, we're the happiest couple in the place - just keep it under two glasses of wine.  Do you think you could do that, Maria?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	[Scream in fear]Ahh! Help!!!	}{	[Scream in fear]Ahh! Help!!!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	[Scream in fear]Ááá! Pomoc!!	}{	[Scream in fear]Ááá! Pomoc!!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	gio1_victorMariaFlee()	}{	}{	}{	}{	}{	}{	}{	}
 {	131	}{	Are you positive you haven't lost my invitation?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	141	}{	Zase bude v pořádku... Hned jak do ní naliju hrnek kafe.	}{	Zase bude v pořádku... Hned jak do ní naliju hrnek kafe.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}

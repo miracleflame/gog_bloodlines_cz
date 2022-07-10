@@ -190,7 +190,7 @@
 {	563	}{	Na mé pozvánce je napsáno Viktor Rosselini.	}{	Na mé pozvánce je napsáno Maria Rosselini.	}{	571	}{	Persuasion 5 & (IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	564	}{	Viktor Rose-seili-ny.	}{	Maria Rose-seili-ny.	}{	91	}{	Persuasion -5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	565	}{	To ano, jsem...	}{	To ano, jsem...	}{	111	}{	Persuasion -5 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	566	}{	Enjoy the party. Excuse me.	}{	Enjoy the party. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I fade back into the party.	}
+{	566	}{	Dobře se bavte. Omluvte mě.	}{	Dobře se bavte. Omluvte mě.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Zapluji zpět do večírku.	}
 {	571	}{	[Giggles]To je legrační! Tady jsou všichni tak upjatí...	}{	[Giggles]To je legrační! Tady jsou všichni tak upjatí...	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	572	}{	(Auto-Link)	}{	(Auto-Link)	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	581	}{	Proč sem vlastně chodím? Nesnáším, když jsem tu sama... Myslím, že jsem právě mluvila s mrtvolou. Bože Nadio, musíš si najít přátele.	}{	Proč sem vlastně chodím? Nesnáším, když jsem tu sama... Myslím, že jsem právě mluvila s mrtvolou. Bože Nadio, musíš si najít přátele.	}{	#	}{	npc.SetDisposition("Confused", 2)	}{	G.Nadia_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
