@@ -312,8 +312,8 @@ StringData
 			"Name2"		"Jako produktu českého veřejného školství je tato kniha za hranicemi tvého chápání."
 			"Name3"		"Jako by tam bylo napsáno něco jako 'Kopírování zakázáno!', ale určitě to čteš špatně."
 			"Name4"		"Páni, teď by se ti fakt hodilo vědět, co je to ten antidisestablishmentarizmus."
-			"Name5"		"In the game of life, your reading skills are ET for the 2600."
-			"Name6"		"Vampire might not need glasses, but they DO need 'Hooked on Phonics.'"
+			"Name5"		"Tvoje schopnosti číst jsou bohužel někde na úrovni batolete."
+			"Name6"		"Vampíři sice nemusí nosit brýle, ale měli by aspoň jednou zvládnout slabikář."
 			"Name7"		"Nemáš tolik pít z puberťáků, běž vycucnout knihovníka a třeba ti dojde, o čem to je."
 		}
 
