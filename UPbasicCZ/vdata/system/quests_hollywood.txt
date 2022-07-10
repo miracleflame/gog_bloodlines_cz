@@ -314,7 +314,7 @@ QuestTable
 		CompletionState	// added by wesp
 		{
 			"ID"		"5" // Ash 531
-			"Description"	"You didn't help Ash in Hollywood and he got caught by the hunters."
+			"Description"	"Nepomohl(a) jsi Ashovi v Hollywoodu a lovci jej dopadli."
 			"Type"		"failure"
 		}
 	}

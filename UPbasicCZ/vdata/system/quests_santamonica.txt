@@ -552,7 +552,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"11" // Killer
-			"Description"	"You went to the pier to look for the murder mentioned in the newspaper, but there was nothing visible anymore. Better keep your eyes open though."
+			"Description"	"Hledal(a) jsi na promenádě známky po vraždě z novin, ale už tam nebylo nic k vidění. Bude ale dobré mít se na pozoru."
 			"Type"		"incomplete"
 		}
 	}
@@ -1189,56 +1189,56 @@ Přijď tam, kde tajemné slunce září."
 		CompletionState
 		{
 			"ID"		"4"
-			"Description"	"Ming-Xiao will deal with LaCroix and the sarcophagus."
+			"Description"	"Ming-Xiao vyřeší situaci s LaCroixem a sarkofágem."
 			"Type"		"success"
 		}
 
 		CompletionState
 		{
 			"ID"		"5"
-			"Description"	"The Sabbat will deal with LaCroix and the sarcophagus."
+			"Description"	"Sabbat vyřeší situaci s LaCroixem a sarkofágem."
 			"Type"		"success"
 		}
 
 		CompletionState
 		{
 			"ID"		"6"
-			"Description"	"LaCroix and you will open the sarcophagus together."
+			"Description"	"LaCroix otevře sarkofág spolu s tebou."
 			"Type"		"success"
 		}
 
 		CompletionState
 		{
 			"ID"		"7"
-			"Description"	"You gave the key to LaCroix. Let him open his precious sarcophagus if he must, you will stay with the Anarchs."
+			"Description"	"Klíč jsi dal(a) LaCroixovi. Ať si ten svůj sarkofág otevře sám. Ty zůstáváš s Anarchy."
 			"Type"		"success"
 		}
 
 		CompletionState
 		{
 			"ID"		"8"
-			"Description"	"The Regent will deal with LaCroix and the sarcophagus."
+			"Description"	"Regent vyřeší situaci s LaCroixem a sarkofágem."
 			"Type"		"success"
 		}
 
 		CompletionState
 		{
 			"ID"		"9"
-			"Description"	"You gave the key to LaCroix. Let him open his precious sarcophagus if he must, you will find your own unlife."
+			"Description"	"Klíč jsi dal(a) LaCroixovi. Ať si ten svůj sarkofág otevře sám. Ty jsi najdeš svůj vlastní osud."
 			"Type"		"success"
 		}
 
 		CompletionState
 		{
 			"ID"		"10"
-			"Description"	"You kept the key to open the sarcophagus yourself."
+			"Description"	"Nechal(a) sis klíč k otevření sarkofágu."
 			"Type"		"success"
 		}
 
 		CompletionState
 		{
 			"ID"		"11"
-			"Description"	"Congratulations, you found the easter egg ending."
+			"Description"	"Gratulujeme, podařilo se ti najít tajný konec hry."
 			"Type"		"success"
 		}
 	}

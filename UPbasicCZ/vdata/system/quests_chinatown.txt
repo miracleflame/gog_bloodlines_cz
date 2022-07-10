@@ -276,7 +276,7 @@ QuestTable
                 CompletionState
 		{
 			"ID"		"4" // 	kill ox
-			"Description"	"You have made Mr. Ox vanish, takže jakékoliv dohody s ním jsou tímto anulovány."
+			"Description"	"Díky tobě pan Ox zmizel, takže jakékoliv dohody s ním jsou tímto anulovány."
 			"Type"		"failure"
 		}
 
@@ -299,7 +299,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"2" // 	place talisman
-			"Description"	"Podařilo se ti umístit talisman neštěstí. Now report back to Mr. Ox."
+			"Description"	"Podařilo se ti umístit talisman neštěstí. Jdi to vyřídit panu Oxovi."
 			"Type"		"incomplete"
                         "AwardXP"	"Ox01"
 		}
@@ -307,7 +307,7 @@ QuestTable
                 CompletionState
 		{
 			"ID"		"3" // 	Shu 31, 41, Shu killed
-			"Description"	"Vyřídil(a) sis to s Shuem, protože tě chytil, jak schováváš do skříňky talisman od pana Oxe. You should return to him now."
+			"Description"	"Vyřídil(a) sis to s Shuem, protože tě chytil, jak schováváš do skříňky talisman od pana Oxe. Vrať se za ním."
 			"Type"		"incomplete"
                         "AwardXP"	"Ox02"
 		}
@@ -332,7 +332,7 @@ QuestTable
     CompletionState
 		{
 			"ID"		"6" // 	kill ox
-			"Description"	"You have made Mr. Ox vanish, takže jakékoliv dohody s ním jsou tímto anulovány."
+			"Description"	"Díky tobě pan Ox zmizel, takže jakékoliv dohody s ním jsou tímto anulovány."
 			"Type"		"failure"
 		}
 

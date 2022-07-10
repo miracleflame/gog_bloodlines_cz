@@ -518,7 +518,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"3" // Milligan 71,91, 111, 151 / killing Milligan, changed by wesp
-			"Description"	"Problém s Milliganem jsi pro Pishu vyřesil(a). Go back to the abandoned hospital and tell her."
+			"Description"	"Problém s Milliganem jsi pro Pishu vyřesil(a). Vrať se do opuštěné nemocnice a řekni jí to."
 			"Type"		"incomplete"
 			"AwardXP"	"Necro01"
 		}
@@ -1084,7 +1084,7 @@ QuestTable
 		CompletionState	// added by wesp
 		{
 			"ID"		"4"
-			"Description"	"You found Ash captured and tortured at the Society of Leopold. Why don't you help him this time?"
+			"Description"	"Ash byl zajat a mučen Leopoldovou společností. Pomůžeš mu aspoň tentokrát?"
 			"Type"		"incomplete"
 		}
 	}
@@ -1104,20 +1104,20 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"2"
-			"Description"	"Dorazil(a) jsi do obchodu s kuřivem, ale Beckettův přítel tam nebyl. Avšak objevil(a) jsi odkaz, suggesting that something is going down at the end of the Santa Monica Pier."
+			"Description"	"Dorazil(a) jsi do obchodu s kuřivem, ale Beckettův přítel tam nebyl. Avšak objevil(a) jsi odkaz, že se něco stalo na konci santamonické promenády."
 			"Type"		"incomplete"
 		}
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"At the end of the Santa Monica pier you found signs of a bloody fight and a hastily scrawled paper telling you to investigate the \"shop on the move\" in Santa Monica. And a password is supposed to be the \"city of the coffin\"
+			"Description"	"Na santamonické promenádě se ti podařilo najít známky po krvavém boji a narychlo napsanou poznámku o obchodě, 'který se stěhuje' ze Santa Moniky. Heslo by mělo být 'město sarkofágu'."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"4"
-			"Description"	"You searched the Santa Monica Coffee Shop and found Scott's laptop. His journal noted, že můžeš vniknout do městské knihovny přes kanalizaci. Nejvyšší čas to udělat."
+			"Description"	"Prohledal(a) jsi santamonický obchod s kávou, kde byl Scottův počítač. V jeho poznámkách stálo, že můžeš vniknout do městské knihovny přes kanalizaci. Nejvyšší čas to udělat."
 			"Type"		"incomplete"
 		}
 
