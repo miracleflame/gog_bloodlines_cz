@@ -5,9 +5,9 @@
 {	5	}{	Baba Jaga!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	6	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
 {	7	}{	Co to k čertu dělaj?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	Cože?	}{	Cože?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	We do what we must.	}
+{	8	}{	Cože?	}{	Cože?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Děláme, co musíme.	}
 {	9	}{	Ne.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	You better move.	}{	You better move.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Go away now.	}
+{	10	}{	Radši mi uhni.	}{	Radši mi uhni.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nyní odejdi.	}
 {	11	}{	[translation]Mají zbraň!	}{	[translation]Mají zbraň!	}{	#	}{	}{	G.Dema_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
 {	13	}{	Já rozumím.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -21,7 +21,7 @@
 {	27	}{	Musím něco vyřídit tvýmu šéfovi, soudruhu. Uhni z cesty.	}{	Musím něco vyřídit tvýmu šéfovi, soudruhu. Uhni z cesty.	}{	9	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Mám pro muže za dveřmi slova, která vyžadují, abys odešel jinam.	}
 {	28	}{	Potřebuji mluvit s Borisem.	}{	Potřebuji mluvit s Borisem.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Musím hovořit s mužem za dveřmi.	}
 {	29	}{	Jsem z ochranky hotelu. Otevřete dveře.	}{	Jsem z ochranky hotelu. Otevřete dveře.	}{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hotelový policajt. Tajná pokojová služba. Otvírej.	}
-{	30	}{	I'm the new lady friend of your boss.	}{	I'm the new lady friend of your boss.	}{	1	}{	not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	I'm the new goddess of the man behind the door.	}
+{	30	}{	Jsem nová přítelkyně tvýho šéfa.	}{	Jsem nová přítelkyně tvýho šéfa.	}{	1	}{	not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Jsem nová bohyně muže za dveřmi.	}
 {	31	}{	Nikdo tě nečeká.	}{	Nikdo tě nečeká.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	32	}{	Pusť mě dovnitř.	}{	Pusť mě dovnitř.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	33	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	Jseš klíč. Dělej, co je tvůj účel.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Jseš klíč. Dělej, co je tvůj účel.	}

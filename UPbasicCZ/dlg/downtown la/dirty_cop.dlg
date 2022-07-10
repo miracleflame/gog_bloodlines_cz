@@ -64,7 +64,7 @@
 {	108	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	111	}{	Nezapomeň se držet ve tmě. Jestli tě někdo zahlídne, je to tvůj průser. Do bezpečnostní místnosti se jde po schodech, tam najdeš počítač. Heslo je 'majak'. Bez mezer. Je ti to jasný?	}{	Nezapomeň se držet ve tmě. Jestli tě někdo zahlídne, je to tvůj průser. Do bezpečnostní místnosti se jde po schodech, tam najdeš počítač. Heslo je 'majak'. Bez mezer. Je ti to jasný?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	112	}{	Jo. Všechno jasný.	}{	Jo. Všechno jasný.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Poplavu k té krásné bóji.	}
-{	121	}{	What the hell was that thing?!?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Co to sakra bylo?!?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	141	}{	(Starting Condition)	}{	}{	101	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	142	}{	(Starting Condition)	}{	}{	93	}{	G.Dirtycop_Ending == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

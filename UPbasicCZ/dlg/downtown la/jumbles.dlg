@@ -19,7 +19,7 @@
 {	19	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	20	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	21	}{	Aha. Vítej v bratrstvu. Biskup tě uvítá nahoře v poschodí.	}{	Aha. Vítej v bratrstvu. Biskup tě uvítá nahoře v poschodí.	}{	#	}{		}{	G.Jumbles_Enter = 1; pc.AwardExperience("AllPlague02"); pc.RemoveItem("item_g_brotherhood_flyer") 	}{	}{	}{	}{	}{	}{	}{		}
-{	22	}{	Thanks.	}{	Thanks.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	He will see me and die.	}
+{	22	}{	Díky.	}{	Díky.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Uvidí mě a zemře.	}
 {	23	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	24	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	25	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -29,7 +29,7 @@
 {	29	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	30	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	31	}{	Všichni bratři a sestry musí zajít za biskupem. Čeká na tebe. Jdi nahoru.	}{	Všichni bratři a sestry musí zajít za biskupem. Čeká na tebe. Jdi nahoru.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	32	}{	Thanks.	}{	Thanks.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	He will see me and die.	}
+{	32	}{	Díky.	}{	Díky.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Uvidí mě a zemře.	}
 {	33	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	34	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	35	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}

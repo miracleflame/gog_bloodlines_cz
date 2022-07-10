@@ -306,7 +306,7 @@
 {	727	}{	By the way...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	728	}{	Here.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	729	}{	Fascist!	}{	Fascist!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	730	}{	Uh, I'm going.	}{	Uh, I'm going.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am already gone.	}
+{	730	}{	Tak já půjdu.	}{	Tak já půjdu.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	Již zde nejsem.	}
 {	741	}{	Kamíku? Co tady sakra chceš?	}{	Kamíku? Co tady sakra chceš?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	742	}{	Už jsem se rozmyslel, že se k vám chci přidat.	}{	Už jsem se rozmyslela, že se k vám chci přidat.	}{	791	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nenávidím rodiče a chci od nich pryč.	}
 {	743	}{	Vychladni, Damsel. Jsem na tvé straně.	}{	Vychladni, Damsel. Jsem na tvé straně.	}{	791	}{	}{	}{	}{	}{	}{	}{	}{	}{	Konečně padlo rozhodnutí. PSYCHOPATKO! Teď jsem Anarch.	}

@@ -24,6 +24,6 @@
 {	51	}{	Máte přání?	}{	Máte přání?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	52	}{	Ne. Nashle.	}{	Ne. Nashle.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jsem někde jinde.	}
 {	61	}{	Proboha! Zavolejte hygienu! Je tu další oběť moru! Nepřibližujte se!	}{	Proboha! Zavolejte hygienu! Je tu další oběť moru! Nepřibližujte se!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Sorry, I'll go.	}{	Sorry, I'll go.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Pardon, už jdu.	}{	Pardon, už jdu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	(Starting Condition)	}{	}{	61	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	73	}{	(Starting Condition)	}{	}{	51	}{	G.Clerk_End == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

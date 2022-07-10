@@ -1,11 +1,11 @@
 {	1	}{	Čert  to vem!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	I don't understand you.	}{	I don't understand you.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Yes, what the hell?	}
+{	2	}{	Tomu nerozumím.	}{	Tomu nerozumím.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ano. Cože co?	}
 {	3	}{	Rozumíš, co říkám?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	Sometimes the voices explain.	}{	Sometimes the voices explain.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sometimes the voices explain.	}
+{	4	}{	Hlasy to někdy vysvětlí.	}{	Hlasy to někdy vysvětlí.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hlasy to někdy vysvětlí.	}
 {	5	}{	Pojď!	}{	Pojď!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	What?	}{	What?	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm coming.	}
+{	6	}{	Cože?	}{	Cože?	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}{	Už jdu.	}
 {	7	}{	Co je to?	}{	Co je to	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	Huh?	}{	Huh?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	It's me.	}
+{	8	}{	Co?	}{	Co?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	To jsem já.	}
 {	11	}{	[translated]Co to sakra znamená? Jak to, žes ho pustil dovnitř?[english] Kdo krucinál jseš?	}{	[translated]Co to sakra znamená? Jak to, žes ji pustil dovnitř?[english] Kdo krucinál jseš?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Boris_Talk = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	Potřebuji s vámi probrat jednu obchodní věc.	}{	Potřebuji s vámi probrat jednu obchodní věc.	}{	31	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	13	}{	Venuše mě poslala v jisté záležitosti.	}{	Venuše mě poslala v jisté záležitosti.	}{	51	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -102,7 +102,7 @@
 {	222	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	231	}{	Za deset vteřin ti vystřelí do hlavy díru jako tenisák. Mluv, proč jseš tady?	}{	Za deset vteřin ti vystřelí do hlavy díru jako tenisák. Mluv, proč jseš tady?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	232	}{	Bohyně, Venuše...	}{	Bohyně, Venuše...	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	233	}{	Your doggie mustn't know.	}{	Your doggie mustn't know.	}{	271	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	233	}{	Tvůj pesík se to nesmí dovědět.	}{	Tvůj pesík se to nesmí dovědět.	}{	271	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	241	}{	Bohyně?![spits]	}{	Bohyně?![spits]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	242	}{	Bohyně již nebude skládat desátky, ani vás nepustí prznit její svatyni.	}{	Bohyně již nebude skládat desátky, ani vás nepustí prznit její svatyni.	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	243	}{	Venuše již nesdílí svou úrodu a vy již nesmíte do její atmosféry.	}{	Venuše již nesdílí svou úrodu a vy již nesmíte do její atmosféry.	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -111,10 +111,10 @@
 {	252	}{	(Auto-Link)	}{	(Auto-Link)	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	261	}{	Demo! Tak ty mě chceš zabít, co? A jít na moje místo, co? Po tom všem - zrádče! Však uvidíš!	}{	Demo! Tak ty mě chceš zabít, co? A jít na moje místo, co? Po tom všem - zrádče! Však uvidíš!	}{	#	}{	}{	G.Boris_Dementated = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	262	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	271	}{	Okay, okay. Idi togda (Go, then), Dima. Very well... happy? Now spit it out. Make this quick, eh.	}{	Okay, okay. Idi togda (Go, then), Dima. Very well... happy? Now spit it out. Make this quick, eh.	}{	#	}{	}{	G.Dema_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	272	}{	The goddess no longer offers tribute nor lets you defile her temple.	}{	The goddess no longer offers tribute nor lets you defile her temple.	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	273	}{	Venus no longer shares her bounty, nor may you enter her atmosphere.	}{	Venus no longer shares her bounty, nor may you enter her atmosphere.	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	274	}{	Words fail me... so I will rely on the poetry of violence.	}{	Words fail me... so I will rely on the poetry of violence.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5"); G.Boris_Hostile = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	271	}{	Dobře, dobře. Idi togda, Dimo. Tak co, spokojen? A teď, ven s tím. A rychle...	}{	Dobře, dobře. Idi togda, Dimo. Tak co, spokojen? A teď, ven s tím. A rychle...	}{	#	}{	}{	G.Dema_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	272	}{	Bohyně již nenabízí odměny a nenechá tě znesvětit její chrám.	}{	Bohyně již nenabízí odměny a nenechá tě znesvětit její chrám.	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	273	}{	Venuše již nesdílí svou hojnost a nedovolí ti se k ní přiblížit.	}{	Venuše již nesdílí svou hojnost a nedovolí ti se k ní přiblížit.	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	274	}{	Nenacházím slova... proto se spolehnu na poezii násilí.	}{	Nenacházím slova... proto se spolehnu na poezii násilí.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5"); G.Boris_Hostile = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	275	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	283	}{	(Starting Condition)	}{	}{	201	}{	G.Boris_Debt == 1 or G.Boris_Venus == 3 or G.Boris_Hostile == 1 or G.Boris_Dementated == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	284	}{	(Starting Condition)	}{	}{	191	}{	G.Boris_Return == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
